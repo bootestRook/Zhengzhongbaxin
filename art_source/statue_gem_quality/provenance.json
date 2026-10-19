@@ -1,0 +1,50 @@
+{
+  "generator": "built-in image_gen",
+  "source_image": "exec-e56e7b50-a67b-4f9c-bee4-a9c2b3c860a1.png",
+  "reference": "User supplied simple ink-line gem screenshot for style; previous seven-gem sheet for silhouettes only. No screenshot pixels copied.",
+  "style": "Black outline and facet lines, broad flat faces, limited white edge highlight, muted quality-tinted gray cards.",
+  "files": [
+    {
+      "quality": "普通",
+      "source": "quality-1.png",
+      "runtime": "assets/runtime/statue_equipment/gem_common.png",
+      "sha256": "a3cceb3f558d78621560967dfe421cddac4c02e495326120deb1233b640292f8"
+    },
+    {
+      "quality": "精良",
+      "source": "quality-2.png",
+      "runtime": "assets/runtime/statue_equipment/gem_fine.png",
+      "sha256": "05744db7a69595e3df5e1b53fe74e066e3f6572d1876df267a1d31469f7bb465"
+    },
+    {
+      "quality": "卓越",
+      "source": "quality-3.png",
+      "runtime": "assets/runtime/statue_equipment/gem_excellent.png",
+      "sha256": "d3fd5c89b0c8b45ca4397fb618ae3c76b24e443c9a72b8e8746152c7250f579d"
+    },
+    {
+      "quality": "完美",
+      "source": "quality-4.png",
+      "runtime": "assets/runtime/statue_equipment/gem_perfect.png",
+      "sha256": "e8f9a8b2b0926c1a3605806fb1f3a6e5493b325aff5187cde87b3b990e91c24a"
+    },
+    {
+      "quality": "传说",
+      "source": "quality-5.png",
+      "runtime": "assets/runtime/statue_equipment/gem_legendary.png",
+      "sha256": "dad15434c69b4347f95fe9acaeec5bdded20d974b9e689983aff7ab8fa9bedb3"
+    },
+    {
+      "quality": "绝世",
+      "source": "quality-6.png",
+      "runtime": "assets/runtime/statue_equipment/gem_peerless.png",
+      "sha256": "daf12178fa949b2528c60b3727d853dddb591baa3d167d399609f9538e770b82"
+    },
+    {
+      "quality": "至尊",
+      "source": "quality-7.png",
+      "runtime": "assets/runtime/statue_equipment/gem_supreme.png",
+      "sha256": "17a378ec3b8705fefc4082d55944ab3d17faa44f89620eb636b2d23af9fcd657"
+    }
+  ]
+}

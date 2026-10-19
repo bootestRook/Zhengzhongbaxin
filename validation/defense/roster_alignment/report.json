@@ -1,0 +1,902 @@
+[
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 4,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 1,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 2,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 5,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 13,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 4,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 1,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 2,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 5,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 13,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 4,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 1,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 2,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 5,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 13,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 4,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 1,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 2,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 5,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 13,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 4,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 1,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 2,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 5,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 13,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 4,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 1,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 2,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 5,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 13,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 4,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 1,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 2,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 5,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 13,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 4,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 1,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 2,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 5,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 13,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 4,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 1,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 2,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 5,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 13,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 17,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 4,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 1,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 2,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 5,
+		"state": "alive",
+		"width": 480
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 17,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 4,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 1,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 2,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 5,
+		"state": "alive",
+		"width": 720
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 17,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 4,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 1,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 2,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "0",
+		"hero": 5,
+		"state": "alive",
+		"width": 960
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 17,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 4,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 1,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 2,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 5,
+		"state": "dead_early",
+		"width": 480
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 17,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 4,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 1,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 2,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 5,
+		"state": "dead_early",
+		"width": 720
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 17,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 4,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 1,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "9",
+		"hero": 2,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "19",
+		"hero": 5,
+		"state": "dead_early",
+		"width": 960
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 17,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 4,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 1,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 2,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 5,
+		"state": "dead_late",
+		"width": 480
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 17,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 4,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 1,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 2,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 5,
+		"state": "dead_late",
+		"width": 720
+	},
+	{
+		"center": [
+			104.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 17,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			290.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 4,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			476.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 1,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			662.0,
+			1674.5
+		],
+		"countdown": "1",
+		"hero": 2,
+		"state": "dead_late",
+		"width": 960
+	},
+	{
+		"center": [
+			848.0,
+			1674.5
+		],
+		"countdown": "11",
+		"hero": 5,
+		"state": "dead_late",
+		"width": 960
+	}
+]

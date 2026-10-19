@@ -1,0 +1,17 @@
+[OK] package profile exe: design=960x1920, matrix=480x960, 720x1440, 960x1920, 1280x720, 1920x1080, 1024x768, output=build/windows/defense-demo.exe
+[OK] defense catalog: 18 hero entries, 6 unlocked, 5 hero slots, 50 levels, 1000 waves
+[OK] defense_pipeline.py build
+[OK] data build: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py build
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets build: assets=106, bytes=85796875
+[OK] asset_pipeline.py build
+[OK] release manifest build: files=581, bytes=90002534
+[OK] release_manifest.py build
+[OK] defense catalog: 18 hero entries, 6 unlocked, 5 hero slots, 50 levels, 1000 waves
+[OK] defense_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[FAIL] [Errno 13] Permission denied: 'F:\\T8demo\\T8-demo-16\\assets\\runtime\\defense\\audio\\loadingbg_947d25679f1f.mp3.import'
+[FAIL] asset_pipeline.py check: exit=1, marker_failure=False

@@ -1,0 +1,47 @@
+[
+  {
+    "log": "final_data_build.log",
+    "exit": 0,
+    "seconds": 2.905
+  },
+  {
+    "log": "bat_final_success.log",
+    "exit": 0,
+    "seconds": 2.775
+  },
+  {
+    "log": "bat_final_failure.log",
+    "exit": 1,
+    "seconds": 0.534
+  },
+  {
+    "log": "final_data_check.log",
+    "exit": 0,
+    "seconds": 2.67
+  },
+  {
+    "log": "final_release_build.log",
+    "exit": 0,
+    "seconds": 0.482
+  },
+  {
+    "log": "final_release_check.log",
+    "exit": 0,
+    "seconds": 0.402
+  },
+  {
+    "log": "edited_runtime.log",
+    "exit": 0,
+    "seconds": 1.682
+  },
+  {
+    "log": "final_smoke.log",
+    "exit": 0,
+    "seconds": 1.865
+  },
+  {
+    "log": "final_delivery_check.log",
+    "exit": 0,
+    "seconds": 0.386
+  }
+]

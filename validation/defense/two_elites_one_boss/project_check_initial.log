@@ -1,0 +1,324 @@
+[OK] defense catalog: 18 hero entries, 5 unlocked, 5 hero slots, 50 levels, 1000 waves
+[OK] defense_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets check: assets=106, bytes=85796875
+[OK] asset_pipeline.py check
+[OK] delivery check: files=4312, AGENTS.md<=70 lines/5000 bytes
+[OK] delivery check
+test_bad_parameters_references_and_ownership (test_defense_assassin_terms.AssassinTermsDataTests.test_bad_parameters_references_and_ownership) ... ok
+
+test_library_and_immutable_source (test_defense_assassin_terms.AssassinTermsDataTests.test_library_and_immutable_source) ... ok
+
+test_other_heroes_and_frozen_reference_unchanged (test_defense_assassin_terms.AssassinTermsDataTests.test_other_heroes_and_frozen_reference_unchanged) ... ok
+
+test_bad_configuration_references_counts_and_prerequisites (test_defense_druid_terms.DruidTermsDataTests.test_bad_configuration_references_counts_and_prerequisites) ... ok
+
+test_complete_library_copy_and_prerequisites (test_defense_druid_terms.DruidTermsDataTests.test_complete_library_copy_and_prerequisites) ... ok
+
+test_terms_only_modify_the_owners_thorn_armor_skill (test_defense_druid_terms.DruidTermsDataTests.test_terms_only_modify_the_owners_thorn_armor_skill) ... ok
+
+test_invalid_capability_fields_and_references_rejected (test_defense_fire_terms.FireTermsDataTests.test_invalid_capability_fields_and_references_rejected) ... ok
+
+test_library_original_copy_and_weights (test_defense_fire_terms.FireTermsDataTests.test_library_original_copy_and_weights) ... ok
+
+test_missing_required_fields_and_wrong_owner_rejected (test_defense_fire_terms.FireTermsDataTests.test_missing_required_fields_and_wrong_owner_rejected) ... ok
+
+test_periodic_contract_flags_reject_non_boolean (test_defense_fire_terms.FireTermsDataTests.test_periodic_contract_flags_reject_non_boolean) ... ok
+
+test_exact_library_and_recruitment (test_defense_ice_terms.IceTermsDataTests.test_exact_library_and_recruitment) ... ok
+
+test_invalid_rules_and_references (test_defense_ice_terms.IceTermsDataTests.test_invalid_rules_and_references) ... ok
+
+test_modifiers_ownership_and_combined_limits (test_defense_ice_terms.IceTermsDataTests.test_modifiers_ownership_and_combined_limits) ... ok
+
+test_all_zero_quality_weights_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_all_zero_quality_weights_rejected) ... ok
+
+test_baked_home_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_baked_home_atlas_page_rejected) ... ok
+
+test_changed_or_unregistered_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_changed_or_unregistered_atlas_page_rejected) ... ok
+
+test_chest_count_weights_have_exactly_four_nonzero_count_slots (test_defense_presentation_data.DefensePresentationDataTests.test_chest_count_weights_have_exactly_four_nonzero_count_slots) ... ok
+
+test_compiled_experience_rules_and_source_isolation (test_defense_presentation_data.DefensePresentationDataTests.test_compiled_experience_rules_and_source_isolation) ... ok
+
+test_home_bindings_checked_against_current_art (test_defense_presentation_data.DefensePresentationDataTests.test_home_bindings_checked_against_current_art) ... ok
+
+test_initial_roster_and_invalid_unlock_rules (test_defense_presentation_data.DefensePresentationDataTests.test_initial_roster_and_invalid_unlock_rules) ... ok
+
+test_invalid_action_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_action_timing_rejected) ... ok
+
+test_invalid_chest_quality_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_chest_quality_rejected) ... ok
+
+test_invalid_chest_weight_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_chest_weight_rejected) ... ok
+
+test_invalid_encounter_rows_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_encounter_rows_rejected) ... ok
+
+test_invalid_experience_rules_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_experience_rules_rejected) ... ok
+
+test_invalid_formation_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_formation_rejected) ... ok
+
+test_invalid_revival_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_revival_timing_rejected) ... ok
+
+test_invalid_roster_source_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_roster_source_rejected) ... ok
+
+test_invalid_sprite_page_and_bounds_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_sprite_page_and_bounds_rejected) ... ok
+
+test_level_balance_only_changes_declared_level_and_preserves_source (test_defense_presentation_data.DefensePresentationDataTests.test_level_balance_only_changes_declared_level_and_preserves_source) ... ok
+
+test_level_balance_rejects_invalid_schema_ids_and_values (test_defense_presentation_data.DefensePresentationDataTests.test_level_balance_rejects_invalid_schema_ids_and_values) ... ok
+
+test_missing_home_sprite_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_home_sprite_rejected) ... ok
+
+test_missing_patrol_boundary_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_patrol_boundary_rejected) ... ok
+
+test_missing_skill_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_skill_image_rejected) ... ok
+
+test_missing_tag_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_tag_image_rejected) ... ok
+
+test_obsolete_back_boundary_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_obsolete_back_boundary_rejected) ... ok
+
+test_obsolete_fixed_recruitment_schema_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_obsolete_fixed_recruitment_schema_rejected) ... ok
+
+test_other_interface_missing_named_art_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_other_interface_missing_named_art_rejected) ... ok
+
+test_other_scene_cannot_bake_an_atlas_region (test_defense_presentation_data.DefensePresentationDataTests.test_other_scene_cannot_bake_an_atlas_region) ... ok
+
+test_other_script_cannot_draw_raw_atlas_pages (test_defense_presentation_data.DefensePresentationDataTests.test_other_script_cannot_draw_raw_atlas_pages) ... ok
+
+test_result_reward_reference_rejects_unknown_icons_and_bad_counts (test_defense_presentation_data.DefensePresentationDataTests.test_result_reward_reference_rejects_unknown_icons_and_bad_counts) ... ok
+
+test_reversed_patrol_boundaries_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_reversed_patrol_boundaries_rejected) ... ok
+
+test_single_initial_skill_ownership_and_removed_trees (test_defense_presentation_data.DefensePresentationDataTests.test_single_initial_skill_ownership_and_removed_trees) ... ok
+
+test_skill_activation_and_visual_fields_reject_invalid_values (test_defense_presentation_data.DefensePresentationDataTests.test_skill_activation_and_visual_fields_reject_invalid_values) ... ok
+
+test_ui_content_region_follows_new_page_position_and_size (test_defense_presentation_data.DefensePresentationDataTests.test_ui_content_region_follows_new_page_position_and_size) ... ok
+
+test_unknown_profession_and_boss_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_unknown_profession_and_boss_rejected) ... ok
+
+test_unknown_skill_icon_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_unknown_skill_icon_rejected) ... ok
+
+test_upgrade_quality_weights_use_current_source (test_defense_presentation_data.DefensePresentationDataTests.test_upgrade_quality_weights_use_current_source) ... ok
+
+test_complete_library_and_frozen_reference (test_defense_warrior_terms.WarriorTermsDataTests.test_complete_library_and_frozen_reference) ... ok
+
+test_original_warrior_descriptions_are_preserved (test_defense_warrior_terms.WarriorTermsDataTests.test_original_warrior_descriptions_are_preserved) ... ok
+
+test_rejects_collisions_missing_cross_owner_and_cyclic_dependencies (test_defense_warrior_terms.WarriorTermsDataTests.test_rejects_collisions_missing_cross_owner_and_cyclic_dependencies) ... ok
+
+test_rejects_invalid_weights_and_guard_rules (test_defense_warrior_terms.WarriorTermsDataTests.test_rejects_invalid_weights_and_guard_rules) ... ok
+
+test_baseline_manifest_is_deterministic (test_pipelines.AssetPipelineTests.test_baseline_manifest_is_deterministic) ... ok
+
+test_budget_violation_is_rejected (test_pipelines.AssetPipelineTests.test_budget_violation_is_rejected) ... ok
+
+test_bad_reference_is_rejected (test_pipelines.DataPipelineTests.test_bad_reference_is_rejected) ... ok
+
+test_baseline_is_deterministic (test_pipelines.DataPipelineTests.test_baseline_is_deterministic) ... ok
+
+test_duplicate_id_reports_source_line_and_field (test_pipelines.DataPipelineTests.test_duplicate_id_reports_source_line_and_field) ... ok
+
+test_typed_setting_and_tuning_range_are_rejected (test_pipelines.DataPipelineTests.test_typed_setting_and_tuning_range_are_rejected) ... ok
+
+test_class_member_query_returns_exact_signature (test_pipelines.GodotApiTests.test_class_member_query_returns_exact_signature) ... ok
+
+test_confirmed_profiles_match_project_and_presets (test_pipelines.PackageProfileTests.test_confirmed_profiles_match_project_and_presets) ... ok
+
+test_engine_cache_cleanup_is_scoped (test_pipelines.PackageProfileTests.test_engine_cache_cleanup_is_scoped) ... ok
+
+test_unconfirmed_profile_is_blocked (test_pipelines.PackageProfileTests.test_unconfirmed_profile_is_blocked) ... ok
+
+test_web_archive_has_root_index_and_size_gate (test_pipelines.PackageProfileTests.test_web_archive_has_root_index_and_size_gate) ... ok
+
+test_clean_zero_exit_is_accepted (test_project_gate.EngineOutputTests.test_clean_zero_exit_is_accepted) ... ok
+
+test_zero_exit_with_resource_error_is_rejected (test_project_gate.EngineOutputTests.test_zero_exit_with_resource_error_is_rejected) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 65 tests in 24.248s
+
+
+
+OK
+[OK] Python pipeline tests
+[OK] architecture lint
+[OK] architecture lint
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+
+[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+
+[  33% ] [90m[1mloading_editor_layout[22m | Reopening scenes...[39m[0m
+
+[  50% ] [90m[1mloading_editor_layout[22m | Loading central editor layout...[39m[0m
+
+[  66% ] [90m[1mloading_editor_layout[22m | Loading plugin window layout...[39m[0m
+
+[  83% ] [90m[1mloading_editor_layout[22m | Editor layout ready.[39m[0m
+
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+
+[0m
+[OK] Godot import
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[FULL RUN] {"encounters":[8,14,20],"heroes":[{"initial_options":[200],"stats":{"damage":40337.3722871324,"heal":323.5,"taken":323.5},"template":1,"upgrades":[200,208,202,201,203,205,210,206,204,207,209]},{"initial_options":[200500],"stats":{"damage":40190.7472525267,"heal":963.0,"taken":4107.0},"template":17,"upgrades":[200500,200502,200504,200506,200507,200503]},{"initial_options":[200100],"stats":{"damage":6120.13270515808,"heal":821.718000059604,"taken":4475.71800005961},"template":4,"upgrades":[200100,200104,200101,200103,200105,200102,200106,200107]},{"initial_options":[200400],"stats":{"damage":2812.76780450498,"heal":612.5,"taken":1415.0},"template":13,"upgrades":[200400,200403,200405,200401]},{"initial_options":[200301],"stats":{"damage":1630.52238737795,"heal":709.0,"taken":1098.5},"template":2,"upgrades":[200301,200303,200306,200302,200311,200302]}],"history":[{"id":1,"kind":"hero","owner":0,"stage":0},{"id":17,"kind":"hero","owner":0,"stage":1},{"id":4,"kind":"hero","owner":0,"stage":2},{"id":13,"kind":"hero","owner":0,"stage":3},{"id":2,"kind":"hero","owner":0,"stage":4},{"id":208,"kind":"upgrade","owner":1,"stage":5},{"id":200403,"kind":"chest","owner":26,"stage":5},{"id":200303,"kind":"chest","owner":38,"stage":5},{"id":200306,"kind":"chest","owner":38,"stage":5},{"id":200502,"kind":"upgrade","owner":13,"stage":6},{"id":202,"kind":"upgrade","owner":1,"stage":7},{"id":200302,"kind":"upgrade","owner":38,"stage":8},{"id":201,"kind":"upgrade","owner":1,"stage":9},{"id":200104,"kind":"upgrade","owner":20,"stage":10},{"id":200504,"kind":"chest","owner":13,"stage":10},{"id":200101,"kind":"chest","owner":20,"stage":10},{"id":203,"kind":"upgrade","owner":1,"stage":11},{"id":205,"kind":"upgrade","owner":1,"stage":12},{"id":200103,"kind":"chest","owner":20,"stage":12},{"id":200506,"kind":"chest","owner":13,"stage":12},{"id":200311,"kind":"chest","owner":38,"stage":12},{"id":210,"kind":"upgrade","owner":1,"stage":13},{"id":200105,"kind":"upgrade","owner":20,"stage":14},{"id":200405,"kind":"chest","owner":26,"stage":14},{"id":200507,"kind":"upgrade","owner":13,"stage":15},{"id":200102,"kind":"chest","owner":20,"stage":15},{"id":206,"kind":"chest","owner":1,"stage":15},{"id":204,"kind":"upgrade","owner":1,"stage":16},{"id":200302,"kind":"upgrade","owner":38,"stage":17},{"id":200503,"kind":"chest","owner":13,"stage":17},{"id":207,"kind":"upgrade","owner":1,"stage":18},{"id":200106,"kind":"chest","owner":20,"stage":18},{"id":209,"kind":"upgrade","owner":1,"stage":19},{"id":200107,"kind":"chest","owner":20,"stage":19},{"id":200401,"kind":"chest","owner":26,"stage":19}],"kills":269,"phase":"result","time":248400,"wall":3900.0,"wave":20,"won":true}
+
+[WARRIOR WEIGHTS] ordinary { 200101: 481, 200102: 459, 200103: 607, 200104: 453 }
+
+[WARRIOR WEIGHTS] bonus { 200101: 441, 200102: 439, 200103: 609, 200104: 511 }
+
+[WARRIOR WEIGHTS] chest { 200101: 460, 200102: 441, 200103: 621, 200104: 478 }
+
+[FIRE WEIGHTS] ordinary { 201: 687, 202: 663, 206: 209, 208: 239, 209: 202 }
+
+[FIRE WEIGHTS] bonus { 201: 656, 202: 697, 206: 210, 208: 211, 209: 226 }
+
+[FIRE WEIGHTS] chest { 201: 664, 202: 648, 206: 218, 208: 227, 209: 243 }
+
+[FIRE CENTER CASE] radius=150.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=move
+
+[FIRE CENTER CASE] radius=150.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=death
+
+[FIRE CENTER CASE] radius=270.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=move
+
+[FIRE CENTER CASE] radius=270.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=death
+
+[PYRO CENTERS] hits=[3, 4, 5] target_snapshots={ 3: (779.4383, 1188.637), 4: (806.0503, 879.7811), 5: (832.6622, 570.9255) }
+
+[FIRE CENTERS] target snapshots, delayed effects and real circular damage checked
+
+[DRUID WEIGHTS] ordinary { 200302: 423, 200303: 382, 200306: 206, 200307: 289 }
+
+[DRUID WEIGHTS] bonus { 200302: 395, 200303: 396, 200306: 241, 200307: 268 }
+
+[DRUID WEIGHTS] chest { 200302: 407, 200303: 391, 200306: 192, 200307: 310 }
+
+[FAN] ice count=3 degrees=[0, -7, 7]
+
+[FAN] ice count=3 degrees=[0, -7, 7]
+
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+
+[FAN] fire count=1 degrees=[0]
+
+[FAN] fire count=2 degrees=[0, -5]
+
+[FAN] fire count=3 degrees=[0, -5, 5]
+
+[PROJECTILES] fan, sweep, penetration, refraction and termination verified
+
+[ASSASSIN WEIGHTS] ordinary { 200501: 316, 200502: 324, 200503: 235, 200504: 219, 200507: 106 }
+
+[ASSASSIN WEIGHTS] bonus { 200501: 348, 200502: 313, 200503: 235, 200504: 201, 200507: 103 }
+
+[ASSASSIN WEIGHTS] chest { 200501: 313, 200502: 327, 200503: 226, 200504: 220, 200507: 114 }
+
+[ROULETTE COUNTS] [10018, 5929, 3025, 1028]
+
+[MIXED] slots=30000 recruits=7518 counts=[4195, 4241, 1415, 149]
+
+[MELEE STABILITY] {"attacks":29,"seed":6,"stutters":0,"time":120000}
+
+[MELEE STABILITY] {"attacks":28,"seed":17,"stutters":0,"time":120000}
+
+[MELEE STABILITY] {"attacks":34,"seed":81,"stutters":0,"time":120000}
+
+[MELEE STABILITY] {"attacks":34,"seed":1,"stutters":0,"time":120000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+
+[BLOCK CAPACITY] hero=1 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=2 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=4 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=13 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=17 capacity=5 peak=5 overflow_ticks=0 stale_ticks=0
+
+[BASELINE] hero=1 learned=[17, 21, 22, 1269, 20201] emitted=[17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+
+[BASELINE] hero=2 learned=[1269, 20301] emitted=[] effects=[]
+
+[BASELINE] hero=4 learned=[755, 1269, 20001] emitted=[755, 20001] effects=["hero4:boomLight"]
+
+[BASELINE] hero=13 learned=[1269, 20002] emitted=[20002] effects=["hero13:arrow3"]
+
+[BASELINE] hero=17 learned=[1269, 1435] emitted=[] effects=[]
+
+[ICE DESCRIPTION] text_height=265.0 viewport_height=365.0 scroll_max=265.0 page=265.0
+
+[OK] Godot tests: 8852 assertions
+
+SCRIPT ERROR: Invalid call to function 'spawn_unit' in base 'RefCounted (DefenseSpawn)'. Expected 2 argument(s).
+
+   at: _waves (res://tests/test_defense_combat.gd:168)
+
+   GDScript backtrace (most recent call first):
+
+       [0] _waves (res://tests/test_defense_combat.gd:168)
+
+       [1] run (res://tests/test_defense_combat.gd:14)
+
+       [2] _run (res://tests/test_runner.gd:56)
+
+WARNING: 168 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+
+   at: cleanup (core/object/object.cpp:2536)
+
+ERROR: 44 resources still in use at exit (run with --verbose for details).
+
+   at: clear (core/io/resource.cpp:822)
+[FAIL] Godot tests: exit=0, marker_failure=True

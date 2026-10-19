@@ -1,0 +1,99 @@
+{
+  "format": "defense-battle-lab",
+  "version": 1,
+  "title": "寒冰射手：连击间隔0.3秒",
+  "config": {
+    "version": 1,
+    "seed": 53,
+    "level": 1,
+    "wave": 1,
+    "legal_terms": true,
+    "settings": {
+      "spawn": false,
+      "progression": false,
+      "respawn": false
+    },
+    "units": [
+      {
+        "key": 1,
+        "kind": "hero",
+        "template": 13,
+        "pos": [
+          800,
+          1100
+        ],
+        "terms": {
+          "200403": 1,
+          "200404": 1
+        },
+        "attributes": {
+          "4": 100,
+          "7": 0
+        },
+        "hp_ratio": 1,
+        "survival": "normal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": true
+        }
+      },
+      {
+        "key": 2,
+        "kind": "enemy",
+        "template": 101,
+        "pos": [
+          800,
+          750
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 10000
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": false
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "action": "advance",
+      "payload": {
+        "ticks": 150
+      }
+    }
+  ],
+  "checks": [
+    {
+      "kind": "event",
+      "event": "cast",
+      "skill": 20002,
+      "op": "eq",
+      "value": 1
+    },
+    {
+      "kind": "event",
+      "event": "skill_combo",
+      "skill": 20002,
+      "op": "eq",
+      "value": 1
+    },
+    {
+      "key": 1,
+      "field": "stats.damage",
+      "op": "near",
+      "value": 140
+    },
+    {
+      "key": 2,
+      "field": "dead",
+      "op": "eq",
+      "value": false
+    }
+  ]
+}

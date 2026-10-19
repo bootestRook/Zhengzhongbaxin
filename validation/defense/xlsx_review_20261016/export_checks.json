@@ -1,0 +1,12 @@
+[
+  {
+    "case": "bat_success",
+    "exit": 0,
+    "seconds": 3.524
+  },
+  {
+    "case": "bat_failure",
+    "exit": 1,
+    "seconds": 0.57
+  }
+]

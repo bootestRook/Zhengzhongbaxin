@@ -1,0 +1,2220 @@
+{
+	"assertions": 187,
+	"battles": [
+		{
+			"diagnostics": {},
+			"initial": [
+				1
+			],
+			"metrics": {
+				"1": {
+					"action_change": 106480,
+					"facing_change": 74080,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 205.603019356728,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 99200,
+					"facing_change": -1000,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 0.0,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 3813.9,
+					"deaths": 4,
+					"hero": 1,
+					"hits": 93
+				},
+				{
+					"damage": 390.0,
+					"deaths": 1,
+					"hero": 13,
+					"hits": 12
+				}
+			],
+			"seed": 6,
+			"time": 109632,
+			"wave": 11
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				1
+			],
+			"metrics": {
+				"1": {
+					"action_change": 116416,
+					"facing_change": 98016,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 204.802959084511,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 4903.35,
+					"deaths": 4,
+					"hero": 1,
+					"hits": 117
+				}
+			],
+			"seed": 81,
+			"time": 120000,
+			"wave": 12
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				2
+			],
+			"metrics": {
+				"2": {
+					"action_change": 110080,
+					"facing_change": 51120,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 385.604012072086,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 119440,
+					"facing_change": 86992,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 0.0,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 8805.5,
+					"deaths": 3,
+					"hero": 2,
+					"hits": 62
+				},
+				{
+					"damage": 2559.75,
+					"deaths": 2,
+					"hero": 13,
+					"hits": 76
+				}
+			],
+			"seed": 6,
+			"time": 120000,
+			"wave": 12
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				2
+			],
+			"metrics": {
+				"2": {
+					"action_change": 118544,
+					"facing_change": 114304,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 386.400350809097,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"4": {
+					"action_change": 117776,
+					"facing_change": 117728,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 456.517667472363,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 118528,
+					"facing_change": 118528,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 85.6032487750053,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 19207.77925,
+					"deaths": 0,
+					"hero": 2,
+					"hits": 31
+				},
+				{
+					"damage": 1794.3025,
+					"deaths": 1,
+					"hero": 5,
+					"hits": 32
+				},
+				{
+					"damage": 69425.5304163456,
+					"deaths": 0,
+					"hero": 13,
+					"hits": 5306
+				},
+				{
+					"damage": 1961.263125,
+					"deaths": 1,
+					"hero": 4,
+					"hits": 32
+				}
+			],
+			"seed": 81,
+			"time": 120000,
+			"wave": 12
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				4
+			],
+			"metrics": {
+				"4": {
+					"action_change": 119600,
+					"facing_change": 97152,
+					"last_rapid": -1000,
+					"locked_moves": 88,
+					"movement": 1910.07826709747,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 1,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 111968,
+					"facing_change": 86784,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 43.2006797790527,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 116768,
+					"facing_change": 107520,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 47.3606925010681,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 9789.675,
+					"deaths": 2,
+					"hero": 4,
+					"hits": 142
+				},
+				{
+					"damage": 2560.0,
+					"deaths": 2,
+					"hero": 13,
+					"hits": 78
+				},
+				{
+					"damage": 2373.532375,
+					"deaths": 1,
+					"hero": 17,
+					"hits": 87
+				}
+			],
+			"seed": 6,
+			"time": 120000,
+			"wave": 12
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				4
+			],
+			"metrics": {
+				"4": {
+					"action_change": 111728,
+					"facing_change": 89136,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 1156.80568677187,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 119712,
+					"facing_change": -1000,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 0.0,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 6184.5,
+					"deaths": 2,
+					"hero": 4,
+					"hits": 161
+				},
+				{
+					"damage": 2788.875,
+					"deaths": 1,
+					"hero": 5,
+					"hits": 49
+				},
+				{
+					"damage": 1020.0,
+					"deaths": 0,
+					"hero": 13,
+					"hits": 30
+				}
+			],
+			"seed": 81,
+			"time": 120000,
+			"wave": 13
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				13
+			],
+			"metrics": {
+				"13": {
+					"action_change": 116816,
+					"facing_change": 118032,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 381.603209316731,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 117184,
+					"facing_change": 117184,
+					"last_rapid": -1000,
+					"locked_moves": 1,
+					"movement": 627.394846558571,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 82275.0073304227,
+					"deaths": 2,
+					"hero": 13,
+					"hits": 3330
+				},
+				{
+					"damage": 3523.0,
+					"deaths": 1,
+					"hero": 5,
+					"hits": 61
+				},
+				{
+					"damage": 869.513125,
+					"deaths": 0,
+					"hero": 17,
+					"hits": 12
+				}
+			],
+			"seed": 6,
+			"time": 120000,
+			"wave": 12
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				13
+			],
+			"metrics": {
+				"2": {
+					"action_change": 64112,
+					"facing_change": 59040,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 248.664567917585,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"4": {
+					"action_change": 119040,
+					"facing_change": 116800,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 1586.25688451529,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 119728,
+					"facing_change": 62976,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 401.319087207317,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 64323.2762936233,
+					"deaths": 0,
+					"hero": 13,
+					"hits": 2720
+				},
+				{
+					"damage": 1742.0,
+					"deaths": 1,
+					"hero": 4,
+					"hits": 18
+				},
+				{
+					"damage": 0.0,
+					"deaths": 0,
+					"hero": 5,
+					"hits": 0
+				},
+				{
+					"damage": 25.0,
+					"deaths": 0,
+					"hero": 2,
+					"hits": 1
+				}
+			],
+			"seed": 81,
+			"time": 120000,
+			"wave": 14
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				17
+			],
+			"metrics": {
+				"13": {
+					"action_change": 119136,
+					"facing_change": 90080,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 0.0,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 119776,
+					"facing_change": 78320,
+					"last_rapid": -1000,
+					"locked_moves": 3,
+					"movement": 1286.47222554684,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 6509.875,
+					"deaths": 2,
+					"hero": 17,
+					"hits": 214
+				},
+				{
+					"damage": 3481.625,
+					"deaths": 2,
+					"hero": 5,
+					"hits": 61
+				},
+				{
+					"damage": 1170.0,
+					"deaths": 1,
+					"hero": 13,
+					"hits": 30
+				}
+			],
+			"seed": 6,
+			"time": 120000,
+			"wave": 12
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				17
+			],
+			"metrics": {
+				"2": {
+					"action_change": 119440,
+					"facing_change": 99104,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 0.0,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"4": {
+					"action_change": 107424,
+					"facing_change": 97056,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 460.799588978291,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 119888,
+					"facing_change": 116416,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 666.887983441353,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 22020.696235,
+					"deaths": 0,
+					"hero": 17,
+					"hits": 800
+				},
+				{
+					"damage": 5947.758625,
+					"deaths": 1,
+					"hero": 4,
+					"hits": 79
+				},
+				{
+					"damage": 2575.414375,
+					"deaths": 1,
+					"hero": 5,
+					"hits": 49
+				},
+				{
+					"damage": 2498.58635,
+					"deaths": 0,
+					"hero": 2,
+					"hits": 13
+				}
+			],
+			"seed": 81,
+			"time": 120000,
+			"wave": 13
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				1,
+				2,
+				4,
+				13,
+				17
+			],
+			"metrics": {
+				"1": {
+					"action_change": 106512,
+					"facing_change": 7168,
+					"last_rapid": -1000,
+					"locked_moves": 3,
+					"movement": 383.138980746269,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"2": {
+					"action_change": 101776,
+					"facing_change": 47216,
+					"last_rapid": -1000,
+					"locked_moves": 3,
+					"movement": 411.970440983772,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"4": {
+					"action_change": 112688,
+					"facing_change": 110000,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 2377.2220158577,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 106160,
+					"facing_change": 106560,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 234.651103854179,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 37040,
+					"facing_change": 37040,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 522.578030109406,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 736.702350973123,
+					"deaths": 0,
+					"hero": 1,
+					"hits": 22
+				},
+				{
+					"damage": 12336.80838875,
+					"deaths": 0,
+					"hero": 2,
+					"hits": 84
+				},
+				{
+					"damage": 1695.425,
+					"deaths": 0,
+					"hero": 4,
+					"hits": 29
+				},
+				{
+					"damage": 132979.100573639,
+					"deaths": 0,
+					"hero": 13,
+					"hits": 10218
+				},
+				{
+					"damage": 0.0,
+					"deaths": 0,
+					"hero": 17,
+					"hits": 0
+				}
+			],
+			"seed": 1,
+			"time": 120000,
+			"wave": 15
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				1,
+				2,
+				4,
+				13,
+				17
+			],
+			"metrics": {
+				"1": {
+					"action_change": 109616,
+					"facing_change": 109616,
+					"last_rapid": -1000,
+					"locked_moves": 4,
+					"movement": 479.138808727264,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"2": {
+					"action_change": 113744,
+					"facing_change": 110144,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 388.768888175488,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"4": {
+					"action_change": 108704,
+					"facing_change": 111264,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 2900.41765213013,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 108320,
+					"facing_change": 104016,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 234.651103854179,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 108704,
+					"facing_change": 109408,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 1483.85729789734,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 6210.44282125,
+					"deaths": 0,
+					"hero": 1,
+					"hits": 49
+				},
+				{
+					"damage": 12644.85223125,
+					"deaths": 0,
+					"hero": 2,
+					"hits": 124
+				},
+				{
+					"damage": 1671.15,
+					"deaths": 0,
+					"hero": 4,
+					"hits": 29
+				},
+				{
+					"damage": 78190.2532280062,
+					"deaths": 0,
+					"hero": 13,
+					"hits": 6037
+				},
+				{
+					"damage": 5220.95,
+					"deaths": 1,
+					"hero": 17,
+					"hits": 193
+				}
+			],
+			"seed": 6,
+			"time": 120000,
+			"wave": 14
+		},
+		{
+			"diagnostics": {},
+			"initial": [
+				1,
+				2,
+				4,
+				13,
+				17
+			],
+			"metrics": {
+				"1": {
+					"action_change": 118656,
+					"facing_change": 33232,
+					"last_rapid": -1000,
+					"locked_moves": 3,
+					"movement": 388.739024162292,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 1,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"2": {
+					"action_change": 119024,
+					"facing_change": 116208,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 420.178960382938,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"4": {
+					"action_change": 119888,
+					"facing_change": 109792,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 1145.53917664289,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"13": {
+					"action_change": 118432,
+					"facing_change": 105760,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 233.051114916801,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				},
+				"17": {
+					"action_change": 100192,
+					"facing_change": 87168,
+					"last_rapid": -1000,
+					"locked_moves": 0,
+					"movement": 813.140078425407,
+					"rapid_bursts": 0,
+					"rapid_chain": 0,
+					"rapid_flips": 0,
+					"rapid_idle": 0,
+					"samples": [],
+					"walk_restarts": 0
+				}
+			},
+			"roster": [
+				{
+					"damage": 11853.866,
+					"deaths": 0,
+					"hero": 1,
+					"hits": 64
+				},
+				{
+					"damage": 13843.417475,
+					"deaths": 1,
+					"hero": 2,
+					"hits": 17
+				},
+				{
+					"damage": 6852.288125,
+					"deaths": 1,
+					"hero": 4,
+					"hits": 138
+				},
+				{
+					"damage": 6992.9705,
+					"deaths": 1,
+					"hero": 13,
+					"hits": 177
+				},
+				{
+					"damage": 1162.263125,
+					"deaths": 1,
+					"hero": 17,
+					"hits": 49
+				}
+			],
+			"seed": 81,
+			"time": 120000,
+			"wave": 13
+		}
+	],
+	"contracts": [
+		{
+			"cooldown_returns": true,
+			"entry_damage": 128.7,
+			"entry_still_entering": true,
+			"formation_ms": 4096,
+			"front": false,
+			"hero": 1,
+			"holds_when_home_out_of_range": true,
+			"name": "火焰术士",
+			"range": 500.0,
+			"released_target": true,
+			"returned": true,
+			"speed": 50.0
+		},
+		{
+			"cooldown_returns": true,
+			"entry_damage": 327.0,
+			"entry_still_entering": true,
+			"formation_ms": 4096,
+			"front": false,
+			"hero": 2,
+			"holds_when_home_out_of_range": true,
+			"name": "德鲁伊",
+			"range": 500.0,
+			"released_target": true,
+			"returned": true,
+			"speed": 50.0
+		},
+		{
+			"entry_damage": 360.0,
+			"entry_still_entering": true,
+			"formation_ms": 6752,
+			"front": true,
+			"hero": 4,
+			"name": "勇者",
+			"range": 0.0,
+			"released_target": true,
+			"returned": true,
+			"speed": 60.0
+		},
+		{
+			"cooldown_returns": true,
+			"entry_damage": 120.0,
+			"entry_still_entering": true,
+			"formation_ms": 4096,
+			"front": false,
+			"hero": 13,
+			"holds_when_home_out_of_range": true,
+			"name": "游侠",
+			"range": 600.0,
+			"released_target": true,
+			"returned": true,
+			"speed": 50.0
+		},
+		{
+			"entry_damage": 307.5,
+			"entry_still_entering": true,
+			"formation_ms": 5056,
+			"front": true,
+			"hero": 17,
+			"name": "黯影",
+			"range": 0.0,
+			"released_target": true,
+			"returned": true,
+			"speed": 80.0
+		}
+	],
+	"duels": [
+		{
+			"attacks": 6,
+			"damage": 0.0,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 0,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 600
+		},
+		{
+			"attacks": 6,
+			"damage": 92.4,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 2,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 1000
+		},
+		{
+			"attacks": 6,
+			"damage": 92.4,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 2,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 600
+		},
+		{
+			"attacks": 6,
+			"damage": 0.0,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 0,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 1000
+		},
+		{
+			"attacks": 6,
+			"damage": 422.4,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 8,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 600
+		},
+		{
+			"attacks": 6,
+			"damage": 422.4,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 8,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 1000
+		},
+		{
+			"attacks": 6,
+			"damage": 0.0,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 0,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 600
+		},
+		{
+			"attacks": 6,
+			"damage": 92.4,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 2,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 1000
+		},
+		{
+			"attacks": 6,
+			"damage": 92.4,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 2,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 600
+		},
+		{
+			"attacks": 6,
+			"damage": 0.0,
+			"diagnostics": {},
+			"hero": 1,
+			"hits": 0,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 1000
+		},
+		{
+			"attacks": 8,
+			"damage": 1082.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 106,
+			"x": 600
+		},
+		{
+			"attacks": 8,
+			"damage": 1082.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 106,
+			"x": 1000
+		},
+		{
+			"attacks": 8,
+			"damage": 1040.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 112,
+			"x": 600
+		},
+		{
+			"attacks": 8,
+			"damage": 1040.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 112,
+			"x": 1000
+		},
+		{
+			"attacks": 8,
+			"damage": 960.5,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 6,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 103,
+			"x": 600
+		},
+		{
+			"attacks": 8,
+			"damage": 948.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 6,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 103,
+			"x": 1000
+		},
+		{
+			"attacks": 8,
+			"damage": 1082.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 107,
+			"x": 600
+		},
+		{
+			"attacks": 8,
+			"damage": 1082.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 107,
+			"x": 1000
+		},
+		{
+			"attacks": 8,
+			"damage": 1040.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 113,
+			"x": 600
+		},
+		{
+			"attacks": 8,
+			"damage": 1040.0,
+			"diagnostics": {},
+			"hero": 2,
+			"hits": 8,
+			"metrics": {
+				"action_change": 21712,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 3,
+			"template": 113,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 980.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 16,
+			"metrics": {
+				"action_change": 23744,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 75.8411707878113,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 980.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 16,
+			"metrics": {
+				"action_change": 23792,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 78.7223370075226,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 1055.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 17,
+			"metrics": {
+				"action_change": 23584,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 66.2410225868225,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 1055.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 17,
+			"metrics": {
+				"action_change": 23584,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 66.2420317530632,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 920.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 16,
+			"metrics": {
+				"action_change": 23456,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 58.5609040260315,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 920.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 16,
+			"metrics": {
+				"action_change": 23488,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 60.4818466305733,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 980.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 16,
+			"metrics": {
+				"action_change": 23744,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 75.8411707878113,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 980.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 16,
+			"metrics": {
+				"action_change": 23792,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 78.7223370075226,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 1055.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 17,
+			"metrics": {
+				"action_change": 23584,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 66.2410225868225,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 1055.0,
+			"diagnostics": {},
+			"hero": 4,
+			"hits": 17,
+			"metrics": {
+				"action_change": 23584,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 66.2420317530632,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 1000
+		},
+		{
+			"attacks": 12,
+			"damage": 390.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 600
+		},
+		{
+			"attacks": 12,
+			"damage": 390.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 1000
+		},
+		{
+			"attacks": 12,
+			"damage": 360.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 600
+		},
+		{
+			"attacks": 12,
+			"damage": 360.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 1000
+		},
+		{
+			"attacks": 12,
+			"damage": 360.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 600
+		},
+		{
+			"attacks": 12,
+			"damage": 360.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 1000
+		},
+		{
+			"attacks": 12,
+			"damage": 390.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 600
+		},
+		{
+			"attacks": 12,
+			"damage": 390.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 1000
+		},
+		{
+			"attacks": 12,
+			"damage": 360.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 600
+		},
+		{
+			"attacks": 12,
+			"damage": 360.0,
+			"diagnostics": {},
+			"hero": 13,
+			"hits": 12,
+			"metrics": {
+				"action_change": 23920,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 0.0,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 1030.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 39,
+			"metrics": {
+				"action_change": 23664,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 126.719112038612,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 1030.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 39,
+			"metrics": {
+				"action_change": 23680,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 127.999059081078,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 106,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 957.5,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 35,
+			"metrics": {
+				"action_change": 23488,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 112.639210700989,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 905.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 32,
+			"metrics": {
+				"action_change": 23504,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 113.91925740242,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 112,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 835.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 27,
+			"metrics": {
+				"action_change": 23376,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 103.679273486137,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 835.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 27,
+			"metrics": {
+				"action_change": 23392,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 104.959383606911,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 103,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 1030.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 39,
+			"metrics": {
+				"action_change": 23664,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 126.719112038612,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 1030.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 39,
+			"metrics": {
+				"action_change": 23680,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 127.999059081078,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 107,
+			"x": 1000
+		},
+		{
+			"attacks": 14,
+			"damage": 957.5,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 35,
+			"metrics": {
+				"action_change": 23488,
+				"facing_change": -1000,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 112.639210700989,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 600
+		},
+		{
+			"attacks": 14,
+			"damage": 905.0,
+			"diagnostics": {},
+			"hero": 17,
+			"hits": 32,
+			"metrics": {
+				"action_change": 23504,
+				"facing_change": 16,
+				"last_rapid": -1000,
+				"locked_moves": 0,
+				"movement": 113.91925740242,
+				"rapid_bursts": 0,
+				"rapid_chain": 0,
+				"rapid_flips": 0,
+				"rapid_idle": 0,
+				"samples": [],
+				"walk_restarts": 0
+			},
+			"summon_blocks": 0,
+			"summon_hits": 0,
+			"template": 113,
+			"x": 1000
+		}
+	],
+	"failures": [
+		"hero 1 damages moving monster 106 at X600",
+		"hero 1 damages moving monster 112 at X1000",
+		"hero 1 damages moving monster 107 at X600",
+		"hero 1 damages moving monster 113 at X1000"
+	]
+}

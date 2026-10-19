@@ -1,0 +1,92 @@
+[
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 77,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 960
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 89,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 960
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 329,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 960
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 77,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 720
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 89,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 720
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 329,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 720
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 77,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 540
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 89,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 540
+	},
+	{
+		"area_height": 165.0,
+		"area_width": 232.0,
+		"font_size": 24,
+		"lines": 4,
+		"option": 329,
+		"text_height": 149.0,
+		"text_width": 232.0,
+		"width": 540
+	}
+]

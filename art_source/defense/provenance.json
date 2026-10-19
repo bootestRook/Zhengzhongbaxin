@@ -1,0 +1,22 @@
+{
+  "archive_sha256": "20b962f7f620a9d20a73ebdceb9a43f78f171e239e700be97ab6d82dff2f2556",
+  "origin": "F:\\T8demo\\正中靶心2_拆解_20261013\\09_当前客户端补充",
+  "runtime_sha256": {
+    "assets/runtime/defense/atlas_00.png": "d40192d66b7e32d7a3781cd93677e0095c3c6d0ca4918022f2ffb2ee0fd145b2",
+    "assets/runtime/defense/atlas_01.png": "b6dc32e0ad47299be9414317a4148a09ef748bb0e229d37e204de38e1365738e",
+    "assets/runtime/defense/atlas_02.png": "4a0ea8d578e1fb8887bfc04aee55e617cecf5c471e7e19c4b5ae93c4d3a9819d",
+    "assets/runtime/defense/atlas_03.png": "adbbd0aa6eff58ac6ca1b24a91043d1b5aecc403d291370ea550eb79b16d58e9",
+    "assets/runtime/defense/atlas_04.png": "bda93011a8a52f2424bcb08d438f3e14e6272d751a0df099d2f0480e40145eff",
+    "assets/runtime/defense/atlas_05.png": "494574e9a4d072b768228095140f7a1666870aa25653b85a73324699dc156387",
+    "assets/runtime/defense/atlas_06.png": "e10b148c3a6c3824eae2dc4ec0173d7fed470282aa2db88514876f437c8fd50b",
+    "assets/runtime/defense/atlas_07.png": "a6f24f00b1e5931a018c40cf06ffada054d60e697a7e3ff3164a58daef08287f",
+    "assets/runtime/defense/atlas_08.png": "ea66f7ed76ca8b0e4b7fe95742ce8a979623bb4d2a94f050435d6236dae62c6f",
+    "assets/runtime/defense/atlas_09.png": "0a71b7ada5ffcac652d8a4d9bddb70c8134c978a2fc25cfc4fb800439f8ba068",
+    "assets/runtime/defense/atlas_10.png": "0584ef72ddd41841467290d3588e118be99cbe4c25b5dafff6d4ec45d71e27bd",
+    "assets/runtime/defense/atlas_11.png": "bc4c90610d0fcbb974c3f49483ded93a42a211213ca99b93c8627a738b049d4f",
+    "assets/runtime/defense/atlas_12.png": "84dfdffca11a9e470342f8e994a4b5e32da2ff51f30fac94b6520e07887283f3",
+    "assets/runtime/defense/atlas_13.png": "848981d91cba84f8a0fc4798e4f8c77ba2d7c850170efda583671c6525f9597c",
+    "assets/runtime/defense/home_reference_icons.png": "88425e16b867eb9605845ac3acea5f48199938735b28ed00ad432d6a0eb46021"
+  },
+  "source_count": 7568
+}

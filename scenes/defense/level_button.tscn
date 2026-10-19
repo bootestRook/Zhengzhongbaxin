@@ -1,0 +1,4 @@
+[gd_scene format=3]
+[node name="Level" type="Button"]
+custom_minimum_size = Vector2(134,82)
+text = "1"

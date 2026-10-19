@@ -1,0 +1,8 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[RANGE COMBAT] {"cooldown_next":4016,"damage":45.0,"hero":13,"origin":[800.0,1150.0],"position":[800.0,1150.0],"skill":20002,"target":[800.0,400.0],"target_hp":99955.0}
+[RANGE COMBAT] {"cooldown_next":6016,"damage":60.0,"hero":1,"origin":[800.0,1150.0],"position":[800.0,1150.0],"skill":17,"target":[800.0,150.0],"target_hp":99940.0}
+[RANGE COMBAT] {"cooldown_next":8016,"damage":150.0,"hero":17,"origin":[800.0,480.0],"position":[800.0,320.0],"skill":1435,"target":[800.0,320.0],"target_hp":99850.0}
+[OUTSIDE RETURN] {"action":"walk","landing_y":320.0,"return_y":321.2646484375}
+[OK] ten native captures of real ranged damage, outside assassination and gradual return

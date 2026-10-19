@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-16",
+  "project_check_exit": 0,
+  "godot_assertions": 6027,
+  "python_tests": 46,
+  "native_screenshots": 36,
+  "window_sizes": [
+    [
+      960,
+      1920
+    ],
+    [
+      720,
+      1440
+    ],
+    [
+      540,
+      1080
+    ]
+  ],
+  "full_run": {
+    "seed": 6,
+    "deterministic_replay_passed": true,
+    "phase": "result",
+    "won": true,
+    "wave": 20,
+    "bosses": 3,
+    "time": 268048,
+    "wall": 3900.0,
+    "kills": 263
+  },
+  "visual_scope": "单技能招募与五槽、五英雄说明气泡、折叠及展开属性、图鉴；战场为真实实例视觉夹具。"
+}

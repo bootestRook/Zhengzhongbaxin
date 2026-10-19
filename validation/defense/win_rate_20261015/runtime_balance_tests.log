@@ -1,0 +1,30 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FULL RUN] {"bosses":3,"heroes":[{"initial_options":[1,2],"stats":{"damage":9040.67324358515,"heal":321.5,"taken":1824.5},"template":1,"upgrades":[1,2,4,6,8,3,7]},{"initial_options":[601,614],"stats":{"damage":18254.6488123451,"heal":638.62,"taken":5797.6000000596},"template":17,"upgrades":[601,614,616,615,617]},{"initial_options":[325,801],"stats":{"damage":25756.2722263941,"heal":1092.72,"taken":4567.72},"template":4,"upgrades":[325,801,802,803]},{"initial_options":[1076,1081],"stats":{"damage":12907.9135870642,"heal":480.0,"taken":2025.0},"template":13,"upgrades":[1076,1081,1082]},{"initial_options":[495,81],"stats":{"damage":16036.8290484955,"heal":1651.4800000596,"taken":2434.5},"template":2,"upgrades":[495,81,83,82,497,84]}],"history":[{"id":1,"kind":"hero","owner":0,"stage":0},{"id":17,"kind":"hero","owner":0,"stage":1},{"id":4,"kind":"hero","owner":0,"stage":2},{"id":13,"kind":"hero","owner":0,"stage":3},{"id":2,"kind":"hero","owner":0,"stage":4},{"id":4,"kind":"upgrade","owner":1,"stage":5},{"id":616,"kind":"upgrade","owner":15,"stage":6},{"id":802,"kind":"upgrade","owner":20,"stage":7},{"id":83,"kind":"upgrade","owner":32,"stage":8},{"id":6,"kind":"upgrade","owner":1,"stage":9},{"id":8,"kind":"upgrade","owner":1,"stage":10},{"id":615,"kind":"upgrade","owner":15,"stage":11},{"id":617,"kind":"upgrade","owner":15,"stage":12},{"id":803,"kind":"upgrade","owner":20,"stage":13},{"id":3,"kind":"upgrade","owner":1,"stage":14},{"id":82,"kind":"upgrade","owner":32,"stage":15},{"id":7,"kind":"upgrade","owner":1,"stage":16},{"id":497,"kind":"upgrade","owner":32,"stage":17},{"id":84,"kind":"upgrade","owner":32,"stage":18},{"id":1082,"kind":"upgrade","owner":24,"stage":19}],"kills":260,"phase":"result","time":281424,"wall":3533.0,"wave":20,"won":true}
+[COUPLED FIRE] [17, 21, 22, 25]
+[MIXED] slots=30000 recruits=7518 counts=[4195, 4241, 1415, 149]
+[MELEE STABILITY] {"attacks":34,"seed":6,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":33,"seed":17,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":38,"seed":81,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":14,"seed":1,"stutters":0,"time":120000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+[BLOCK CAPACITY] hero=1 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=2 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=4 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=13 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=17 capacity=5 peak=5 overflow_ticks=0 stale_ticks=0
+[BASELINE] hero=1 learned=[17, 21, 22, 25, 1269] emitted=[17, 21, 22, 25] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom", "bullet2:gun2"]
+[BASELINE] hero=2 learned=[506, 661, 1269] emitted=[] effects=[]
+[BASELINE] hero=4 learned=[413, 755, 857, 1269] emitted=[413, 755] effects=["hero9:fireballboom4"]
+[BASELINE] hero=13 learned=[866, 1269] emitted=[866] effects=["hero13:arrow2"]
+[BASELINE] hero=17 learned=[1269, 1429, 1434, 1435] emitted=[1435, 1434, 1429] effects=["hero17:kill", "bullet2:chong4"]
+[OK] Godot tests: 6350 assertions

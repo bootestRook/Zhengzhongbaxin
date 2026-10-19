@@ -1,0 +1,502 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_page.gd" id="script"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="atlas"]
+[ext_resource type="PackedScene" path="res://scenes/defense/equipment_item.tscn" id="item"]
+[ext_resource type="PackedScene" path="res://scenes/defense/equipment_dialog.tscn" id="dialog"]
+[ext_resource type="PackedScene" path="res://scenes/defense/equipment_worn_dialog.tscn" id="worn"]
+
+[sub_resource type="StyleBoxFlat" id="Button"]
+bg_color = Color(1,0.72,0.14,1)
+border_color = Color(0.16,0.14,0.12,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Hover"]
+bg_color = Color(1,0.83,0.32,1)
+border_color = Color(0.16,0.14,0.12,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Pressed"]
+bg_color = Color(0.87,0.56,0.05,1)
+border_color = Color(0.16,0.14,0.12,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_color = Color(1,0.84,0.22,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Paper"]
+bg_color = Color(0.995,0.967,0.89,1)
+border_color = Color(0.60,0.67,0.80,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Bag"]
+bg_color = Color(0.12,0.105,0.075,0.95)
+border_color = Color(0.38,0.32,0.20,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_left = 5
+corner_radius_bottom_right = 5
+
+[sub_resource type="StyleBoxFlat" id="Tab"]
+bg_color = Color(0.76,0.71,0.61,1)
+border_color = Color(0.26,0.23,0.17,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_left = 2
+corner_radius_bottom_right = 2
+
+[sub_resource type="StyleBoxFlat" id="Filter"]
+bg_color = Color(0.12,0.12,0.10,0.97)
+border_color = Color(0.52,0.49,0.39,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[node name="StatuePage" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("script")
+
+[node name="Statue" type="TextureRect" parent="."]
+offset_left = 70.0
+offset_top = 190.0
+offset_right = 490.0
+offset_bottom = 735.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("atlas")
+resource_key = "statue:statue1"
+
+[node name="Power" type="Button" parent="."]
+offset_left = 85.0
+offset_top = 760.0
+offset_right = 445.0
+offset_bottom = 833.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "战力  —   ⓘ"
+theme_override_styles/normal = SubResource("Button")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Pressed")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Gear" type="Control" parent="."]
+offset_left = 525.0
+offset_top = 190.0
+offset_right = 920.0
+offset_bottom = 839.0
+mouse_filter = 2
+
+[node name="Slot0" parent="Gear" instance=ExtResource("item")]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 190.0
+offset_bottom = 204.0
+
+[node name="Slot1" parent="Gear" instance=ExtResource("item")]
+offset_left = 205.0
+offset_top = 0.0
+offset_right = 395.0
+offset_bottom = 204.0
+
+[node name="Slot2" parent="Gear" instance=ExtResource("item")]
+offset_left = 0.0
+offset_top = 215.0
+offset_right = 190.0
+offset_bottom = 419.0
+
+[node name="Slot3" parent="Gear" instance=ExtResource("item")]
+offset_left = 205.0
+offset_top = 215.0
+offset_right = 395.0
+offset_bottom = 419.0
+
+[node name="Slot4" parent="Gear" instance=ExtResource("item")]
+offset_left = 0.0
+offset_top = 430.0
+offset_right = 190.0
+offset_bottom = 634.0
+
+[node name="Slot5" parent="Gear" instance=ExtResource("item")]
+offset_left = 205.0
+offset_top = 430.0
+offset_right = 395.0
+offset_bottom = 634.0
+
+[node name="Bag" type="Panel" parent="."]
+offset_left = 35.0
+offset_top = 875.0
+offset_right = 925.0
+offset_bottom = 1690.0
+theme_override_styles/panel = SubResource("Bag")
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Bag"]
+offset_left = 28.0
+offset_top = 16.0
+offset_right = 398.0
+offset_bottom = 86.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.91,0.80,0.59,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 45
+text = "我的背包"
+vertical_alignment = 1
+
+
+[node name="Filter" type="Button" parent="Bag"]
+offset_left = 610.0
+offset_top = 20.0
+offset_right = 860.0
+offset_bottom = 84.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "筛选：全部"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Pressed")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Scroll" type="ScrollContainer" parent="Bag"]
+offset_left = 28.0
+offset_top = 110.0
+offset_right = 864.0
+offset_bottom = 699.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 1
+
+[node name="Items" type="GridContainer" parent="Bag/Scroll"]
+layout_mode = 2
+columns = 6
+theme_override_constants/h_separation = 11
+theme_override_constants/v_separation = 15
+
+[node name="Empty" type="Label" parent="Bag"]
+offset_left = 80.0
+offset_top = 235.0
+offset_right = 810.0
+offset_bottom = 335.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.78,0.73,0.62,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 32
+text = "此部位暂无物品"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Gems" type="Button" parent="Bag"]
+offset_left = 28.0
+offset_top = 725.0
+offset_right = 445.0
+offset_bottom = 795.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "宝石"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+toggle_mode = true
+
+[node name="Equipment" type="Button" parent="Bag"]
+offset_left = 445.0
+offset_top = 725.0
+offset_right = 862.0
+offset_bottom = 795.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "装备"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+toggle_mode = true
+
+[node name="Filter" type="Control" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+visible = false
+z_index = 8
+mouse_filter = 2
+
+[node name="Outside" type="Button" parent="Filter"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = ""
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+
+[node name="Panel" type="Panel" parent="Filter"]
+offset_left = 245.0
+offset_top = 665.0
+offset_right = 895.0
+offset_bottom = 950.0
+theme_override_styles/panel = SubResource("Filter")
+
+[node name="Title" type="Label" parent="Filter/Panel"]
+offset_left = 22.0
+offset_top = 9.0
+offset_right = 612.0
+offset_bottom = 57.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 34
+text = "部位"
+vertical_alignment = 1
+
+
+[node name="Part0" type="Button" parent="Filter/Panel"]
+offset_left = 22.0
+offset_top = 76.0
+offset_right = 166.0
+offset_bottom = 146.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "全部"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Part1" type="Button" parent="Filter/Panel"]
+offset_left = 175.0
+offset_top = 76.0
+offset_right = 319.0
+offset_bottom = 146.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "头部"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Part2" type="Button" parent="Filter/Panel"]
+offset_left = 328.0
+offset_top = 76.0
+offset_right = 472.0
+offset_bottom = 146.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "胸甲"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Part3" type="Button" parent="Filter/Panel"]
+offset_left = 481.0
+offset_top = 76.0
+offset_right = 625.0
+offset_bottom = 146.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "鞋子"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Part4" type="Button" parent="Filter/Panel"]
+offset_left = 22.0
+offset_top = 166.0
+offset_right = 166.0
+offset_bottom = 236.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "手臂"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Part5" type="Button" parent="Filter/Panel"]
+offset_left = 175.0
+offset_top = 166.0
+offset_right = 319.0
+offset_bottom = 236.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "裤子"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Part6" type="Button" parent="Filter/Panel"]
+offset_left = 328.0
+offset_top = 166.0
+offset_right = 472.0
+offset_bottom = 236.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "手套"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Button")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Dialog" parent="." instance=ExtResource("dialog")]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+
+[node name="WornDialog" parent="." instance=ExtResource("worn")]
+
+[node name="Toast" type="Label" parent="."]
+offset_left = 80.0
+offset_top = 1420.0
+offset_right = 880.0
+offset_bottom = 1504.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,0.9,0.5,1)
+theme_override_font_sizes/font_size = 29
+text = ""
+vertical_alignment = 1
+visible = false
+z_index = 11
+horizontal_alignment = 1
+autowrap_mode = 3
+theme_override_constants/outline_size = 6
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+
+[node name="ToastTimer" type="Timer" parent="."]
+one_shot = true
+wait_time = 2.0
+

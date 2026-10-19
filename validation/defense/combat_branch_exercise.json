@@ -1,0 +1,4986 @@
+{
+	"fixture": "24s isolated branch with durable enemy targets; not original-client equivalence proof",
+	"rows": [
+		{
+			"damage": 1735.8,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22
+			],
+			"option": 1,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "火球术"
+		},
+		{
+			"damage": 2696.1,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22
+			],
+			"option": 10,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重"
+		},
+		{
+			"damage": 4098.6,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22
+			],
+			"option": 11,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重A"
+		},
+		{
+			"damage": 3201.0,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				16,
+				18
+			],
+			"option": 12,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重B"
+		},
+		{
+			"damage": 8311.50000000004,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				16,
+				18,
+				35
+			],
+			"option": 13,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重"
+		},
+		{
+			"damage": 8397.90000000001,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				336,
+				337,
+				338
+			],
+			"option": 14,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎爆"
+		},
+		{
+			"damage": 12180.0,
+			"diagnostics": {},
+			"heal": 41.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				336,
+				337,
+				338
+			],
+			"option": 15,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎爆A"
+		},
+		{
+			"damage": 17599.2,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				336,
+				337,
+				338,
+				339
+			],
+			"option": 16,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎爆B"
+		},
+		{
+			"damage": 25957.5,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				336,
+				337,
+				338,
+				339,
+				344
+			],
+			"option": 17,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎爆"
+		},
+		{
+			"damage": 1644.6,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				25
+			],
+			"option": 2,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎枪"
+		},
+		{
+			"damage": 1740.6,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				25
+			],
+			"option": 3,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎枪A"
+		},
+		{
+			"damage": 1650.6,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				25
+			],
+			"option": 4,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎枪B"
+		},
+		{
+			"damage": 1944.6,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				25
+			],
+			"option": 5,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炎枪"
+		},
+		{
+			"damage": 1994.52,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22
+			],
+			"option": 6,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "爆破"
+		},
+		{
+			"damage": 2725.5,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22
+			],
+			"option": 7,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "爆破A"
+		},
+		{
+			"damage": 1994.52,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				29
+			],
+			"option": 8,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "爆破B"
+		},
+		{
+			"damage": 3616.2,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 1,
+			"learned_skills": [
+				1269,
+				17,
+				21,
+				22,
+				29,
+				19
+			],
+			"option": 9,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "爆破"
+		},
+		{
+			"damage": 1976.5,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194
+			],
+			"option": 76,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "自然之力"
+		},
+		{
+			"damage": 15139.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				187
+			],
+			"option": 77,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "缠绕"
+		},
+		{
+			"damage": 26114.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				187
+			],
+			"option": 78,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "缠绕A"
+		},
+		{
+			"damage": 22369.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				187
+			],
+			"option": 79,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "缠绕B"
+		},
+		{
+			"damage": 61699.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				187,
+				183,
+				184
+			],
+			"option": 80,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "缠绕"
+		},
+		{
+			"damage": 1976.5,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				661
+			],
+			"option": 81,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "荆棘"
+		},
+		{
+			"damage": 1976.5,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				661
+			],
+			"option": 82,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "荆棘A"
+		},
+		{
+			"damage": 1976.5,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				661,
+				665
+			],
+			"option": 83,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "荆棘B"
+		},
+		{
+			"damage": 1976.5,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				661,
+				665,
+				663
+			],
+			"option": 84,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "荆棘"
+		},
+		{
+			"damage": 4988.0,
+			"diagnostics": {},
+			"heal": 40.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				193
+			],
+			"option": 85,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 7,
+			"title": "培育"
+		},
+		{
+			"damage": 5981.0,
+			"diagnostics": {},
+			"heal": 38.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				193
+			],
+			"option": 86,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 7,
+			"title": "培育A"
+		},
+		{
+			"damage": 5282.0,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				193
+			],
+			"option": 87,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 7,
+			"title": "培育B"
+		},
+		{
+			"damage": 5909.0,
+			"diagnostics": {},
+			"heal": 33.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				193,
+				192
+			],
+			"option": 88,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 7,
+			"title": "培育"
+		},
+		{
+			"damage": 7367.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				101
+			],
+			"option": 89,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "天灾"
+		},
+		{
+			"damage": 12692.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				101
+			],
+			"option": 90,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "天灾A"
+		},
+		{
+			"damage": 10387.0,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				101,
+				108
+			],
+			"option": 91,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "天灾B"
+		},
+		{
+			"damage": 29599.5,
+			"diagnostics": {},
+			"heal": 52.0,
+			"hero": 2,
+			"learned_skills": [
+				1269,
+				194,
+				101,
+				108,
+				102
+			],
+			"option": 92,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "天灾"
+		},
+		{
+			"damage": 1926.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2
+			],
+			"option": 166,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "魔力飞弹"
+		},
+		{
+			"damage": 5562.0,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2
+			],
+			"option": 167,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奥术"
+		},
+		{
+			"damage": 4572.0,
+			"diagnostics": {},
+			"heal": 37.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				3
+			],
+			"option": 168,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奥术A"
+		},
+		{
+			"damage": 7362.0,
+			"diagnostics": {},
+			"heal": 37.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2
+			],
+			"option": 169,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奥术B"
+		},
+		{
+			"damage": 10476.0,
+			"diagnostics": {},
+			"heal": 37.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				3,
+				13
+			],
+			"option": 170,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奥术"
+		},
+		{
+			"damage": 4158.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				6,
+				7
+			],
+			"option": 171,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰霜"
+		},
+		{
+			"damage": 4485.0,
+			"diagnostics": {},
+			"heal": 35.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				6,
+				7
+			],
+			"option": 172,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰霜A"
+		},
+		{
+			"damage": 7815.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				6,
+				7
+			],
+			"option": 173,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰霜B"
+		},
+		{
+			"damage": 11823.0,
+			"diagnostics": {},
+			"heal": 52.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				6,
+				7
+			],
+			"option": 174,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰霜"
+		},
+		{
+			"damage": 7788.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				4,
+				5
+			],
+			"option": 175,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰"
+		},
+		{
+			"damage": 10323.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				4,
+				5
+			],
+			"option": 176,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰A"
+		},
+		{
+			"damage": 15597.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				4,
+				5
+			],
+			"option": 177,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰B"
+		},
+		{
+			"damage": 21666.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				4,
+				5
+			],
+			"option": 178,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰"
+		},
+		{
+			"damage": 5031.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				9,
+				10
+			],
+			"option": 179,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "雷霆"
+		},
+		{
+			"damage": 8028.0,
+			"diagnostics": {},
+			"heal": 52.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				9,
+				10
+			],
+			"option": 180,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "雷霆A"
+		},
+		{
+			"damage": 9396.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				9,
+				10
+			],
+			"option": 181,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "雷霆B"
+		},
+		{
+			"damage": 14053.5,
+			"diagnostics": {},
+			"heal": 33.0,
+			"hero": 3,
+			"learned_skills": [
+				1269,
+				1,
+				2,
+				9,
+				10,
+				11
+			],
+			"option": 182,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "雷霆"
+		},
+		{
+			"damage": 2630.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621
+			],
+			"option": 316,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣剑裁决"
+		},
+		{
+			"damage": 3415.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621
+			],
+			"option": 317,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣剑"
+		},
+		{
+			"damage": 5502.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621
+			],
+			"option": 318,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣剑A"
+		},
+		{
+			"damage": 5475.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				633
+			],
+			"option": 319,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣剑B"
+		},
+		{
+			"damage": 8180.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				633,
+				622,
+				620
+			],
+			"option": 320,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣剑"
+		},
+		{
+			"damage": 3255.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				625
+			],
+			"option": 321,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "魔剑"
+		},
+		{
+			"damage": 3843.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				625
+			],
+			"option": 322,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "魔剑A"
+		},
+		{
+			"damage": 3500.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				625
+			],
+			"option": 323,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "魔剑B"
+		},
+		{
+			"damage": 6572.25,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				625
+			],
+			"option": 324,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "魔剑"
+		},
+		{
+			"damage": 3011.25,
+			"diagnostics": {},
+			"heal": 40.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				755,
+				857
+			],
+			"option": 325,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣盾"
+		},
+		{
+			"damage": 3033.375,
+			"diagnostics": {},
+			"heal": 680.25,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				755,
+				857,
+				757
+			],
+			"option": 326,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣盾A"
+		},
+		{
+			"damage": 3049.875,
+			"diagnostics": {},
+			"heal": 40.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				755,
+				857,
+				756
+			],
+			"option": 327,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣盾B"
+		},
+		{
+			"damage": 3131.0,
+			"diagnostics": {},
+			"heal": 692.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				755,
+				857,
+				757,
+				756
+			],
+			"option": 328,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣盾"
+		},
+		{
+			"damage": 6475.0,
+			"diagnostics": {},
+			"heal": 38.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				162
+			],
+			"option": 329,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "剑气"
+		},
+		{
+			"damage": 4834.2,
+			"diagnostics": {},
+			"heal": 26.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				162
+			],
+			"option": 330,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "剑气A"
+		},
+		{
+			"damage": 5745.0,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				164
+			],
+			"option": 331,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "剑气B"
+		},
+		{
+			"damage": 14113.6,
+			"diagnostics": {},
+			"heal": 20.0,
+			"hero": 4,
+			"learned_skills": [
+				1269,
+				621,
+				164
+			],
+			"option": 332,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "剑气"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429
+			],
+			"option": 396,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "鼓舞"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429
+			],
+			"option": 397,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "号令"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				432
+			],
+			"option": 398,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "号令A"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429
+			],
+			"option": 399,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "号令B"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				432
+			],
+			"option": 400,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "号令"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				430
+			],
+			"option": 401,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "守护"
+		},
+		{
+			"damage": 2271.75,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				430
+			],
+			"option": 402,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "守护A"
+		},
+		{
+			"damage": 2271.75,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				430
+			],
+			"option": 403,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "守护B"
+		},
+		{
+			"damage": 2301.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				430
+			],
+			"option": 404,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "守护"
+		},
+		{
+			"damage": 2242.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				431
+			],
+			"option": 405,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "强袭"
+		},
+		{
+			"damage": 2437.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				431
+			],
+			"option": 406,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "强袭A"
+		},
+		{
+			"damage": 2437.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				431
+			],
+			"option": 407,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "强袭B"
+		},
+		{
+			"damage": 2632.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				431
+			],
+			"option": 408,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "强袭"
+		},
+		{
+			"damage": 3170.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				1022
+			],
+			"option": 409,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "集结"
+		},
+		{
+			"damage": 3197.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				1022
+			],
+			"option": 410,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "集结A"
+		},
+		{
+			"damage": 3857.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				1022
+			],
+			"option": 411,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "集结B"
+		},
+		{
+			"damage": 4132.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 5,
+			"learned_skills": [
+				1269,
+				429,
+				1022
+			],
+			"option": 412,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "集结"
+		},
+		{
+			"damage": 976.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				460,
+				461
+			],
+			"option": 486,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "炼金药剂"
+		},
+		{
+			"damage": 6757.5,
+			"diagnostics": {},
+			"heal": 38.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				455,
+				456
+			],
+			"option": 487,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "燃烧药剂"
+		},
+		{
+			"damage": 7180.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				460,
+				461
+			],
+			"option": 488,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "燃烧药剂A"
+		},
+		{
+			"damage": 14095.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				453,
+				460,
+				461
+			],
+			"option": 489,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "燃烧药剂B"
+		},
+		{
+			"damage": 23116.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				453,
+				454,
+				460,
+				461
+			],
+			"option": 490,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "燃烧药剂"
+		},
+		{
+			"damage": 4050.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				455,
+				456,
+				457
+			],
+			"option": 491,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰冻药剂"
+		},
+		{
+			"damage": 4515.0,
+			"diagnostics": {},
+			"heal": 36.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				455,
+				456,
+				460,
+				461
+			],
+			"option": 492,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰冻药剂A"
+		},
+		{
+			"damage": 5292.0,
+			"diagnostics": {},
+			"heal": 37.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				455,
+				456,
+				457,
+				460,
+				461
+			],
+			"option": 493,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "冰冻药剂B"
+		},
+		{
+			"damage": 15666.0,
+			"diagnostics": {},
+			"heal": 35.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				455,
+				456,
+				457,
+				460,
+				461
+			],
+			"option": 494,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "冰冻药剂"
+		},
+		{
+			"damage": 6062.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				506,
+				460,
+				461
+			],
+			"option": 495,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "治疗药剂"
+		},
+		{
+			"damage": 6757.5,
+			"diagnostics": {},
+			"heal": 38.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				506,
+				455,
+				456
+			],
+			"option": 496,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "治疗药剂A"
+		},
+		{
+			"damage": 6757.5,
+			"diagnostics": {},
+			"heal": 38.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				506,
+				455,
+				456
+			],
+			"option": 497,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "治疗药剂B"
+		},
+		{
+			"damage": 6062.5,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				451,
+				452,
+				506,
+				507,
+				460,
+				461
+			],
+			"option": 498,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "治疗药剂"
+		},
+		{
+			"damage": 976.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				460,
+				461,
+				506
+			],
+			"option": 499,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "粘液药剂"
+		},
+		{
+			"damage": 3070.0,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				460,
+				461
+			],
+			"option": 500,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "粘液药剂A"
+		},
+		{
+			"damage": 3070.0,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				460,
+				461
+			],
+			"option": 501,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "粘液药剂B"
+		},
+		{
+			"damage": 4161.0,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 6,
+			"learned_skills": [
+				1269,
+				450,
+				460,
+				461,
+				506
+			],
+			"option": 502,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "粘液药剂"
+		},
+		{
+			"damage": 1705.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201
+			],
+			"option": 671,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "尸鬼复苏"
+		},
+		{
+			"damage": 1705.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				202
+			],
+			"option": 672,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂潮"
+		},
+		{
+			"damage": 181576.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				202
+			],
+			"option": 673,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂潮A"
+		},
+		{
+			"damage": 1863.5,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				202
+			],
+			"option": 674,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂潮B"
+		},
+		{
+			"damage": 181817.6,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				202
+			],
+			"option": 675,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂潮"
+		},
+		{
+			"damage": 1705.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201
+			],
+			"option": 676,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "不亡"
+		},
+		{
+			"damage": 1705.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				205
+			],
+			"option": 677,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "不亡A"
+		},
+		{
+			"damage": 1680.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201
+			],
+			"option": 678,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "不亡B"
+		},
+		{
+			"damage": 1680.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				205,
+				371,
+				372
+			],
+			"option": 679,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "不亡"
+		},
+		{
+			"damage": 1705.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				965,
+				966
+			],
+			"option": 680,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂暴"
+		},
+		{
+			"damage": 2094.75,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				965,
+				966,
+				553,
+				554
+			],
+			"option": 681,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂暴A"
+		},
+		{
+			"damage": 1863.5,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				965,
+				966
+			],
+			"option": 682,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂暴B"
+		},
+		{
+			"damage": 2450.75,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				965,
+				966,
+				553,
+				554
+			],
+			"option": 683,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "狂暴"
+		},
+		{
+			"damage": 9682.5,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				978,
+				979
+			],
+			"option": 684,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "收割"
+		},
+		{
+			"damage": 6845.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				978,
+				979
+			],
+			"option": 685,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "收割A"
+		},
+		{
+			"damage": 10370.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				978,
+				979,
+				980
+			],
+			"option": 686,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "收割B"
+		},
+		{
+			"damage": 5720.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 7,
+			"learned_skills": [
+				1269,
+				201,
+				978,
+				979,
+				980,
+				981
+			],
+			"option": 687,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "收割"
+		},
+		{
+			"damage": 3643.0,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241
+			],
+			"option": 726,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "猩红新星"
+		},
+		{
+			"damage": 4898.0,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				249
+			],
+			"option": 727,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血池"
+		},
+		{
+			"damage": 5198.09999999999,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				249
+			],
+			"option": 728,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血池A"
+		},
+		{
+			"damage": 6259.5,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				249
+			],
+			"option": 729,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血池B"
+		},
+		{
+			"damage": 9143.95000000002,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				249,
+				250
+			],
+			"option": 730,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血池"
+		},
+		{
+			"damage": 3964.5,
+			"diagnostics": {},
+			"heal": 45.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				836
+			],
+			"option": 731,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血爪"
+		},
+		{
+			"damage": 4496.25000000001,
+			"diagnostics": {},
+			"heal": 45.9999999999995,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				836
+			],
+			"option": 732,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血爪A"
+		},
+		{
+			"damage": 3228.125,
+			"diagnostics": {},
+			"heal": 37.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				836
+			],
+			"option": 733,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血爪B"
+		},
+		{
+			"damage": 5369.37500000002,
+			"diagnostics": {},
+			"heal": 34.9999999999995,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				836
+			],
+			"option": 734,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血爪"
+		},
+		{
+			"damage": 4340.0,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				246
+			],
+			"option": 735,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "眷族"
+		},
+		{
+			"damage": 4647.0,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				246
+			],
+			"option": 736,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "眷族A"
+		},
+		{
+			"damage": 4430.0,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				246
+			],
+			"option": 737,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "眷族B"
+		},
+		{
+			"damage": 15977.0,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				246
+			],
+			"option": 738,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "眷族"
+		},
+		{
+			"damage": 7092.67561369165,
+			"diagnostics": {},
+			"heal": 395.834306229177,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				848
+			],
+			"option": 739,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血狂"
+		},
+		{
+			"damage": 7153.86657634183,
+			"diagnostics": {},
+			"heal": 405.843699212052,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				848,
+				849
+			],
+			"option": 740,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血狂A"
+		},
+		{
+			"damage": 7092.67561369165,
+			"diagnostics": {},
+			"heal": 395.834306229177,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				848,
+				243
+			],
+			"option": 741,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血狂B"
+		},
+		{
+			"damage": 7155.3896111087,
+			"diagnostics": {},
+			"heal": 406.825909695914,
+			"hero": 8,
+			"learned_skills": [
+				1269,
+				240,
+				241,
+				848,
+				849,
+				243,
+				252
+			],
+			"option": 742,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "血狂"
+		},
+		{
+			"damage": 3333.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413
+			],
+			"option": 801,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "践踏"
+		},
+		{
+			"damage": 4122.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				416
+			],
+			"option": 802,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "余震"
+		},
+		{
+			"damage": 5280.0,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				416
+			],
+			"option": 803,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "余震A"
+		},
+		{
+			"damage": 4275.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				416
+			],
+			"option": 804,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "余震B"
+		},
+		{
+			"damage": 10512.0,
+			"diagnostics": {},
+			"heal": 43.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				416,
+				420,
+				421
+			],
+			"option": 805,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "余震"
+		},
+		{
+			"damage": 4941.0,
+			"diagnostics": {},
+			"heal": 50.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413
+			],
+			"option": 806,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "回响"
+		},
+		{
+			"damage": 5268.6,
+			"diagnostics": {},
+			"heal": 50.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				417
+			],
+			"option": 807,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "回响A"
+		},
+		{
+			"damage": 6570.0,
+			"diagnostics": {},
+			"heal": 50.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413
+			],
+			"option": 808,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "回响B"
+		},
+		{
+			"damage": 9006.47999999999,
+			"diagnostics": {},
+			"heal": 49.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				417,
+				418,
+				419
+			],
+			"option": 809,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "回响"
+		},
+		{
+			"damage": 4173.0,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				947
+			],
+			"option": 810,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奴仆"
+		},
+		{
+			"damage": 12441.0,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				947
+			],
+			"option": 811,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奴仆A"
+		},
+		{
+			"damage": 5113.2,
+			"diagnostics": {},
+			"heal": 52.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				947
+			],
+			"option": 812,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "奴仆B"
+		},
+		{
+			"damage": 33099.5999999998,
+			"diagnostics": {},
+			"heal": 52.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				947
+			],
+			"option": 813,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "奴仆"
+		},
+		{
+			"damage": 5774.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				91,
+				92
+			],
+			"option": 814,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "火雨"
+		},
+		{
+			"damage": 7147.0,
+			"diagnostics": {},
+			"heal": 52.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				91,
+				92
+			],
+			"option": 815,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "火雨A"
+		},
+		{
+			"damage": 6489.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				91,
+				92
+			],
+			"option": 816,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "火雨B"
+		},
+		{
+			"damage": 13673.5,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 9,
+			"learned_skills": [
+				1269,
+				413,
+				91,
+				92,
+				93
+			],
+			"option": 817,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "火雨"
+		},
+		{
+			"damage": 4298.39999999999,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50
+			],
+			"option": 901,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "死亡射线"
+		},
+		{
+			"damage": 6004.79999999999,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				51
+			],
+			"option": 902,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "脉冲"
+		},
+		{
+			"damage": 7203.59999999999,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				51
+			],
+			"option": 903,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "脉冲A"
+		},
+		{
+			"damage": 6814.79999999999,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				51
+			],
+			"option": 904,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "脉冲B"
+		},
+		{
+			"damage": 10368.0,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				51
+			],
+			"option": 905,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "脉冲"
+		},
+		{
+			"damage": 4715.712,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				52,
+				57
+			],
+			"option": 906,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂解"
+		},
+		{
+			"damage": 12440.0448,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				52,
+				57
+			],
+			"option": 907,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂解A"
+		},
+		{
+			"damage": 5300.736,
+			"diagnostics": {},
+			"heal": 27.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				52,
+				57,
+				53
+			],
+			"option": 908,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂解B"
+		},
+		{
+			"damage": 13189.056,
+			"diagnostics": {},
+			"heal": 27.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				52,
+				57,
+				53,
+				54
+			],
+			"option": 909,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂解"
+		},
+		{
+			"damage": 3449.6,
+			"diagnostics": {},
+			"heal": 27.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				58
+			],
+			"option": 910,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "唤醒"
+		},
+		{
+			"damage": 3712.6,
+			"diagnostics": {},
+			"heal": 27.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				58
+			],
+			"option": 911,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 3,
+			"title": "唤醒A"
+		},
+		{
+			"damage": 4016.0,
+			"diagnostics": {},
+			"heal": 27.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				58
+			],
+			"option": 912,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "唤醒B"
+		},
+		{
+			"damage": 14727.2,
+			"diagnostics": {},
+			"heal": 9.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				58
+			],
+			"option": 913,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "唤醒"
+		},
+		{
+			"damage": 7624.8,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				49
+			],
+			"option": 914,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂变"
+		},
+		{
+			"damage": 9352.8,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				49
+			],
+			"option": 915,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂变A"
+		},
+		{
+			"damage": 7624.8,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				49,
+				48
+			],
+			"option": 916,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂变B"
+		},
+		{
+			"damage": 33155.9999999999,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 10,
+			"learned_skills": [
+				1269,
+				50,
+				49,
+				48,
+				46,
+				47
+			],
+			"option": 917,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "裂变"
+		},
+		{
+			"damage": 3941.0,
+			"diagnostics": {},
+			"heal": 35.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1005
+			],
+			"option": 1000,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "幻身"
+		},
+		{
+			"damage": 3916.0,
+			"diagnostics": {},
+			"heal": 33.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1005
+			],
+			"option": 1001,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "幻身A"
+		},
+		{
+			"damage": 3916.0,
+			"diagnostics": {},
+			"heal": 28.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1005,
+				1008,
+				1009
+			],
+			"option": 1002,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "幻身B"
+		},
+		{
+			"damage": 3725.0,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1005,
+				1008,
+				1009
+			],
+			"option": 1003,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "幻身"
+		},
+		{
+			"damage": 3564.0,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1013,
+				1019
+			],
+			"option": 1004,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "绽放"
+		},
+		{
+			"damage": 3573.0,
+			"diagnostics": {},
+			"heal": 28.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1013,
+				1019
+			],
+			"option": 1005,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "绽放A"
+		},
+		{
+			"damage": 4351.5,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1013,
+				1019
+			],
+			"option": 1006,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "绽放B"
+		},
+		{
+			"damage": 7930.0,
+			"diagnostics": {},
+			"heal": 32.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				1013,
+				1019,
+				1014
+			],
+			"option": 1007,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "绽放"
+		},
+		{
+			"damage": 2846.0,
+			"diagnostics": {},
+			"heal": 43.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605
+			],
+			"option": 991,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "惑幻"
+		},
+		{
+			"damage": 3873.0,
+			"diagnostics": {},
+			"heal": 41.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				997,
+				998
+			],
+			"option": 992,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "镜影"
+		},
+		{
+			"damage": 4647.0,
+			"diagnostics": {},
+			"heal": 41.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				997,
+				998,
+				999
+			],
+			"option": 993,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "镜影A"
+		},
+		{
+			"damage": 5480.0,
+			"diagnostics": {},
+			"heal": 33.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				997,
+				998
+			],
+			"option": 994,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 6,
+			"title": "镜影B"
+		},
+		{
+			"damage": 9189.0,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				997,
+				998,
+				999,
+				1000
+			],
+			"option": 995,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 6,
+			"title": "镜影"
+		},
+		{
+			"damage": 4905.0,
+			"diagnostics": {},
+			"heal": 44.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				990,
+				991
+			],
+			"option": 996,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "闪击"
+		},
+		{
+			"damage": 8090.0,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				990,
+				991,
+				992
+			],
+			"option": 997,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 2,
+			"title": "闪击A"
+		},
+		{
+			"damage": 6015.0,
+			"diagnostics": {},
+			"heal": 43.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				990,
+				991,
+				995
+			],
+			"option": 998,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "闪击B"
+		},
+		{
+			"damage": 14535.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 11,
+			"learned_skills": [
+				1269,
+				605,
+				990,
+				991,
+				992,
+				995,
+				993,
+				994
+			],
+			"option": 999,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 4,
+			"title": "闪击"
+		},
+		{
+			"damage": 450.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751
+			],
+			"option": 1036,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "神圣惩击"
+		},
+		{
+			"damage": 850.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				753
+			],
+			"option": 1037,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "谴戒"
+		},
+		{
+			"damage": 2300.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				753
+			],
+			"option": 1038,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "谴戒A"
+		},
+		{
+			"damage": 1570.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				753,
+				754
+			],
+			"option": 1039,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "谴戒B"
+		},
+		{
+			"damage": 7647.5,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				753,
+				754,
+				752
+			],
+			"option": 1040,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "谴戒"
+		},
+		{
+			"damage": 3980.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				891
+			],
+			"option": 1041,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣域"
+		},
+		{
+			"damage": 5432.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				891,
+				892
+			],
+			"option": 1042,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣域A"
+		},
+		{
+			"damage": 5451.0,
+			"diagnostics": {},
+			"heal": 16.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				891
+			],
+			"option": 1043,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣域B"
+		},
+		{
+			"damage": 9759.0,
+			"diagnostics": {},
+			"heal": 16.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				891,
+				892
+			],
+			"option": 1044,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "圣域"
+		},
+		{
+			"damage": 450.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				805,
+				806,
+				807
+			],
+			"option": 1045,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奉献"
+		},
+		{
+			"damage": 450.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				805,
+				806,
+				807
+			],
+			"option": 1046,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奉献A"
+		},
+		{
+			"damage": 450.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				805,
+				806,
+				807
+			],
+			"option": 1047,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奉献B"
+		},
+		{
+			"damage": 450.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				805,
+				806,
+				807,
+				894,
+				895
+			],
+			"option": 1048,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "奉献"
+		},
+		{
+			"damage": 600.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				735
+			],
+			"option": 1049,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "涤罪"
+		},
+		{
+			"damage": 600.0,
+			"diagnostics": {},
+			"heal": 17.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				735,
+				748
+			],
+			"option": 1050,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "涤罪A"
+		},
+		{
+			"damage": 875.0,
+			"diagnostics": {},
+			"heal": 204.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				735,
+				901,
+				902
+			],
+			"option": 1051,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "涤罪B"
+		},
+		{
+			"damage": 875.0,
+			"diagnostics": {},
+			"heal": 204.0,
+			"hero": 12,
+			"learned_skills": [
+				1269,
+				749,
+				745,
+				751,
+				735,
+				748,
+				901,
+				902,
+				747
+			],
+			"option": 1052,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "涤罪"
+		},
+		{
+			"damage": 1230.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269
+			],
+			"option": 1076,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重箭"
+		},
+		{
+			"damage": 1680.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269
+			],
+			"option": 1077,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重"
+		},
+		{
+			"damage": 2310.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269
+			],
+			"option": 1078,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重A"
+		},
+		{
+			"damage": 2010.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269
+			],
+			"option": 1079,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重B"
+		},
+		{
+			"damage": 3382.5,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				869
+			],
+			"option": 1080,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "多重"
+		},
+		{
+			"damage": 2475.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				866
+			],
+			"option": 1081,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "集中"
+		},
+		{
+			"damage": 3002.418,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				866,
+				772
+			],
+			"option": 1082,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "集中A"
+		},
+		{
+			"damage": 3930.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				866,
+				874
+			],
+			"option": 1083,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "集中B"
+		},
+		{
+			"damage": 6307.278,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				866,
+				772,
+				874,
+				871
+			],
+			"option": 1084,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "集中"
+		},
+		{
+			"damage": 600000.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				877,
+				878
+			],
+			"option": 1085,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "折射"
+		},
+		{
+			"damage": 600000.000000039,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				877,
+				878
+			],
+			"option": 1086,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "折射A"
+		},
+		{
+			"damage": 600000.000000061,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				877,
+				878
+			],
+			"option": 1087,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "折射B"
+		},
+		{
+			"damage": 600000.000000127,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				877,
+				878
+			],
+			"option": 1088,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "折射"
+		},
+		{
+			"damage": 4464.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				773,
+				774,
+				775,
+				777,
+				780
+			],
+			"option": 1089,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "箭雨"
+		},
+		{
+			"damage": 7986.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				773,
+				774,
+				775,
+				777,
+				780
+			],
+			"option": 1090,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "箭雨A"
+		},
+		{
+			"damage": 8451.0,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				773,
+				774,
+				775,
+				777,
+				780
+			],
+			"option": 1091,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "箭雨B"
+		},
+		{
+			"damage": 27306.0,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 13,
+			"learned_skills": [
+				1269,
+				773,
+				774,
+				775,
+				777,
+				780,
+				776
+			],
+			"option": 1092,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "箭雨"
+		},
+		{
+			"damage": 1152.0,
+			"diagnostics": {},
+			"heal": 56.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71
+			],
+			"option": 121,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "寒冰箭"
+		},
+		{
+			"damage": 3150.0,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				73
+			],
+			"option": 122,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "碎裂"
+		},
+		{
+			"damage": 5238.00000000001,
+			"diagnostics": {},
+			"heal": 51.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				73
+			],
+			"option": 123,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "碎裂A"
+		},
+		{
+			"damage": 5328.0,
+			"diagnostics": {},
+			"heal": 56.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				73
+			],
+			"option": 124,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "碎裂B"
+		},
+		{
+			"damage": 17924.3999999999,
+			"diagnostics": {},
+			"heal": 50.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				73,
+				74
+			],
+			"option": 125,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "碎裂"
+		},
+		{
+			"damage": 2520.0,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				351
+			],
+			"option": 126,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰风"
+		},
+		{
+			"damage": 2767.5,
+			"diagnostics": {},
+			"heal": 56.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				351
+			],
+			"option": 127,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰风A"
+		},
+		{
+			"damage": 3794.40000000001,
+			"diagnostics": {},
+			"heal": 57.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				351
+			],
+			"option": 128,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰风B"
+		},
+		{
+			"damage": 4386.60000000001,
+			"diagnostics": {},
+			"heal": 55.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				351,
+				352
+			],
+			"option": 129,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰风"
+		},
+		{
+			"damage": 3918.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				81,
+				82
+			],
+			"option": 130,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰墙"
+		},
+		{
+			"damage": 5868.0,
+			"diagnostics": {},
+			"heal": 42.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				81,
+				82,
+				83
+			],
+			"option": 131,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰墙A"
+		},
+		{
+			"damage": 5020.79999999999,
+			"diagnostics": {},
+			"heal": 54.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				81,
+				82
+			],
+			"option": 132,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰墙B"
+		},
+		{
+			"damage": 16209.6,
+			"diagnostics": {},
+			"heal": 47.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				81,
+				82,
+				83
+			],
+			"option": 133,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰墙"
+		},
+		{
+			"damage": 1764.0,
+			"diagnostics": {},
+			"heal": 56.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				86
+			],
+			"option": 134,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰枪"
+		},
+		{
+			"damage": 2556.0,
+			"diagnostics": {},
+			"heal": 56.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				86
+			],
+			"option": 135,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰枪A"
+		},
+		{
+			"damage": 2340.0,
+			"diagnostics": {},
+			"heal": 56.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				86
+			],
+			"option": 136,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰枪B"
+		},
+		{
+			"damage": 9648.0,
+			"diagnostics": {},
+			"heal": 55.0,
+			"hero": 14,
+			"learned_skills": [
+				1269,
+				71,
+				86,
+				87
+			],
+			"option": 137,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "冰枪"
+		},
+		{
+			"damage": 2000.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076
+			],
+			"option": 211,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "集魂"
+		},
+		{
+			"damage": 3781.25,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				261
+			],
+			"option": 212,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "夺魂"
+		},
+		{
+			"damage": 3706.25,
+			"diagnostics": {},
+			"heal": 11.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				261,
+				264
+			],
+			"option": 213,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "夺魂A"
+		},
+		{
+			"damage": 3781.25,
+			"diagnostics": {},
+			"heal": 34.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				261,
+				263
+			],
+			"option": 214,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "夺魂B"
+		},
+		{
+			"damage": 4775.0,
+			"diagnostics": {},
+			"heal": 13.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				264,
+				263,
+				262
+			],
+			"option": 215,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "夺魂"
+		},
+		{
+			"damage": 1200.0,
+			"diagnostics": {},
+			"heal": 19.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1190,
+				1191,
+				1189
+			],
+			"option": 216,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "影袭"
+		},
+		{
+			"damage": 1485.0,
+			"diagnostics": {},
+			"heal": 21.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1190,
+				1191,
+				1189
+			],
+			"option": 217,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "影袭A"
+		},
+		{
+			"damage": 2525.0,
+			"diagnostics": {},
+			"heal": 24.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1190,
+				1191,
+				1189
+			],
+			"option": 218,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "影袭B"
+		},
+		{
+			"damage": 4688.75,
+			"diagnostics": {},
+			"heal": 35.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1190,
+				1191,
+				1189
+			],
+			"option": 219,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "影袭"
+		},
+		{
+			"damage": 2000.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1196,
+				1197,
+				1198
+			],
+			"option": 220,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "附身"
+		},
+		{
+			"damage": 2000.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1196,
+				1197,
+				1198
+			],
+			"option": 221,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "附身A"
+		},
+		{
+			"damage": 2200.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1196,
+				1197,
+				1198
+			],
+			"option": 222,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "附身B"
+		},
+		{
+			"damage": 2200.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1196,
+				1197,
+				1198,
+				1199
+			],
+			"option": 223,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "附身"
+		},
+		{
+			"damage": 2000.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1205
+			],
+			"option": 224,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "游魂"
+		},
+		{
+			"damage": 2000.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1205,
+				1206
+			],
+			"option": 225,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "游魂A"
+		},
+		{
+			"damage": 2000.0,
+			"diagnostics": {},
+			"heal": 31.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1205
+			],
+			"option": 226,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "游魂B"
+		},
+		{
+			"damage": 15329.8124999999,
+			"diagnostics": {},
+			"heal": 550.0,
+			"hero": 15,
+			"learned_skills": [
+				1269,
+				1076,
+				1205,
+				1206,
+				1208,
+				1209
+			],
+			"option": 227,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "游魂"
+		},
+		{
+			"damage": 879.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327
+			],
+			"option": 261,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "燃血箭"
+		},
+		{
+			"damage": 879.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1330,
+				1331
+			],
+			"option": 262,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "恶魔契约"
+		},
+		{
+			"damage": 879.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1330,
+				1331
+			],
+			"option": 263,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "恶魔契约A"
+		},
+		{
+			"damage": 879.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1330,
+				1331
+			],
+			"option": 264,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "恶魔契约B"
+		},
+		{
+			"damage": 879.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1330,
+				1331
+			],
+			"option": 265,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "恶魔契约"
+		},
+		{
+			"damage": 1828.5,
+			"diagnostics": {},
+			"heal": 117.5,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1336,
+				1337,
+				1338
+			],
+			"option": 266,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "乱击"
+		},
+		{
+			"damage": 1500.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1336,
+				1337,
+				1338
+			],
+			"option": 267,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "乱击A"
+		},
+		{
+			"damage": 2026.5,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1336,
+				1337,
+				1338
+			],
+			"option": 268,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "乱击B"
+		},
+		{
+			"damage": 4910.1,
+			"diagnostics": {},
+			"heal": 129.5,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1336,
+				1337,
+				1338
+			],
+			"option": 269,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "乱击"
+		},
+		{
+			"damage": 2859.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1342
+			],
+			"option": 270,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰之击"
+		},
+		{
+			"damage": 2859.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1342,
+				1343
+			],
+			"option": 271,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰之击A"
+		},
+		{
+			"damage": 4803.0,
+			"diagnostics": {},
+			"heal": 113.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1342
+			],
+			"option": 272,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰之击B"
+		},
+		{
+			"damage": 8191.5,
+			"diagnostics": {},
+			"heal": 117.5,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1342,
+				1343
+			],
+			"option": 273,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烈焰之击"
+		},
+		{
+			"damage": 4149.75,
+			"diagnostics": {},
+			"heal": 174.5,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1346,
+				1347
+			],
+			"option": 274,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炙热箭雨"
+		},
+		{
+			"damage": 6663.0,
+			"diagnostics": {},
+			"heal": 179.0,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1346,
+				1347
+			],
+			"option": 275,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炙热箭雨A"
+		},
+		{
+			"damage": 5767.5,
+			"diagnostics": {},
+			"heal": 165.5,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1346,
+				1347
+			],
+			"option": 276,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炙热箭雨B"
+		},
+		{
+			"damage": 12268.05,
+			"diagnostics": {},
+			"heal": 174.5,
+			"hero": 16,
+			"learned_skills": [
+				1270,
+				1326,
+				1327,
+				1346,
+				1347
+			],
+			"option": 277,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "炙热箭雨"
+		},
+		{
+			"damage": 2187.5,
+			"diagnostics": {},
+			"heal": 43.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429
+			],
+			"option": 601,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "毒刃"
+		},
+		{
+			"damage": 4131.25,
+			"diagnostics": {},
+			"heal": 22.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1482,
+				1483
+			],
+			"option": 602,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烟幕"
+		},
+		{
+			"damage": 3923.75,
+			"diagnostics": {},
+			"heal": 33.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1482,
+				1483
+			],
+			"option": 603,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烟幕A"
+		},
+		{
+			"damage": 5769.5,
+			"diagnostics": {},
+			"heal": 22.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1482,
+				1483
+			],
+			"option": 604,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烟幕B"
+		},
+		{
+			"damage": 5396.1875,
+			"diagnostics": {},
+			"heal": 37.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1482,
+				1483,
+				1485
+			],
+			"option": 605,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "烟幕"
+		},
+		{
+			"damage": 2723.5,
+			"diagnostics": {},
+			"heal": 21.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1467,
+				1468
+			],
+			"option": 606,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "潜影"
+		},
+		{
+			"damage": 2763.5,
+			"diagnostics": {},
+			"heal": 21.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1467,
+				1468
+			],
+			"option": 607,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "潜影A"
+		},
+		{
+			"damage": 4360.0,
+			"diagnostics": {},
+			"heal": 30.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1467,
+				1468
+			],
+			"option": 608,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "潜影B"
+		},
+		{
+			"damage": 3926.0,
+			"diagnostics": {},
+			"heal": 18.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1467,
+				1468
+			],
+			"option": 609,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 1,
+			"title": "潜影"
+		},
+		{
+			"damage": 5920.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1439,
+				1440
+			],
+			"option": 610,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "瞬影"
+		},
+		{
+			"damage": 5980.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1439,
+				1440
+			],
+			"option": 611,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "瞬影A"
+		},
+		{
+			"damage": 11960.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1439,
+				1440
+			],
+			"option": 612,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "瞬影B"
+		},
+		{
+			"damage": 12795.0,
+			"diagnostics": {},
+			"heal": 0.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1439,
+				1440,
+				1446
+			],
+			"option": 613,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "瞬影"
+		},
+		{
+			"damage": 2515.0,
+			"diagnostics": {},
+			"heal": 46.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1434,
+				1435
+			],
+			"option": 614,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "刺杀"
+		},
+		{
+			"damage": 2252.25,
+			"diagnostics": {},
+			"heal": 40.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1434,
+				1435
+			],
+			"option": 615,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "刺杀A"
+		},
+		{
+			"damage": 2442.0,
+			"diagnostics": {},
+			"heal": 42.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1434,
+				1435,
+				1437
+			],
+			"option": 616,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "刺杀B"
+		},
+		{
+			"damage": 7449.0,
+			"diagnostics": {},
+			"heal": 28.0,
+			"hero": 17,
+			"learned_skills": [
+				1269,
+				1429,
+				1434,
+				1435,
+				1437
+			],
+			"option": 617,
+			"phase": "playing",
+			"prerequisites_satisfied": true,
+			"summons": 0,
+			"title": "刺杀"
+		}
+	]
+}

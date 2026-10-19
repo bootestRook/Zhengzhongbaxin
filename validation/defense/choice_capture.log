@@ -1,0 +1,5 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[CAPTURE] seed=889 offers=[{"description":"攻击强度-50，同时攻击3个目标","id":13,"owner":0,"res":"hero13:ranger","subtitle":"多重箭","title":"游侠"},{"description":"攻击改为引导5秒死亡射线造成法术伤害，每5点攻击速度使死亡射线伤害+1%","id":10,"owner":0,"res":"hero10:skull4","subtitle":"死亡射线","title":"巫妖"},{"description":"攻击5次后对周围怪物造成伤害，有25%概率施加2秒晕眩，根据自身生命值造成额外伤害","id":9,"owner":0,"res":"hero9:devil","subtitle":"践踏","title":"深渊领主"}]
+[CAPTURE] complete

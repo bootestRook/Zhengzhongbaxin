@@ -1,0 +1,89 @@
+{
+  "format": "defense-battle-lab",
+  "version": 1,
+  "title": "寒冰射手：真实箭矢碰撞",
+  "config": {
+    "version": 1,
+    "seed": 53,
+    "level": 1,
+    "wave": 1,
+    "legal_terms": true,
+    "settings": {
+      "spawn": false,
+      "progression": false,
+      "respawn": false
+    },
+    "units": [
+      {
+        "key": 1,
+        "kind": "hero",
+        "template": 13,
+        "pos": [
+          800,
+          1100
+        ],
+        "terms": {},
+        "attributes": {
+          "4": 100,
+          "7": 0
+        },
+        "hp_ratio": 1,
+        "survival": "normal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": true
+        }
+      },
+      {
+        "key": 2,
+        "kind": "enemy",
+        "template": 101,
+        "pos": [
+          800,
+          750
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 10000
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": false
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "action": "advance",
+      "payload": {
+        "ticks": 200
+      }
+    }
+  ],
+  "checks": [
+    {
+      "kind": "event",
+      "event": "cast",
+      "op": "gte",
+      "value": 1,
+      "skill": 20002
+    },
+    {
+      "key": 1,
+      "field": "stats.damage",
+      "op": "gte",
+      "value": 50
+    },
+    {
+      "key": 2,
+      "field": "dead",
+      "op": "eq",
+      "value": false
+    }
+  ]
+}

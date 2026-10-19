@@ -1,0 +1,82 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_roster_card.gd" id="1"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="atlas_sprite"]
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 0.82, 0.25, 1)
+
+[node name="RosterCard" type="Control"]
+offset_right = 172.0
+offset_bottom = 330.0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="EmptySlot" type="TextureRect" parent="."]
+offset_right = 172.0
+offset_bottom = 198.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("atlas_sprite")
+resource_key = "map:roster_empty"
+
+[node name="Portrait" type="Button" parent="."]
+offset_right = 172.0
+offset_bottom = 198.0
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+
+[node name="Art" type="Control" parent="Portrait"]
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 151.0
+offset_bottom = 156.0
+mouse_filter = 2
+
+[node name="Skill" type="Button" parent="."]
+offset_left = 47.0
+offset_top = 206.0
+offset_right = 125.0
+offset_bottom = 284.0
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+
+[node name="SkillLevel" type="Label" parent="."]
+offset_left = 90.0
+offset_top = 254.0
+offset_right = 129.0
+offset_bottom = 297.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Revive" type="Label" parent="."]
+visible = false
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 151.0
+offset_bottom = 156.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 64
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "data_classes": {
+    "definition": "Immutable identities and editor-facing metadata.",
+    "localization": "Source-language keys and translated values.",
+    "platform_override": "Explicit platform or quality-tier differences.",
+    "relation": "Ordered or weighted links between definitions.",
+    "resource_binding": "Logical asset IDs mapped to runtime resources and source evidence.",
+    "system_setting": "Typed project-wide configuration with ownership and units.",
+    "tuning": "Frequently balanced numeric values with declared bounds and units."
+  },
+  "tables": {
+    "definitions": {
+      "class": "definition",
+      "source": "definitions.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "feature_id", "type": "ref", "required": true, "table": "feature_catalog", "field": "id"},
+        {"name": "definition_type", "type": "id", "required": true},
+        {"name": "display_name_key", "type": "ref", "required": true, "table": "localization", "field": "key"},
+        {"name": "tags", "type": "string", "required": false},
+        {"name": "resource_id", "type": "ref", "required": false, "table": "resource_bindings", "field": "id"}
+      ]
+    },
+    "feature_catalog": {
+      "class": "system_setting",
+      "source": "feature_catalog.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "owner", "type": "string", "required": true},
+        {"name": "save_namespace", "type": "id", "required": true},
+        {"name": "status", "type": "enum", "required": true, "values": ["active", "experimental", "deprecated"]},
+        {"name": "domain_root", "type": "res_path", "required": true},
+        {"name": "presentation_root", "type": "res_path", "required": true}
+      ]
+    },
+    "localization": {
+      "class": "localization",
+      "source": "localization.csv",
+      "primary_key": ["key"],
+      "fields": [
+        {"name": "key", "type": "id", "required": true},
+        {"name": "en", "type": "string", "required": true},
+        {"name": "zh_CN", "type": "string", "required": true}
+      ]
+    },
+    "platform_overrides": {
+      "class": "platform_override",
+      "source": "platform_overrides.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "platform", "type": "enum", "required": true, "values": ["desktop", "mobile", "web"]},
+        {"name": "setting_id", "type": "ref", "required": true, "table": "system_settings", "field": "id"},
+        {"name": "override_value", "type": "string", "required": true}
+      ]
+    },
+    "presentation_cues": {
+      "class": "resource_binding",
+      "source": "presentation_cues.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "feature_id", "type": "ref", "required": true, "table": "feature_catalog", "field": "id"},
+        {"name": "cue_type", "type": "enum", "required": true, "values": ["ui", "audio", "vfx", "animation"]},
+        {"name": "display_name_key", "type": "ref", "required": true, "table": "localization", "field": "key"},
+        {"name": "resource_id", "type": "ref", "required": false, "table": "resource_bindings", "field": "id"},
+        {"name": "channel", "type": "id", "required": true},
+        {"name": "duration_ms", "type": "int", "required": true, "min": 0, "max": 600000}
+      ]
+    },
+    "quality_budgets": {
+      "class": "system_setting",
+      "source": "quality_budgets.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "category", "type": "enum", "required": true, "values": ["asset_bytes", "texture_width", "texture_height", "audio_bytes", "frame_ms", "memory_bytes", "load_ms"]},
+        {"name": "platform", "type": "enum", "required": true, "values": ["all", "desktop", "mobile", "web"]},
+        {"name": "limit_value", "type": "float", "required": true, "min": 0},
+        {"name": "unit", "type": "enum", "required": true, "values": ["bytes", "pixels", "milliseconds"]},
+        {"name": "severity", "type": "enum", "required": true, "values": ["warn", "error"]}
+      ]
+    },
+    "relations": {
+      "class": "relation",
+      "source": "relations.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "feature_id", "type": "ref", "required": true, "table": "feature_catalog", "field": "id"},
+        {"name": "source_definition_id", "type": "ref", "required": true, "table": "definitions", "field": "id"},
+        {"name": "relation_type", "type": "id", "required": true},
+        {"name": "target_definition_id", "type": "ref", "required": true, "table": "definitions", "field": "id"},
+        {"name": "order", "type": "int", "required": true, "min": 0, "max": 999999},
+        {"name": "weight", "type": "float", "required": true, "min": 0}
+      ]
+    },
+    "resource_bindings": {
+      "class": "resource_binding",
+      "source": "resource_bindings.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "asset_kind", "type": "enum", "required": true, "values": ["texture_2d", "model_3d", "ui", "audio", "animation", "vfx", "font", "misc"]},
+        {"name": "source_path", "type": "string", "required": false},
+        {"name": "runtime_path", "type": "res_path", "required": true},
+        {"name": "policy_id", "type": "ref", "required": true, "table": "resource_policies", "field": "id"},
+        {"name": "budget_group", "type": "id", "required": true},
+        {"name": "owner", "type": "string", "required": true},
+        {"name": "license_id", "type": "enum", "required": true, "values": ["project_owned", "mit", "ofl", "commercial", "third_party"]},
+        {"name": "required", "type": "bool", "required": true},
+        {"name": "consumer", "type": "string", "required": true}
+      ]
+    },
+    "resource_policies": {
+      "class": "resource_binding",
+      "source": "resource_policies.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "asset_kind", "type": "enum", "required": true, "values": ["texture_2d", "model_3d", "ui", "audio", "animation", "vfx", "font", "misc"]},
+        {"name": "allowed_extensions", "type": "string", "required": true},
+        {"name": "max_bytes", "type": "int", "required": true, "min": 0},
+        {"name": "max_width", "type": "int", "required": true, "min": 0},
+        {"name": "max_height", "type": "int", "required": true, "min": 0},
+        {"name": "import_mode", "type": "enum", "required": true, "values": ["default", "lossless", "vram_compressed", "stream"]},
+        {"name": "source_required", "type": "bool", "required": true}
+      ]
+    },
+    "system_settings": {
+      "class": "system_setting",
+      "source": "system_settings.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "category", "type": "enum", "required": true, "values": ["core", "gameplay", "presentation", "platform", "debug", "save"]},
+        {"name": "value_type", "type": "enum", "required": true, "values": ["int", "float", "bool", "string"]},
+        {"name": "value", "type": "string", "required": true},
+        {"name": "unit", "type": "enum", "required": true, "values": ["none", "seconds", "pixels", "count", "ratio", "percent", "locale"]},
+        {"name": "runtime_mutable", "type": "bool", "required": true},
+        {"name": "description_key", "type": "ref", "required": true, "table": "localization", "field": "key"}
+      ]
+    },
+    "tuning": {
+      "class": "tuning",
+      "source": "tuning.csv",
+      "primary_key": ["id"],
+      "fields": [
+        {"name": "id", "type": "id", "required": true},
+        {"name": "feature_id", "type": "ref", "required": true, "table": "feature_catalog", "field": "id"},
+        {"name": "owner_definition_id", "type": "ref", "required": true, "table": "definitions", "field": "id"},
+        {"name": "parameter", "type": "id", "required": true},
+        {"name": "value", "type": "float", "required": true},
+        {"name": "min_value", "type": "float", "required": true},
+        {"name": "max_value", "type": "float", "required": true},
+        {"name": "unit", "type": "enum", "required": true, "values": ["none", "seconds", "pixels", "count", "ratio", "percent"]}
+      ]
+    }
+  },
+  "constraints": [
+    {"type": "typed_value", "table": "system_settings", "type_field": "value_type", "value_field": "value"},
+    {"type": "numeric_range", "table": "tuning", "value_field": "value", "minimum_field": "min_value", "maximum_field": "max_value"}
+  ]
+}

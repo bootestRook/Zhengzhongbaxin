@@ -1,0 +1,3 @@
+id,owner,save_namespace,status,domain_root,presentation_root
+sample_interaction,framework_team,sample,active,res://src/features/sample_interaction/domain,res://src/features/sample_interaction/presentation
+defense,project_research,defense,active,res://src/features/defense/domain,res://src/features/defense/presentation

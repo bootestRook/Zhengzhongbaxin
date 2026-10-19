@@ -1,0 +1,48 @@
+{
+  "heroes": {
+    "compared": 17,
+    "changed": []
+  },
+  "options": {
+    "compared": 2094,
+    "changed": []
+  },
+  "skills": {
+    "compared": 1460,
+    "changed": [
+      "17",
+      "21",
+      "22"
+    ]
+  },
+  "statuses": {
+    "compared": 283,
+    "changed": []
+  },
+  "targets": {
+    "compared": 132,
+    "changed": []
+  },
+  "new_skills": [
+    "20201"
+  ],
+  "new_statuses": [
+    "20201",
+    "20202"
+  ],
+  "fire_options": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "baseline_sha256": "565281fe9a8d18b59a03241eeec79974ff588e2bbd5fd482a30b6a8158cf1d59",
+  "catalog_sha256": "3d72696082f76a61fa5e955a0f20ff6a97de560511dbbecda11792cd20adb7cc"
+}

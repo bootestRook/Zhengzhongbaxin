@@ -1,0 +1,25 @@
+[
+	{
+		"overflow_ticks": 0,
+		"peaks": {
+			"4": 2,
+			"5": 3
+		},
+		"seed": 1,
+		"stale_ticks": 0,
+		"time": 120000,
+		"wall_hp": 3900.0,
+		"wave": 15
+	},
+	{
+		"overflow_ticks": 0,
+		"peaks": {
+			"5": 5
+		},
+		"seed": 81,
+		"stale_ticks": 0,
+		"time": 120000,
+		"wall_hp": 3900.0,
+		"wave": 14
+	}
+]

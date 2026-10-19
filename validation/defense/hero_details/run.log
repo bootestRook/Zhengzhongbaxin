@@ -1,0 +1,144 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Badge
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Badge
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Badge
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Badge
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Badge
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Badge
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Header
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Header
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Header
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+ERROR: TEST FAILURE: every home image binds by name: Icon
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_details/run.gd:13)
+       [1] run (res://tests/test_defense_home_ui.gd:56)
+HERO DETAILS CHECKS: 1393, FAILURES: 28

@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-16T11:59:45+08:00",
+  "python_tests": 51,
+  "godot_assertions": 6212,
+  "runtime_smoke": true,
+  "release_combined_sha256": "d40dc7ac1ddce750af858a328cd6a6e16ff687c20641c6c4b5dc9c6e1ecaa27a",
+  "release_files": 587,
+  "full_run": {
+    "won": true,
+    "wave": 20,
+    "bosses": 3,
+    "time": 289632,
+    "wall": 3303.0,
+    "kills": 261
+  },
+  "ui_assertions": 50,
+  "native_screenshots": 21,
+  "project_check_log": "validation/defense/choice_text/original_copy_project_check.log",
+  "release_bytes": 89850066,
+  "original_copy_screenshots": {
+    "count": 9,
+    "directory": "validation/defense/choice_text"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "input_policy": "tests/test_defense.gd full-run policy, public choose/reward_close intents, normal HP and waves",
+  "march": {
+    "before_warning_width": 53.50408935546898,
+    "after_warning_width": 900.0
+  },
+  "matches": [
+    {
+      "level": 1,
+      "seed": 6,
+      "before_won": true,
+      "after_won": true,
+      "before_time_ms": 183408,
+      "after_time_ms": 233680,
+      "before_deaths": 1,
+      "after_deaths": 6,
+      "wall": 3900.0
+    },
+    {
+      "level": 1,
+      "seed": 17,
+      "before_won": true,
+      "after_won": true,
+      "before_time_ms": 155312,
+      "after_time_ms": 177696,
+      "before_deaths": 0,
+      "after_deaths": 1,
+      "wall": 3900.0
+    },
+    {
+      "level": 1,
+      "seed": 53,
+      "before_won": true,
+      "after_won": true,
+      "before_time_ms": 178592,
+      "after_time_ms": 203040,
+      "before_deaths": 1,
+      "after_deaths": 2,
+      "wall": 3900.0
+    },
+    {
+      "level": 2,
+      "seed": 6,
+      "before_won": true,
+      "after_won": true,
+      "before_time_ms": 218544,
+      "after_time_ms": 228656,
+      "before_deaths": 5,
+      "after_deaths": 8,
+      "wall": 3900.0
+    },
+    {
+      "level": 2,
+      "seed": 17,
+      "before_won": true,
+      "after_won": true,
+      "before_time_ms": 173376,
+      "after_time_ms": 206928,
+      "before_deaths": 3,
+      "after_deaths": 7,
+      "wall": 3900.0
+    },
+    {
+      "level": 2,
+      "seed": 53,
+      "before_won": true,
+      "after_won": true,
+      "before_time_ms": 217600,
+      "after_time_ms": 252384,
+      "before_deaths": 4,
+      "after_deaths": 11,
+      "wall": 3900.0
+    }
+  ],
+  "profiles": [
+    {
+      "count": 100,
+      "before_mean_ms": 4.622956,
+      "before_p95_ms": 6.358,
+      "after_mean_ms": 3.537568,
+      "after_p95_ms": 4.181,
+      "reduction_percent": 23.47822475489709
+    },
+    {
+      "count": 300,
+      "before_mean_ms": 16.224454,
+      "before_p95_ms": 20.436,
+      "after_mean_ms": 13.42926,
+      "after_p95_ms": 15.252,
+      "reduction_percent": 17.228277758992704
+    }
+  ],
+  "source_sha256": {
+    "src/features/defense/domain/defense_ai.gd": "61f68d30bf9578355712406a1bd3f902ebe53f835df516fe3d80df3cb4b92f7b",
+    "src/features/defense/domain/defense_navigation.gd": "079536d75d5196ca3c0c901cf39f7f55e4a4ba1622f5a1a229adc2c2e871648c",
+    "src/features/defense/domain/defense_space.gd": "902c0a5272dcb9ab79cfd5f9553cba40c126955455836468b4b0835b58a3ff40",
+    "src/features/defense/domain/defense_session.gd": "ce1484e28f45da28d9765b223e39457df5f81e44307c470b609f977473525252",
+    "src/features/defense/domain/defense_guard.gd": "4fc29afcb1d24a7856d570515cf4a5d0ba8db3af2ea31b047999c85d107bb405",
+    "data/generated/defense_catalog.json": "407aab49902c9b0e083eda1f9165cd8235f5119408a791c09ccea42d4a5f1d09"
+  },
+  "before_seed6_upper_field": {
+    "samples": 37,
+    "mean_width": 555.2029064281568,
+    "mean_central_fraction": 0.6194690338714054
+  },
+  "after_seed6_upper_field": {
+    "samples": 55,
+    "mean_width": 797.9376975319602,
+    "mean_central_fraction": 0.3042174558567976
+  },
+  "validation": {
+    "godot_assertions": 9098,
+    "python_tests": 65,
+    "movement_assertions": 661,
+    "runtime_smoke": true,
+    "source_fingerprint_unchanged": true
+  }
+}

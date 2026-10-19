@@ -1,0 +1,57 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FULL RUN] {"encounters":[8,14,20],"heroes":[{"initial_options":[200],"stats":{"damage":59033.0658400025,"heal":156.5,"taken":156.5},"template":1,"upgrades":[200,208,206,201,204,203,209,202,205,210,207]},{"initial_options":[200500],"stats":{"damage":14950.890055168,"heal":767.0,"taken":2898.49999988079},"template":17,"upgrades":[200500,200503,200504,200501,200501,200507,200502]},{"initial_options":[200100],"stats":{"damage":5930.19364120866,"heal":489.0,"taken":4141.5},"template":4,"upgrades":[200100,200104,200103,200102,200105,200101,200106]},{"initial_options":[200400],"stats":{"damage":6510.58068766808,"heal":375.5,"taken":1043.0},"template":13,"upgrades":[200400,200405,200407,200403]},{"initial_options":[200301],"stats":{"damage":4092.01900322257,"heal":667.5,"taken":437.5},"template":2,"upgrades":[200301,200303,200306,200311,200307,200310]}],"history":[{"id":1,"kind":"hero","owner":0,"stage":0},{"id":17,"kind":"hero","owner":0,"stage":1},{"id":4,"kind":"hero","owner":0,"stage":2},{"id":13,"kind":"hero","owner":0,"stage":3},{"id":2,"kind":"hero","owner":0,"stage":4},{"id":208,"kind":"upgrade","owner":1,"stage":5},{"id":200503,"kind":"upgrade","owner":9,"stage":6},{"id":200104,"kind":"upgrade","owner":16,"stage":7},{"id":200303,"kind":"upgrade","owner":37,"stage":8},{"id":200504,"kind":"chest","owner":9,"stage":8},{"id":206,"kind":"chest","owner":1,"stage":8},{"id":200306,"kind":"chest","owner":37,"stage":8},{"id":201,"kind":"upgrade","owner":1,"stage":9},{"id":200103,"kind":"upgrade","owner":16,"stage":10},{"id":200501,"kind":"upgrade","owner":9,"stage":11},{"id":200311,"kind":"chest","owner":37,"stage":11},{"id":200501,"kind":"chest","owner":9,"stage":11},{"id":204,"kind":"upgrade","owner":1,"stage":12},{"id":200102,"kind":"chest","owner":16,"stage":12},{"id":200507,"kind":"chest","owner":9,"stage":12},{"id":200307,"kind":"chest","owner":37,"stage":12},{"id":203,"kind":"upgrade","owner":1,"stage":13},{"id":200105,"kind":"upgrade","owner":16,"stage":14},{"id":200405,"kind":"chest","owner":22,"stage":14},{"id":200502,"kind":"upgrade","owner":9,"stage":15},{"id":200101,"kind":"chest","owner":16,"stage":15},{"id":209,"kind":"chest","owner":1,"stage":15},{"id":202,"kind":"upgrade","owner":1,"stage":16},{"id":200407,"kind":"chest","owner":22,"stage":16},{"id":205,"kind":"upgrade","owner":1,"stage":17},{"id":210,"kind":"upgrade","owner":1,"stage":18},{"id":207,"kind":"upgrade","owner":1,"stage":19},{"id":200310,"kind":"chest","owner":37,"stage":19},{"id":200106,"kind":"chest","owner":16,"stage":19},{"id":200403,"kind":"chest","owner":22,"stage":19}],"kills":267,"phase":"result","time":233680,"wall":3900.0,"wave":20,"won":true}
+[WARRIOR WEIGHTS] ordinary { 200101: 481, 200102: 459, 200103: 607, 200104: 453 }
+[WARRIOR WEIGHTS] bonus { 200101: 441, 200102: 439, 200103: 609, 200104: 511 }
+[WARRIOR WEIGHTS] chest { 200101: 460, 200102: 441, 200103: 621, 200104: 478 }
+[FIRE WEIGHTS] ordinary { 201: 687, 202: 663, 206: 209, 208: 239, 209: 202 }
+[FIRE WEIGHTS] bonus { 201: 656, 202: 697, 206: 210, 208: 211, 209: 226 }
+[FIRE WEIGHTS] chest { 201: 664, 202: 648, 206: 218, 208: 227, 209: 243 }
+[FIRE CENTER CASE] radius=150.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=move
+[FIRE CENTER CASE] radius=150.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=death
+[FIRE CENTER CASE] radius=270.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=move
+[FIRE CENTER CASE] radius=270.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=death
+[PYRO CENTERS] hits=[3, 4, 5] target_snapshots={ 3: (779.4383, 1188.637), 4: (806.0503, 879.7811), 5: (832.6622, 570.9255) }
+[FIRE CENTERS] target snapshots, delayed effects and real circular damage checked
+[DRUID WEIGHTS] ordinary { 200302: 423, 200303: 382, 200306: 206, 200307: 289 }
+[DRUID WEIGHTS] bonus { 200302: 395, 200303: 396, 200306: 241, 200307: 268 }
+[DRUID WEIGHTS] chest { 200302: 407, 200303: 391, 200306: 192, 200307: 310 }
+[FAN] ice count=3 degrees=[0, -7, 7]
+[FAN] ice count=3 degrees=[0, -7, 7]
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+[FAN] fire count=1 degrees=[0]
+[FAN] fire count=2 degrees=[0, -5]
+[FAN] fire count=3 degrees=[0, -5, 5]
+[PROJECTILES] fan, sweep, penetration, refraction and termination verified
+[ASSASSIN WEIGHTS] ordinary { 200501: 316, 200502: 324, 200503: 235, 200504: 219, 200507: 106 }
+[ASSASSIN WEIGHTS] bonus { 200501: 348, 200502: 313, 200503: 235, 200504: 201, 200507: 103 }
+[ASSASSIN WEIGHTS] chest { 200501: 313, 200502: 327, 200503: 226, 200504: 220, 200507: 114 }
+[ROULETTE COUNTS] [10018, 5929, 3025, 1028]
+[MIXED] slots=30000 recruits=7518 counts=[4195, 4241, 1415, 149]
+[MELEE STABILITY] {"attacks":32,"seed":6,"stutters":0,"time":116976}
+[MELEE STABILITY] {"attacks":29,"seed":17,"stutters":0,"time":119664}
+[MELEE STABILITY] {"attacks":31,"seed":81,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":32,"seed":1,"stutters":0,"time":120000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+[BLOCK CAPACITY] hero=1 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=2 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=4 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=13 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=17 capacity=5 peak=5 overflow_ticks=0 stale_ticks=0
+[BASELINE] hero=1 learned=[17, 21, 22, 1269, 20201] emitted=[17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+[BASELINE] hero=2 learned=[1269, 20301] emitted=[] effects=[]
+[BASELINE] hero=4 learned=[755, 1269, 20001] emitted=[755, 20001] effects=["hero4:boomLight"]
+[BASELINE] hero=13 learned=[1269, 20002] emitted=[20002] effects=["hero13:arrow3"]
+[BASELINE] hero=17 learned=[1269, 1435] emitted=[] effects=[]
+[ICE DESCRIPTION] text_height=265.0 viewport_height=365.0 scroll_max=265.0 page=265.0
+[OK] Godot tests: 9108 assertions

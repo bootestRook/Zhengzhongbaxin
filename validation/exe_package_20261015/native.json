@@ -1,0 +1,29 @@
+{
+  "exit_code": 0,
+  "errors": [],
+  "clean_directory": true,
+  "initial_files": [
+    {
+      "name": "defense-demo.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "name": "defense-demo.pck",
+      "sha256": "55ed4fd1133085c4d1765794d90b99458f38d4475e5fbc6edeec4b2fb491df00"
+    }
+  ],
+  "main_menu": true,
+  "recruitment": true,
+  "battle": true,
+  "pause": true,
+  "result": true,
+  "return_home": true,
+  "observations": [
+    "中文主页正常，点击开始打开三张招募卡",
+    "招募英雄及确认强化后进入战场，底栏显示实际英雄",
+    "点击左上暂停显示敌人和首领资料、伤害显示与继续/退出按钮",
+    "退出挑战进入关卡结束结算，确认按钮返回主页",
+    "Alt+F4正常关闭，独立进程退出码0"
+  ],
+  "method": "computer-use sky; final EXE launched from a clean directory containing only the verified EXE and PCK"
+}

@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[FORWARD COMBAT] {"attacks":1,"boundary":480.0,"damage":300.0,"hero":17,"home":[800.0,950.0],"minimum_y":630.0,"pos":[800.0,630.0],"target":[800.0,630.0]}
+[FORWARD COMBAT] {"attacks":5,"boundary":480.0,"damage":250.0,"hero":4,"home":[800.0,950.0],"minimum_y":732.781799316406,"pos":[874.397521972656,732.781799316406],"target":[800.0,650.0]}
+[OK] six native forward-engagement captures; actual movement, skill and basic-attack damage

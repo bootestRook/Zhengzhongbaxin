@@ -1,0 +1,3 @@
+id,platform,setting_id,override_value
+mobile.ui_scale,mobile,presentation.ui_scale,1.15
+web.target_fps,web,app.target_fps,60

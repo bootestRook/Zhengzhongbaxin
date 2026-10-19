@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[ASSASSIN WEIGHTS] ordinary { 200501: 316, 200502: 324, 200503: 235, 200504: 219, 200507: 106 }
+[ASSASSIN WEIGHTS] bonus { 200501: 348, 200502: 313, 200503: 235, 200504: 201, 200507: 103 }
+[ASSASSIN WEIGHTS] chest { 200501: 313, 200502: 327, 200503: 226, 200504: 220, 200507: 114 }
+[ASSASSIN] assertions=80 failures=0

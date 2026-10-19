@@ -1,0 +1,340 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_icon.gd" id="icon"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_bounded_text.gd" id="bounded_text"]
+[ext_resource type="Shader" path="res://src/features/defense/presentation/diagonal_stripes.gdshader" id="stripes"]
+
+[sub_resource type="StyleBoxFlat" id="Button"]
+bg_color = Color(1,0.72,0.14,1)
+border_color = Color(0.16,0.14,0.12,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Hover"]
+bg_color = Color(1,0.83,0.32,1)
+border_color = Color(0.16,0.14,0.12,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Pressed"]
+bg_color = Color(0.87,0.56,0.05,1)
+border_color = Color(0.16,0.14,0.12,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_color = Color(1,0.84,0.22,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Paper"]
+bg_color = Color(0.995,0.967,0.89,1)
+border_color = Color(0.60,0.67,0.80,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="ShaderMaterial" id="StripeMaterial"]
+shader = ExtResource("stripes")
+shader_parameter/base_color = Color(0.98,0.96,0.89,1)
+shader_parameter/stripe_color = Color(0.86,0.83,0.75,1)
+
+[sub_resource type="Gradient" id="Gradient"]
+colors = PackedColorArray(0.43,0.35,0.85,1, 0.20,0.48,0.85,1)
+[sub_resource type="GradientTexture2D" id="HeaderTexture"]
+gradient = SubResource("Gradient")
+fill_to = Vector2(1,0.8)
+
+[sub_resource type="Gradient" id="QualityRainbowGradient"]
+colors = PackedColorArray(0.30,0.76,0.86,1, 0.48,0.75,0.58,1, 1,0.67,0.12,1)
+
+[sub_resource type="GradientTexture2D" id="QualityRainbowTexture"]
+gradient = SubResource("QualityRainbowGradient")
+fill_to = Vector2(1,0.8)
+
+[node name="Card" type="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 420.0
+offset_bottom = 560.0
+theme_override_styles/panel = SubResource("Paper")
+mouse_filter = 0
+
+[node name="Header" type="TextureRect" parent="."]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 417.0
+offset_bottom = 200.0
+texture = SubResource("HeaderTexture")
+mouse_filter = 2
+expand_mode = 1
+
+[node name="QualityHeader" type="ColorRect" parent="."]
+visible = false
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 417.0
+offset_bottom = 200.0
+mouse_filter = 2
+color = Color(0.35,0.5,0.85,1)
+
+[node name="QualityRainbow" type="TextureRect" parent="."]
+visible = false
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 417.0
+offset_bottom = 200.0
+texture = SubResource("QualityRainbowTexture")
+mouse_filter = 2
+expand_mode = 1
+
+[node name="Title" type="Label" parent="."]
+offset_left = 22.0
+offset_top = 12.0
+offset_right = 398.0
+offset_bottom = 64.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.08,0.05,0.10,1)
+theme_override_colors/font_outline_color = Color(0.60,0.23,0.72,1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+
+
+[node name="Icon" type="TextureRect" parent="."]
+offset_left = 22.0
+offset_top = 76.0
+offset_right = 142.0
+offset_bottom = 188.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("icon")
+
+
+[node name="Part" type="Label" parent="."]
+offset_left = 160.0
+offset_top = 72.0
+offset_right = 404.0
+offset_bottom = 144.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 29
+text = ""
+vertical_alignment = 1
+
+
+[node name="PartBadge" type="TextureRect" parent="."]
+visible = false
+offset_left = 160.0
+offset_top = 78.0
+offset_right = 192.0
+offset_bottom = 110.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("icon")
+
+[node name="GemPart" type="Label" parent="."]
+visible = false
+offset_left = 202.0
+offset_top = 72.0
+offset_right = 404.0
+offset_bottom = 114.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 28
+vertical_alignment = 1
+
+[node name="Quality" type="Label" parent="."]
+visible = false
+offset_left = 160.0
+offset_top = 110.0
+offset_right = 404.0
+offset_bottom = 150.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 28
+vertical_alignment = 1
+
+[node name="Quantity" type="Label" parent="."]
+offset_left = 160.0
+offset_top = 143.0
+offset_right = 404.0
+offset_bottom = 188.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 28
+text = ""
+vertical_alignment = 1
+
+
+[node name="Current" type="Label" parent="."]
+offset_left = 307.0
+offset_top = 12.0
+offset_right = 401.0
+offset_bottom = 57.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.88,1,0.64,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 28
+text = "当前"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="SectionBackdrop" type="ColorRect" parent="."]
+offset_left = 24.0
+offset_top = 211.0
+offset_right = 396.0
+offset_bottom = 267.0
+mouse_filter = 2
+material = SubResource("StripeMaterial")
+color = Color(1,1,1,1)
+
+[node name="Section" type="Label" parent="."]
+offset_left = 24.0
+offset_top = 219.0
+offset_right = 394.0
+offset_bottom = 264.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31, 0.27, 0.22, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 34
+text = ""
+vertical_alignment = 1
+
+
+[node name="Body" type="Control" parent="."]
+offset_left = 24.0
+offset_top = 273.0
+offset_right = 396.0
+offset_bottom = 423.0
+mouse_filter = 0
+clip_contents = true
+script = ExtResource("bounded_text")
+
+[node name="Text" type="Label" parent="Body"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 372.0
+offset_bottom = 150.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31, 0.27, 0.22, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 26
+text = ""
+vertical_alignment = 0
+autowrap_mode = 3
+
+[node name="TargetsBackdrop" type="ColorRect" parent="."]
+visible = false
+offset_left = 24.0
+offset_top = 425.0
+offset_right = 396.0
+offset_bottom = 469.0
+mouse_filter = 2
+material = SubResource("StripeMaterial")
+color = Color(1,1,1,1)
+
+[node name="TargetsTitle" type="Label" parent="."]
+offset_left = 24.0
+offset_top = 425.0
+offset_right = 190.0
+offset_bottom = 469.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31, 0.27, 0.22, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 30
+text = "生效对象"
+vertical_alignment = 1
+
+[node name="Targets" type="VBoxContainer" parent="."]
+offset_left = 190.0
+offset_top = 425.0
+offset_right = 396.0
+offset_bottom = 469.0
+mouse_filter = 2
+theme_override_constants/separation = 2
+alignment = 1
+
+[node name="Action" type="Button" parent="."]
+offset_left = 222.0
+offset_top = 473.0
+offset_right = 396.0
+offset_bottom = 537.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = ""
+theme_override_styles/normal = SubResource("Button")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Pressed")
+theme_override_styles/focus = SubResource("Focus")
+
+[node name="Wash" type="Button" parent="."]
+visible = false
+offset_left = 24.0
+offset_top = 473.0
+offset_right = 198.0
+offset_bottom = 537.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_hover_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_pressed_color = Color(0.15,0.13,0.10,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "洗练"
+theme_override_styles/normal = SubResource("Button")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Pressed")
+theme_override_styles/focus = SubResource("Focus")
+

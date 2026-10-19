@@ -1,0 +1,159 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/combat_framework_editor/editor/ability_graph_editor.gd" id="1_editor"]
+
+[node name="AbilityGraphEditor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_editor")
+
+[node name="Root" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Toolbar" type="HBoxContainer" parent="Root"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Root/Toolbar"]
+layout_mode = 2
+text = "Ability Graph"
+
+[node name="CompileButton" type="Button" parent="Root/Toolbar"]
+layout_mode = 2
+text = "Compile"
+
+[node name="FrameButton" type="Button" parent="Root/Toolbar"]
+layout_mode = 2
+text = "Add Frame"
+
+[node name="Status" type="Label" parent="Root/Toolbar"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "No graph selected"
+
+[node name="Body" type="HSplitContainer" parent="Root"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CatalogPanel" type="VBoxContainer" parent="Root/Body"]
+custom_minimum_size = Vector2(190, 0)
+layout_mode = 2
+
+[node name="CatalogTitle" type="Label" parent="Root/Body/CatalogPanel"]
+layout_mode = 2
+text = "Node Catalog"
+
+[node name="Search" type="LineEdit" parent="Root/Body/CatalogPanel"]
+layout_mode = 2
+placeholder_text = "Search nodes..."
+
+[node name="CatalogFilter" type="OptionButton" parent="Root/Body/CatalogPanel"]
+layout_mode = 2
+
+[node name="FavoriteButton" type="Button" parent="Root/Body/CatalogPanel"]
+layout_mode = 2
+text = "Toggle Favorite"
+
+[node name="Catalog" type="ItemList" parent="Root/Body/CatalogPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="GraphEdit" type="GraphEdit" parent="Root/Body"]
+custom_minimum_size = Vector2(420, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+show_grid = true
+show_minimap = true
+show_menu = true
+show_zoom_label = true
+
+[node name="InspectorPanel" type="VBoxContainer" parent="Root/Body"]
+custom_minimum_size = Vector2(230, 0)
+layout_mode = 2
+
+[node name="InspectorTitle" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Node Inspector"
+
+[node name="SelectedNode" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "No node selected"
+
+[node name="ActionLabel" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Action ID"
+
+[node name="ActionId" type="LineEdit" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+
+[node name="ApplyAction" type="Button" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Apply Action ID"
+
+[node name="ParametersLabel" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Parameters (JSON)"
+
+[node name="ParametersJson" type="TextEdit" parent="Root/Body/InspectorPanel"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ApplyParameters" type="Button" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Apply Parameters"
+
+[node name="CommentLabel" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Comment"
+
+[node name="Comment" type="LineEdit" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+
+[node name="ApplyComment" type="Button" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Apply Comment"
+
+[node name="FieldsLabel" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Typed Fields"
+
+[node name="Fields" type="VBoxContainer" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+
+[node name="DiagnosticsTitle" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Diagnostics"
+
+[node name="Diagnostics" type="ItemList" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TraceLabel" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Execution Trace"
+
+[node name="Trace" type="ItemList" parent="Root/Body/InspectorPanel"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="EventTraceLabel" type="Label" parent="Root/Body/InspectorPanel"]
+layout_mode = 2
+text = "Core Event Trace"
+
+[node name="EventTrace" type="ItemList" parent="Root/Body/InspectorPanel"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CandidateMenu" type="PopupMenu" parent="."]

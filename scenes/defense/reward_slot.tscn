@@ -1,0 +1,31 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_reward_slot.gd" id="1"]
+[sub_resource type="StyleBoxFlat" id="Idle"]
+bg_color = Color(0.09, 0.1, 0.08, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.55, 0.54, 0.47, 1)
+[sub_resource type="StyleBoxFlat" id="Active"]
+bg_color = Color(1, 0.88, 0.42, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(1, 0.97, 0.78, 1)
+[sub_resource type="StyleBoxFlat" id="Won"]
+bg_color = Color(0.98, 0.965, 0.89, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 0.82, 0.25, 1)
+[node name="RewardSlot" type="Control"]
+offset_right = 144.0
+offset_bottom = 144.0
+mouse_filter = 2
+script = ExtResource("1")
+idle_style = SubResource("Idle")
+active_style = SubResource("Active")
+won_style = SubResource("Won")

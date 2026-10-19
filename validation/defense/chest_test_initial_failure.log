@@ -1,0 +1,40 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[BASELINE] hero=1 learned=[17, 21, 22, 1269] emitted=[17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+[BASELINE] hero=2 learned=[194, 1269] emitted=[194] effects=["hero2:normal04"]
+[BASELINE] hero=3 learned=[1, 2, 1269] emitted=[1, 2] effects=["hero3:normal_0"]
+[BASELINE] hero=4 learned=[621, 1269] emitted=[621] effects=["hero4:sword"]
+[BASELINE] hero=5 learned=[429, 1269] emitted=[] effects=[]
+[BASELINE] hero=6 learned=[450, 1269] emitted=[450] effects=[]
+[BASELINE] hero=7 learned=[201, 1269] emitted=[201] effects=["bullet:summon"]
+[BASELINE] hero=8 learned=[240, 241, 1269] emitted=[241, 240] effects=["bullet2:boombat"]
+[BASELINE] hero=9 learned=[413, 1269] emitted=[413] effects=["hero9:fireballboom4"]
+[BASELINE] hero=10 learned=[50, 1269] emitted=[50] effects=["hero10:laserdie"]
+[BASELINE] hero=11 learned=[605, 1269] emitted=[605] effects=["bullet:thunder_pl3"]
+[BASELINE] hero=12 learned=[745, 749, 751, 1269] emitted=[749] effects=["hero12:chengjie2"]
+[BASELINE] hero=13 learned=[1269] emitted=[] effects=[]
+[BASELINE] hero=14 learned=[71, 1269] emitted=[71] effects=["hero14:bullet_fm"]
+[BASELINE] hero=15 learned=[1076, 1269] emitted=[] effects=[]
+[BASELINE] hero=16 learned=[1270, 1326, 1327] emitted=[1326] effects=[]
+[BASELINE] hero=17 learned=[1269, 1429] emitted=[1429] effects=["bullet2:chong4"]
+ERROR: Node not found: "SkillPanel/Text" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_defense_chest_ui.gd:46)
+       [1] click (res://tests/test_defense_choice_ui.gd:84)
+SCRIPT ERROR: Invalid access to property or key 'text' on a base object of type 'null instance'.
+   at: run (res://tests/test_defense_chest_ui.gd:46)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_defense_chest_ui.gd:46)
+       [1] click (res://tests/test_defense_choice_ui.gd:84)
+ERROR: TEST FAILURE: fire charge cannot be anchored to the monster
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:45)
+       [1] run (res://tests/test_defense_chest_ui.gd:46)
+       [2] click (res://tests/test_defense_choice_ui.gd:84)
+[FAIL] Godot tests: 1 failure(s), 2514 assertions
+WARNING: 12856 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 38 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

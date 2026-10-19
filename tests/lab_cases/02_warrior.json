@@ -1,0 +1,89 @@
+{
+  "format": "defense-battle-lab",
+  "version": 1,
+  "title": "勇者：圣盾与真实受击",
+  "config": {
+    "version": 1,
+    "seed": 53,
+    "level": 1,
+    "wave": 1,
+    "legal_terms": true,
+    "settings": {
+      "spawn": false,
+      "progression": false,
+      "respawn": false
+    },
+    "units": [
+      {
+        "key": 1,
+        "kind": "hero",
+        "template": 4,
+        "pos": [
+          800,
+          1000
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 10000,
+          "7": 0
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": true
+        }
+      },
+      {
+        "key": 2,
+        "kind": "enemy",
+        "template": 101,
+        "pos": [
+          840,
+          1000
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 10000
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": true,
+          "skill": true
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "action": "advance",
+      "payload": {
+        "ticks": 200
+      }
+    }
+  ],
+  "checks": [
+    {
+      "kind": "event",
+      "event": "cast",
+      "op": "gte",
+      "value": 1,
+      "skill": 755
+    },
+    {
+      "kind": "event",
+      "event": "status_added",
+      "op": "gte",
+      "value": 1
+    },
+    {
+      "kind": "event",
+      "event": "damage",
+      "op": "gte",
+      "value": 1
+    }
+  ]
+}

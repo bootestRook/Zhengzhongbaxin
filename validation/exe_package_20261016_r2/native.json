@@ -1,0 +1,31 @@
+{
+  "exit_code": 0,
+  "errors": [],
+  "clean_directory": true,
+  "initial_files": [
+    {
+      "name": "启动游戏.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "name": "启动游戏.pck",
+      "sha256": "182a71e8d8a6e3c52fa482745e10b8a84abed8ff81611dc5ca8f1faf4b6a5e2b"
+    }
+  ],
+  "main_menu": true,
+  "recruitment": true,
+  "skill": true,
+  "battle": true,
+  "pause": true,
+  "result": true,
+  "return_home": true,
+  "observations": [
+    "实际从20261016 ZIP解压中文EXE、同名PCK与运行说明，在无工程文件目录启动",
+    "主页正常，开始后可见当前五英雄候选、一项初始技能及剩余2次刷新",
+    "招募火焰术士进入真实战斗，底栏技能短按显示当前火球术说明，战斗继续",
+    "真实击杀后出现当前原文强化卡和招募卡；暂停页固定登场标签为精英、精英、首领",
+    "退出战斗进入结算，确认返回主页，Alt+F4退出码0",
+    "日志没有SCRIPT ERROR或ERROR"
+  ],
+  "method": "computer-use sky; actual native GUI launched from the final shareable ZIP extraction"
+}

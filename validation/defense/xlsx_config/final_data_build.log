@@ -1,0 +1,5 @@
+[OK] defense catalog: 18 hero entries, 5 unlocked, 5 hero slots, 50 levels, 1000 waves
+[OK] 导表成功，运行数据已更新：F:\T8demo\T8-demo-16\data\generated\defense_catalog.json
+[OK] defense_pipeline.py build
+[OK] data build: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py build

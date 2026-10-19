@@ -1,0 +1,105 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[BEGIN SUITE] (res://tests/test_rng.gd):<GDScript#-9223372008920709680>
+[END SUITE] assertions=4 failures=[]
+[BEGIN SUITE] (res://tests/test_data_and_assets.gd):<GDScript#-9223372008635497006>
+[END SUITE] assertions=14 failures=[]
+[BEGIN SUITE] (res://tests/test_action_and_feature.gd):<GDScript#-9223372008350284332>
+[END SUITE] assertions=26 failures=[]
+[BEGIN SUITE] (res://tests/test_ability_graph.gd):<GDScript#-9223372008031517224>
+[END SUITE] assertions=180 failures=[]
+[BEGIN SUITE] (res://tests/test_core_framework.gd):<GDScript#-9223372007612086814>
+[END SUITE] assertions=286 failures=[]
+[BEGIN SUITE] (res://tests/test_save.gd):<GDScript#-9223372007226210838>
+[END SUITE] assertions=295 failures=[]
+[BEGIN SUITE] (res://tests/test_defense.gd):<GDScript#-9223372006940998164>
+[FULL RUN] {"bosses":3,"heroes":[{"initial_options":[200],"stats":{"damage":61704.2658930644,"heal":183.5,"taken":183.5},"template":1,"upgrades":[200,208,206,201,202,203,210,207]},{"initial_options":[200500],"stats":{"damage":11095.200048439,"heal":524.0,"taken":3323.25},"template":17,"upgrades":[200500,200503,200502,200504,200505]},{"initial_options":[200100],"stats":{"damage":4200.35365267959,"heal":718.0,"taken":2809.33649982238},"template":4,"upgrades":[200100,200104,200102,200103,200101,200105]},{"initial_options":[200400],"stats":{"damage":5570.58436660794,"heal":381.5,"taken":381.5},"template":13,"upgrades":[200400,200401]},{"initial_options":[200301],"stats":{"damage":2508.11427364066,"heal":779.5,"taken":494.5},"template":2,"upgrades":[200301,200303,200307]}],"history":[{"id":1,"kind":"hero","owner":0,"stage":0},{"id":17,"kind":"hero","owner":0,"stage":1},{"id":4,"kind":"hero","owner":0,"stage":2},{"id":13,"kind":"hero","owner":0,"stage":3},{"id":2,"kind":"hero","owner":0,"stage":4},{"id":208,"kind":"upgrade","owner":1,"stage":5},{"id":200503,"kind":"upgrade","owner":5,"stage":6},{"id":200104,"kind":"upgrade","owner":15,"stage":7},{"id":200303,"kind":"upgrade","owner":30,"stage":8},{"id":206,"kind":"upgrade","owner":1,"stage":9},{"id":200401,"kind":"chest","owner":22,"stage":9},{"id":200502,"kind":"chest","owner":5,"stage":9},{"id":200504,"kind":"upgrade","owner":5,"stage":10},{"id":201,"kind":"upgrade","owner":1,"stage":11},{"id":200102,"kind":"upgrade","owner":15,"stage":12},{"id":200103,"kind":"upgrade","owner":15,"stage":13},{"id":200307,"kind":"chest","owner":30,"stage":13},{"id":200505,"kind":"upgrade","owner":5,"stage":14},{"id":202,"kind":"upgrade","owner":1,"stage":15},{"id":203,"kind":"upgrade","owner":1,"stage":16},{"id":200101,"kind":"chest","owner":15,"stage":16},{"id":210,"kind":"upgrade","owner":1,"stage":17},{"id":207,"kind":"upgrade","owner":1,"stage":18},{"id":200105,"kind":"upgrade","owner":15,"stage":19}],"kills":269,"phase":"result","time":237136,"wall":3900.0,"wave":20,"won":true}
+[END SUITE] assertions=540 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_level_balance.gd):<GDScript#-9223372006655785490>
+[END SUITE] assertions=894 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_initial_roster.gd):<GDScript#-9223372006068582925>
+[END SUITE] assertions=969 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_hero_roster.gd):<GDScript#-9223372005783370251>
+[END SUITE] assertions=1347 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_skill_activation.gd):<GDScript#-9223372005498157577>
+[END SUITE] assertions=1383 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_warrior_terms.gd):<GDScript#-9223372005212944903>
+[WARRIOR WEIGHTS] ordinary { 200101: 481, 200102: 459, 200103: 607, 200104: 453 }
+[WARRIOR WEIGHTS] bonus { 200101: 441, 200102: 439, 200103: 609, 200104: 511 }
+[WARRIOR WEIGHTS] chest { 200101: 460, 200102: 441, 200103: 621, 200104: 478 }
+[END SUITE] assertions=1460 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_taunt_visuals.gd):<GDScript#-9223372004927732229>
+[END SUITE] assertions=1494 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_fire_terms.gd):<GDScript#-9223372004642519555>
+[FIRE WEIGHTS] ordinary { 201: 687, 202: 663, 206: 209, 208: 239, 209: 202 }
+[FIRE WEIGHTS] bonus { 201: 656, 202: 697, 206: 210, 208: 211, 209: 226 }
+[FIRE WEIGHTS] chest { 201: 664, 202: 648, 206: 218, 208: 227, 209: 243 }
+[END SUITE] assertions=1615 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_druid_terms.gd):<GDScript#-9223372004357306881>
+[DRUID WEIGHTS] ordinary { 200302: 423, 200303: 382, 200306: 206, 200307: 289 }
+[DRUID WEIGHTS] bonus { 200302: 395, 200303: 396, 200306: 241, 200307: 268 }
+[DRUID WEIGHTS] chest { 200302: 407, 200303: 391, 200306: 192, 200307: 310 }
+[END SUITE] assertions=1711 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_ice_terms.gd):<GDScript#-9223372004072094207>
+[END SUITE] assertions=2667 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_assassin_terms.gd):<GDScript#-9223372003786881533>
+[ASSASSIN WEIGHTS] ordinary { 200501: 316, 200502: 324, 200503: 235, 200504: 219, 200507: 106 }
+[ASSASSIN WEIGHTS] bonus { 200501: 348, 200502: 313, 200503: 235, 200504: 201, 200507: 103 }
+[ASSASSIN WEIGHTS] chest { 200501: 313, 200502: 327, 200503: 226, 200504: 220, 200507: 114 }
+[END SUITE] assertions=2747 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_assassin_final_multiplier.gd):<GDScript#-9223372003501668859>
+[END SUITE] assertions=2777 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_loot.gd):<GDScript#-9223372003216456185>
+[END SUITE] assertions=2843 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_choice_rules.gd):<GDScript#-9223372002931243511>
+[END SUITE] assertions=2912 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_mixed_choices.gd):<GDScript#-9223372002612476403>
+[MIXED] slots=30000 recruits=7518 counts=[4195, 4241, 1415, 149]
+[END SUITE] assertions=3032 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_experience.gd):<GDScript#-9223372002327263729>
+[END SUITE] assertions=5596 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_combat.gd):<GDScript#-9223372002042051055>
+[END SUITE] assertions=5686 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_combat_edges.gd):<GDScript#-9223372001756838381>
+[END SUITE] assertions=5723 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_ai_boundaries.gd):<GDScript#-9223372001471625707>
+[END SUITE] assertions=5795 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_melee_stability.gd):<GDScript#-9223372001186413033>
+[MELEE STABILITY] {"attacks":27,"seed":6,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":28,"seed":17,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":37,"seed":81,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":20,"seed":1,"stutters":0,"time":120000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+[END SUITE] assertions=5833 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_blocking_limit.gd):<GDScript#-9223372000901200359>
+[BLOCK CAPACITY] hero=1 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=2 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=4 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=13 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=17 capacity=5 peak=5 overflow_ticks=0 stale_ticks=0
+[END SUITE] assertions=5868 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_statue.gd):<GDScript#-9223372000615987685>
+[END SUITE] assertions=5911 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_initial_effects.gd):<GDScript#-9223372000330775011>
+[BASELINE] hero=1 learned=[17, 21, 22, 1269, 20201] emitted=[17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+[BASELINE] hero=2 learned=[1269, 20301] emitted=[] effects=[]
+[BASELINE] hero=4 learned=[755, 1269, 20001] emitted=[755, 20001] effects=["hero4:boomLight"]
+[BASELINE] hero=13 learned=[1269, 20002] emitted=[20002] effects=["hero13:arrow3"]
+[BASELINE] hero=17 learned=[1269, 1435] emitted=[] effects=[]
+[END SUITE] assertions=5990 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_hero_skill_contracts.gd):<GDScript#-9223372000045562337>
+[END SUITE] assertions=6080 failures=[]
+[BEGIN SUITE] (res://tests/test_defense_hero_passive_contracts.gd):<GDScript#-9223371999760349663>
+[END SUITE] assertions=6107 failures=[]
+[BEGIN UI]
+[ICE DESCRIPTION] text_height=220.0 viewport_height=365.0 scroll_max=220.0 page=220.0
+[OK] Godot tests: 7969 assertions

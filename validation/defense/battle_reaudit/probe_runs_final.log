@@ -1,0 +1,5 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[RUN] seed=17 won=false wave=30 bosses=2 wall=0.0
+[RUN] seed=23 won=false wave=30 bosses=2 wall=0.0
+[RUN] seed=53 won=true wave=30 bosses=3 wall=3900.0

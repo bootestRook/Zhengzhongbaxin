@@ -1,0 +1,268 @@
+[
+	{
+		"damage": 597.3,
+		"hero": 1,
+		"movies": [
+			"hero1:fireball_pl3",
+			"hero1:fireball",
+			"bullet:fireballboom"
+		],
+		"name": "火焰术士",
+		"options": [
+			1
+		],
+		"skills": [
+			1269,
+			17,
+			21,
+			22
+		]
+	},
+	{
+		"damage": 1939.0,
+		"hero": 2,
+		"movies": [
+			"hero2:normal04"
+		],
+		"name": "德鲁伊",
+		"options": [
+			76
+		],
+		"skills": [
+			1269,
+			194
+		]
+	},
+	{
+		"damage": 936.0,
+		"hero": 3,
+		"movies": [
+			"hero3:normal_0"
+		],
+		"name": "大魔导师",
+		"options": [
+			166
+		],
+		"skills": [
+			1269,
+			1,
+			2
+		]
+	},
+	{
+		"damage": 1865.0,
+		"hero": 4,
+		"movies": [
+			"hero4:sword"
+		],
+		"name": "勇者",
+		"options": [
+			316
+		],
+		"skills": [
+			1269,
+			621
+		]
+	},
+	{
+		"damage": 747.5,
+		"hero": 5,
+		"movies": [],
+		"name": "指挥官",
+		"options": [
+			396
+		],
+		"skills": [
+			1269,
+			429
+		]
+	},
+	{
+		"damage": 625.0,
+		"hero": 6,
+		"movies": [
+			"",
+			"hero6:bubble5",
+			"bullet:crystal"
+		],
+		"name": "炼金术士",
+		"options": [
+			486,
+			491
+		],
+		"skills": [
+			1269,
+			450,
+			455,
+			456
+		]
+	},
+	{
+		"damage": 1305.0,
+		"hero": 7,
+		"movies": [
+			"bullet:summon"
+		],
+		"name": "尸鬼之王",
+		"options": [
+			671
+		],
+		"skills": [
+			1269,
+			201
+		]
+	},
+	{
+		"damage": 2218.0,
+		"hero": 8,
+		"movies": [
+			"bullet2:boombat",
+			""
+		],
+		"name": "血族亲王",
+		"options": [
+			726
+		],
+		"skills": [
+			1269,
+			240,
+			241
+		]
+	},
+	{
+		"damage": 2358.0,
+		"hero": 9,
+		"movies": [
+			"hero9:fireballboom4"
+		],
+		"name": "深渊领主",
+		"options": [
+			801
+		],
+		"skills": [
+			1269,
+			413
+		]
+	},
+	{
+		"damage": 1209.6,
+		"hero": 10,
+		"movies": [
+			"hero10:laserdie"
+		],
+		"name": "巫妖",
+		"options": [
+			901
+		],
+		"skills": [
+			1269,
+			50
+		]
+	},
+	{
+		"damage": 1396.0,
+		"hero": 11,
+		"movies": [
+			"bullet:thunder_pl3"
+		],
+		"name": "魔女",
+		"options": [
+			991
+		],
+		"skills": [
+			1269,
+			605
+		]
+	},
+	{
+		"damage": 450.0,
+		"hero": 12,
+		"movies": [
+			"hero12:chengjie2"
+		],
+		"name": "主教",
+		"options": [
+			1036
+		],
+		"skills": [
+			1269,
+			749,
+			745,
+			751
+		]
+	},
+	{
+		"damage": 1290.0,
+		"hero": 13,
+		"movies": [
+			"battleEffect:bubble2"
+		],
+		"name": "游侠",
+		"options": [
+			1076
+		],
+		"skills": [
+			1269
+		]
+	},
+	{
+		"damage": 576.0,
+		"hero": 14,
+		"movies": [
+			"hero14:bullet_fm"
+		],
+		"name": "冰霜法师",
+		"options": [
+			121
+		],
+		"skills": [
+			1269,
+			71
+		]
+	},
+	{
+		"damage": 700.0,
+		"hero": 15,
+		"movies": [],
+		"name": "幽魂",
+		"options": [
+			211
+		],
+		"skills": [
+			1269,
+			1076
+		]
+	},
+	{
+		"damage": 1050.0,
+		"hero": 16,
+		"movies": [
+			"battleEffect:bubbleF",
+			""
+		],
+		"name": "炼狱猎手",
+		"options": [
+			261
+		],
+		"skills": [
+			1270,
+			1326,
+			1327
+		]
+	},
+	{
+		"damage": 1030.0,
+		"hero": 17,
+		"movies": [
+			"bullet2:chong4"
+		],
+		"name": "黯影",
+		"options": [
+			601
+		],
+		"skills": [
+			1269,
+			1429
+		]
+	}
+]

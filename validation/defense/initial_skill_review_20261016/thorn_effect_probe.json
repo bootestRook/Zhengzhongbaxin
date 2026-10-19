@@ -1,0 +1,10 @@
+{
+	"actual_heal": 25.0,
+	"armor_applied": true,
+	"configured_visual_ms": 300,
+	"count": 1,
+	"kind": 7,
+	"present_after_same_tick": false,
+	"resource": "bullet:blood",
+	"time_ms": 448
+}

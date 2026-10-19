@@ -1,0 +1,108 @@
+{
+  "cases": {
+    "ice3": {
+      "count": 3,
+      "direction_degrees": [
+        0.0,
+        -7.00000047938396,
+        7.00000090627078
+      ],
+      "measured_displacement_degrees": [
+        -1.3283251662094514e-05,
+        -7.000087713583071,
+        6.999981399311503
+      ]
+    },
+    "ice4": {
+      "count": 4,
+      "direction_degrees": [
+        0.0,
+        -7.00000047938396,
+        7.00000090627078,
+        -13.9999992512206
+      ],
+      "measured_displacement_degrees": [
+        -1.3283251662094514e-05,
+        -7.000087713583071,
+        6.999981399311503,
+        -14.00000409718856
+      ]
+    },
+    "fire1": {
+      "count": 1,
+      "direction_degrees": [
+        0.0
+      ],
+      "measured_displacement_degrees": [
+        -4.144916067929483e-05
+      ]
+    },
+    "fire2": {
+      "count": 2,
+      "direction_degrees": [
+        0.0,
+        -4.99999900077281
+      ],
+      "measured_displacement_degrees": [
+        -4.144916067929483e-05,
+        -4.999941381704114
+      ]
+    },
+    "fire3": {
+      "count": 3,
+      "direction_degrees": [
+        0.0,
+        -4.99999900077281,
+        4.99999942765964
+      ],
+      "measured_displacement_degrees": [
+        -4.144916067929483e-05,
+        -4.999941381704114,
+        5.0001031855620175
+      ]
+    }
+  },
+  "native_sizes": [
+    {
+      "case": "ice4",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "case": "ice4",
+      "width": 720,
+      "height": 1440
+    },
+    {
+      "case": "ice4",
+      "width": 540,
+      "height": 1080
+    },
+    {
+      "case": "fire3",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "case": "fire3",
+      "width": 720,
+      "height": 1440
+    },
+    {
+      "case": "fire3",
+      "width": 540,
+      "height": 1080
+    }
+  ],
+  "source_sha256": {
+    "data/source/defense/hero_roster.json": "45443c49821f7d9becede18b20ed3e16aa6c19af4264be5c6c9fdd98520e6967",
+    "data/generated/defense_catalog.json": "040c7957216055b1e9f40fbdb8ffb50fae785de1a368a2b15de88542f749eebb",
+    "src/features/defense/domain/defense_ice_arrows.gd": "e5b948dc0fa49868cda1a17b38961e83f0b8685bd7805480fe6127bd35b3484d",
+    "src/features/defense/domain/defense_fireball.gd": "8d3d30fbc45c294635a32005c70875163d7f6aa793881f616e79c4e5b64a6cf6",
+    "src/features/defense/domain/defense_projectile_factory.gd": "a7fa8a5bfc9751e0e97b1219517222c48b8f9358a5b20e3384d930c77ebde483",
+    "src/features/defense/domain/defense_projectile_motion.gd": "cf5e2018a7bca23b5c8427055ceb0534eaa30e7898b54219e9c1211a7122f5f6",
+    "src/features/defense/domain/defense_projectile_geometry.gd": "752362a922d3c0e7a91ed7aec9cdd707554eda3bebbdfd19510bfce82c102599",
+    "src/features/defense/domain/defense_projectiles.gd": "1a4f0785dc655b25eacfe947c58fb758e65e4ad047214787df9b1b098e2e943a",
+    "src/features/defense/domain/defense_snapshot.gd": "2358362435a9232fe3289310e4994c6856585b311105336478a27af1d94c35a2"
+  }
+}

@@ -1,0 +1,2018 @@
+{
+  "schema_version": 2,
+  "heroes": {
+    "4": {
+      "name": "勇者",
+      "race": "人类",
+      "element": "物理",
+      "damage_type": "1;6",
+      "attack_delay_ms": 1000,
+      "option": 200100,
+      "trigger": 755,
+      "groups": [
+        755
+      ]
+    },
+    "1": {
+      "name": "火焰术士",
+      "race": "人类",
+      "element": "火",
+      "damage_type": "0;106;102;6",
+      "attack_delay_ms": 2000,
+      "option": 200,
+      "trigger": 17,
+      "groups": [
+        21,
+        22,
+        16
+      ]
+    },
+    "2": {
+      "name": "德鲁伊",
+      "race": "精灵",
+      "element": "自然",
+      "damage_type": "0;106;107;6",
+      "attack_delay_ms": 2000,
+      "option": 200301,
+      "trigger": 20301,
+      "groups": [
+        661
+      ],
+      "equip_skill": []
+    },
+    "13": {
+      "name": "寒冰射手",
+      "race": "精灵",
+      "element": "冰",
+      "damage_type": "0;106;104;6",
+      "attack_delay_ms": 2000,
+      "option": 200400,
+      "trigger": 20002,
+      "groups": [
+        869
+      ],
+      "equip_skill": []
+    },
+    "17": {
+      "name": "闪电刺客",
+      "race": "人类",
+      "element": "电",
+      "damage_type": "0;106;109;6",
+      "attack_delay_ms": 1000,
+      "option": 200500,
+      "trigger": 1435,
+      "groups": [
+        1705
+      ],
+      "equip_skill": []
+    }
+  },
+  "skills": {
+    "755": {
+      "cd": 10000,
+      "triggerOpp": [
+        "1"
+      ],
+      "isContinued": 1,
+      "statusChange": [
+        [
+          "20001",
+          "4"
+        ]
+      ],
+      "skillGroupType": [
+        [
+          1,
+          20001
+        ]
+      ],
+      "cast_range": 200
+    },
+    "20001": {
+      "__id__": 20001,
+      "actionOth": [
+        [
+          "ridicule",
+          "4"
+        ]
+      ],
+      "aim": [],
+      "condition": [],
+      "damage": [
+        "0:0:2"
+      ],
+      "damage_range": [
+        [
+          "400"
+        ]
+      ],
+      "damage_type": "0;105;9",
+      "effect_change": [],
+      "move": [],
+      "movie_effect": [
+        "boomLight",
+        "1",
+        "0.4",
+        "-1"
+      ],
+      "parameters": [],
+      "res": "hero4",
+      "skillGroupType": [],
+      "sound": [
+        "huoqiu_att",
+        "0",
+        "1"
+      ],
+      "statusChange": [],
+      "statusReplace": [],
+      "triggerOpp": [],
+      "type": "2",
+      "variable": [],
+      "area_shape": "circle"
+    },
+    "17": {
+      "cd": 6000,
+      "triggerOpp": [
+        "1"
+      ],
+      "aim": [
+        82
+      ],
+      "attack_range": 50,
+      "skillGroupType": [],
+      "cast_range": 1200,
+      "fireball": {
+        "projectile": 21,
+        "blast": 22,
+        "ember": 20201,
+        "burn_status": 20201,
+        "stun_status": 4,
+        "shield_status": 20202,
+        "charge_ms": 1600,
+        "copies": 1,
+        "blast_bonus": 0,
+        "radius_bonus": 0,
+        "burn_seconds": 0,
+        "ember_seconds": 0,
+        "secondary": false,
+        "shield_percent": 0,
+        "speed_conversion": 0,
+        "pierce": 0,
+        "upgraded": false,
+        "spread_degrees": 5
+      },
+      "damage": [
+        "0:0:2"
+      ]
+    },
+    "20002": {
+      "__id__": 20002,
+      "actionOth": [],
+      "aim": [
+        20002
+      ],
+      "attack_range": 900,
+      "condition": [],
+      "damage": [
+        "0:50"
+      ],
+      "damage_range": [],
+      "damage_type": "0;106;104",
+      "effect_change": [],
+      "isContinued": 1,
+      "move": [],
+      "movie_effect": [
+        "arrow3",
+        "1",
+        "-1"
+      ],
+      "parameters": [],
+      "res": "hero13",
+      "skillGroupType": [],
+      "sound": [
+        "arrow2",
+        "0",
+        "1"
+      ],
+      "speed": 1000,
+      "statusChange": [],
+      "statusReplace": [],
+      "triggerOpp": [
+        "1"
+      ],
+      "type": "9:1:10",
+      "variable": [],
+      "cd": 4000,
+      "visual_tint": "#72d8ff",
+      "ice_arrows": {
+        "bonus": 0,
+        "pierce": 0,
+        "copies": 3,
+        "combo_chance": 0,
+        "knock_chance": 0,
+        "rain_chance": 0,
+        "knock_distance": 80,
+        "knock_ms": 200,
+        "rain_radius": 180,
+        "rain_interval_ms": 1000,
+        "rain_ticks": 5,
+        "rain_ms": 5000,
+        "bounce_radius": 300,
+        "chill_ms": 5000,
+        "freeze_ms": 3000,
+        "rain_freeze_ms": 1000,
+        "focus_ms": 4000,
+        "focus_cap": 40,
+        "chill": false,
+        "focus": false,
+        "upgraded": false,
+        "chill_status": 20401,
+        "freeze_status": 20402,
+        "rain_skill": 20404,
+        "spread_degrees": 7
+      }
+    },
+    "1435": {
+      "cd": 8000,
+      "damage_type": "0;106;109",
+      "visual_tint": "#ffe45b",
+      "damage": [
+        "0:300"
+      ],
+      "actionOth": [],
+      "skillGroupType": [],
+      "statusChange": [],
+      "cast_range": 400,
+      "assassination": {
+        "damage_percent": 300,
+        "hunt_bonus": 50,
+        "smoke_radius": 250,
+        "smoke_damage": 100,
+        "fan_radius": 200,
+        "fan_damage": 100,
+        "execute_threshold": 20,
+        "paralyze_ms": 2000,
+        "smoke_ms": 4000,
+        "fan_ms": 1000,
+        "shock_ms": 5000,
+        "paralyze_status": 20501,
+        "smoke_status": 20502,
+        "shock_status": 20503,
+        "combo": false,
+        "paralyze": false,
+        "smoke": false,
+        "fan": false,
+        "hunt": false,
+        "shock": false,
+        "execute": false,
+        "elite_multiplier": 3
+      }
+    },
+    "1436": {
+      "damage_type": "0;106;109"
+    },
+    "21": {
+      "damage": [
+        "0:0:2"
+      ],
+      "damage_num": 1,
+      "skillGroupType": [],
+      "statusChange": []
+    },
+    "22": {
+      "damage": [
+        "0:100"
+      ],
+      "damage_type": "0;106;102;10",
+      "area_shape": "circle",
+      "skillGroupType": [],
+      "statusChange": []
+    },
+    "20201": {
+      "__id__": 20201,
+      "type": "2",
+      "damage": [
+        "0:100"
+      ],
+      "damage_type": "0;106;102;103",
+      "damage_interval": 1,
+      "damage_delay": 1,
+      "damage_num": 3,
+      "damage_range": [
+        [
+          "150"
+        ]
+      ],
+      "area_shape": "circle",
+      "persistent_area": true,
+      "periodic": true,
+      "res": "bullet",
+      "movie_effect": [
+        "fireland_red",
+        "1",
+        "3",
+        "-2"
+      ],
+      "skillGroupType": [],
+      "statusChange": [],
+      "actionOth": [],
+      "aim": []
+    },
+    "20301": {
+      "__id__": 20301,
+      "type": "7:1:1",
+      "cd": 15000,
+      "attack_range": 900,
+      "triggerOpp": [
+        "1"
+      ],
+      "isContinued": 1,
+      "aim": [],
+      "thorn_armor": {
+        "armor_status": 20301,
+        "extra_status": 20303,
+        "slow_status": 20306,
+        "root_status": 5,
+        "stun_status": 4,
+        "guard_status": 20312,
+        "flower_template": 23,
+        "duration_ms": 10000,
+        "heal_percent": 60,
+        "heal_bonus": 0,
+        "retaliate_percent": 50,
+        "extra_shield": false,
+        "slow": false,
+        "flowers": false,
+        "burst": false,
+        "self_fallback": false,
+        "follow": false,
+        "flower_limit": 1,
+        "flower_duration_ms": 10000,
+        "flower_interval_ms": 5000,
+        "flower_radius": 200,
+        "flower_damage_percent": 100,
+        "burst_radius": 300,
+        "targets": 1
+      }
+    },
+    "20404": {
+      "__id__": 20404,
+      "type": "2",
+      "damage": [
+        "0:100"
+      ],
+      "damage_type": "0;106;104",
+      "damage_range": [
+        [
+          "180"
+        ]
+      ],
+      "movie_effect": [
+        "jianyu2",
+        "1",
+        "5",
+        "-1"
+      ],
+      "res": "hero13",
+      "triggerOpp": [],
+      "actionOth": [],
+      "skillGroupType": [],
+      "statusChange": [],
+      "visual_tint": "#72d8ff",
+      "periodic": true,
+      "area_shape": "circle"
+    }
+  },
+  "statuses": {
+    "20001": {
+      "__id__": 20001,
+      "attributeRev": [
+        "11:50:1"
+      ],
+      "bufftype": [
+        1
+      ],
+      "condition": [],
+      "effect": [
+        [
+          "shield5"
+        ]
+      ],
+      "resistanceType": [],
+      "silent": [],
+      "skillChange": [],
+      "superposition": 1,
+      "variable": []
+    },
+    "20003": {
+      "__id__": 20003,
+      "attributeRev": [
+        "4:-15:2"
+      ],
+      "bufftype": [
+        2
+      ],
+      "effect": [],
+      "superposition": 1,
+      "taunt_bound": true
+    },
+    "20201": {
+      "__id__": 20201,
+      "attributeRev": [],
+      "bufftype": [
+        2
+      ],
+      "effect": [
+        [
+          "burn"
+        ]
+      ],
+      "hpRev_type": 1,
+      "hurtRev": "1:999:-10000",
+      "superposition": 1,
+      "tick_at_expiry": true,
+      "refresh_ticks": true,
+      "damage_type": "0;106;102"
+    },
+    "20202": {
+      "__id__": 20202,
+      "attributeRev": [],
+      "bufftype": [
+        1
+      ],
+      "effect": [
+        [
+          "shield8",
+          "3"
+        ]
+      ],
+      "shield": "2:25",
+      "superposition": 1
+    },
+    "20301": {
+      "__id__": 20301,
+      "attributeRev": [],
+      "bufftype": [
+        1
+      ],
+      "condition": [],
+      "effect": [
+        [
+          "shield6"
+        ]
+      ],
+      "resistanceType": [],
+      "silent": [],
+      "skillChange": [],
+      "superposition": 1,
+      "variable": [],
+      "shield": "2:5"
+    },
+    "20303": {
+      "__id__": 20303,
+      "attributeRev": [],
+      "bufftype": [
+        1
+      ],
+      "condition": [],
+      "effect": [],
+      "resistanceType": [],
+      "silent": [],
+      "skillChange": [],
+      "superposition": 1,
+      "variable": [],
+      "shield": "2:1.5"
+    },
+    "20306": {
+      "__id__": 20306,
+      "attributeRev": [
+        "6:-5:2"
+      ],
+      "bufftype": [
+        2
+      ],
+      "condition": [],
+      "effect": [],
+      "resistanceType": [],
+      "silent": [],
+      "skillChange": [],
+      "superposition": 5,
+      "variable": []
+    },
+    "20312": {
+      "__id__": 20312,
+      "attributeRev": [
+        "11:30:1"
+      ],
+      "bufftype": [
+        1
+      ],
+      "condition": [],
+      "effect": [],
+      "resistanceType": [],
+      "silent": [],
+      "skillChange": [],
+      "superposition": 1,
+      "variable": []
+    },
+    "20401": {
+      "__id__": 20401,
+      "attributeRev": [
+        "17:-10:2"
+      ],
+      "superposition": 5,
+      "bufftype": [
+        3,
+        100
+      ],
+      "colorChange": "#b0e6ff",
+      "effect": []
+    },
+    "20402": {
+      "__id__": 20402,
+      "attributeRev": [],
+      "superposition": 1,
+      "bufftype": [
+        3,
+        100
+      ],
+      "moveFor": 1,
+      "attackFor": 1,
+      "colorChange": "#65caff",
+      "effect": []
+    },
+    "20501": {
+      "__id__": 20501,
+      "attributeRev": [],
+      "bufftype": [
+        3
+      ],
+      "moveFor": 1,
+      "attackFor": 1,
+      "skillFor": 1,
+      "keep_longer": true,
+      "superposition": 1,
+      "effect": [
+        [
+          "stun"
+        ]
+      ]
+    },
+    "20502": {
+      "__id__": 20502,
+      "attributeRev": [
+        "15:-50:1"
+      ],
+      "bufftype": [
+        2
+      ],
+      "superposition": 1,
+      "effect": [
+        [
+          "dawu"
+        ]
+      ]
+    },
+    "20503": {
+      "__id__": 20503,
+      "attributeRev": [],
+      "bufftype": [
+        2
+      ],
+      "superposition": 5,
+      "hurtRev": "1:999:-3000",
+      "damage_type": "0;106;109",
+      "refresh_ticks": true,
+      "tick_at_expiry": true,
+      "effect": [],
+      "colorChange": "#FFE45BFF"
+    }
+  },
+  "targets": {
+    "20002": {
+      "__id__": 20002,
+      "notargetEntity": [],
+      "notargetStatus": [],
+      "random": "1:1",
+      "targetCamp": 2,
+      "targetClass": [],
+      "targetEntity": [],
+      "targetGrade": [],
+      "targetHp": [],
+      "targetStatus": [],
+      "type": [
+        8
+      ]
+    }
+  },
+  "options": {
+    "1076": {
+      "unlock": [
+        "20002"
+      ],
+      "attribute_correct": [],
+      "description": "每4秒同时射出3根箭矢，分别攻击不同的目标，每根造成50%攻击力的冰系伤害；目标不足时每名目标只受一箭。"
+    },
+    "615": {
+      "unlock": [
+        "1434"
+      ]
+    },
+    "200100": {
+      "__id__": 200100,
+      "id": 200100,
+      "type": [
+        4
+      ],
+      "title": "圣盾",
+      "description": "释放圣盾，嘲讽周围目标并使自身受到伤害-50%，持续4秒",
+      "term_id": 100,
+      "term_type": "initial",
+      "icon": "755:2",
+      "draw_weight": 5000,
+      "options_num": 1,
+      "premise1": [],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "unlock": [
+        "755",
+        "20001"
+      ],
+      "recruit_weight": 5000,
+      "guard": {
+        "status": 20001,
+        "taunt_skill": 20001
+      }
+    },
+    "200101": {
+      "__id__": 200101,
+      "id": 200101,
+      "type": [
+        4
+      ],
+      "title": "坚守阵线",
+      "description": "圣盾持续期间，每受到1次伤害，减伤额外提升1%，最多提升10%；本次圣盾结束时清除",
+      "term_id": 101,
+      "term_type": "initial",
+      "icon": "755:3",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200100,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "guard": {
+        "hurt_step": 1,
+        "hurt_cap": 10,
+        "hurt_interval_ms": 500
+      }
+    },
+    "200102": {
+      "__id__": 200102,
+      "id": 200102,
+      "type": [
+        4
+      ],
+      "title": "圣盾精通",
+      "description": "圣盾冷却时间-10%",
+      "term_id": 102,
+      "term_type": "initial",
+      "icon": "755:3",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200100,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "aim_skill": [
+        755
+      ],
+      "change_triggerCd": -1000
+    },
+    "200103": {
+      "__id__": 200103,
+      "id": 200103,
+      "type": [
+        4
+      ],
+      "title": "圣盾嘲讽",
+      "description": "嘲讽范围+30%",
+      "term_id": 103,
+      "term_type": "initial",
+      "icon": "755:3",
+      "draw_weight": 4000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200100,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "aim_skill": [
+        20001
+      ],
+      "damageRange_up": 30
+    },
+    "200104": {
+      "__id__": 200104,
+      "id": 200104,
+      "type": [
+        4
+      ],
+      "title": "恒辉圣盾",
+      "description": "圣盾持续时间增加2秒",
+      "term_id": 104,
+      "term_type": "initial",
+      "icon": "755:3",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200100,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "aim_skill": [
+        755,
+        20001
+      ],
+      "duration_up": 2
+    },
+    "200105": {
+      "__id__": 200105,
+      "id": 200105,
+      "type": [
+        4
+      ],
+      "title": "威严震慑",
+      "description": "被嘲讽目标攻击力-15%",
+      "term_id": 105,
+      "term_type": "initial",
+      "icon": "755:3",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200103,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "guard": {
+        "taunt_debuff_status": 20003
+      }
+    },
+    "200106": {
+      "__id__": 200106,
+      "id": 200106,
+      "type": [
+        4
+      ],
+      "title": "钢铁意志",
+      "description": "圣盾期间免疫击退，受到控制时间-50%",
+      "term_id": 106,
+      "term_type": "initial",
+      "icon": "755:4",
+      "draw_weight": 4000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200105,
+          1
+        ],
+        [
+          200104,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "guard": {
+        "knockback_immune": true,
+        "control_multiplier": 0.5
+      }
+    },
+    "200107": {
+      "__id__": 200107,
+      "id": 200107,
+      "type": [
+        4
+      ],
+      "title": "不屈誓约",
+      "description": "圣盾期间受到致命伤害时，保留1点生命，并获得2秒伤害免疫。每60秒最多触发1次",
+      "term_id": 107,
+      "term_type": "upgrade",
+      "icon": "755:4",
+      "draw_weight": 4000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200106,
+          1
+        ],
+        [
+          200101,
+          1
+        ]
+      ],
+      "premise2": [],
+      "numTable": [],
+      "active": 621,
+      "guard": {
+        "lethal_cooldown_ms": 60000,
+        "immunity_ms": 2000
+      }
+    },
+    "200": {
+      "__id__": 200,
+      "id": 200,
+      "title": "火球术",
+      "description": "短暂蓄力后释放1个火球对目标范围造成100%火系爆炸伤害",
+      "icon": "21:1",
+      "type": [
+        1
+      ],
+      "term_id": 200,
+      "term_type": "initial",
+      "draw_weight": 5000,
+      "options_num": 1,
+      "premise1": [],
+      "premise2": [],
+      "unlock": [
+        17,
+        21,
+        22,
+        20201
+      ],
+      "aim_skill": [],
+      "fireball_mod": {},
+      "recruit_weight": 5000
+    },
+    "201": {
+      "__id__": 201,
+      "id": 201,
+      "title": "爆炸强化",
+      "description": "爆炸伤害+60%",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 201,
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "blast_bonus": 60
+      }
+    },
+    "202": {
+      "__id__": 202,
+      "id": 202,
+      "title": "范围强化",
+      "description": "爆炸范围+80%",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 202,
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "radius_bonus": 80
+      }
+    },
+    "203": {
+      "__id__": 203,
+      "id": 203,
+      "title": "引燃",
+      "description": "爆炸伤害+40%，并施加持续5秒的引燃效果\n引燃:每秒造成100%火系伤害",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 203,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          201,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "blast_bonus": 40,
+        "burn_seconds": 5
+      }
+    },
+    "204": {
+      "__id__": 204,
+      "id": 204,
+      "title": "余烬",
+      "description": "爆炸伤害+40%，爆炸范围产生持续3秒的余烬\n余烬:对范围内的敌人每秒造成100%火系伤害",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 204,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          201,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "blast_bonus": 40,
+        "ember_seconds": 3
+      }
+    },
+    "205": {
+      "__id__": 205,
+      "id": 205,
+      "title": "多重爆炸",
+      "description": "爆炸后会额外产生一次更大范围伤害更低的爆炸,造成50%伤害",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 205,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          202,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "secondary": true
+      }
+    },
+    "206": {
+      "__id__": 206,
+      "id": 206,
+      "title": "蓄力",
+      "description": "蓄力时间延长50%，同步蓄力数量+1",
+      "icon": "16:2",
+      "type": [
+        1
+      ],
+      "term_id": 206,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "charge_ms": 800,
+        "copies": 1
+      }
+    },
+    "207": {
+      "__id__": 207,
+      "id": 207,
+      "title": "护盾",
+      "description": "蓄力时获得自身生命25%护盾，同步蓄力数量+1",
+      "icon": "16:2",
+      "type": [
+        1
+      ],
+      "term_id": 207,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          206,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "shield_percent": 25,
+        "copies": 1
+      }
+    },
+    "208": {
+      "__id__": 208,
+      "id": 208,
+      "title": "转化",
+      "description": "每10点攻击速度使火球术伤害+1%",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 208,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "speed_conversion": 0.001
+      }
+    },
+    "209": {
+      "__id__": 209,
+      "id": 209,
+      "title": "火焰冲击",
+      "description": "爆炸伤害+50%，并会施加2秒晕眩效果",
+      "icon": "22:2",
+      "type": [
+        1
+      ],
+      "term_id": 209,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "stun_seconds": 2,
+        "blast_bonus": 50
+      }
+    },
+    "210": {
+      "__id__": 210,
+      "id": 210,
+      "title": "炎爆术",
+      "description": "将火球术升级为炎爆术,穿透+2，每次命中都会爆炸",
+      "icon": "21:5",
+      "type": [
+        1
+      ],
+      "term_id": 210,
+      "term_type": "upgrade",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          201,
+          1
+        ],
+        [
+          202,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        17
+      ],
+      "fireball_mod": {
+        "pierce": 2,
+        "upgraded": true
+      }
+    },
+    "200301": {
+      "__id__": 200301,
+      "id": 200301,
+      "title": "荆棘护甲",
+      "description": "为友方英雄施加荆棘护甲（最大生命值5%）并恢复其少量生命，使攻击其的怪物受到自然伤害，持续10秒，cd15秒",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 301,
+      "term_type": "initial",
+      "draw_weight": 5000,
+      "options_num": 1,
+      "premise1": [],
+      "premise2": [],
+      "unlock": [
+        20301
+      ],
+      "aim_skill": [],
+      "recruit_weight": 5000
+    },
+    "200302": {
+      "__id__": 200302,
+      "id": 200302,
+      "title": "长青木盾",
+      "description": "荆棘护甲持续+2.5秒；最多由10秒增至15秒",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 302,
+      "term_type": "initial",
+      "draw_weight": 4000,
+      "options_num": 2,
+      "premise1": [
+        [
+          200301,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "duration_ms": 2500
+      }
+    },
+    "200303": {
+      "__id__": 200303,
+      "id": 200303,
+      "title": "润生木盾",
+      "description": "施放荆棘护甲的直接治疗+50%；施放护甲时增加目标最大生命1.5%的护盾",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 303,
+      "term_type": "initial",
+      "draw_weight": 4000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200301,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "heal_bonus": 50,
+        "extra_shield": true
+      }
+    },
+    "200306": {
+      "__id__": 200306,
+      "id": 200306,
+      "title": "缠根印记",
+      "description": "受荆棘护甲保护的友军受敌人直接攻击后附加缠根，使攻击者攻速降低5%，持续5秒。最高5层。",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 306,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200301,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "slow": true
+      }
+    },
+    "200307": {
+      "__id__": 200307,
+      "id": 200307,
+      "title": "缠绕花灵",
+      "description": "施放荆棘护甲时在目标旁生成1株花灵，持续10秒。每5秒将200px圆形范围附近的怪物禁锢2s并造成自然伤害。",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 307,
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200301,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "flowers": true
+      }
+    },
+    "200308": {
+      "__id__": 200308,
+      "id": 200308,
+      "title": "木灵庇护",
+      "description": "荆棘护甲到期或被敌人击破时，爆炸对范围内敌人造成3秒眩晕",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 308,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200302,
+          1
+        ],
+        [
+          200303,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "burst": true
+      }
+    },
+    "200310": {
+      "__id__": 200310,
+      "id": 200310,
+      "title": "共生培育",
+      "description": "花灵场上上限+1、持续+5秒；最终最多2株、持续15秒。超限时替换剩余时间最短者。",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 310,
+      "term_type": "initial",
+      "draw_weight": 4000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200307,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "flower_limit": 1,
+        "flower_duration_ms": 5000
+      }
+    },
+    "200311": {
+      "__id__": 200311,
+      "id": 200311,
+      "title": "荆棘共生",
+      "description": "每次施放荆棘护甲时，目标数量+1，无目标时保护自身。",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 311,
+      "term_type": "initial",
+      "draw_weight": 4000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200303,
+          1
+        ],
+        [
+          200306,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "targets": 1,
+        "self_fallback": true
+      }
+    },
+    "200312": {
+      "__id__": 200312,
+      "id": 200312,
+      "title": "花灵跟随",
+      "description": "施放荆棘护甲时，至多2株现有花灵迁移到两名受护甲者身边，各治疗对应目标最大生命10%，并获得10秒30%减伤",
+      "icon": "661:2",
+      "type": [
+        2
+      ],
+      "term_id": 312,
+      "term_type": "upgrade",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200311,
+          1
+        ],
+        [
+          200310,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20301
+      ],
+      "thorn_mod": {
+        "follow": true
+      }
+    },
+    "200400": {
+      "__id__": 200400,
+      "id": 200400,
+      "term_id": 400,
+      "title": "多重射击",
+      "description": "向目标方向射出3根箭矢，每根造成50%冰系伤害",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 5000,
+      "options_num": 1,
+      "premise1": [],
+      "premise2": [],
+      "unlock": [
+        "20002"
+      ],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {},
+      "recruit_weight": 5000
+    },
+    "200401": {
+      "__id__": 200401,
+      "id": 200401,
+      "term_id": 401,
+      "title": "增伤",
+      "description": "多重射击伤害+60%",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 2,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "bonus": 60
+      }
+    },
+    "200402": {
+      "__id__": 200402,
+      "id": 200402,
+      "term_id": 402,
+      "title": "穿透",
+      "description": "多重射击伤害+20%，穿透+1",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "bonus": 20,
+        "pierce": 1
+      }
+    },
+    "200403": {
+      "__id__": 200403,
+      "id": 200403,
+      "term_id": 403,
+      "title": "齐射",
+      "description": "多重射击伤害+20%，齐射+1",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "bonus": 20,
+        "copies": 1
+      }
+    },
+    "200404": {
+      "__id__": 200404,
+      "id": 200404,
+      "term_id": 404,
+      "title": "连击",
+      "description": "多重射击伤害+20%，施放时有50%概率额外触发1次多重射击",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200403,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "bonus": 20,
+        "combo_chance": 50
+      }
+    },
+    "200405": {
+      "__id__": 200405,
+      "id": 200405,
+      "term_id": 405,
+      "title": "冰冻侵袭",
+      "description": "多重射击及其折射命中后施加[冰冷],持续5秒\n冰冷:减少10%移动速度,叠加至5层后冻结3秒",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "chill": true
+      }
+    },
+    "200406": {
+      "__id__": 200406,
+      "id": 200406,
+      "term_id": 406,
+      "title": "击退",
+      "description": "多重射击伤害+30%，其箭矢命中后有50%的概率击退怪物一定距离",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200402,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "bonus": 30,
+        "knock_chance": 50
+      }
+    },
+    "200407": {
+      "__id__": 200407,
+      "id": 200407,
+      "term_id": 407,
+      "title": "集中",
+      "description": "每次施放多重射击，为该技能叠加攻击力+1%、法术强度+1，持续4秒，可叠加40次。",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "focus": true
+      }
+    },
+    "200408": {
+      "__id__": 200408,
+      "id": 200408,
+      "term_id": 408,
+      "title": "箭雨",
+      "description": "施放多重射击时有20%概率召唤寒冰箭雨，对目标范围造成100%冰系伤害,并冻结目标1秒,持续5秒",
+      "icon": "869:2",
+      "type": [
+        13
+      ],
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200405,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "rain_chance": 20
+      }
+    },
+    "200409": {
+      "__id__": 200409,
+      "id": 200409,
+      "term_id": 409,
+      "title": "星辰之箭",
+      "description": "将多重射击升级为星辰之箭,每次命中目标后额外触发1次折射",
+      "icon": "869:5",
+      "type": [
+        13
+      ],
+      "term_type": "upgrade",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200401,
+          1
+        ],
+        [
+          200402,
+          1
+        ],
+        [
+          200405,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        20002
+      ],
+      "ice_mod": {
+        "upgraded": true
+      }
+    },
+    "200500": {
+      "__id__": 200500,
+      "id": 200500,
+      "title": "刺杀",
+      "description": "立即传送至1名怪物位置并攻击目标,对其造成300%电系伤害",
+      "icon": "1705:2",
+      "type": [
+        17
+      ],
+      "term_id": 500,
+      "term_type": "initial",
+      "draw_weight": 5000,
+      "options_num": 1,
+      "premise1": [],
+      "premise2": [],
+      "unlock": [
+        "1435"
+      ],
+      "aim_skill": [],
+      "recruit_weight": 5000
+    },
+    "200501": {
+      "__id__": 200501,
+      "id": 200501,
+      "title": "增伤",
+      "description": "刺杀伤害+80%",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 501,
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 2,
+      "premise1": [
+        [
+          200500,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "damage_percent": 80
+      }
+    },
+    "200502": {
+      "__id__": 200502,
+      "id": 200502,
+      "title": "连击",
+      "description": "刺杀额外造成1次伤害",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 502,
+      "term_type": "initial",
+      "draw_weight": 3000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200500,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "combo": true
+      }
+    },
+    "200503": {
+      "__id__": 200503,
+      "id": 200503,
+      "title": "麻痹",
+      "description": "刺杀命中目标后使其处于[麻痹]状态,持续2秒",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 503,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200500,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "paralyze": true
+      }
+    },
+    "200504": {
+      "__id__": 200504,
+      "id": 200504,
+      "title": "烟幕弹",
+      "description": "传送至目标位置后立即投掷烟幕弹，对范围内怪物造成伤害并使其命中-50%，持续4秒",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 504,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200500,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "smoke": true
+      }
+    },
+    "200505": {
+      "__id__": 200505,
+      "id": 200505,
+      "title": "刀扇",
+      "description": "传送至目标后向周围释放刀扇造成100%电系伤害，并使其处于[麻痹]状态,持续1秒",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 505,
+      "term_type": "initial",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200503,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "fan": true
+      }
+    },
+    "200506": {
+      "__id__": 200506,
+      "id": 200506,
+      "title": "追猎",
+      "description": "刺杀击杀目标后冷却时间立即重置，并使下次刺杀伤害+50%",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 506,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200502,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "hunt": true
+      }
+    },
+    "200507": {
+      "__id__": 200507,
+      "id": 200507,
+      "title": "感电",
+      "description": "普攻对目标附加[感电]状态,持续5秒\n感电:每秒造成30%电系伤害，最多叠加5层",
+      "icon": "1705:3",
+      "type": [
+        17
+      ],
+      "term_id": 507,
+      "term_type": "initial",
+      "draw_weight": 1000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200500,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "shock": true
+      }
+    },
+    "200508": {
+      "__id__": 200508,
+      "id": 200508,
+      "title": "即死",
+      "description": "刺杀无视目标护甲,若目标生命值低于20%则立即斩杀目标; 若目标为精英或首领则造成3倍伤害",
+      "icon": "1705:4",
+      "type": [
+        17
+      ],
+      "term_id": 508,
+      "term_type": "upgrade",
+      "draw_weight": 2000,
+      "options_num": 1,
+      "premise1": [
+        [
+          200501,
+          1
+        ],
+        [
+          200506,
+          1
+        ]
+      ],
+      "premise2": [],
+      "unlock": [],
+      "aim_skill": [
+        1435
+      ],
+      "assassination_mod": {
+        "execute": true
+      }
+    }
+  },
+  "option_sets": {
+    "4": [
+      200100,
+      200101,
+      200102,
+      200103,
+      200104,
+      200105,
+      200106,
+      200107
+    ],
+    "1": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+    ],
+    "2": [
+      200301,
+      200302,
+      200303,
+      200306,
+      200307,
+      200308,
+      200310,
+      200311,
+      200312
+    ],
+    "13": [
+      200400,
+      200401,
+      200402,
+      200403,
+      200404,
+      200405,
+      200406,
+      200407,
+      200408,
+      200409
+    ],
+    "17": [
+      200500,
+      200501,
+      200502,
+      200503,
+      200504,
+      200505,
+      200506,
+      200507,
+      200508
+    ]
+  }
+}

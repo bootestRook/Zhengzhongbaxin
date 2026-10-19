@@ -1,0 +1,69 @@
+{
+  "catalog_sha256": "7999b27e3125470a80bb1023c43bf30f58b90974e67d1bfb6c2645e06be9ca6f",
+  "combined_source_sha256": "e79d294853c1fc838742850ab5abc0dda39be2961d2d15fcd4810b86697ce26c",
+  "format_version": 1,
+  "generator": "tools/content_pipeline.py",
+  "schema_version": 1,
+  "source_files": [
+    {
+      "bytes": 8887,
+      "path": "data/schema/data_schema.json",
+      "sha256": "758c390c8bf10296cbce326bac4c7e27e62b70a6dca91ae6303f77866865e02f"
+    },
+    {
+      "bytes": 307,
+      "path": "data/source/definitions.csv",
+      "sha256": "b737d31c326a9ba5be781e89ea0f10ff66531e629e9a78546a6fc21e4a3ccf9a"
+    },
+    {
+      "bytes": 319,
+      "path": "data/source/feature_catalog.csv",
+      "sha256": "dac02948099a59705f64087621c6c10a814713333da609bd0047793324b92d8d"
+    },
+    {
+      "bytes": 706,
+      "path": "data/source/localization.csv",
+      "sha256": "88838a7734b8038457d428163718529a4cb932dd568dfb6ae1ecb36350009d5c"
+    },
+    {
+      "bytes": 125,
+      "path": "data/source/platform_overrides.csv",
+      "sha256": "e6d2e7229413eb6dd10965263505bdf6c040a59045422e72848861185c60bc9a"
+    },
+    {
+      "bytes": 251,
+      "path": "data/source/presentation_cues.csv",
+      "sha256": "6e4e2c645e1cad0a1e177e62be86a3b525617023e3ba28bfe20f0d8f020e5f99"
+    },
+    {
+      "bytes": 277,
+      "path": "data/source/quality_budgets.csv",
+      "sha256": "ac3fa680e6a6344507116b744dff5eca430198ddb48358645121c58e7ba1a7ce"
+    },
+    {
+      "bytes": 197,
+      "path": "data/source/relations.csv",
+      "sha256": "f34f789ebe1556e18a1202f8de34963a7a9a0644b8d3f2a73f33b702870c6482"
+    },
+    {
+      "bytes": 22170,
+      "path": "data/source/resource_bindings.csv",
+      "sha256": "e7d11f57a0b77aac00cc26ddc46e9ae46c5722e1d1f06e1ca54bf6f947ee3e18"
+    },
+    {
+      "bytes": 542,
+      "path": "data/source/resource_policies.csv",
+      "sha256": "ff8cd4aed83fb8d3c5da4513145dae50c6b541be6e14f292675452d96c25a8b7"
+    },
+    {
+      "bytes": 421,
+      "path": "data/source/system_settings.csv",
+      "sha256": "6ed40ed9755b9ffcf2194ba4626cb55b3ddbe8e31d83f7fb53d5634ac6024134"
+    },
+    {
+      "bytes": 334,
+      "path": "data/source/tuning.csv",
+      "sha256": "4fe4e87c2afa4d28fd0558f4dbf26e302253b478ad4d7a52d62f876780747389"
+    }
+  ]
+}

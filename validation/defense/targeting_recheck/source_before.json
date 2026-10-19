@@ -1,0 +1,8 @@
+{
+  "src/features/defense/domain/defense_ai.gd": "a7882a4359f871b59098a80594a50307b67c1cef2f66940ccd3c63ec37bb3e9d",
+  "src/features/defense/domain/defense_space.gd": "9ccb4a2f733c59e41c406073aa3fc86ad9a05b401f59bd53fdb057d9371ccc40",
+  "src/features/defense/domain/defense_targets.gd": "4ac11d7f7717223eab4a2e4c70c5657426c7557b8f54837286c03615fbecc2f3",
+  "src/features/defense/domain/defense_units.gd": "4f447ddc03a017070825bfae3443259f849508d0f7546ac1b0e3c29eec12c4bb",
+  "data/source/defense/rules.json": "12cfea16268c8d476c5abf965bfdb884af7a5459f4e0ae9afff2648b8635ca52",
+  "data/generated/defense_catalog.json": "9bb235804f69900b0d19d4cb7beeb94ff652ac27ddd74f2bfc31a41396406cb7"
+}

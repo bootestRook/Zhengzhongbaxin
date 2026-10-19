@@ -1,0 +1,11 @@
+{
+  "src/features/defense/presentation/defense_home_hero_details.gd": "9d4a365612c871d1a8f9fd4f22942fa047f6123afc0fd99f15b98bcad6e42e0b",
+  "src/features/defense/presentation/defense_home.gd": "8b804352285e66365ed15c0ff2996c583a22f581f9ad1dba633fc0dbd3bbfa1f",
+  "src/features/defense/presentation/defense_home_heroes.gd": "a5fd1e4d4553cd387ea060c94767a2ee3fc371cc7cba6027f2dd34989f14a220",
+  "scenes/defense/home_hero_details.tscn": "84defd8aa8d0787bd346b5f9b6afed275d3267e2b0a6487b427709cb484ba3c5",
+  "scenes/defense/home_hero_portrait.tscn": "28ad6d8ed1facb037bfbd2064ccc3f2cf6e7e2b92bbc54a1e8b2984c846252ca",
+  "scenes/defense/home_hero_skill.tscn": "e28ef759e5d26af3fb83b425afdb419b00d17fe4a5175f7d2fffe1321c30275b",
+  "scenes/defense/home.tscn": "11251cab4e8610f135099d19b63fe7b9a76d0c123769b17de6c231dc784f78a4",
+  "tests/test_defense_home_hero_details_ui.gd": "0495e68065f938d72f3db8b42a73522675ad08163ad031f422948454d58a7575",
+  "tests/test_defense_home_heroes_ui.gd": "68940797622c33b9a5b3fb704fcdf0f19f2457a736c121a0dd965a70cf8e67f5"
+}

@@ -1,0 +1,413 @@
+{
+  "source": "ef64261d5ed2332727c30c2f8f23ea060f1719a7fd6ed170ceebdd6b55048e90",
+  "source_files": 583,
+  "artifacts": [
+    {
+      "bytes": 109456896,
+      "path": "defense-demo.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "bytes": 69790920,
+      "path": "defense-demo.pck",
+      "sha256": "4be1b3d0c20ae743f69393a27b63ecbc3e56a8873aeb048f69b53f1135dcd1a4"
+    }
+  ],
+  "python_tests": 46,
+  "godot_assertions": 6350,
+  "project_check": "passed",
+  "qa": {
+    "assets_loaded": 106,
+    "battle": {
+      "bosses_dead": 3,
+      "heroes": 5,
+      "phase": "result",
+      "seed": 6,
+      "time_ms": 281424,
+      "wave": 20,
+      "won": true
+    },
+    "captures": [
+      {
+        "height": 960,
+        "name": "home_480x960",
+        "width": 480
+      },
+      {
+        "height": 1440,
+        "name": "home_720x1440",
+        "width": 720
+      },
+      {
+        "height": 1920,
+        "name": "home_960x1920",
+        "width": 960
+      },
+      {
+        "height": 720,
+        "name": "home_1280x720",
+        "width": 360
+      },
+      {
+        "height": 1080,
+        "name": "home_1920x1080",
+        "width": 540
+      },
+      {
+        "height": 768,
+        "name": "home_1024x768",
+        "width": 384
+      },
+      {
+        "height": 960,
+        "name": "levels",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "gallery",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "initial_choice",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "choice_tooltip",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "choice_second_tooltip",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "choice_attributes",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "refresh_1",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "refresh_0",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "battle",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "pause",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "five_heroes",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "fifth_attributes",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "roster_second_tooltip",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "result",
+        "width": 480
+      }
+    ],
+    "dpi": 192,
+    "errors": [],
+    "font_characters": 919,
+    "fullscreen_size": [
+      3840,
+      2160
+    ],
+    "missing_glyphs": [],
+    "raw_files_verified": 5,
+    "refresh_sequence": [
+      2,
+      1,
+      0,
+      2
+    ],
+    "rules": {
+      "boss_waves": [
+        8,
+        14,
+        20
+      ],
+      "formation_five": {
+        "back": [
+          [
+            1160,
+            1150
+          ],
+          [
+            440,
+            1150
+          ],
+          [
+            620,
+            1150
+          ],
+          [
+            980,
+            1150
+          ],
+          [
+            800,
+            1150
+          ]
+        ],
+        "front": [
+          [
+            1160,
+            1000
+          ],
+          [
+            440,
+            1000
+          ],
+          [
+            620,
+            950
+          ],
+          [
+            980,
+            950
+          ],
+          [
+            800,
+            950
+          ]
+        ]
+      },
+      "hero_limit": 5,
+      "hero_spawn": [
+        771,
+        1390
+      ],
+      "max_level": 20,
+      "recruit_chance": 2500,
+      "revive_seconds": {
+        "1": 20,
+        "10": 20,
+        "2": 10,
+        "3": 10,
+        "4": 20,
+        "5": 10
+      },
+      "schema_version": 3,
+      "unlocked_heroes": [
+        1,
+        2,
+        4,
+        13,
+        17
+      ],
+      "wave_count": 20
+    },
+    "two_skills": [
+      {
+        "hero": "火焰术士",
+        "skills": [
+          "火球术",
+          "炎枪"
+        ]
+      },
+      {
+        "hero": "德鲁伊",
+        "skills": [
+          "治疗药剂",
+          "荆棘"
+        ]
+      },
+      {
+        "hero": "勇者",
+        "skills": [
+          "圣盾",
+          "践踏"
+        ]
+      },
+      {
+        "hero": "游侠",
+        "skills": [
+          "多重箭",
+          "集中"
+        ]
+      },
+      {
+        "hero": "黯影",
+        "skills": [
+          "毒刃",
+          "刺杀"
+        ]
+      }
+    ],
+    "unlocked_heroes": [
+      1,
+      2,
+      4,
+      13,
+      17
+    ]
+  },
+  "parity": {
+    "count": 20,
+    "identical": 20,
+    "frames": [
+      {
+        "name": "battle.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "choice_attributes.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "choice_second_tooltip.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "choice_tooltip.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "fifth_attributes.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "five_heroes.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "gallery.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_1024x768.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_1280x720.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_1920x1080.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_480x960.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_720x1440.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_960x1920.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "initial_choice.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "levels.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "pause.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "refresh_0.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "refresh_1.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "result.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "roster_second_tooltip.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      }
+    ]
+  },
+  "native": {
+    "exit_code": 0,
+    "errors": [],
+    "clean_directory": true,
+    "initial_files": [
+      {
+        "name": "defense-demo.exe",
+        "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+      },
+      {
+        "name": "defense-demo.pck",
+        "sha256": "4be1b3d0c20ae743f69393a27b63ecbc3e56a8873aeb048f69b53f1135dcd1a4"
+      }
+    ],
+    "main_menu": true,
+    "recruitment": true,
+    "two_skills": true,
+    "refresh": true,
+    "battle": true,
+    "pause": true,
+    "result": true,
+    "return_home": true,
+    "observations": [
+      "独立EXE主页正常，开始后可见三张双技能招募卡和剩余2次刷新",
+      "勇者第二技能践踏显示对应说明，再次点击关闭且没有确认招募",
+      "刷新后候选变化，剩余次数由2减为1",
+      "招募勇者进入第1波，底栏同时显示圣盾和践踏图标",
+      "暂停页面、退出结算、确认返回主页均正常",
+      "Alt+F4关闭，进程退出码0，日志无SCRIPT ERROR或ERROR"
+    ],
+    "method": "computer-use sky; only verified final EXE and PCK present in the temporary working directory"
+  },
+  "qa_harness_note": {
+    "initial_final_capture": "Process exited before result capture; stdout contained only the engine and GPU header; no SCRIPT ERROR or ERROR was emitted.",
+    "windows_event": "Application event 1001 / AppHangB1 for Godot at 2026-10-15 16:31:29 +08:00.",
+    "followup": "Same final PCK completed the repeated twenty-wave run and all 20 frames matched the source exactly, exit 0.",
+    "harness_adjustment": "The accelerated simulation previously ran without yielding between the five-hero capture and result. It now yields a process frame every 256 ticks in that segment to keep window message processing active. This is a validation harness change only."
+  }
+}

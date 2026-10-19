@@ -1,0 +1,25 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FAN] ice count=3 degrees=[0, -7, 7]
+[FAN] ice count=3 degrees=[0, -7, 7]
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+[FAN] fire count=1 degrees=[0]
+[FAN] fire count=2 degrees=[0, -5]
+[FAN] fire count=3 degrees=[0, -5, 5]
+[PROJECTILES] fan, sweep, penetration, refraction and termination verified
+[MELEE STABILITY] {"attacks":27,"seed":6,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":25,"seed":17,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":30,"seed":81,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":30,"seed":1,"stutters":0,"time":120000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+[COMBAT REGRESSION] assertions=216 failures=0

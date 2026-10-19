@@ -1,0 +1,120 @@
+{
+  "format_version": 1,
+  "design": {
+    "stretch_mode": "canvas_items",
+    "stretch_aspect": "keep"
+  },
+  "profiles": {
+    "webapp": {
+      "platform": "Web",
+      "preset": "Web",
+      "output": "build/web/index.html",
+      "archive": "build/webapp.zip",
+      "max_archive_bytes": 100000000,
+      "resolution": {
+        "mode": "project",
+        "override": null,
+        "reason": ""
+      },
+      "canvas_resize_policy": "adaptive",
+      "vram_texture_targets": [
+        "desktop"
+      ],
+      "required_locales": [
+        "zh_CN"
+      ],
+      "bundled_font_files": [
+        "assets/runtime/defense/chinese.ttf"
+      ],
+      "test_browsers": [
+        "Chromium",
+        "Firefox"
+      ],
+      "supported_orientations": [
+        "landscape",
+        "portrait"
+      ],
+      "test_resolutions": [
+        [
+          360,
+          640
+        ],
+        [
+          768,
+          1024
+        ],
+        [
+          960,
+          540
+        ],
+        [
+          1366,
+          768
+        ],
+        [
+          1920,
+          1080
+        ]
+      ],
+      "confirmation": {
+        "resolution_and_mode_confirmed": false,
+        "adaptation_reviewed": false,
+        "color_parity_reviewed": false,
+        "text_and_font_reviewed": false,
+        "editor_candidate_parity_reviewed": false
+      }
+    },
+    "exe": {
+      "platform": "Windows Desktop",
+      "preset": "Windows Desktop",
+      "output": "build/windows/defense-demo.exe",
+      "resolution": {
+        "mode": "project",
+        "override": null,
+        "reason": ""
+      },
+      "initial_window_resolution": [
+        720,
+        1440
+      ],
+      "resizable": true,
+      "supported_orientations": [
+        "portrait",
+        "landscape"
+      ],
+      "test_resolutions": [
+        [
+          480,
+          960
+        ],
+        [
+          720,
+          1440
+        ],
+        [
+          960,
+          1920
+        ],
+        [
+          1280,
+          720
+        ],
+        [
+          1920,
+          1080
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "confirmation": {
+        "resolution_and_mode_confirmed": true,
+        "adaptation_reviewed": true,
+        "color_parity_reviewed": true,
+        "text_and_font_reviewed": true,
+        "editor_candidate_parity_reviewed": true
+      }
+    }
+  }
+}

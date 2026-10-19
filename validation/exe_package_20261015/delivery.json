@@ -1,0 +1,304 @@
+{
+  "source_combined_sha256": "7620547d505aab1df6bdcf62238b28d1a18bfb1e151cdd6eaadbda8d50a0a8bd",
+  "source_files": 575,
+  "artifacts": [
+    {
+      "bytes": 109456896,
+      "path": "defense-demo.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "bytes": 69950844,
+      "path": "defense-demo.pck",
+      "sha256": "55ed4fd1133085c4d1765794d90b99458f38d4475e5fbc6edeec4b2fb491df00"
+    }
+  ],
+  "qa": {
+    "assets_loaded": 106,
+    "battle": {
+      "bosses_dead": 3,
+      "heroes": 5,
+      "phase": "result",
+      "seed": 6,
+      "time_ms": 279792,
+      "wave": 20,
+      "won": true
+    },
+    "captures": [
+      {
+        "height": 960,
+        "name": "home_480x960",
+        "width": 480
+      },
+      {
+        "height": 1440,
+        "name": "home_720x1440",
+        "width": 720
+      },
+      {
+        "height": 1920,
+        "name": "home_960x1920",
+        "width": 960
+      },
+      {
+        "height": 720,
+        "name": "home_1280x720",
+        "width": 360
+      },
+      {
+        "height": 1080,
+        "name": "home_1920x1080",
+        "width": 540
+      },
+      {
+        "height": 768,
+        "name": "home_1024x768",
+        "width": 384
+      },
+      {
+        "height": 960,
+        "name": "levels",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "gallery",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "initial_choice",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "choice_tooltip",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "choice_attributes",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "battle",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "pause",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "five_heroes",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "fifth_attributes",
+        "width": 480
+      },
+      {
+        "height": 960,
+        "name": "result",
+        "width": 480
+      }
+    ],
+    "dpi": 192,
+    "errors": [],
+    "font_characters": 957,
+    "fullscreen_size": [
+      3840,
+      2160
+    ],
+    "missing_glyphs": [],
+    "raw_files_verified": 5,
+    "rules": {
+      "boss_waves": [
+        8,
+        14,
+        20
+      ],
+      "formation_five": {
+        "back": [
+          [
+            1160,
+            1150
+          ],
+          [
+            440,
+            1150
+          ],
+          [
+            620,
+            1150
+          ],
+          [
+            980,
+            1150
+          ],
+          [
+            800,
+            1150
+          ]
+        ],
+        "front": [
+          [
+            1160,
+            1000
+          ],
+          [
+            440,
+            1000
+          ],
+          [
+            620,
+            950
+          ],
+          [
+            980,
+            950
+          ],
+          [
+            800,
+            950
+          ]
+        ]
+      },
+      "hero_limit": 5,
+      "hero_spawn": [
+        771,
+        1390
+      ],
+      "max_level": 20,
+      "recruit_chance": 2500,
+      "revive_seconds": {
+        "1": 20,
+        "10": 20,
+        "2": 10,
+        "3": 10,
+        "4": 20,
+        "5": 10
+      },
+      "schema_version": 2,
+      "wave_count": 20
+    }
+  },
+  "pixel_parity": {
+    "count": 16,
+    "identical": 16,
+    "frames": [
+      {
+        "name": "battle.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "choice_attributes.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "choice_tooltip.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "fifth_attributes.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "five_heroes.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "gallery.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_1024x768.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_1280x720.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_1920x1080.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_480x960.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_720x1440.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "home_960x1920.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "initial_choice.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "levels.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "pause.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      },
+      {
+        "name": "result.png",
+        "identical": true,
+        "mean_channel_difference": 0.0
+      }
+    ]
+  },
+  "native": {
+    "exit_code": 0,
+    "errors": [],
+    "clean_directory": true,
+    "initial_files": [
+      {
+        "name": "defense-demo.exe",
+        "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+      },
+      {
+        "name": "defense-demo.pck",
+        "sha256": "55ed4fd1133085c4d1765794d90b99458f38d4475e5fbc6edeec4b2fb491df00"
+      }
+    ],
+    "main_menu": true,
+    "recruitment": true,
+    "battle": true,
+    "pause": true,
+    "result": true,
+    "return_home": true,
+    "observations": [
+      "中文主页正常，点击开始打开三张招募卡",
+      "招募英雄及确认强化后进入战场，底栏显示实际英雄",
+      "点击左上暂停显示敌人和首领资料、伤害显示与继续/退出按钮",
+      "退出挑战进入关卡结束结算，确认按钮返回主页",
+      "Alt+F4正常关闭，独立进程退出码0"
+    ],
+    "method": "computer-use sky; final EXE launched from a clean directory containing only the verified EXE and PCK"
+  }
+}

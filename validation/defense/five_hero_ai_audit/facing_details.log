@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FACING] [{"current":{"action":"idle","at":79072,"charge":true,"charge_skills":[{"end":79272,"skill":162,"start":78672}],"facing":1.0,"from":"(774.3227, 1170.415)","old_target":16,"pos":"(775.0323, 1162.446)","target":16,"target_from":"(774.0854, 1121.155)","target_pos":"(774.0908, 1121.475)"},"previous":{"action":"idle","at":79024,"charge":true,"charge_skills":[{"end":79272,"skill":162,"start":78672}],"facing":-1.0,"from":"(772.1937, 1194.32)","old_target":19,"pos":"(772.9034, 1186.352)","target":16,"target_from":"(734.6559, 1316.369)","target_pos":"(774.0745, 1120.515)"}}]
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FACING] [{"current":{"action":"walk","at":33232,"charge":false,"charge_skills":[],"facing":1.0,"from":"(1049.781, 1169.061)","old_target":8,"pos":"(1050.559, 1169.244)","target":8,"target_from":"(838.8381, 703.5788)","target_pos":"(838.9826, 703.8643)"},"previous":{"action":"walk","at":33200,"charge":false,"charge_skills":[],"facing":-1.0,"from":"(1048.223, 1168.694)","old_target":8,"pos":"(1049.002, 1168.878)","target":8,"target_from":"(838.549, 703.0079)","target_pos":"(838.6935, 703.2933)"}}]

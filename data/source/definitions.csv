@@ -1,0 +1,3 @@
+id,feature_id,definition_type,display_name_key,tags,resource_id
+sample.interaction_reward,sample_interaction,reward_marker,definition.sample.interaction_reward,sample|reward,
+sample.interaction_target,sample_interaction,counter_target,definition.sample.interaction_target,sample|interactive,ui.sample_badge

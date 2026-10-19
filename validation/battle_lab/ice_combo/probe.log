@@ -1,0 +1,42 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[ICE COMBO] seed=1 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=1 combo=true arrows=4 overlap=0 damage=70.0
+
+[ICE COMBO] seed=2 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=2 combo=true arrows=8 overlap=4 damage=140.0
+
+[ICE COMBO] seed=3 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=3 combo=true arrows=4 overlap=0 damage=70.0
+
+[ICE COMBO] seed=4 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=4 combo=true arrows=4 overlap=0 damage=70.0
+
+[ICE COMBO] seed=5 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=5 combo=true arrows=4 overlap=0 damage=70.0
+
+[ICE COMBO] seed=6 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=6 combo=true arrows=4 overlap=0 damage=70.0
+
+[ICE COMBO] seed=7 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=7 combo=true arrows=8 overlap=4 damage=140.0
+
+[ICE COMBO] seed=8 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=8 combo=true arrows=8 overlap=4 damage=140.0
+
+[ICE COMBO] seed=53 combo=false arrows=4 overlap=0 damage=60.0
+
+[ICE COMBO] seed=53 combo=true arrows=8 overlap=4 damage=140.0
+
+[ICE COMBO] assertions=147 failures=0
+[OK] ice combo through shared lab

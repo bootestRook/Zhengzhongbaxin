@@ -1,0 +1,41 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+CHOICE 0 hero ["火焰术士", "尸鬼之王", "黯影"]
+TICK 0 wave=0 kills=0 wall=3900.0 actors=1 missiles=0
+CHOICE 1 hero ["大魔导师", "指挥官", "血族亲王"]
+CHOICE 2 upgrade ["烈焰", "奥术", "冰霜"]
+CHOICE 3 upgrade ["奥术", "冰霜", "烈焰A"]
+CHOICE 4 hero ["德鲁伊", "尸鬼之王", "勇者"]
+CHOICE 5 upgrade ["炎爆", "奥术B", "冰霜"]
+CHOICE 6 statue ["洗礼", "生命链接", "雷霆诅咒"]
+CHOICE 7 hero ["深渊领主", "主教", "尸鬼之王"]
+CHOICE 8 upgrade ["炎爆A", "奴仆", "炎爆B"]
+CHOICE 9 upgrade ["冰霜", "奥术B", "培育"]
+CHOICE 10 upgrade ["余震", "烈焰A", "冰霜B"]
+TICK 5000 wave=12 kills=76 wall=3900.0 actors=31 missiles=0
+CHOICE 11 upgrade ["奥术B", "多重", "炎爆B"]
+CHOICE 12 statue ["地面增幅", "易伤诅咒", "燃烧爆发"]
+CHOICE 13 upgrade ["冰霜B", "余震B", "炎爆B"]
+CHOICE 14 upgrade ["烈焰A", "奥术A", "天灾"]
+CHOICE 15 upgrade ["多重", "余震B", "奴仆"]
+CHOICE 16 upgrade ["奥术A", "炎枪", "多重B"]
+TICK 10000 wave=18 kills=194 wall=3755.0 actors=23 missiles=16
+CHOICE 17 upgrade ["回响", "炎爆B", "余震A"]
+CHOICE 18 statue ["提速", "减益增强", "火焰增幅"]
+CHOICE 19 upgrade ["冰霜A", "天灾", "炎爆B"]
+CHOICE 20 upgrade ["回响A", "余震A", "雷霆"]
+CHOICE 21 upgrade ["多重B", "回响B", "荆棘"]
+CHOICE 22 upgrade ["爆破", "天灾", "荆棘"]
+TICK 15000 wave=24 kills=322 wall=3755.0 actors=30 missiles=6
+CHOICE 23 upgrade ["多重A", "缠绕", "培育"]
+CHOICE 24 statue ["火焰增幅", "化生", "乘虚而入"]
+CHOICE 25 upgrade ["炎爆B", "烈焰B", "冰霜"]
+CHOICE 26 upgrade ["奥术", "余震A", "多重"]
+CHOICE 27 upgrade ["多重", "爆破A", "天灾"]
+CHOICE 28 upgrade ["雷霆", "天灾", "火雨"]
+CHOICE 29 upgrade ["雷霆B", "炎爆", "雷霆A"]
+RESULT {"bosses":3,"diagnostics":{},"kills":490,"phase":"result","stage":29,"time":319104,"wall":3105.0,"wave":30,"won":true}
+HERO 火焰术士 { "damage": 10505.5720253648, "taken": 2025.56190476191, "heal": 225.561904761905 }
+HERO 大魔导师 { "damage": 266455.719166701, "taken": 3548.4380952381, "heal": 548.438095238095 }
+HERO 德鲁伊 { "damage": 1116.05758505626, "taken": 1861.42857142857, "heal": 61.4285714285714 }
+HERO 深渊领主 { "damage": 25943.2755925915, "taken": 19113.0114285714, "heal": 480.0 }

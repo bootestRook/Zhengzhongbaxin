@@ -1,0 +1,258 @@
+[
+	{
+		"capacity": 2,
+		"overflow_ticks": 0,
+		"peak_bound": 2,
+		"peak_targeted": 2,
+		"samples": [
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 16,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 2016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 4016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 6016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 8016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 10016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 12016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 14016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 16016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 18016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 20016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 22016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 24016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 26016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 28016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 30016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 32016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 34016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 36016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 2,
+				"targeted": 2,
+				"time": 38016,
+				"unbound_targeted": 0
+			}
+		]
+	},
+	{
+		"capacity": 15,
+		"overflow_ticks": 0,
+		"peak_bound": 15,
+		"peak_targeted": 15,
+		"samples": [
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 16,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 2016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 4016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 6016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 8016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 10016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 12016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 14016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 16016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 18016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 20016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 22016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 24016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 26016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 28016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 30016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 32016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 34016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 36016,
+				"unbound_targeted": 0
+			},
+			{
+				"bound": 15,
+				"targeted": 15,
+				"time": 38016,
+				"unbound_targeted": 0
+			}
+		]
+	}
+]

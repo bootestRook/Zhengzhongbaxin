@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/lab/lab_overlay.gd" id="1"]
+
+[node name="LabOverlay" type="Control"]
+offset_top = 130.0
+offset_right = 960.0
+offset_bottom = 1510.0
+mouse_filter = 0
+script = ExtResource("1")

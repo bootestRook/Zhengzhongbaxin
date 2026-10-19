@@ -1,0 +1,1468 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" path="res://src/features/defense/presentation/home_light.gdshader" id="light_shader"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home.gd" id="home"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home_boss.gd" id="boss"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="sprite"]
+
+[ext_resource type="PackedScene" path="res://scenes/defense/home_heroes.tscn" id="heroes"]
+
+[ext_resource type="PackedScene" path="res://scenes/defense/home_statue.tscn" id="statue_page"]
+
+[ext_resource type="PackedScene" path="res://scenes/defense/home_hero_details.tscn" id="hero_details"]
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="ShaderMaterial" id="LightMaterial"]
+resource_local_to_scene = true
+shader = ExtResource("light_shader")
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 0.83, 0.24, 1)
+
+[node name="Home" type="Control"]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("home")
+
+[node name="Map" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:home_level_bg_1"
+
+[node name="MapShade" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:home_level_bg_mask"
+
+[node name="MapLight" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 180.0
+offset_right = 915.0
+offset_bottom = 1410.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:home_level_bg_light"
+modulate = Color(1, 1, 1, 0.84)
+material = SubResource("LightMaterial")
+
+[node name="PlayerPaper" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 464.0
+offset_bottom = 138.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:bg4"
+
+[node name="AvatarFrame" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 20.0
+offset_right = 130.0
+offset_bottom = 128.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:frame"
+
+[node name="Avatar" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 30.0
+offset_right = 118.0
+offset_bottom = 121.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:avatar"
+
+[node name="PlayerName" type="Label" parent="."]
+layout_mode = 0
+offset_left = 142.0
+offset_top = 24.0
+offset_right = 462.0
+offset_bottom = 65.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 39
+text = "玩家45703703"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="PlayerId" type="Label" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 66.0
+offset_right = 413.0
+offset_bottom = 97.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 31
+text = "编号:57519"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="PlayerLevel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 96.0
+offset_right = 278.0
+offset_bottom = 129.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 30
+text = "等级: 0"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="ExperienceBorder" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 106.0
+offset_right = 457.0
+offset_bottom = 131.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Experience" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 109.0
+offset_right = 420.0
+offset_bottom = 128.0
+mouse_filter = 2
+color = Color(0, 0.91, 0.94, 1)
+
+[node name="ExperienceText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 102.0
+offset_right = 446.0
+offset_bottom = 132.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 30
+text = "8/10"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ResourceTrack0" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 766.0
+offset_top = 24.0
+offset_right = 938.0
+offset_bottom = 60.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ResourceIcon0" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 20.0
+offset_right = 802.0
+offset_bottom = 62.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:energy"
+
+[node name="ResourceValue0" type="Label" parent="."]
+layout_mode = 0
+offset_left = 805.0
+offset_top = 24.0
+offset_right = 936.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "1368/30"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ResourceTrack1" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 766.0
+offset_top = 76.0
+offset_right = 938.0
+offset_bottom = 112.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ResourceIcon1" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 72.0
+offset_right = 802.0
+offset_bottom = 114.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:diamond"
+
+[node name="ResourceValue1" type="Label" parent="."]
+layout_mode = 0
+offset_left = 805.0
+offset_top = 76.0
+offset_right = 936.0
+offset_bottom = 112.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "1150"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ResourceTrack2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 766.0
+offset_top = 128.0
+offset_right = 938.0
+offset_bottom = 164.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ResourceIcon2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 124.0
+offset_right = 802.0
+offset_bottom = 166.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:coin"
+
+[node name="ResourceValue2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 805.0
+offset_top = 128.0
+offset_right = 936.0
+offset_bottom = 164.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "1893"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BattlePage" type="Control" parent="."]
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+
+[node name="Activity" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 188.0
+offset_right = 148.0
+offset_bottom = 349.0
+tooltip_text = "活动"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Icon" type="TextureRect" parent="BattlePage/Activity"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 10.0
+offset_right = 112.0
+offset_bottom = 110.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:activity"
+
+[node name="Caption" type="TextureRect" parent="BattlePage/Activity"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 105.0
+offset_right = 126.0
+offset_bottom = 155.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:blackBG"
+
+[node name="Label" type="Label" parent="BattlePage/Activity"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 106.0
+offset_right = 126.0
+offset_bottom = 148.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "活动"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Badge" type="TextureRect" parent="BattlePage/Activity"]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 2.0
+offset_right = 120.0
+offset_bottom = 32.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:hint2"
+
+[node name="FirstGift" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 395.0
+offset_right = 150.0
+offset_bottom = 535.0
+tooltip_text = "首充礼包"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Icon" type="TextureRect" parent="BattlePage/FirstGift"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 2.0
+offset_right = 116.0
+offset_bottom = 85.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:firstGift"
+
+[node name="Caption" type="TextureRect" parent="BattlePage/FirstGift"]
+layout_mode = 0
+offset_left = -22.0
+offset_top = 86.0
+offset_right = 142.0
+offset_bottom = 136.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:blackBG"
+
+[node name="Label" type="Label" parent="BattlePage/FirstGift"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 87.0
+offset_right = 126.0
+offset_bottom = 129.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "首充礼包"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="More" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 814.0
+offset_top = 199.0
+offset_right = 934.0
+offset_bottom = 350.0
+tooltip_text = "更多"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Icon" type="TextureRect" parent="BattlePage/More"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 4.0
+offset_right = 114.0
+offset_bottom = 112.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:setBg"
+
+[node name="Caption" type="TextureRect" parent="BattlePage/More"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 105.0
+offset_right = 126.0
+offset_bottom = 155.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:blackBG"
+
+[node name="Label" type="Label" parent="BattlePage/More"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 106.0
+offset_right = 126.0
+offset_bottom = 148.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "更多"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Badge" type="TextureRect" parent="BattlePage/More"]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 2.0
+offset_right = 120.0
+offset_bottom = 32.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:hint2"
+
+[node name="Ranking" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 814.0
+offset_top = 395.0
+offset_right = 934.0
+offset_bottom = 534.0
+tooltip_text = "排行榜"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Icon" type="TextureRect" parent="BattlePage/Ranking"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 0.0
+offset_right = 109.0
+offset_bottom = 90.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:ar"
+
+[node name="Caption" type="TextureRect" parent="BattlePage/Ranking"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 86.0
+offset_right = 126.0
+offset_bottom = 136.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:blackBG"
+
+[node name="Label" type="Label" parent="BattlePage/Ranking"]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 87.0
+offset_right = 126.0
+offset_bottom = 129.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 31
+text = "排行榜"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelPaper" type="TextureRect" parent="BattlePage"]
+layout_mode = 0
+offset_left = 164.0
+offset_top = 552.0
+offset_right = 844.0
+offset_bottom = 1382.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:bg"
+
+[node name="BossBase" type="TextureRect" parent="BattlePage"]
+layout_mode = 0
+offset_left = 343.0
+offset_top = 529.0
+offset_right = 647.0
+offset_bottom = 702.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:icon_boss_base_home"
+
+[node name="Boss" type="Control" parent="BattlePage"]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 415.0
+offset_right = 615.0
+offset_bottom = 615.0
+mouse_filter = 2
+script = ExtResource("boss")
+
+[node name="Monster" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 694.0
+offset_top = 623.0
+offset_right = 806.0
+offset_bottom = 727.0
+tooltip_text = "查看本关最终首领"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Icon" type="TextureRect" parent="BattlePage/Monster"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 112.0
+offset_bottom = 104.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:btn_Monster"
+
+[node name="LevelSelect" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 255.0
+offset_top = 724.0
+offset_right = 735.0
+offset_bottom = 830.0
+tooltip_text = "选择关卡"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="LevelTitle" type="Label" parent="BattlePage/LevelSelect"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 480.0
+offset_bottom = 106.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 78
+text = "第1关"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ClearStatus" type="Label" parent="BattlePage"]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 841.0
+offset_right = 720.0
+offset_bottom = 893.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.48, 0.76, 0.26, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 40
+text = "等待挑战"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Rule" type="TextureRect" parent="BattlePage"]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 900.0
+offset_right = 656.0
+offset_bottom = 904.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:home_line"
+
+[node name="Rank" type="Label" parent="BattlePage"]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 915.0
+offset_right = 690.0
+offset_bottom = 960.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.61, 0.61, 0.60, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 31
+text = "排名:暂无"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ClearCountPaper" type="TextureRect" parent="BattlePage"]
+layout_mode = 0
+offset_left = 261.0
+offset_top = 992.0
+offset_right = 703.0
+offset_bottom = 1103.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:common_section"
+modulate = Color(0.90, 0.89, 0.90, 1)
+
+[node name="ClearCountTitle" type="Label" parent="BattlePage"]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 1002.0
+offset_right = 694.0
+offset_bottom = 1045.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 31
+text = "通关人数"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ClearCount" type="Label" parent="BattlePage"]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 1045.0
+offset_right = 694.0
+offset_bottom = 1089.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 38
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Reward0" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 1122.0
+offset_right = 401.0
+offset_bottom = 1248.0
+tooltip_text = "查看本关宝箱奖励"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Tile" type="TextureRect" parent="BattlePage/Reward0"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 137.0
+offset_bottom = 126.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:common_section_w_zhengfangxing"
+modulate = Color(0.69, 0.81, 0.61, 1)
+
+[node name="Chest" type="TextureRect" parent="BattlePage/Reward0"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 19.0
+offset_right = 119.0
+offset_bottom = 108.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:t10"
+
+[node name="Claimed" type="TextureRect" parent="BattlePage/Reward0"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 73.0
+offset_right = 135.0
+offset_bottom = 121.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:yes"
+
+[node name="Reward1" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 414.0
+offset_top = 1122.0
+offset_right = 551.0
+offset_bottom = 1248.0
+tooltip_text = "查看本关宝箱奖励"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Tile" type="TextureRect" parent="BattlePage/Reward1"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 137.0
+offset_bottom = 126.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:common_section_w_zhengfangxing"
+modulate = Color(0.52, 0.68, 0.76, 1)
+
+[node name="Chest" type="TextureRect" parent="BattlePage/Reward1"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 19.0
+offset_right = 119.0
+offset_bottom = 108.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:t10"
+
+[node name="Claimed" type="TextureRect" parent="BattlePage/Reward1"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 73.0
+offset_right = 135.0
+offset_bottom = 121.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:yes"
+
+[node name="Reward2" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 564.0
+offset_top = 1122.0
+offset_right = 701.0
+offset_bottom = 1248.0
+tooltip_text = "查看本关宝箱奖励"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Tile" type="TextureRect" parent="BattlePage/Reward2"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 137.0
+offset_bottom = 126.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:common_section_w_zhengfangxing"
+modulate = Color(0.67, 0.51, 0.76, 1)
+
+[node name="Chest" type="TextureRect" parent="BattlePage/Reward2"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 19.0
+offset_right = 119.0
+offset_bottom = 108.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:t10"
+
+[node name="Claimed" type="TextureRect" parent="BattlePage/Reward2"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 73.0
+offset_right = 135.0
+offset_bottom = 121.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:yes"
+
+[node name="Previous" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 830.0
+offset_right = 133.0
+offset_bottom = 965.0
+tooltip_text = "上一关"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Arrow" type="TextureRect" parent="BattlePage/Previous"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 100.0
+offset_bottom = 135.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:arrow"
+flip_h = true
+
+[node name="Next" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 829.0
+offset_top = 830.0
+offset_right = 929.0
+offset_bottom = 965.0
+tooltip_text = "下一关"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Arrow" type="TextureRect" parent="BattlePage/Next"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 100.0
+offset_bottom = 135.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:arrow"
+
+[node name="Start" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 274.0
+offset_top = 1350.0
+offset_right = 735.0
+offset_bottom = 1565.0
+tooltip_text = "开始本关挑战"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Paper" type="TextureRect" parent="BattlePage/Start"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 461.0
+offset_bottom = 215.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:Start_Btn"
+
+[node name="LetteringEdge" type="Label" parent="BattlePage/Start"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 20.0
+offset_right = 426.0
+offset_bottom = 108.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 70
+text = "开始"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="BattlePage/Start"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 20.0
+offset_right = 426.0
+offset_bottom = 108.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 70
+text = "开始"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Energy" type="TextureRect" parent="BattlePage/Start"]
+layout_mode = 0
+offset_left = 155.0
+offset_top = 108.0
+offset_right = 192.0
+offset_bottom = 145.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:energy"
+
+[node name="Cost" type="Label" parent="BattlePage/Start"]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 105.0
+offset_right = 272.0
+offset_bottom = 149.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 40
+text = "×6"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sweep" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 1350.0
+offset_right = 274.0
+offset_bottom = 1553.0
+tooltip_text = "扫荡"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Paper" type="TextureRect" parent="BattlePage/Sweep"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 255.0
+offset_bottom = 203.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:btn_Home"
+
+[node name="Icon" type="TextureRect" parent="BattlePage/Sweep"]
+layout_mode = 0
+offset_left = 52.0
+offset_top = -74.0
+offset_right = 194.0
+offset_bottom = 88.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:icon_Sweep"
+
+[node name="Label" type="Label" parent="BattlePage/Sweep"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 46.0
+offset_right = 220.0
+offset_bottom = 101.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 50
+text = "扫荡"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Energy" type="TextureRect" parent="BattlePage/Sweep"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 105.0
+offset_right = 98.0
+offset_bottom = 139.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:energy"
+modulate = Color(0.7, 0.7, 0.7, 1)
+
+[node name="Cost" type="Label" parent="BattlePage/Sweep"]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 101.0
+offset_right = 182.0
+offset_bottom = 145.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 40
+text = "×6"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Territory" type="Button" parent="BattlePage"]
+layout_mode = 0
+offset_left = 715.0
+offset_top = 1355.0
+offset_right = 970.0
+offset_bottom = 1558.0
+tooltip_text = "领地"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Paper" type="TextureRect" parent="BattlePage/Territory"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 255.0
+offset_bottom = 203.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:btn_Home"
+
+[node name="Icon" type="TextureRect" parent="BattlePage/Territory"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = -60.0
+offset_right = 177.0
+offset_bottom = 85.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "homeReference:territory"
+
+[node name="Label" type="Label" parent="BattlePage/Territory"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 93.0
+offset_right = 220.0
+offset_bottom = 155.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 50
+text = "领地"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Chat" type="RichTextLabel" parent="BattlePage"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 1530.0
+offset_right = 922.0
+offset_bottom = 1699.0
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/normal_font_size = 29
+bbcode_enabled = true
+text = "[color=#ffdf2a]系统:[/color]选择英雄和强化，构筑你的守城队伍！\n[color=#ffdf2a]系统:[/color]按刷怪表完成本关全部波次即可完成挑战。\n[color=#ffdf2a]系统:[/color]点击关卡名称可选择当前开放的 1-5 关。"
+scroll_active = false
+
+[node name="HeroPage" parent="." instance=ExtResource("heroes")]
+visible = false
+offset_top = 180.0
+offset_bottom = 1735.0
+
+[node name="StatuePage" parent="." instance=ExtResource("statue_page")]
+visible = false
+
+[node name="NavigationInk" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 1735.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="NavigationPaper" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 1745.0
+offset_right = 960.0
+offset_bottom = 1937.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:bg4"
+modulate = Color(0.52, 0.53, 0.52, 1)
+
+[node name="Shop" type="Button" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 1745.0
+offset_right = 192.0
+offset_bottom = 1920.0
+tooltip_text = "商店"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Icon" type="TextureRect" parent="Shop"]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 6.0
+offset_right = 171.0
+offset_bottom = 132.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:sc2_up"
+
+[node name="Label" type="Label" parent="Shop"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 111.0
+offset_right = 192.0
+offset_bottom = 164.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 48
+text = "商店"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Badge" type="TextureRect" parent="Shop"]
+layout_mode = 0
+offset_left = 166.0
+offset_top = -5.0
+offset_right = 194.0
+offset_bottom = 23.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:hint2"
+
+[node name="Heroes" type="Button" parent="."]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 1745.0
+offset_right = 384.0
+offset_bottom = 1920.0
+tooltip_text = "英雄"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Paper" type="TextureRect" parent="Heroes"]
+visible = false
+offset_right = 198.0
+offset_bottom = 214.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("sprite")
+resource_key = "home:frame"
+
+[node name="Icon" type="TextureRect" parent="Heroes"]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 6.0
+offset_right = 171.0
+offset_bottom = 132.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:yx2_up"
+
+[node name="Label" type="Label" parent="Heroes"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 111.0
+offset_right = 192.0
+offset_bottom = 164.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 48
+text = "英雄"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Divider192" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 1750.0
+offset_right = 195.0
+offset_bottom = 1920.0
+mouse_filter = 2
+color = Color(0.16, 0.17, 0.16, 1)
+
+[node name="Statue" type="Button" parent="."]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 1745.0
+offset_right = 768.0
+offset_bottom = 1920.0
+tooltip_text = "雕像"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Paper" type="TextureRect" parent="Statue"]
+visible = false
+offset_right = 198.0
+offset_bottom = 214.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("sprite")
+resource_key = "home:frame"
+
+[node name="Icon" type="TextureRect" parent="Statue"]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 6.0
+offset_right = 171.0
+offset_bottom = 132.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:tz2_up"
+
+[node name="Label" type="Label" parent="Statue"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 111.0
+offset_right = 192.0
+offset_bottom = 164.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 48
+text = "雕像"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Badge" type="TextureRect" parent="Statue"]
+layout_mode = 0
+offset_left = 166.0
+offset_top = -5.0
+offset_right = 194.0
+offset_bottom = 23.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:hint2"
+
+[node name="Divider576" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 1750.0
+offset_right = 579.0
+offset_bottom = 1920.0
+mouse_filter = 2
+color = Color(0.16, 0.17, 0.16, 1)
+
+[node name="Locked" type="Button" parent="."]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 1745.0
+offset_right = 960.0
+offset_bottom = 1920.0
+tooltip_text = ""
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = true
+
+[node name="Icon" type="TextureRect" parent="Locked"]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 47.0
+offset_right = 128.0
+offset_bottom = 128.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:icon_Lock"
+
+[node name="Divider768" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 1750.0
+offset_right = 771.0
+offset_bottom = 1920.0
+mouse_filter = 2
+color = Color(0.16, 0.17, 0.16, 1)
+
+[node name="Battle" type="Button" parent="."]
+layout_mode = 0
+offset_left = 381.0
+offset_top = 1706.0
+offset_right = 579.0
+offset_bottom = 1920.0
+tooltip_text = "战斗"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+disabled = false
+
+[node name="Paper" type="TextureRect" parent="Battle"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 198.0
+offset_bottom = 214.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:frame"
+
+[node name="Icon" type="TextureRect" parent="Battle"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = -35.0
+offset_right = 193.0
+offset_bottom = 153.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "home:equip"
+
+[node name="Label" type="Label" parent="Battle"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 123.0
+offset_right = 198.0
+offset_bottom = 183.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 48
+text = "战斗"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HeroDetails" parent="." instance=ExtResource("hero_details")]

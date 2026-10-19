@@ -1,0 +1,229 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_result_panel.gd" id="panel"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="sprite"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_result_progress.gd" id="progress"]
+
+[ext_resource type="Shader" path="res://src/features/defense/presentation/result_blur.gdshader" id="blur"]
+
+[sub_resource type="ShaderMaterial" id="Blur"]
+resource_local_to_scene = true
+shader = ExtResource("blur")
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_width_left = 3
+border_width_right = 3
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color(1,0.85,0.25,1)
+
+[node name="ResultPanel" type="Control"]
+visible = false
+z_index = 4
+offset_right = 960.0
+offset_bottom = 1920.0
+script = ExtResource("panel")
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+material = SubResource("Blur")
+color = Color(1,1,1,1)
+
+[node name="Glow" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 150.0
+offset_top = -75.0
+offset_right = 810.0
+offset_bottom = 585.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "battle:smallLight"
+pivot_offset = Vector2(330,330)
+modulate = Color(0.08,0.85,1,0.4)
+
+[node name="Header" type="Control" parent="."]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 119.0
+offset_right = 915.0
+offset_bottom = 548.0
+mouse_filter = 2
+
+[node name="Paper" type="TextureRect" parent="Header"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 870.0
+offset_bottom = 429.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "battle:bg1"
+
+
+[node name="Title" type="Label" parent="Header"]
+layout_mode = 0
+offset_left = 165.0
+offset_top = 226.0
+offset_right = 705.0
+offset_bottom = 358.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 100
+text = "关卡结束"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_constants/outline_size = 4
+
+[node name="Progress" type="Control" parent="."]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 574.0
+offset_right = 865.0
+offset_bottom = 701.0
+mouse_filter = 2
+script = ExtResource("progress")
+
+[node name="History" type="Label" parent="."]
+layout_mode = 0
+offset_left = 742.0
+offset_top = 705.0
+offset_right = 910.0
+offset_bottom = 791.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 29
+text = "0%\n历史记录"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+
+[node name="Level" type="Label" parent="."]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 728.0
+offset_right = 690.0
+offset_bottom = 798.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 57
+text = "第1关"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+
+[node name="Heroes" type="Control" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 815.0
+offset_right = 960.0
+offset_bottom = 1118.0
+mouse_filter = 2
+
+[node name="EmptyTeam" type="Label" parent="."]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 856.0
+offset_right = 720.0
+offset_bottom = 934.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = "未招募英雄"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+
+[node name="Rewards" type="Control" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 1198.0
+offset_right = 960.0
+offset_bottom = 1433.0
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Rewards"]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 0.0
+offset_right = 720.0
+offset_bottom = 75.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 40
+text = "未获得奖励"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+
+[node name="Items" type="Control" parent="Rewards"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 105.0
+offset_right = 960.0
+offset_bottom = 205.0
+mouse_filter = 2
+
+[node name="Confirm" type="Button" parent="."]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 1606.0
+offset_right = 690.0
+offset_bottom = 1800.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+
+[node name="Paper" type="TextureRect" parent="Confirm"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 10.0
+offset_right = 437.0
+offset_bottom = 204.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:btnYello_Shadow"
+
+
+[node name="Label" type="Label" parent="Confirm"]
+layout_mode = 0
+offset_left = 7.5
+offset_top = 2.0
+offset_right = 412.5
+offset_bottom = 173.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 90
+text = "确认"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_constants/outline_size = 7

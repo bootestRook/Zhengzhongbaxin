@@ -1,0 +1,21 @@
+{
+  "request": "荆棘护甲优先选择生命百分比最低英雄",
+  "target_order": [
+    "当前生命/最大生命升序",
+    "施法者距离升序",
+    "单位编号升序"
+  ],
+  "symbiosis": "按相同顺序选择至多两名不同英雄",
+  "targeted_assertions": 96,
+  "godot_assertions": 7745,
+  "python_tests": 63,
+  "project_check_exit_code": 0,
+  "error_markers": [],
+  "runtime_smoke": true,
+  "runtime_source_sha256": "2a3f8262b717c2ee394b6e3a6e89003eace6f824496e6b22aa164eed83b3be92",
+  "files": {
+    "targeted": "target_priority_test.log",
+    "project_check": "target_priority_check.log",
+    "manifest": "target_priority_manifest.json"
+  }
+}

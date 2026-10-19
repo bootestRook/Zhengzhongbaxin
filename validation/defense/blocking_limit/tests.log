@@ -1,0 +1,9 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[BLOCK CAPACITY] hero=1 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=2 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=4 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=5 capacity=20 peak=20 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=13 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+[BLOCK CAPACITY] hero=17 capacity=5 peak=5 overflow_ticks=0 stale_ticks=0
+[BLOCK TESTS] assertions=39 failures=0

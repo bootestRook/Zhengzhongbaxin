@@ -1,0 +1,15 @@
+{
+  "schema_version": 6,
+  "chest_reward_weights": [50, 30, 15, 5],
+  "unlocked_heroes": [1, 2, 4, 13, 17],
+  "hero_limit": 5,
+  "wave_count": 20,
+  "max_level": 20,
+  "recruit_chance": 2500,
+  "hero_spawn": [771, 1390],
+  "revive_seconds": {"1": 20, "2": 10, "3": 10, "4": 20, "5": 10, "10": 20},
+  "formation_five": {
+    "front": [[1160, 1000], [440, 1000], [620, 950], [980, 950], [800, 950]],
+    "back": [[1160, 1150], [440, 1150], [620, 1150], [980, 1150], [800, 1150]]
+  }
+}

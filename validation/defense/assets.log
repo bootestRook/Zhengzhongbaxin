@@ -1,0 +1,4 @@
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=104, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets build: assets=104, bytes=84988952
+[OK] asset_pipeline.py build

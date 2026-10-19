@@ -1,0 +1,8 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[CHOICE RULES] 67 focused assertions passed
+[FRESH APP] run=1 seed=1736717882 candidates=[6, 10, 11]
+[REFRESH] seed=1736717882 candidates=[5, 2, 14]
+[FRESH APP] run=2 seed=1572497228 candidates=[16, 15, 4]
+[FRESH APP] run=3 seed=882474723 candidates=[13, 6, 4]

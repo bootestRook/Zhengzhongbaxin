@@ -1,0 +1,127 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[RUN] seed=3 result={ "phase": "result", "won": false, "wave": 30, "bosses": 2, "time": 341024, "wall": 0.0, "kills": 420, "history": [{ "stage": 0, "kind": "hero", "id": 1, "owner": 0 }, { "stage": 1, "kind": "hero", "id": 10, "owner": 0 }, { "stage": 2, "kind": "upgrade", "id": 902, "owner": 17 }, { "stage": 3, "kind": "upgrade", "id": 14, "owner": 1 }, { "stage": 4, "kind": "hero", "id": 5, "owner": 0 }, { "stage": 5, "kind": "upgrade", "id": 6, "owner": 1 }, { "stage": 6, "kind": "statue", "id": 849, "owner": 0 }, { "stage": 7, "kind": "hero", "id": 3, "owner": 0 }, { "stage": 8, "kind": "upgrade", "id": 914, "owner": 17 }, { "stage": 9, "kind": "upgrade", "id": 16, "owner": 1 }, { "stage": 10, "kind": "upgrade", "id": 903, "owner": 17 }, { "stage": 11, "kind": "upgrade", "id": 8, "owner": 1 }, { "stage": 12, "kind": "statue", "id": 854, "owner": 0 }, { "stage": 13, "kind": "upgrade", "id": 15, "owner": 1 }, { "stage": 14, "kind": "upgrade", "id": 397, "owner": 36 }, { "stage": 15, "kind": "upgrade", "id": 401, "owner": 36 }, { "stage": 16, "kind": "upgrade", "id": 409, "owner": 36 }, { "stage": 17, "kind": "upgrade", "id": 10, "owner": 1 }, { "stage": 18, "kind": "statue", "id": 881, "owner": 0 }, { "stage": 19, "kind": "upgrade", "id": 411, "owner": 36 }, { "stage": 20, "kind": "upgrade", "id": 2, "owner": 1 }, { "stage": 21, "kind": "upgrade", "id": 410, "owner": 36 }, { "stage": 22, "kind": "upgrade", "id": 915, "owner": 17 }, { "stage": 23, "kind": "upgrade", "id": 402, "owner": 36 }, { "stage": 24, "kind": "statue", "id": 862, "owner": 0 }, { "stage": 25, "kind": "upgrade", "id": 11, "owner": 1 }, { "stage": 26, "kind": "upgrade", "id": 906, "owner": 17 }, { "stage": 27, "kind": "upgrade", "id": 3, "owner": 1 }] }
+[RUN] seed=3 result={ "phase": "result", "won": false, "wave": 30, "bosses": 2, "time": 341024, "wall": 0.0, "kills": 420, "history": [{ "stage": 0, "kind": "hero", "id": 1, "owner": 0 }, { "stage": 1, "kind": "hero", "id": 10, "owner": 0 }, { "stage": 2, "kind": "upgrade", "id": 902, "owner": 17 }, { "stage": 3, "kind": "upgrade", "id": 14, "owner": 1 }, { "stage": 4, "kind": "hero", "id": 5, "owner": 0 }, { "stage": 5, "kind": "upgrade", "id": 6, "owner": 1 }, { "stage": 6, "kind": "statue", "id": 849, "owner": 0 }, { "stage": 7, "kind": "hero", "id": 3, "owner": 0 }, { "stage": 8, "kind": "upgrade", "id": 914, "owner": 17 }, { "stage": 9, "kind": "upgrade", "id": 16, "owner": 1 }, { "stage": 10, "kind": "upgrade", "id": 903, "owner": 17 }, { "stage": 11, "kind": "upgrade", "id": 8, "owner": 1 }, { "stage": 12, "kind": "statue", "id": 854, "owner": 0 }, { "stage": 13, "kind": "upgrade", "id": 15, "owner": 1 }, { "stage": 14, "kind": "upgrade", "id": 397, "owner": 36 }, { "stage": 15, "kind": "upgrade", "id": 401, "owner": 36 }, { "stage": 16, "kind": "upgrade", "id": 409, "owner": 36 }, { "stage": 17, "kind": "upgrade", "id": 10, "owner": 1 }, { "stage": 18, "kind": "statue", "id": 881, "owner": 0 }, { "stage": 19, "kind": "upgrade", "id": 411, "owner": 36 }, { "stage": 20, "kind": "upgrade", "id": 2, "owner": 1 }, { "stage": 21, "kind": "upgrade", "id": 410, "owner": 36 }, { "stage": 22, "kind": "upgrade", "id": 915, "owner": 17 }, { "stage": 23, "kind": "upgrade", "id": 402, "owner": 36 }, { "stage": 24, "kind": "statue", "id": 862, "owner": 0 }, { "stage": 25, "kind": "upgrade", "id": 11, "owner": 1 }, { "stage": 26, "kind": "upgrade", "id": 906, "owner": 17 }, { "stage": 27, "kind": "upgrade", "id": 3, "owner": 1 }] }
+[BASELINE] hero=1 learned=[17, 21, 22, 1269] emitted=[17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+[BASELINE] hero=2 learned=[194, 1269] emitted=[194] effects=["hero2:normal04"]
+[BASELINE] hero=3 learned=[1, 2, 1269] emitted=[1, 2] effects=["hero3:normal_0"]
+[BASELINE] hero=4 learned=[621, 1269] emitted=[621] effects=["hero4:sword"]
+[BASELINE] hero=5 learned=[429, 1269] emitted=[] effects=[]
+[BASELINE] hero=6 learned=[450, 1269] emitted=[450] effects=[]
+[BASELINE] hero=7 learned=[201, 1269] emitted=[201] effects=["bullet:summon"]
+[BASELINE] hero=8 learned=[240, 241, 1269] emitted=[241, 240] effects=["bullet2:boombat"]
+[BASELINE] hero=9 learned=[413, 1269] emitted=[413] effects=["hero9:fireballboom4"]
+[BASELINE] hero=10 learned=[50, 1269] emitted=[50] effects=["hero10:laserdie"]
+[BASELINE] hero=11 learned=[605, 1269] emitted=[605] effects=["bullet:thunder_pl3"]
+[BASELINE] hero=12 learned=[745, 749, 751, 1269] emitted=[749] effects=["hero12:chengjie2"]
+[BASELINE] hero=13 learned=[1269] emitted=[] effects=[]
+[BASELINE] hero=14 learned=[71, 1269] emitted=[71] effects=["hero14:bullet_fm"]
+[BASELINE] hero=15 learned=[1076, 1269] emitted=[] effects=[]
+[BASELINE] hero=16 learned=[1270, 1326, 1327] emitted=[1326] effects=[]
+[BASELINE] hero=17 learned=[1269, 1429] emitted=[1429] effects=["bullet2:chong4"]
+ERROR: TEST FAILURE: documented build wins first level
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: victory requires all three bosses: expected=3 actual=2
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: slow and entry speed percentages add rather than multiply: expected=112.0 actual=120.0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 1 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 1 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 2 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 2 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 3 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 3 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 6 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 10 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 12 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 12 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 13 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 13 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 14 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 14 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 16 does not patrol above Y700
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: hero 16 uses Y850 while formation returns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: front hero returns after target death
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+ERROR: TEST FAILURE: front hero with rear threat first returns horizontally: expected=650.0 actual=650.678833007813
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/test_runner.gd:52)
+       [1] run (res://tests/test_defense_chest_ui.gd:68)
+[FAIL] Godot tests: 21 failure(s), 2853 assertions

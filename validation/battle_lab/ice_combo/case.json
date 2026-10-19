@@ -1,0 +1,1367 @@
+{
+	"assertions": 11,
+	"cases": [
+		{
+			"state": {
+				"diagnostics": {},
+				"flowers": 0,
+				"kills": 0,
+				"missiles": 0,
+				"phase": "playing",
+				"queue": 0,
+				"rng": {
+					"base_seed": 53,
+					"streams": {
+						"defense.choice": {
+							"counter": 3,
+							"state": 680869352
+						},
+						"defense.combat": {
+							"counter": 5,
+							"state": 541068743
+						},
+						"defense.spawn": {
+							"counter": 40,
+							"state": 1375229229
+						}
+					}
+				},
+				"time_ms": 2400,
+				"units": [
+					{
+						"action": "idle",
+						"actions": {
+							"attack": false,
+							"move": false,
+							"skill": true
+						},
+						"attributes": [
+							{
+								"base": 600.0,
+								"id": "1",
+								"name": "生命",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 600.0
+									},
+									{
+										"kind": "clamp",
+										"value": 600.0
+									}
+								],
+								"value": 600.0
+							},
+							{
+								"base": 5.0,
+								"id": "10",
+								"name": "防御力",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 5.0
+									},
+									{
+										"kind": "clamp",
+										"value": 5.0
+									}
+								],
+								"value": 5.0
+							},
+							{
+								"base": 0.0,
+								"id": "11",
+								"name": "伤害减免",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "12",
+								"name": "法术强度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "13",
+								"name": "召唤强度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "14",
+								"name": "幸运",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 10.0,
+								"id": "15",
+								"name": "命中",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 10.0
+									},
+									{
+										"kind": "clamp",
+										"value": 10.0
+									}
+								],
+								"value": 10.0
+							},
+							{
+								"base": 0.0,
+								"id": "16",
+								"name": "闪避",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 50.0,
+								"id": "17",
+								"name": "移动速度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 50.0
+									},
+									{
+										"kind": "clamp",
+										"value": 50.0
+									}
+								],
+								"value": 50.0
+							},
+							{
+								"base": 0.0,
+								"id": "18",
+								"name": "收获",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "19",
+								"name": "攻击吸血",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 10.0,
+								"id": "2",
+								"name": "生命恢复",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 10.0
+									},
+									{
+										"kind": "clamp",
+										"value": 10.0
+									}
+								],
+								"value": 10.0
+							},
+							{
+								"base": 0.0,
+								"id": "20",
+								"name": "技能吸血",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "21",
+								"name": "恢复增强",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "22",
+								"name": "治疗增强",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 10.0,
+								"id": "23",
+								"name": "复活时间",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 10.0
+									},
+									{
+										"kind": "clamp",
+										"value": 10.0
+									}
+								],
+								"value": 10.0
+							},
+							{
+								"base": 0.0,
+								"id": "24",
+								"name": "防御穿透",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "25",
+								"name": "攻击强度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 600.0,
+								"id": "26",
+								"name": "攻击范围",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 600.0
+									},
+									{
+										"kind": "clamp",
+										"value": 600.0
+									}
+								],
+								"value": 600.0
+							},
+							{
+								"base": 0.0,
+								"id": "27",
+								"name": "负面加深",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "28",
+								"name": "增益增强",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "29",
+								"name": "技能伤害减免",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 15.0,
+								"id": "3",
+								"name": "嘲讽数",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 15.0
+									},
+									{
+										"kind": "clamp",
+										"value": 15.0
+									}
+								],
+								"value": 15.0
+							},
+							{
+								"base": 0.0,
+								"id": "30",
+								"name": "负面抵抗",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "31",
+								"name": "负面抗性",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 500.0,
+								"id": "32",
+								"name": "潜力",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 500.0
+									},
+									{
+										"kind": "clamp",
+										"value": 500.0
+									}
+								],
+								"value": 500.0
+							},
+							{
+								"base": 100.0,
+								"id": "4",
+								"name": "攻击力",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 100.0
+									},
+									{
+										"kind": "clamp",
+										"value": 100.0
+									}
+								],
+								"value": 100.0
+							},
+							{
+								"base": 1.0,
+								"id": "5",
+								"name": "攻击目标",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 1.0
+									},
+									{
+										"kind": "clamp",
+										"value": 1.0
+									}
+								],
+								"value": 1.0
+							},
+							{
+								"base": 250.0,
+								"id": "6",
+								"name": "攻击速度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 250.0
+									},
+									{
+										"kind": "clamp",
+										"value": 250.0
+									}
+								],
+								"value": 250.0
+							},
+							{
+								"base": 0.0,
+								"id": "7",
+								"name": "暴击率",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 50.0,
+								"id": "8",
+								"name": "暴击伤害",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 50.0
+									},
+									{
+										"kind": "clamp",
+										"value": 50.0
+									}
+								],
+								"value": 50.0
+							},
+							{
+								"base": 0.0,
+								"id": "9",
+								"name": "冷却缩减",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							}
+						],
+						"dead": false,
+						"hits": 2,
+						"hp": 600.0,
+						"id": 1,
+						"key": 1,
+						"kills": 0,
+						"kind": "hero",
+						"max_hp": 600.0,
+						"name": "寒冰射手",
+						"pos": [
+							800.0,
+							1100.0
+						],
+						"revive_ms": 0,
+						"shield": 0.0,
+						"skills": [
+							{
+								"cooldown_ms": 0,
+								"count": 0,
+								"data": {
+									"__id__": 1269,
+									"actionOth": [],
+									"aim": [
+										8
+									],
+									"attack_range": 1500,
+									"condition": [],
+									"damage": [
+										"0:0:2"
+									],
+									"damage_range": [
+										[
+											"100"
+										]
+									],
+									"description": "原配置未提供该记录的独立技能原文。\n本记录参数摘要：行为类型=\"6:1:2\"；作用距离=1500；伤害参数=[\"0:0:2\"]；伤害范围=[[\"100\"]]；施加状态与时长=[[\"164\", \"30\"]]",
+									"effect_change": [],
+									"move": [],
+									"movie_effect": [],
+									"parameters": [],
+									"skillGroupType": [],
+									"sound": [],
+									"statusChange": [
+										[
+											"164",
+											"30"
+										]
+									],
+									"statusReplace": [],
+									"triggerOpp": [
+										"7:100"
+									],
+									"type": "6:1:2",
+									"variable": []
+								},
+								"hunt_ready": false,
+								"id": 1269
+							},
+							{
+								"cooldown_ms": 1616,
+								"count": 0,
+								"data": {
+									"__id__": 20002,
+									"actionOth": [],
+									"aim": [
+										20002
+									],
+									"attack_range": 900,
+									"cd": 4000,
+									"condition": [],
+									"damage": [
+										"0:50"
+									],
+									"damage_range": [],
+									"damage_type": "0;106;104",
+									"description": "向目标方向射出3根箭矢，每根造成50%攻击力的冰系伤害。基础冷却4秒，施放距离900，基础散射角7度。",
+									"effect_change": [],
+									"ice_arrows": {
+										"bonus": 40.0,
+										"bounce_radius": 300,
+										"chill": false,
+										"chill_ms": 5000,
+										"chill_status": 20401,
+										"combo_chance": 50.0,
+										"copies": 4.0,
+										"focus": false,
+										"focus_cap": 40,
+										"focus_ms": 4000,
+										"freeze_ms": 3000,
+										"freeze_status": 20402,
+										"knock_chance": 0,
+										"knock_distance": 80,
+										"knock_ms": 200,
+										"pierce": 0,
+										"rain_chance": 0,
+										"rain_freeze_ms": 1000,
+										"rain_interval_ms": 1000,
+										"rain_ms": 5000,
+										"rain_radius": 180,
+										"rain_skill": 20404,
+										"rain_ticks": 5,
+										"spread_degrees": 7,
+										"upgraded": false
+									},
+									"isContinued": 1,
+									"move": [],
+									"movie_effect": [
+										"arrow3",
+										"1",
+										"-1"
+									],
+									"parameters": [],
+									"res": "hero13",
+									"skillGroupType": [],
+									"sound": [
+										"arrow2",
+										"0",
+										"1"
+									],
+									"speed": 1000,
+									"statusChange": [],
+									"statusReplace": [],
+									"triggerOpp": [
+										"1"
+									],
+									"type": "9:1:10",
+									"variable": [],
+									"visual_tint": "#72d8ff"
+								},
+								"hunt_ready": false,
+								"id": 20002
+							}
+						],
+						"stats": {
+							"damage": 140.0,
+							"heal": 0.0,
+							"taken": 0.0
+						},
+						"statuses": [],
+						"survival": "normal",
+						"target": 2,
+						"template": 13,
+						"terms": [
+							200400,
+							200403,
+							200404
+						]
+					},
+					{
+						"action": "idle",
+						"actions": {
+							"attack": false,
+							"move": false,
+							"skill": false
+						},
+						"attributes": [
+							{
+								"base": 10000.0,
+								"id": "1",
+								"name": "生命",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 10000.0
+									},
+									{
+										"kind": "clamp",
+										"value": 10000.0
+									}
+								],
+								"value": 10000.0
+							},
+							{
+								"base": 0.0,
+								"id": "10",
+								"name": "防御力",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "11",
+								"name": "伤害减免",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "12",
+								"name": "法术强度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "13",
+								"name": "召唤强度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "14",
+								"name": "幸运",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "15",
+								"name": "命中",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "16",
+								"name": "闪避",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 40.0,
+								"id": "17",
+								"name": "移动速度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 40.0
+									},
+									{
+										"kind": "clamp",
+										"value": 40.0
+									}
+								],
+								"value": 40.0
+							},
+							{
+								"base": 0.0,
+								"id": "18",
+								"name": "收获",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "19",
+								"name": "攻击吸血",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "2",
+								"name": "生命恢复",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "20",
+								"name": "技能吸血",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "21",
+								"name": "恢复增强",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "22",
+								"name": "治疗增强",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "23",
+								"name": "复活时间",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "24",
+								"name": "防御穿透",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "25",
+								"name": "攻击强度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "26",
+								"name": "攻击范围",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "27",
+								"name": "负面加深",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "28",
+								"name": "增益增强",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "29",
+								"name": "技能伤害减免",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 1.0,
+								"id": "3",
+								"name": "嘲讽数",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 1.0
+									},
+									{
+										"kind": "clamp",
+										"value": 1.0
+									}
+								],
+								"value": 1.0
+							},
+							{
+								"base": 0.0,
+								"id": "30",
+								"name": "负面抵抗",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "31",
+								"name": "负面抗性",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "32",
+								"name": "潜力",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 15.0,
+								"id": "4",
+								"name": "攻击力",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 15.0
+									},
+									{
+										"kind": "clamp",
+										"value": 15.0
+									}
+								],
+								"value": 15.0
+							},
+							{
+								"base": 1.0,
+								"id": "5",
+								"name": "攻击目标",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 1.0
+									},
+									{
+										"kind": "clamp",
+										"value": 1.0
+									}
+								],
+								"value": 1.0
+							},
+							{
+								"base": 200.0,
+								"id": "6",
+								"name": "攻击速度",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 200.0
+									},
+									{
+										"kind": "clamp",
+										"value": 200.0
+									}
+								],
+								"value": 200.0
+							},
+							{
+								"base": 0.0,
+								"id": "7",
+								"name": "暴击率",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "8",
+								"name": "暴击伤害",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							},
+							{
+								"base": 0.0,
+								"id": "9",
+								"name": "冷却缩减",
+								"trace": [
+									{
+										"kind": "base",
+										"value": 0.0
+									},
+									{
+										"kind": "clamp",
+										"value": 0.0
+									}
+								],
+								"value": 0.0
+							}
+						],
+						"dead": false,
+						"hits": 0,
+						"hp": 10000.0,
+						"id": 2,
+						"key": 2,
+						"kills": 0,
+						"kind": "enemy",
+						"max_hp": 10000.0,
+						"name": "小鼠",
+						"pos": [
+							800.0,
+							750.0
+						],
+						"revive_ms": 0,
+						"shield": 0.0,
+						"skills": [],
+						"stats": {
+							"damage": 0.0,
+							"heal": 0.0,
+							"taken": 140.0
+						},
+						"statuses": [],
+						"survival": "immortal",
+						"target": 1,
+						"template": 101,
+						"terms": []
+					}
+				],
+				"wall_hp": 3900.0
+			},
+			"title": "寒冰射手：连击间隔0.3秒",
+			"trace": [
+				{
+					"key": 1,
+					"kind": "hero",
+					"sequence": 1,
+					"target": 1,
+					"template": 13,
+					"time_ms": 0,
+					"type": "spawn"
+				},
+				{
+					"key": 2,
+					"kind": "enemy",
+					"sequence": 2,
+					"target": 2,
+					"template": 101,
+					"time_ms": 0,
+					"type": "spawn"
+				},
+				{
+					"cooldown_until": 4016,
+					"sequence": 3,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 16,
+					"type": "windup"
+				},
+				{
+					"hero": 13,
+					"sequence": 4,
+					"time_ms": 16,
+					"type": "hero_joined"
+				},
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				},
+				{
+					"name": "arrow2",
+					"sequence": 6,
+					"time_ms": 736,
+					"type": "sound"
+				},
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				},
+				{
+					"name": "arrow2",
+					"sequence": 8,
+					"time_ms": 1040,
+					"type": "sound"
+				},
+				{
+					"delay_ms": 300,
+					"sequence": 9,
+					"skill": 20002,
+					"source": 1,
+					"target": 2,
+					"time_ms": 1040,
+					"type": "skill_combo"
+				},
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 10,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 1280,
+					"type": "damage"
+				}
+			],
+			"trace_dropped": 0
+		}
+	],
+	"duration_ms": 97,
+	"failures": [],
+	"runtime_fingerprint": "8505ee1aed38522099a56526a072517d3bea57544a015f11ae9277dcc990d411",
+	"source_hashes": {
+		"01_英雄属性与局外成长.xlsx": "eda3816fab7b79f53065eeaf5796d76381fd8bee8590604a76bcf12524e8b8be",
+		"02_英雄技能.xlsx": "336e15bd974aa30972137c36e135a0914442bca2fdd60c519bede7f37e1fa223",
+		"03_英雄词条.xlsx": "855d8b926432591b096a197ca2ac1fd5a23226513b587fa2d637b3d5bb087393",
+		"04_Buff配置.xlsx": "e3e49a9509182e2b32f981356633e98a7bdab1ff24142dac883a7c66e4a034fe",
+		"05_怪物配置.xlsx": "cc734ae73c98257b1cb27a410dd3fe13c836a9cc7fb715fa65b6bdd6e6b560db",
+		"06_关卡配置.xlsx": "d52daeea0c46a8686add7d2de4c3106bde1896b87d8944f15c446d7d9bc5528d",
+		"07_刷怪配置.xlsx": "ba0817ee7badb58e982ee86ca513c5fd5c012bc585f032c147c96d693d81a0ab",
+		"art.json": "0bd7a5f92d1471e45fe4b12b718d60a819f82865944a188b9f25a252a7564572",
+		"combat.json": "a1f63f04f9ef2f35c0c4c9c42ba0d1bb5a18ca1437eeff69251470699e33f14d",
+		"defense_tables.json": "0261b0934c8d74eb1990058d53479d77f5d0a61c67342dfa9da960d63675e7eb",
+		"reference.json": "cae0c525b8cbf56c8dccf986bba1af1d598ba6fe8c8c0eba9096f2294d223ec0",
+		"rules.json": "de61ab602bca0658944e87b711eddd50504a156e55a26d87b2990a15d721661e"
+	},
+	"suite": "case"
+}

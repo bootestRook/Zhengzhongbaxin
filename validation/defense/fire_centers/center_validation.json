@@ -1,0 +1,90 @@
+{
+  "cases": {
+    "ordinary": {
+      "impacts": [
+        {
+          "position": [
+            800.419982910156,
+            1019.76000976563
+          ],
+          "projectile_contact": [
+            798.545715332031,
+            1123.02331542969
+          ],
+          "target": 2,
+          "time_ms": 240
+        }
+      ],
+      "effect_count": 3,
+      "frame_count": 33,
+      "moved_at_ms": 336,
+      "radius": {
+        "main": 270,
+        "secondary": 351,
+        "ember": 270
+      },
+      "all_centers_frozen": true
+    },
+    "pyro": {
+      "impacts": [
+        {
+          "position": [
+            800.419982910156,
+            1019.76000976563
+          ],
+          "projectile_contact": [
+            798.7236328125,
+            1107.97521972656
+          ],
+          "target": 2,
+          "time_ms": 256
+        },
+        {
+          "position": [
+            800.419982910156,
+            719.760009765625
+          ],
+          "projectile_contact": [
+            802.128173828125,
+            819.995178222656
+          ],
+          "target": 3,
+          "time_ms": 576
+        },
+        {
+          "position": [
+            800.419982910156,
+            419.760009765625
+          ],
+          "projectile_contact": [
+            805.656311035156,
+            521.558776855469
+          ],
+          "target": 4,
+          "time_ms": 912
+        }
+      ],
+      "effect_count": 9,
+      "frame_count": 33,
+      "moved_at_ms": 352,
+      "radius": {
+        "main": 270,
+        "secondary": 351,
+        "ember": 270
+      },
+      "all_centers_frozen": true
+    }
+  },
+  "source_sha256": {
+    "src/features/defense/domain/defense_fireball.gd": "8d3d30fbc45c294635a32005c70875163d7f6aa793881f616e79c4e5b64a6cf6",
+    "src/features/defense/domain/defense_projectiles.gd": "1a4f0785dc655b25eacfe947c58fb758e65e4ad047214787df9b1b098e2e943a",
+    "src/features/defense/domain/defense_projectile_factory.gd": "a7fa8a5bfc9751e0e97b1219517222c48b8f9358a5b20e3384d930c77ebde483",
+    "src/features/defense/domain/defense_projectile_motion.gd": "cf5e2018a7bca23b5c8427055ceb0534eaa30e7898b54219e9c1211a7122f5f6",
+    "src/features/defense/domain/defense_targets.gd": "1844f19d2482871ad9734cdcee0448cdc3eb5c898f4209f85715209ab0f83055",
+    "src/features/defense/domain/defense_snapshot.gd": "2358362435a9232fe3289310e4994c6856585b311105336478a27af1d94c35a2",
+    "src/features/defense/presentation/defense_field.gd": "45f2d73bb252f8541cfcb9179238c0ab0649b9f7b2d78f9f81333d93a941e659",
+    "src/features/defense/presentation/defense_fire_visual.gd": "586dabb0249949032e25a2bacbbc4989f83c088512f33e1d4c1dc1cfdc89a140",
+    "tests/test_defense_fire_centers.gd": "6ea613d2cc57baeb2d41d6ce88f6bfdf2d8fa1eceb87067e3b8ff6685208b599",
+    "tools/capture_fire_centers.gd": "4c090a7b32f8818382cbf0a630726f83a29b6131569297c25021629c51835dc2"
+  }
+}

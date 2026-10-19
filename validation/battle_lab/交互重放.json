@@ -1,0 +1,110 @@
+{
+	"commands": [],
+	"config": {
+		"legal_terms": true,
+		"level": 1,
+		"seed": 53,
+		"settings": {
+			"progression": false,
+			"respawn": false,
+			"spawn": false
+		},
+		"units": [
+			{
+				"actions": {
+					"attack": true,
+					"move": true,
+					"skill": true
+				},
+				"attributes": {},
+				"hp_ratio": 1.0,
+				"key": 1,
+				"kind": "hero",
+				"pos": [
+					800.0,
+					1100.0
+				],
+				"survival": "normal",
+				"template": 1,
+				"terms": {}
+			},
+			{
+				"actions": {
+					"attack": false,
+					"move": false,
+					"skill": false
+				},
+				"attributes": {},
+				"hp_ratio": 1.0,
+				"key": 2,
+				"kind": "enemy",
+				"pos": [
+					720.0,
+					750.0
+				],
+				"survival": "immortal",
+				"template": 1,
+				"terms": {}
+			},
+			{
+				"actions": {
+					"attack": false,
+					"move": false,
+					"skill": false
+				},
+				"attributes": {},
+				"hp_ratio": 1.0,
+				"key": 3,
+				"kind": "enemy",
+				"pos": [
+					800.0,
+					750.0
+				],
+				"survival": "immortal",
+				"template": 1,
+				"terms": {}
+			},
+			{
+				"actions": {
+					"attack": false,
+					"move": false,
+					"skill": false
+				},
+				"attributes": {
+					"1": 5000.0
+				},
+				"hp_ratio": 0.5,
+				"key": 4,
+				"kind": "enemy",
+				"pos": [
+					880.0,
+					750.0
+				],
+				"survival": "immortal",
+				"template": 1,
+				"terms": {}
+			}
+		],
+		"version": 1,
+		"wave": 1
+	},
+	"format": "defense-battle-lab",
+	"runtime_fingerprint": "f088f332b821bc2f0bb80ea05eab52b87a5adf7605ded0b023665cd673502c22",
+	"source_hashes": {
+		"01_英雄属性与局外成长.xlsx": "eda3816fab7b79f53065eeaf5796d76381fd8bee8590604a76bcf12524e8b8be",
+		"02_英雄技能.xlsx": "0ec87fb28f08675cccc0fe08506247f0f1ab280184ef261325571580fb43bfbc",
+		"03_英雄词条.xlsx": "f07bf0edc1a58f0ba884e22fbb53bcccbabdf76375f8bbd17b591252b7f22606",
+		"04_Buff配置.xlsx": "f211d039886a466576c43d59eec430792b4531f695a977680b084eb85676f5dd",
+		"05_怪物配置.xlsx": "cc734ae73c98257b1cb27a410dd3fe13c836a9cc7fb715fa65b6bdd6e6b560db",
+		"06_关卡配置.xlsx": "33707f3338d0b3a2b496bbd90056fd1db8529d6a58d2263ea48111846aa2c79c",
+		"07_刷怪配置.xlsx": "06b743682290011418e09964f5d8ef12d40abde9c3a1b125da28079f1febfecd",
+		"08_宝石.xlsx": "f811cc416a47a9d3110c69203870c54aec5140f29fb1d23b2529cff5d9109494",
+		"art.json": "0bd7a5f92d1471e45fe4b12b718d60a819f82865944a188b9f25a252a7564572",
+		"combat.json": "a1f63f04f9ef2f35c0c4c9c42ba0d1bb5a18ca1437eeff69251470699e33f14d",
+		"defense_tables.json": "6a89ea5b93c70cfef1c7ce7bb986acee85b52ba7cd557b9d6caafe82fe435474",
+		"reference.json": "cae0c525b8cbf56c8dccf986bba1af1d598ba6fe8c8c0eba9096f2294d223ec0",
+		"rules.json": "087bc0053b196744a26f0a3a8859c838d179f084a2c9071269a364884d6498db"
+	},
+	"truncated": false,
+	"version": 1
+}

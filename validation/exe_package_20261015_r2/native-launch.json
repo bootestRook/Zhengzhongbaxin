@@ -1,0 +1,14 @@
+{
+  "pid": 6992,
+  "folder": "C:\\Users\\Arche\\AppData\\Local\\Temp\\T8-demo-16-native-n7yasnvt",
+  "artifacts": [
+    {
+      "name": "defense-demo.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "name": "defense-demo.pck",
+      "sha256": "4be1b3d0c20ae743f69393a27b63ecbc3e56a8873aeb048f69b53f1135dcd1a4"
+    }
+  ]
+}

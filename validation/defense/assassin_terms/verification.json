@@ -1,0 +1,11 @@
+{
+  "python_tests": 63,
+  "godot_assertions": 7727,
+  "assassin_domain_assertions": 80,
+  "assassin_ui_assertions": 38,
+  "runtime_smoke": "passed",
+  "natural_replay": "identical",
+  "manifest_files": 599,
+  "manifest_bytes": 89875931,
+  "hero_roster_sha256": "54977889daaf522932b9f6dd46c6586cf7818ce8f30d7adef702f44c534858a5"
+}

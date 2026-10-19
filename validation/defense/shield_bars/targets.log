@@ -1,0 +1,22 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[TARGET] enemy 720 full shield=1500.0 pixels=0
+[TARGET] elite 720 full shield=1500.0 pixels=401
+[TARGET] boss 720 full shield=1500.0 pixels=396
+[TARGET] enemy 720 reduced shield=750.0 pixels=0
+[TARGET] elite 720 reduced shield=750.0 pixels=324
+[TARGET] boss 720 reduced shield=750.0 pixels=318
+[TARGET] enemy 720 tiny shield=1.0 pixels=0
+[TARGET] elite 720 tiny shield=1.0 pixels=12
+[TARGET] boss 720 tiny shield=1.0 pixels=12
+[TARGET] enemy 540 full shield=1500.0 pixels=0
+[TARGET] elite 540 full shield=1500.0 pixels=196
+[TARGET] boss 540 full shield=1500.0 pixels=200
+[TARGET] enemy 540 reduced shield=750.0 pixels=0
+[TARGET] elite 540 reduced shield=750.0 pixels=160
+[TARGET] boss 540 reduced shield=750.0 pixels=160
+[TARGET] enemy 540 tiny shield=1.0 pixels=0
+[TARGET] elite 540 tiny shield=1.0 pixels=4
+[TARGET] boss 540 tiny shield=1.0 pixels=8
+[SHIELD BARS] assertions=71 failures=0

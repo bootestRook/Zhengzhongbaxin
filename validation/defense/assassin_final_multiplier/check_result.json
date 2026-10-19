@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-10-16T14:58:11.011528+08:00",
+  "exit_code": 0,
+  "python_tests": 63,
+  "godot_assertions": 7969,
+  "source_files_checked": 280,
+  "source_unchanged": true,
+  "runtime_smoke": true,
+  "error_markers": []
+}

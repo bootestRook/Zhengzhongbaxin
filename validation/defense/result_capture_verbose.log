@@ -1,0 +1,192 @@
+WorkerThreadPool: 28 threads, 8 max low-priority.
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Accessibility: AccessKit driver loaded.
+Native OpenGL API detected: 3.3: NVIDIA - NVIDIA GeForce RTX 5080
+NVAPI: Init OK!
+NVAPI: Profile not found, creating...
+NVAPI: Application not found in profile, creating...
+NVAPI: Error creating application: NVAPI_EXECUTABLE_ALREADY_IN_USE(code -167)
+Accessibility: window 0 adapter created.
+SDL: Init OK!
+Accessibility: window 0 adapter activated.
+Using "winink" pen tablet driver...
+Shader 'CanvasSdfShaderGLES3' SHA256: 03f612b2b27c91c908b7e717688db28ffc48d7a2874ffdf20427532650c43c86
+Shader 'SkeletonShaderGLES3' SHA256: 78cb319f5962d643825b5989f6247c0955eb4d6417aaa497ea46a618884e6144
+Shader 'ParticlesShaderGLES3' SHA256: 88680d5a654cb4681604781c253c990a10216520b0f3c7a2e4b10c6d2b36dff2
+Shader 'ParticlesCopyShaderGLES3' SHA256: dbaedfe46f3bea4c0fb2d2afccf5d746b3c8b7aa5ba69ccf1cb1b918ad02f1bc
+Shader 'CopyShaderGLES3' SHA256: 4975103a5780314698d4341b377c3b452a92f81e6040694eece84fe8a0615687
+Shader 'CubemapFilterShaderGLES3' SHA256: aff427b2dd4e2f5ec9b630650a6bb3159749f984684b07eb57e3c8ad7d469708
+Shader 'GlowShaderGLES3' SHA256: 9a5997b17aa1083fb7d6778d69ae18a94d1e9feaf7a48e804bebf7d1da868d69
+Shader 'PostShaderGLES3' SHA256: c032417047ed08b3f112c1cb26e7ec942b4c6524b7814a5137f12469c01f8d6d
+Shader 'FeedShaderGLES3' SHA256: 707b69bd5099b107ecbba0ea38fbd349ae3c52a46d389dca83e104bf6ef18bb6
+Shader 'CanvasShaderGLES3' SHA256: c29c6501384b1003ab47bd13c77f2edc93e377bbe049be78a77e2dbba73caafc
+Shader 'CanvasOcclusionShaderGLES3' SHA256: cbf84c1daf99e10af6817f6182fda5af8ea498ab9c988559be62bebcde5e3c45
+Shader 'SceneShaderGLES3' SHA256: 113523defea39e5ed5f74a729409a7c108dd2613a5f48147147fd96350f21a86
+Shader 'SkyShaderGLES3' SHA256: 70b31f32c69f793ac3cfdc70f60ac4b16281a9a97ff2f95fa2c73420b2c948fe
+Shader 'TexBlitShaderGLES3' SHA256: 610b234ed0fc8f1a958811594367dca3eeee76b8056906b735ed0d70a030ace7
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+WASAPI: Activated output_device using IAudioClient3 interface
+WASAPI: wFormatTag = 65534
+WASAPI: nChannels = 2
+WASAPI: nSamplesPerSec = 48000
+WASAPI: nAvgBytesPerSec = 384000
+WASAPI: nBlockAlign = 8
+WASAPI: wBitsPerSample = 32
+WASAPI: cbSize = 22
+WASAPI: mix_rate = 48000
+WASAPI: fundamental_period_frames = 480
+WASAPI: min_period_frames = 480
+WASAPI: max_period_frames = 480
+WASAPI: selected a period frame size of 480
+WASAPI: detected 2 channels
+WASAPI: audio buffer frames: 480 calculated latency: 10ms
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+.NET: Initializing module...
+Found hostfxr: C:/Program Files/dotnet/host/fxr/10.0.5/hostfxr.dll
+.NET: hostfxr initialized
+.NET: GodotPlugins initialized
+.NET: Failed to load project assembly
+CORE API HASH: 2244263461
+EDITOR API HASH: 3539082181
+Loading resource: res://validation/defense/capture_result.gd remapped: res://validation/defense/capture_result.gd
+Completed load for: 'res://validation/defense/capture_result.gd' remapped 'res://validation/defense/capture_result.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://scenes/main.tscn remapped: res://scenes/main.tscn
+Loading resource: res://src/app/app_bootstrap.gd remapped: res://src/app/app_bootstrap.gd
+Completed load for: 'res://src/app/app_bootstrap.gd' remapped 'res://src/app/app_bootstrap.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_view.gd remapped: res://src/features/defense/presentation/defense_view.gd
+Loading resource: res://scenes/defense/level_button.tscn remapped: res://scenes/defense/level_button.tscn
+Completed load for: 'res://scenes/defense/level_button.tscn' remapped 'res://scenes/defense/level_button.tscn' at thread -1
+Loading resource: res://scenes/defense/hero_item.tscn remapped: res://scenes/defense/hero_item.tscn
+Loading resource: res://src/features/defense/presentation/defense_portrait.gd remapped: res://src/features/defense/presentation/defense_portrait.gd
+Completed load for: 'res://src/features/defense/presentation/defense_portrait.gd' remapped 'res://src/features/defense/presentation/defense_portrait.gd' at thread -1
+Completed load for: 'res://scenes/defense/hero_item.tscn' remapped 'res://scenes/defense/hero_item.tscn' at thread -1
+Completed load for: 'res://src/features/defense/presentation/defense_view.gd' remapped 'res://src/features/defense/presentation/defense_view.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_field.gd remapped: res://src/features/defense/presentation/defense_field.gd
+Completed load for: 'res://src/features/defense/presentation/defense_field.gd' remapped 'res://src/features/defense/presentation/defense_field.gd' at thread -1
+Loading resource: res://assets/runtime/defense/chinese.ttf remapped: res://assets/runtime/defense/chinese.ttf
+Loading resource: res://.godot/imported/chinese.ttf-034238e7a677bccce33d22588d04bdc9.fontdata remapped: res://.godot/imported/chinese.ttf-034238e7a677bccce33d22588d04bdc9.fontdata
+Completed load for: 'res://assets/runtime/defense/chinese.ttf' remapped 'res://assets/runtime/defense/chinese.ttf' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_audio.gd remapped: res://src/features/defense/presentation/defense_audio.gd
+Completed load for: 'res://src/features/defense/presentation/defense_audio.gd' remapped 'res://src/features/defense/presentation/defense_audio.gd' at thread -1
+Loading resource: res://scenes/defense/battle_panels.tscn remapped: res://scenes/defense/battle_panels.tscn
+Loading resource: res://src/features/defense/presentation/defense_battle_panels.gd remapped: res://src/features/defense/presentation/defense_battle_panels.gd
+Loading resource: res://scenes/defense/monster_row.tscn remapped: res://scenes/defense/monster_row.tscn
+Loading resource: res://src/features/defense/presentation/defense_monster_row.gd remapped: res://src/features/defense/presentation/defense_monster_row.gd
+Completed load for: 'res://src/features/defense/presentation/defense_monster_row.gd' remapped 'res://src/features/defense/presentation/defense_monster_row.gd' at thread -1
+Loading resource: res://scenes/defense/monster_portrait.tscn remapped: res://scenes/defense/monster_portrait.tscn
+Loading resource: res://src/features/defense/presentation/defense_monster_portrait.gd remapped: res://src/features/defense/presentation/defense_monster_portrait.gd
+Completed load for: 'res://src/features/defense/presentation/defense_monster_portrait.gd' remapped 'res://src/features/defense/presentation/defense_monster_portrait.gd' at thread -1
+Completed load for: 'res://scenes/defense/monster_portrait.tscn' remapped 'res://scenes/defense/monster_portrait.tscn' at thread -1
+Completed load for: 'res://scenes/defense/monster_row.tscn' remapped 'res://scenes/defense/monster_row.tscn' at thread -1
+Loading resource: res://scenes/defense/contribution_row.tscn remapped: res://scenes/defense/contribution_row.tscn
+Loading resource: res://src/features/defense/presentation/defense_contribution_row.gd remapped: res://src/features/defense/presentation/defense_contribution_row.gd
+Completed load for: 'res://src/features/defense/presentation/defense_contribution_row.gd' remapped 'res://src/features/defense/presentation/defense_contribution_row.gd' at thread -1
+Completed load for: 'res://scenes/defense/contribution_row.tscn' remapped 'res://scenes/defense/contribution_row.tscn' at thread -1
+Completed load for: 'res://src/features/defense/presentation/defense_battle_panels.gd' remapped 'res://src/features/defense/presentation/defense_battle_panels.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_panel_art.gd remapped: res://src/features/defense/presentation/defense_panel_art.gd
+Completed load for: 'res://src/features/defense/presentation/defense_panel_art.gd' remapped 'res://src/features/defense/presentation/defense_panel_art.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/battle_blur.gdshader remapped: res://src/features/defense/presentation/battle_blur.gdshader
+Completed load for: 'res://src/features/defense/presentation/battle_blur.gdshader' remapped 'res://src/features/defense/presentation/battle_blur.gdshader' at thread -1
+Completed load for: 'res://scenes/defense/battle_panels.tscn' remapped 'res://scenes/defense/battle_panels.tscn' at thread -1
+Loading resource: res://src/features/defense/presentation/choice_beam.gdshader remapped: res://src/features/defense/presentation/choice_beam.gdshader
+Completed load for: 'res://src/features/defense/presentation/choice_beam.gdshader' remapped 'res://src/features/defense/presentation/choice_beam.gdshader' at thread -1
+Loading resource: res://scenes/defense/choice_card.tscn remapped: res://scenes/defense/choice_card.tscn
+Loading resource: res://src/features/defense/presentation/defense_choice_card.gd remapped: res://src/features/defense/presentation/defense_choice_card.gd
+Completed load for: 'res://src/features/defense/presentation/defense_choice_card.gd' remapped 'res://src/features/defense/presentation/defense_choice_card.gd' at thread -1
+Completed load for: 'res://scenes/defense/choice_card.tscn' remapped 'res://scenes/defense/choice_card.tscn' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_choice_panel.gd remapped: res://src/features/defense/presentation/defense_choice_panel.gd
+Completed load for: 'res://src/features/defense/presentation/defense_choice_panel.gd' remapped 'res://src/features/defense/presentation/defense_choice_panel.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_choice_refresh.gd remapped: res://src/features/defense/presentation/defense_choice_refresh.gd
+Completed load for: 'res://src/features/defense/presentation/defense_choice_refresh.gd' remapped 'res://src/features/defense/presentation/defense_choice_refresh.gd' at thread -1
+Loading resource: res://scenes/defense/home.tscn remapped: res://scenes/defense/home.tscn
+Loading resource: res://src/features/defense/presentation/home_light.gdshader remapped: res://src/features/defense/presentation/home_light.gdshader
+Completed load for: 'res://src/features/defense/presentation/home_light.gdshader' remapped 'res://src/features/defense/presentation/home_light.gdshader' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_home.gd remapped: res://src/features/defense/presentation/defense_home.gd
+Completed load for: 'res://src/features/defense/presentation/defense_home.gd' remapped 'res://src/features/defense/presentation/defense_home.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_home_boss.gd remapped: res://src/features/defense/presentation/defense_home_boss.gd
+Completed load for: 'res://src/features/defense/presentation/defense_home_boss.gd' remapped 'res://src/features/defense/presentation/defense_home_boss.gd' at thread -1
+Completed load for: 'res://scenes/defense/home.tscn' remapped 'res://scenes/defense/home.tscn' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_hud.gd remapped: res://src/features/defense/presentation/defense_hud.gd
+Completed load for: 'res://src/features/defense/presentation/defense_hud.gd' remapped 'res://src/features/defense/presentation/defense_hud.gd' at thread -1
+Loading resource: res://scenes/defense/roster_card.tscn remapped: res://scenes/defense/roster_card.tscn
+Loading resource: res://src/features/defense/presentation/defense_roster_card.gd remapped: res://src/features/defense/presentation/defense_roster_card.gd
+Completed load for: 'res://src/features/defense/presentation/defense_roster_card.gd' remapped 'res://src/features/defense/presentation/defense_roster_card.gd' at thread -1
+Completed load for: 'res://scenes/defense/roster_card.tscn' remapped 'res://scenes/defense/roster_card.tscn' at thread -1
+Loading resource: res://scenes/defense/skill_tooltip.tscn remapped: res://scenes/defense/skill_tooltip.tscn
+Loading resource: res://src/features/defense/presentation/defense_skill_tooltip.gd remapped: res://src/features/defense/presentation/defense_skill_tooltip.gd
+Completed load for: 'res://src/features/defense/presentation/defense_skill_tooltip.gd' remapped 'res://src/features/defense/presentation/defense_skill_tooltip.gd' at thread -1
+Completed load for: 'res://scenes/defense/skill_tooltip.tscn' remapped 'res://scenes/defense/skill_tooltip.tscn' at thread -1
+Loading resource: res://scenes/defense/result_panel.tscn remapped: res://scenes/defense/result_panel.tscn
+Loading resource: res://src/features/defense/presentation/defense_result_panel.gd remapped: res://src/features/defense/presentation/defense_result_panel.gd
+Loading resource: res://scenes/defense/result_card.tscn remapped: res://scenes/defense/result_card.tscn
+Loading resource: res://src/features/defense/presentation/defense_result_card.gd remapped: res://src/features/defense/presentation/defense_result_card.gd
+Completed load for: 'res://src/features/defense/presentation/defense_result_card.gd' remapped 'res://src/features/defense/presentation/defense_result_card.gd' at thread -1
+Completed load for: 'res://scenes/defense/result_card.tscn' remapped 'res://scenes/defense/result_card.tscn' at thread -1
+Loading resource: res://scenes/defense/result_item.tscn remapped: res://scenes/defense/result_item.tscn
+Loading resource: res://src/features/defense/presentation/defense_result_item.gd remapped: res://src/features/defense/presentation/defense_result_item.gd
+Completed load for: 'res://src/features/defense/presentation/defense_result_item.gd' remapped 'res://src/features/defense/presentation/defense_result_item.gd' at thread -1
+Completed load for: 'res://scenes/defense/result_item.tscn' remapped 'res://scenes/defense/result_item.tscn' at thread -1
+Completed load for: 'res://src/features/defense/presentation/defense_result_panel.gd' remapped 'res://src/features/defense/presentation/defense_result_panel.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/defense_result_progress.gd remapped: res://src/features/defense/presentation/defense_result_progress.gd
+Completed load for: 'res://src/features/defense/presentation/defense_result_progress.gd' remapped 'res://src/features/defense/presentation/defense_result_progress.gd' at thread -1
+Loading resource: res://src/features/defense/presentation/result_blur.gdshader remapped: res://src/features/defense/presentation/result_blur.gdshader
+Completed load for: 'res://src/features/defense/presentation/result_blur.gdshader' remapped 'res://src/features/defense/presentation/result_blur.gdshader' at thread -1
+Completed load for: 'res://scenes/defense/result_panel.tscn' remapped 'res://scenes/defense/result_panel.tscn' at thread -1
+Completed load for: 'res://scenes/main.tscn' remapped 'res://scenes/main.tscn' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_00.png remapped: res://assets/runtime/defense/atlas_00.png
+Loading resource: res://.godot/imported/atlas_00.png-637817c7e236502f231ccaa8379d6008.ctex remapped: res://.godot/imported/atlas_00.png-637817c7e236502f231ccaa8379d6008.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_00.png' remapped 'res://assets/runtime/defense/atlas_00.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_01.png remapped: res://assets/runtime/defense/atlas_01.png
+Loading resource: res://.godot/imported/atlas_01.png-79d122b08346b5a7ae0981217bc6ce35.ctex remapped: res://.godot/imported/atlas_01.png-79d122b08346b5a7ae0981217bc6ce35.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_01.png' remapped 'res://assets/runtime/defense/atlas_01.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_02.png remapped: res://assets/runtime/defense/atlas_02.png
+Loading resource: res://.godot/imported/atlas_02.png-7b1de300d1971f811dd36386bd75d084.ctex remapped: res://.godot/imported/atlas_02.png-7b1de300d1971f811dd36386bd75d084.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_02.png' remapped 'res://assets/runtime/defense/atlas_02.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_03.png remapped: res://assets/runtime/defense/atlas_03.png
+Loading resource: res://.godot/imported/atlas_03.png-7a20a4350f4fa1092458b711aeb35a01.ctex remapped: res://.godot/imported/atlas_03.png-7a20a4350f4fa1092458b711aeb35a01.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_03.png' remapped 'res://assets/runtime/defense/atlas_03.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_04.png remapped: res://assets/runtime/defense/atlas_04.png
+Loading resource: res://.godot/imported/atlas_04.png-226dc3e9fbdb29f63e4b691ca1ce4cef.ctex remapped: res://.godot/imported/atlas_04.png-226dc3e9fbdb29f63e4b691ca1ce4cef.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_04.png' remapped 'res://assets/runtime/defense/atlas_04.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_05.png remapped: res://assets/runtime/defense/atlas_05.png
+Loading resource: res://.godot/imported/atlas_05.png-7eb37a6042f374c4653ce60d5ece520a.ctex remapped: res://.godot/imported/atlas_05.png-7eb37a6042f374c4653ce60d5ece520a.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_05.png' remapped 'res://assets/runtime/defense/atlas_05.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_06.png remapped: res://assets/runtime/defense/atlas_06.png
+Loading resource: res://.godot/imported/atlas_06.png-e5d3ac58afa919e3482722a648e7ecc4.ctex remapped: res://.godot/imported/atlas_06.png-e5d3ac58afa919e3482722a648e7ecc4.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_06.png' remapped 'res://assets/runtime/defense/atlas_06.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_07.png remapped: res://assets/runtime/defense/atlas_07.png
+Loading resource: res://.godot/imported/atlas_07.png-9b29778954aac66493da2f72603db22c.ctex remapped: res://.godot/imported/atlas_07.png-9b29778954aac66493da2f72603db22c.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_07.png' remapped 'res://assets/runtime/defense/atlas_07.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_08.png remapped: res://assets/runtime/defense/atlas_08.png
+Loading resource: res://.godot/imported/atlas_08.png-4e82a22af8f03332678dd80eb0e24b3c.ctex remapped: res://.godot/imported/atlas_08.png-4e82a22af8f03332678dd80eb0e24b3c.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_08.png' remapped 'res://assets/runtime/defense/atlas_08.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_09.png remapped: res://assets/runtime/defense/atlas_09.png
+Loading resource: res://.godot/imported/atlas_09.png-c866e53a40dde8d04fad6d51abff4fd9.ctex remapped: res://.godot/imported/atlas_09.png-c866e53a40dde8d04fad6d51abff4fd9.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_09.png' remapped 'res://assets/runtime/defense/atlas_09.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_10.png remapped: res://assets/runtime/defense/atlas_10.png
+Loading resource: res://.godot/imported/atlas_10.png-331eedee3b5373955f5ee98b830673a4.ctex remapped: res://.godot/imported/atlas_10.png-331eedee3b5373955f5ee98b830673a4.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_10.png' remapped 'res://assets/runtime/defense/atlas_10.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_11.png remapped: res://assets/runtime/defense/atlas_11.png
+Loading resource: res://.godot/imported/atlas_11.png-657e00e895019ac4e261fd87c6b2687f.ctex remapped: res://.godot/imported/atlas_11.png-657e00e895019ac4e261fd87c6b2687f.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_11.png' remapped 'res://assets/runtime/defense/atlas_11.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_12.png remapped: res://assets/runtime/defense/atlas_12.png
+Loading resource: res://.godot/imported/atlas_12.png-b86e606818629d80f4ee926f2d524550.ctex remapped: res://.godot/imported/atlas_12.png-b86e606818629d80f4ee926f2d524550.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_12.png' remapped 'res://assets/runtime/defense/atlas_12.png' at thread -1
+Loading resource: res://assets/runtime/defense/atlas_13.png remapped: res://assets/runtime/defense/atlas_13.png
+Loading resource: res://.godot/imported/atlas_13.png-dca24e959f9b13491c163dc64976b408.ctex remapped: res://.godot/imported/atlas_13.png-dca24e959f9b13491c163dc64976b408.ctex
+Completed load for: 'res://assets/runtime/defense/atlas_13.png' remapped 'res://assets/runtime/defense/atlas_13.png' at thread -1
+Loading resource: res://assets/runtime/defense/home_reference_icons.png remapped: res://assets/runtime/defense/home_reference_icons.png
+Loading resource: res://.godot/imported/home_reference_icons.png-93199568c684ddcbda3edef54aecf863.ctex remapped: res://.godot/imported/home_reference_icons.png-93199568c684ddcbda3edef54aecf863.ctex
+Completed load for: 'res://assets/runtime/defense/home_reference_icons.png' remapped 'res://assets/runtime/defense/home_reference_icons.png' at thread -1
+[RESULT CAPTURE] complete
+Unloading: Disposing tracked instances...
+Unloading: Finished disposing tracked instances.
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Accessibility: window 0 adapter destroyed.

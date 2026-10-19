@@ -1,0 +1,20 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[CAPTURE] hero=1 skills=[1269, 17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+[CAPTURE] hero=2 skills=[1269, 194] effects=["hero2:normal04"]
+[CAPTURE] hero=3 skills=[1269, 1, 2] effects=["hero3:normal_0"]
+[CAPTURE] hero=4 skills=[1269, 621] effects=["hero4:sword"]
+[CAPTURE] hero=5 skills=[1269, 429] effects=[]
+[CAPTURE] hero=6 skills=[1269, 450, 460, 461] effects=["", "hero6:bubble3"]
+[CAPTURE] hero=7 skills=[1269, 201] effects=["bullet:summon"]
+[CAPTURE] hero=8 skills=[1269, 240, 241] effects=["bullet2:boombat", ""]
+[CAPTURE] hero=9 skills=[1269, 413] effects=["hero9:fireballboom4"]
+[CAPTURE] hero=10 skills=[1269, 50] effects=["hero10:laserdie"]
+[CAPTURE] hero=11 skills=[1269, 605] effects=["bullet:thunder_pl3"]
+[CAPTURE] hero=12 skills=[1269, 749, 745, 751] effects=["hero12:chengjie2"]
+[CAPTURE] hero=13 skills=[1269] effects=["battleEffect:bubble2"]
+[CAPTURE] hero=14 skills=[1269, 71] effects=["hero14:bullet_fm"]
+[CAPTURE] hero=15 skills=[1269, 1076] effects=[]
+[CAPTURE] hero=16 skills=[1270, 1326, 1327] effects=["battleEffect:bubbleF", ""]
+[CAPTURE] hero=17 skills=[1269, 1429] effects=["bullet2:chong4"]

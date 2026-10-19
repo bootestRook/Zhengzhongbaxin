@@ -1,0 +1,226 @@
+{
+  "initial_option": 200400,
+  "terms": [
+    {
+      "id": 400,
+      "internal_id": 200400,
+      "title": "多重射击",
+      "limit": 1,
+      "weight": 5000,
+      "prerequisites": []
+    },
+    {
+      "id": 401,
+      "internal_id": 200401,
+      "title": "增伤",
+      "limit": 2,
+      "weight": 3000,
+      "prerequisites": [
+        [
+          200400,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 402,
+      "internal_id": 200402,
+      "title": "穿透",
+      "limit": 1,
+      "weight": 3000,
+      "prerequisites": [
+        [
+          200400,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 403,
+      "internal_id": 200403,
+      "title": "齐射",
+      "limit": 1,
+      "weight": 2000,
+      "prerequisites": [
+        [
+          200400,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 404,
+      "internal_id": 200404,
+      "title": "连击",
+      "limit": 1,
+      "weight": 2000,
+      "prerequisites": [
+        [
+          200403,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 405,
+      "internal_id": 200405,
+      "title": "冰冻侵袭",
+      "limit": 1,
+      "weight": 2000,
+      "prerequisites": [
+        [
+          200400,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 406,
+      "internal_id": 200406,
+      "title": "击退",
+      "limit": 1,
+      "weight": 1000,
+      "prerequisites": [
+        [
+          200402,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 407,
+      "internal_id": 200407,
+      "title": "集中",
+      "limit": 1,
+      "weight": 1000,
+      "prerequisites": [
+        [
+          200400,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 408,
+      "internal_id": 200408,
+      "title": "箭雨",
+      "limit": 1,
+      "weight": 1000,
+      "prerequisites": [
+        [
+          200405,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 409,
+      "internal_id": 200409,
+      "title": "星辰之箭",
+      "limit": 1,
+      "weight": 2000,
+      "prerequisites": [
+        [
+          200401,
+          1
+        ],
+        [
+          200402,
+          1
+        ],
+        [
+          200405,
+          1
+        ]
+      ]
+    }
+  ],
+  "domain_assertions": 956,
+  "ui_assertions": 50,
+  "probability_sample": {
+    "casts": 10000,
+    "combo": 5005,
+    "rain": 2007,
+    "replay_identical": true
+  },
+  "screenshots": {
+    "battle_effects_540.png": [
+      540,
+      1080
+    ],
+    "battle_effects_720.png": [
+      720,
+      1440
+    ],
+    "battle_effects_960.png": [
+      960,
+      1920
+    ],
+    "rain_offer_540.png": [
+      540,
+      1080
+    ],
+    "rain_offer_720.png": [
+      720,
+      1440
+    ],
+    "rain_offer_960.png": [
+      960,
+      1920
+    ],
+    "rain_offer_scrolled_540.png": [
+      540,
+      1080
+    ],
+    "rain_offer_scrolled_720.png": [
+      720,
+      1440
+    ],
+    "rain_offer_scrolled_960.png": [
+      960,
+      1920
+    ],
+    "recruit_540.png": [
+      540,
+      1080
+    ],
+    "recruit_720.png": [
+      720,
+      1440
+    ],
+    "recruit_960.png": [
+      960,
+      1920
+    ],
+    "star_description_540.png": [
+      540,
+      1080
+    ],
+    "star_description_720.png": [
+      720,
+      1440
+    ],
+    "star_description_960.png": [
+      960,
+      1920
+    ]
+  },
+  "source_roster_sha256": "54977889daaf522932b9f6dd46c6586cf7818ce8f30d7adef702f44c534858a5",
+  "project_check": {
+    "exit_code": 0,
+    "python_tests": 63,
+    "godot_assertions": 7727,
+    "runtime_smoke": true,
+    "engine_error_markers": 0,
+    "manifest_files": 599,
+    "manifest_bytes": 89875931
+  },
+  "full_run": {
+    "wave": 20,
+    "bosses": 3,
+    "won": true,
+    "kills": 269,
+    "wall_hp": 3900,
+    "time_ms": 233136
+  }
+}

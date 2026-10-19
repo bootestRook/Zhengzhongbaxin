@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-16",
+  "rule": "德鲁伊词条仅作用于其荆棘护甲技能及派生效果",
+  "implementation": "保留已有技能实例加成，强制校验词条只能绑定所属初始技能，禁止全局属性、被动、额外技能及独立召唤路径",
+  "druid_assertions": 114,
+  "scope_and_merged_regression_assertions": 330,
+  "godot_assertions": 8242,
+  "python_tests": 64,
+  "project_check_exit_code": 0,
+  "error_markers": [],
+  "runtime_smoke": true,
+  "runtime_source_sha256": "e6850147a5ff8f27ce01c28a799c1ce5825315c2dd4d0ab1c24882e71f8953e0",
+  "rule_files_sha256": {
+    "tools/defense_pipeline.py": "09c6002f620838a61ac6698e9cd572eebb90b5474b729659c419ad9add2a38e1",
+    "tools/tests/test_defense_druid_terms.py": "8939128051d1a844afb569a39a8e412419664a3d4791c9be2a90eb3a6aa34984",
+    "tests/test_defense_druid_edges.gd": "b7811fed34cf7f1f87d155df83fd7f590684c30ac62908717ae9e542f46a2bcc"
+  },
+  "logs": [
+    "skill_scope_test.log",
+    "skill_scope_regression_verified.log",
+    "skill_scope_check_verified.log"
+  ]
+}

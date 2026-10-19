@@ -1,0 +1,13 @@
+{
+  "pid": 17444,
+  "folder": "C:\\Users\\Arche\\AppData\\Local\\Temp\\t8-melee-exe-smoke-1084evrg",
+  "exe": "C:\\Users\\Arche\\AppData\\Local\\Temp\\t8-melee-exe-smoke-1084evrg\\defense-demo.exe",
+  "main_menu": true,
+  "recruit_commander": true,
+  "battle": true,
+  "pause": true,
+  "result": true,
+  "return_home": true,
+  "closed": true,
+  "errors": []
+}

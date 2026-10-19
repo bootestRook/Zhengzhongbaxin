@@ -1,0 +1,317 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (19 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | AppBootstrap[39m[0m
+[   5% ] [90m[1mupdate_scripts_classes[22m | DefenseAI[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | DefenseCastGraph[39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | DefenseCatalog[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | DefenseChoices[39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | DefenseDamage[39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | DefensePassives[39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | DefenseSession[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | DefenseSkills[39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | DefenseSpawn[39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | DefenseStatus[39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | DefenseUnits[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | DefenseUpgrades[39m[0m
+[  65% ] [90m[1mupdate_scripts_classes[22m | DefenseAudio[39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | DefenseField[39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (89 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | aoshu_8d6d3f2ae334.mp3[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | aoshu_att_204d4155766a.mp3[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | arrow2_373d063242ec.mp3[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | arrow3_a7909b0e2d1c.mp3[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | arrow_afdcc91ceb1f.mp3[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | bg_f553adf02941.mp3[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | bingzui_19440329eafa.mp3[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | bingzui_att_ba365370ea43.mp3[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | boosComeOut_c6a27c04d868.mp3[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | chanrao_8f83e2181c39.mp3[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | chop_ce0217256f1f.mp3[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | cibao_cd0ae41e87a4.mp3[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | clickSmall_693ed39ea573.mp3[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | click_7e06c29498fc.mp3[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | count1_13b9a354deb7.mp3[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | count2_9a4855c22557.mp3[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | count3_8d6d3975c6c6.mp3[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | count4_02a3892342f5.mp3[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | count5_d4c771c3a785.mp3[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | crawAtt_4f8ef4045459.mp3[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | crow_9ac37439ff2b.wav[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | dianci_3d25ec22df24.mp3[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | explode_c37fe4936f94.mp3[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | fail_a4a0a9539318.mp3[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | fightbg_eb928bf1d5b0.mp3[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | fireAtt_7b70f96e3128.mp3[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | firecrackerB_984122da4e56.mp3[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | fireGun_71a9d5c68034.mp3[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | flash1_8d67e709335d.mp3[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | flower_0803e2e07a0b.mp3[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | gemError_830b2019b21f.wav[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | getCilp_c28ae29525c6.mp3[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | getCoin_ccd0e90da310.mp3[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | getEquip_6051e68c4b2e.mp3[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | getJade_b10f15f225fe.mp3[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | getSoul_feb7e11bce13.mp3[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | gunmu_fa39f4ef60c8.mp3[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | guwu_3543d4bef95b.mp3[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | heroCom_b64f8ee67481.mp3[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | hongliu_49ee38430d19.mp3[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | huanying_ab58d1864223.mp3[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | huoqiang_31969f483ab5.mp3[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | huoqiu_283340d4e1ed.mp3[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | huoqiu_att_396e177fd27b.mp3[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | jianqi_e41987b3268e.mp3[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | jianta_7bf0d9c22e4c.mp3[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | jiguang2_410c81f2be8d.mp3[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | jiguang_f62736eb1b11.mp3[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | jufeng_9e79f9c0eb03.mp3[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | jufeng_att_a9cc7cf2eb70.mp3[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | kuilei_06459fe24c11.mp3[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | leiji_c0a55b0896de.mp3[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | lighting2_7335828b4855.mp3[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | lighting3_79f2833970cb.mp3[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | lighting4_151f05f4a320.mp3[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | lighting_c0a55b0896de.mp3[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | linghunranshao_63baa927f4c1.mp3[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | linghunsuolian_6b28179b233f.mp3[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | loadingbg_947d25679f1f.mp3[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | magicAtt_6b28179b233f.mp3[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | naiCry_1841be92512c.mp3[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | openBattleBox_655d1d38b88b.wav[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | openBox_80b0fbb4a156.mp3[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | ranshao_0064dd158a9f.mp3[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | shenli_1d3f191731a1.mp3[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | shigui_95cdf7640d67.mp3[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | shopbg_298ea1f21856.mp3[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | shouge_94340a75d880.mp3[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | shoulei_att_a2b35bda7e81.mp3[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | shoulei_c7c8d21d2851.mp3[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | showCard_651080b15924.wav[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | showHighQualityGem_6e83503e35d5.mp3[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | showReward_fb6f5b848c5f.mp3[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | shuangbao_2c375eddedc0.mp3[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | swordAtt2_1dd893289669.mp3[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | swordAtt3_2a8aa9077a36.mp3[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | swordAtt_ab58d1864223.mp3[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | sword_11d81d95e3ef.wav[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | synthesis_3d0a1356ae91.mp3[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | throwAtt_079b44466f6e.mp3[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | throw_e0c385794c64.mp3[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | tips1_06e3c804bd85.mp3[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | tips_7317cc267067.mp3[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | tornado_3900e820a78c.mp3[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | victory_7cbacb423e80.mp3[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | wheelDisc_71acfa3a1cb6.mp3[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | xixueqiu_3cc5e7fec421.mp3[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | yuansu_6a0246af4509.mp3[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | yunshi_35dc26e54fad.mp3[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (89 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | shenli_1d3f191731a1.mp3[39m[0m
+[   1% ] [90m[1mreimport[22m | ranshao_0064dd158a9f.mp3[39m[0m
+[   2% ] [90m[1mreimport[22m | openBox_80b0fbb4a156.mp3[39m[0m
+[   3% ] [90m[1mreimport[22m | naiCry_1841be92512c.mp3[39m[0m
+[   4% ] [90m[1mreimport[22m | magicAtt_6b28179b233f.mp3[39m[0m
+[   5% ] [90m[1mreimport[22m | loadingbg_947d25679f1f.mp3[39m[0m
+[   6% ] [90m[1mreimport[22m | linghunsuolian_6b28179b233f.mp3[39m[0m
+[   7% ] [90m[1mreimport[22m | linghunranshao_63baa927f4c1.mp3[39m[0m
+[   8% ] [90m[1mreimport[22m | lighting_c0a55b0896de.mp3[39m[0m
+[  10% ] [90m[1mreimport[22m | lighting4_151f05f4a320.mp3[39m[0m
+[  11% ] [90m[1mreimport[22m | lighting3_79f2833970cb.mp3[39m[0m
+[  12% ] [90m[1mreimport[22m | lighting2_7335828b4855.mp3[39m[0m
+[  13% ] [90m[1mreimport[22m | leiji_c0a55b0896de.mp3[39m[0m
+[  14% ] [90m[1mreimport[22m | kuilei_06459fe24c11.mp3[39m[0m
+[  15% ] [90m[1mreimport[22m | jufeng_att_a9cc7cf2eb70.mp3[39m[0m
+[  16% ] [90m[1mreimport[22m | jufeng_9e79f9c0eb03.mp3[39m[0m
+[  17% ] [90m[1mreimport[22m | jiguang_f62736eb1b11.mp3[39m[0m
+[  18% ] [90m[1mreimport[22m | jiguang2_410c81f2be8d.mp3[39m[0m
+[  20% ] [90m[1mreimport[22m | jianta_7bf0d9c22e4c.mp3[39m[0m
+[  21% ] [90m[1mreimport[22m | jianqi_e41987b3268e.mp3[39m[0m
+[  22% ] [90m[1mreimport[22m | huoqiu_att_396e177fd27b.mp3[39m[0m
+[  23% ] [90m[1mreimport[22m | yunshi_35dc26e54fad.mp3[39m[0m
+[  24% ] [90m[1mreimport[22m | yuansu_6a0246af4509.mp3[39m[0m
+[  25% ] [90m[1mreimport[22m | xixueqiu_3cc5e7fec421.mp3[39m[0m
+[  26% ] [90m[1mreimport[22m | wheelDisc_71acfa3a1cb6.mp3[39m[0m
+[  27% ] [90m[1mreimport[22m | victory_7cbacb423e80.mp3[39m[0m
+[  28% ] [90m[1mreimport[22m | tornado_3900e820a78c.mp3[39m[0m
+[  30% ] [90m[1mreimport[22m | tips_7317cc267067.mp3[39m[0m
+[  31% ] [90m[1mreimport[22m | tips1_06e3c804bd85.mp3[39m[0m
+[  32% ] [90m[1mreimport[22m | throw_e0c385794c64.mp3[39m[0m
+[  33% ] [90m[1mreimport[22m | throwAtt_079b44466f6e.mp3[39m[0m
+[  34% ] [90m[1mreimport[22m | synthesis_3d0a1356ae91.mp3[39m[0m
+[  35% ] [90m[1mreimport[22m | swordAtt_ab58d1864223.mp3[39m[0m
+[  36% ] [90m[1mreimport[22m | swordAtt3_2a8aa9077a36.mp3[39m[0m
+[  37% ] [90m[1mreimport[22m | swordAtt2_1dd893289669.mp3[39m[0m
+[  38% ] [90m[1mreimport[22m | shuangbao_2c375eddedc0.mp3[39m[0m
+[  40% ] [90m[1mreimport[22m | showReward_fb6f5b848c5f.mp3[39m[0m
+[  41% ] [90m[1mreimport[22m | showHighQualityGem_6e83503e35d5.mp3[39m[0m
+[  42% ] [90m[1mreimport[22m | shoulei_c7c8d21d2851.mp3[39m[0m
+[  43% ] [90m[1mreimport[22m | shoulei_att_a2b35bda7e81.mp3[39m[0m
+[  44% ] [90m[1mreimport[22m | shouge_94340a75d880.mp3[39m[0m
+[  45% ] [90m[1mreimport[22m | shopbg_298ea1f21856.mp3[39m[0m
+[  46% ] [90m[1mreimport[22m | shigui_95cdf7640d67.mp3[39m[0m
+[  47% ] [90m[1mreimport[22m | dianci_3d25ec22df24.mp3[39m[0m
+[  48% ] [90m[1mreimport[22m | crawAtt_4f8ef4045459.mp3[39m[0m
+[  50% ] [90m[1mreimport[22m | count5_d4c771c3a785.mp3[39m[0m
+[  51% ] [90m[1mreimport[22m | count4_02a3892342f5.mp3[39m[0m
+[  52% ] [90m[1mreimport[22m | count3_8d6d3975c6c6.mp3[39m[0m
+[  53% ] [90m[1mreimport[22m | count2_9a4855c22557.mp3[39m[0m
+[  54% ] [90m[1mreimport[22m | count1_13b9a354deb7.mp3[39m[0m
+[  55% ] [90m[1mreimport[22m | click_7e06c29498fc.mp3[39m[0m
+[  56% ] [90m[1mreimport[22m | clickSmall_693ed39ea573.mp3[39m[0m
+[  57% ] [90m[1mreimport[22m | cibao_cd0ae41e87a4.mp3[39m[0m
+[  58% ] [90m[1mreimport[22m | chop_ce0217256f1f.mp3[39m[0m
+[  60% ] [90m[1mreimport[22m | chanrao_8f83e2181c39.mp3[39m[0m
+[  61% ] [90m[1mreimport[22m | boosComeOut_c6a27c04d868.mp3[39m[0m
+[  62% ] [90m[1mreimport[22m | bingzui_att_ba365370ea43.mp3[39m[0m
+[  63% ] [90m[1mreimport[22m | bingzui_19440329eafa.mp3[39m[0m
+[  64% ] [90m[1mreimport[22m | bg_f553adf02941.mp3[39m[0m
+[  65% ] [90m[1mreimport[22m | arrow_afdcc91ceb1f.mp3[39m[0m
+[  66% ] [90m[1mreimport[22m | arrow3_a7909b0e2d1c.mp3[39m[0m
+[  67% ] [90m[1mreimport[22m | arrow2_373d063242ec.mp3[39m[0m
+[  68% ] [90m[1mreimport[22m | aoshu_att_204d4155766a.mp3[39m[0m
+[  70% ] [90m[1mreimport[22m | aoshu_8d6d3f2ae334.mp3[39m[0m
+[  71% ] [90m[1mreimport[22m | huoqiu_283340d4e1ed.mp3[39m[0m
+[  72% ] [90m[1mreimport[22m | huoqiang_31969f483ab5.mp3[39m[0m
+[  73% ] [90m[1mreimport[22m | huanying_ab58d1864223.mp3[39m[0m
+[  74% ] [90m[1mreimport[22m | hongliu_49ee38430d19.mp3[39m[0m
+[  75% ] [90m[1mreimport[22m | heroCom_b64f8ee67481.mp3[39m[0m
+[  76% ] [90m[1mreimport[22m | guwu_3543d4bef95b.mp3[39m[0m
+[  77% ] [90m[1mreimport[22m | gunmu_fa39f4ef60c8.mp3[39m[0m
+[  78% ] [90m[1mreimport[22m | getSoul_feb7e11bce13.mp3[39m[0m
+[  80% ] [90m[1mreimport[22m | getJade_b10f15f225fe.mp3[39m[0m
+[  81% ] [90m[1mreimport[22m | getEquip_6051e68c4b2e.mp3[39m[0m
+[  82% ] [90m[1mreimport[22m | getCoin_ccd0e90da310.mp3[39m[0m
+[  83% ] [90m[1mreimport[22m | getCilp_c28ae29525c6.mp3[39m[0m
+[  84% ] [90m[1mreimport[22m | flower_0803e2e07a0b.mp3[39m[0m
+[  85% ] [90m[1mreimport[22m | flash1_8d67e709335d.mp3[39m[0m
+[  86% ] [90m[1mreimport[22m | fireGun_71a9d5c68034.mp3[39m[0m
+[  87% ] [90m[1mreimport[22m | firecrackerB_984122da4e56.mp3[39m[0m
+[  88% ] [90m[1mreimport[22m | fireAtt_7b70f96e3128.mp3[39m[0m
+[  90% ] [90m[1mreimport[22m | fightbg_eb928bf1d5b0.mp3[39m[0m
+[  91% ] [90m[1mreimport[22m | fail_a4a0a9539318.mp3[39m[0m
+[  92% ] [90m[1mreimport[22m | explode_c37fe4936f94.mp3[39m[0m
+[  93% ] [90m[1mreimport[22m | shenli_1d3f191731a1.mp3[39m[0m
+[  94% ] [90m[1mreimport[22m | ranshao_0064dd158a9f.mp3[39m[0m
+[  95% ] [90m[1mreimport[22m | openBox_80b0fbb4a156.mp3[39m[0m
+[  96% ] [90m[1mreimport[22m | naiCry_1841be92512c.mp3[39m[0m
+[  97% ] [90m[1mreimport[22m | magicAtt_6b28179b233f.mp3[39m[0m
+[  98% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (89 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

@@ -1,0 +1,56 @@
+[
+	{
+		"front_heroes": {
+			"4": {
+				"above_middle_ticks": 0,
+				"attacks": 30,
+				"damage": 1924.6802894518,
+				"max_advance": 56.6047973632813,
+				"min_attack_y": 893.395202636719,
+				"min_y": 893.395202636719,
+				"ticks": 7500
+			},
+			"17": {
+				"above_middle_ticks": 0,
+				"attacks": 28,
+				"damage": 2130.876903864,
+				"max_advance": 90.6127319335938,
+				"min_attack_y": 859.387268066406,
+				"min_y": 859.387268066406,
+				"ticks": 7500
+			}
+		},
+		"phase": "playing",
+		"seed": 6,
+		"time": 120000,
+		"wall_hp": 3900.0,
+		"wave": 13
+	},
+	{
+		"front_heroes": {
+			"4": {
+				"above_middle_ticks": 0,
+				"attacks": 38,
+				"damage": 2375.98269470434,
+				"max_advance": 47.413330078125,
+				"min_attack_y": 902.586669921875,
+				"min_y": 902.586669921875,
+				"ticks": 7500
+			},
+			"17": {
+				"above_middle_ticks": 0,
+				"attacks": 17,
+				"damage": 5000.51568445311,
+				"max_advance": 96.47119140625,
+				"min_attack_y": 855.2333984375,
+				"min_y": 853.52880859375,
+				"ticks": 7500
+			}
+		},
+		"phase": "playing",
+		"seed": 17,
+		"time": 120000,
+		"wall_hp": 3900.0,
+		"wave": 15
+	}
+]

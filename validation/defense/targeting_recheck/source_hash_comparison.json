@@ -1,0 +1,53 @@
+{
+  "completed_at": "2026-10-15T05:16:15.360695+00:00",
+  "all_unchanged": false,
+  "scope": "Relevant AI source and rules unchanged. Generated catalog changed during the observation period; this audit did not write it and did not identify its writer. Only derived audit artifacts were authored in this audit.",
+  "files": [
+    {
+      "path": "src/features/defense/domain/defense_ai.gd",
+      "before_sha256": "a7882a4359f871b59098a80594a50307b67c1cef2f66940ccd3c63ec37bb3e9d",
+      "after_sha256": "a7882a4359f871b59098a80594a50307b67c1cef2f66940ccd3c63ec37bb3e9d",
+      "unchanged": true
+    },
+    {
+      "path": "src/features/defense/domain/defense_space.gd",
+      "before_sha256": "9ccb4a2f733c59e41c406073aa3fc86ad9a05b401f59bd53fdb057d9371ccc40",
+      "after_sha256": "9ccb4a2f733c59e41c406073aa3fc86ad9a05b401f59bd53fdb057d9371ccc40",
+      "unchanged": true
+    },
+    {
+      "path": "src/features/defense/domain/defense_targets.gd",
+      "before_sha256": "4ac11d7f7717223eab4a2e4c70c5657426c7557b8f54837286c03615fbecc2f3",
+      "after_sha256": "4ac11d7f7717223eab4a2e4c70c5657426c7557b8f54837286c03615fbecc2f3",
+      "unchanged": true
+    },
+    {
+      "path": "src/features/defense/domain/defense_units.gd",
+      "before_sha256": "4f447ddc03a017070825bfae3443259f849508d0f7546ac1b0e3c29eec12c4bb",
+      "after_sha256": "4f447ddc03a017070825bfae3443259f849508d0f7546ac1b0e3c29eec12c4bb",
+      "unchanged": true
+    },
+    {
+      "path": "data/source/defense/rules.json",
+      "before_sha256": "12cfea16268c8d476c5abf965bfdb884af7a5459f4e0ae9afff2648b8635ca52",
+      "after_sha256": "12cfea16268c8d476c5abf965bfdb884af7a5459f4e0ae9afff2648b8635ca52",
+      "unchanged": true
+    },
+    {
+      "path": "data/generated/defense_catalog.json",
+      "before_sha256": "9bb235804f69900b0d19d4cb7beeb94ff652ac27ddd74f2bfc31a41396406cb7",
+      "after_sha256": "a2ac859256a59cdd806a8305d9c55ba7d6e16f841b4e99702b9b9d0d5cc94c2c",
+      "unchanged": false
+    }
+  ],
+  "validation": {
+    "command": "python -X utf8 tools/project.py check",
+    "exit_code": 0,
+    "python_tests": 44,
+    "godot_assertions": 5971,
+    "godot_import": true,
+    "runtime_smoke": true,
+    "release_manifest": true
+  },
+  "gameplay_source_and_rules_unchanged": true
+}

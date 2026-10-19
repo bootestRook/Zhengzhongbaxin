@@ -1,0 +1,2068 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="sprite"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home_hero_details.gd" id="main"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home_hero_actor.gd" id="actor"]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_skill_tooltip.gd" id="tooltip"]
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1,1,1,1)
+
+[node name="HeroDetails" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+visible = false
+script = ExtResource("main")
+mouse_filter = 0
+
+[node name="Shade" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 180.0
+offset_right = 960.0
+offset_bottom = 1920.0
+color = Color(0,0,0,0.68)
+
+[node name="Panel" type="Control" parent="."]
+offset_left = 54.0
+offset_top = 188.0
+offset_right = 906.0
+offset_bottom = 1468.0
+mouse_filter = 0
+
+[node name="Paper" type="NinePatchRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 852.0
+offset_bottom = 1280.0
+patch_margin_left = 66
+patch_margin_right = 66
+patch_margin_top = 132
+patch_margin_bottom = 66
+
+[node name="Title" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 30.0
+offset_top = 12.0
+offset_right = 815.0
+offset_bottom = 116.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 68
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Level" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 32.0
+offset_top = 126.0
+offset_right = 342.0
+offset_bottom = 206.0
+theme_override_colors/font_color = Color(1,0.9,0.35,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 60
+text = "LV.1"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Watermark" type="TextureRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 32.0
+offset_top = 174.0
+offset_right = 438.0
+offset_bottom = 604.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:heroHead1_new"
+modulate = Color(1,1,1,0.12)
+
+[node name="Actor" type="Control" parent="Panel"]
+offset_left = 12.0
+offset_top = 260.0
+offset_right = 460.0
+offset_bottom = 680.0
+mouse_filter = 2
+script = ExtResource("actor")
+
+[node name="Badge0" type="Control" parent="Panel"]
+offset_left = 32.0
+offset_top = 653.0
+offset_right = 223.0
+offset_bottom = 713.0
+mouse_filter = 2
+
+[node name="Ink" type="ColorRect" parent="Panel/Badge0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 5.0
+offset_right = 191.0
+offset_bottom = 54.0
+color = Color(0.1,0.1,0.1,1)
+
+[node name="Paper" type="ColorRect" parent="Panel/Badge0"]
+mouse_filter = 2
+offset_left = 4.0
+offset_top = 9.0
+offset_right = 187.0
+offset_bottom = 50.0
+color = Color(0.98,0.97,0.95,1)
+
+[node name="Text" type="Label" parent="Panel/Badge0"]
+mouse_filter = 2
+offset_left = 50.0
+offset_top = 1.0
+offset_right = 187.0
+offset_bottom = 61.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 36
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Icon" type="TextureRect" parent="Panel/Badge0"]
+mouse_filter = 2
+offset_left = -3.0
+offset_top = -1.0
+offset_right = 60.0
+offset_bottom = 62.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:heroType2"
+
+[node name="Badge1" type="Control" parent="Panel"]
+offset_left = 232.0
+offset_top = 653.0
+offset_right = 423.0
+offset_bottom = 713.0
+mouse_filter = 2
+
+[node name="Ink" type="ColorRect" parent="Panel/Badge1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 5.0
+offset_right = 191.0
+offset_bottom = 54.0
+color = Color(0.1,0.1,0.1,1)
+
+[node name="Paper" type="ColorRect" parent="Panel/Badge1"]
+mouse_filter = 2
+offset_left = 4.0
+offset_top = 9.0
+offset_right = 187.0
+offset_bottom = 50.0
+color = Color(0.98,0.97,0.95,1)
+
+[node name="Text" type="Label" parent="Panel/Badge1"]
+mouse_filter = 2
+offset_left = 50.0
+offset_top = 1.0
+offset_right = 187.0
+offset_bottom = 61.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 36
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Icon" type="TextureRect" parent="Panel/Badge1"]
+mouse_filter = 2
+offset_left = -3.0
+offset_top = -1.0
+offset_right = 60.0
+offset_bottom = 62.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:heroType2"
+
+[node name="BasicTitle" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 462.0
+offset_top = 128.0
+offset_right = 762.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 40
+text = "基础属性"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Info" type="Button" parent="Panel"]
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+offset_left = 784.0
+offset_top = 128.0
+offset_right = 836.0
+offset_bottom = 180.0
+tooltip_text = "详细属性"
+
+[node name="Icon" type="TextureRect" parent="Panel/Info"]
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 44.0
+offset_bottom = 44.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "map:buffCard_hero_Info_face"
+
+[node name="Main0" type="Control" parent="Panel"]
+offset_left = 462.0
+offset_top = 191.0
+offset_right = 814.0
+offset_bottom = 255.0
+mouse_filter = 2
+
+[node name="Track" type="ColorRect" parent="Panel/Main0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 352.0
+offset_bottom = 60.0
+color = Color(0.86,0.85,0.85,1)
+
+[node name="Icon" type="TextureRect" parent="Panel/Main0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 64.0
+offset_bottom = 64.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_1"
+
+[node name="Value" type="Label" parent="Panel/Main0"]
+mouse_filter = 2
+offset_left = 68.0
+offset_top = -3.0
+offset_right = 346.0
+offset_bottom = 67.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 52
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Main1" type="Control" parent="Panel"]
+offset_left = 462.0
+offset_top = 265.0
+offset_right = 814.0
+offset_bottom = 329.0
+mouse_filter = 2
+
+[node name="Track" type="ColorRect" parent="Panel/Main1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 352.0
+offset_bottom = 60.0
+color = Color(0.86,0.85,0.85,1)
+
+[node name="Icon" type="TextureRect" parent="Panel/Main1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 64.0
+offset_bottom = 64.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_4"
+
+[node name="Value" type="Label" parent="Panel/Main1"]
+mouse_filter = 2
+offset_left = 68.0
+offset_top = -3.0
+offset_right = 346.0
+offset_bottom = 67.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 52
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Main2" type="Control" parent="Panel"]
+offset_left = 462.0
+offset_top = 339.0
+offset_right = 814.0
+offset_bottom = 403.0
+mouse_filter = 2
+
+[node name="Track" type="ColorRect" parent="Panel/Main2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 352.0
+offset_bottom = 60.0
+color = Color(0.86,0.85,0.85,1)
+
+[node name="Icon" type="TextureRect" parent="Panel/Main2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 64.0
+offset_bottom = 64.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_10"
+
+[node name="Value" type="Label" parent="Panel/Main2"]
+mouse_filter = 2
+offset_left = 68.0
+offset_top = -3.0
+offset_right = 346.0
+offset_bottom = 67.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 52
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="SkillTitle" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 462.0
+offset_top = 414.0
+offset_right = 814.0
+offset_bottom = 474.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 40
+text = "初始技能"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Skills" type="HBoxContainer" parent="Panel"]
+offset_left = 462.0
+offset_top = 485.0
+offset_right = 814.0
+offset_bottom = 569.0
+theme_override_constants/separation = 5
+
+[node name="FragmentInk" type="ColorRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 462.0
+offset_top = 609.0
+offset_right = 814.0
+offset_bottom = 635.0
+color = Color(0,0,0,1)
+
+[node name="FragmentTrack" type="ColorRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 465.0
+offset_top = 612.0
+offset_right = 811.0
+offset_bottom = 632.0
+color = Color(0,0,0,1)
+
+[node name="Fragments" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 462.0
+offset_top = 600.0
+offset_right = 814.0
+offset_bottom = 642.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 30
+text = "0/14"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="EffectsTitle" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 32.0
+offset_top = 738.0
+offset_right = 810.0
+offset_bottom = 798.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 40
+text = "升级效果"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="EffectsRule" type="ColorRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 32.0
+offset_top = 800.0
+offset_right = 820.0
+offset_bottom = 802.0
+color = Color(0.7,0.69,0.66,1)
+
+[node name="Effects" type="ScrollContainer" parent="Panel"]
+offset_left = 32.0
+offset_top = 814.0
+offset_right = 820.0
+offset_bottom = 1090.0
+horizontal_scroll_mode = 0
+
+[node name="Rows" type="VBoxContainer" parent="Panel/Effects"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Tier0" type="Control" parent="Panel/Effects/Rows"]
+custom_minimum_size = Vector2(774,84)
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Background" type="ColorRect" parent="Panel/Effects/Rows/Tier0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 774.0
+offset_bottom = 84.0
+color = Color(0.84,0.83,0.8,1)
+
+[node name="LevelBackground" type="ColorRect" parent="Panel/Effects/Rows/Tier0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 172.0
+offset_bottom = 84.0
+color = Color(0.77,0.76,0.72,1)
+
+[node name="Level" type="Label" parent="Panel/Effects/Rows/Tier0"]
+mouse_filter = 2
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 165.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(0.29,0.29,0.27,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 29
+text = "等级待配置"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Effect" type="Label" parent="Panel/Effects/Rows/Tier0"]
+mouse_filter = 2
+offset_left = 194.0
+offset_top = 6.0
+offset_right = 744.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(0.34,0.34,0.32,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 34
+text = "升级效果待配置"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Tier1" type="Control" parent="Panel/Effects/Rows"]
+custom_minimum_size = Vector2(774,84)
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Background" type="ColorRect" parent="Panel/Effects/Rows/Tier1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 774.0
+offset_bottom = 84.0
+color = Color(0.84,0.83,0.8,1)
+
+[node name="LevelBackground" type="ColorRect" parent="Panel/Effects/Rows/Tier1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 172.0
+offset_bottom = 84.0
+color = Color(0.77,0.76,0.72,1)
+
+[node name="Level" type="Label" parent="Panel/Effects/Rows/Tier1"]
+mouse_filter = 2
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 165.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(0.29,0.29,0.27,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 29
+text = "等级待配置"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Effect" type="Label" parent="Panel/Effects/Rows/Tier1"]
+mouse_filter = 2
+offset_left = 194.0
+offset_top = 6.0
+offset_right = 744.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(0.34,0.34,0.32,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 34
+text = "升级效果待配置"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Tier2" type="Control" parent="Panel/Effects/Rows"]
+custom_minimum_size = Vector2(774,84)
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Background" type="ColorRect" parent="Panel/Effects/Rows/Tier2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 774.0
+offset_bottom = 84.0
+color = Color(0.84,0.83,0.8,1)
+
+[node name="LevelBackground" type="ColorRect" parent="Panel/Effects/Rows/Tier2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 172.0
+offset_bottom = 84.0
+color = Color(0.77,0.76,0.72,1)
+
+[node name="Level" type="Label" parent="Panel/Effects/Rows/Tier2"]
+mouse_filter = 2
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 165.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(0.29,0.29,0.27,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 29
+text = "等级待配置"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Effect" type="Label" parent="Panel/Effects/Rows/Tier2"]
+mouse_filter = 2
+offset_left = 194.0
+offset_top = 6.0
+offset_right = 744.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(0.34,0.34,0.32,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 34
+text = "升级效果待配置"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="CostTrack" type="ColorRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 32.0
+offset_top = 1110.0
+offset_right = 820.0
+offset_bottom = 1162.0
+color = Color(0.84,0.83,0.8,1)
+
+[node name="GoldIcon" type="TextureRect" parent="Panel"]
+mouse_filter = 2
+offset_left = 45.0
+offset_top = 1116.0
+offset_right = 83.0
+offset_bottom = 1154.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "homeReference:coin"
+
+[node name="GoldCost" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 94.0
+offset_top = 1109.0
+offset_right = 404.0
+offset_bottom = 1163.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 32
+text = "金币：待配置"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="FragmentCost" type="Label" parent="Panel"]
+mouse_filter = 2
+offset_left = 431.0
+offset_top = 1109.0
+offset_right = 796.0
+offset_bottom = 1163.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 32
+text = "碎片：待配置"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Upgrade" type="Button" parent="Panel"]
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+offset_left = 235.0
+offset_top = 1180.0
+offset_right = 617.0
+offset_bottom = 1256.0
+disabled = true
+
+[node name="Paper" type="TextureRect" parent="Panel/Upgrade"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 382.0
+offset_bottom = 76.0
+expand_mode = 1
+stretch_mode = 0
+script = ExtResource("sprite")
+resource_key = "common:btnYello"
+modulate = Color(0.58,0.58,0.58,1)
+
+[node name="Text" type="Label" parent="Panel/Upgrade"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 382.0
+offset_bottom = 76.0
+theme_override_colors/font_color = Color(0.25,0.25,0.23,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 48
+text = "升级"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="RosterPaper" type="ColorRect" parent="."]
+offset_left = 42.0
+offset_top = 1474.0
+offset_right = 918.0
+offset_bottom = 1724.0
+mouse_filter = 2
+color = Color(0.035, 0.045, 0.025, 0.97)
+
+[node name="Roster" type="ScrollContainer" parent="."]
+offset_left = 54.0
+offset_top = 1490.0
+offset_right = 906.0
+offset_bottom = 1710.0
+vertical_scroll_mode = 0
+
+[node name="Row" type="HBoxContainer" parent="Roster"]
+theme_override_constants/separation = 16
+
+[node name="Attributes" type="Control" parent="."]
+offset_left = 16.0
+offset_top = 402.0
+offset_right = 944.0
+offset_bottom = 928.0
+visible = false
+mouse_filter = 0
+
+[node name="Paper" type="NinePatchRect" parent="Attributes"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 928.0
+offset_bottom = 526.0
+patch_margin_left = 32
+patch_margin_right = 42
+patch_margin_top = 28
+patch_margin_bottom = 55
+
+[node name="ArrowInk" type="Polygon2D" parent="Attributes"]
+polygon = PackedVector2Array(834, 5, 867, -28, 900, 5)
+color = Color(0,0,0,1)
+
+[node name="ArrowPaper" type="Polygon2D" parent="Attributes"]
+polygon = PackedVector2Array(845, 9, 867, -14, 889, 9)
+color = Color(1,0.99,0.98,1)
+
+[node name="Main0" type="Control" parent="Attributes"]
+offset_left = 40.0
+offset_top = 32.0
+offset_right = 304.0
+offset_bottom = 98.0
+mouse_filter = 2
+
+[node name="Track" type="ColorRect" parent="Attributes/Main0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 6.0
+offset_right = 264.0
+offset_bottom = 60.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Main0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 66.0
+offset_bottom = 66.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_1"
+
+[node name="Value" type="Label" parent="Attributes/Main0"]
+mouse_filter = 2
+offset_left = 76.0
+offset_top = 0.0
+offset_right = 272.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 48
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Main1" type="Control" parent="Attributes"]
+offset_left = 320.0
+offset_top = 32.0
+offset_right = 584.0
+offset_bottom = 98.0
+mouse_filter = 2
+
+[node name="Track" type="ColorRect" parent="Attributes/Main1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 6.0
+offset_right = 264.0
+offset_bottom = 60.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Main1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 66.0
+offset_bottom = 66.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_4"
+
+[node name="Value" type="Label" parent="Attributes/Main1"]
+mouse_filter = 2
+offset_left = 76.0
+offset_top = 0.0
+offset_right = 272.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 48
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Main2" type="Control" parent="Attributes"]
+offset_left = 600.0
+offset_top = 32.0
+offset_right = 864.0
+offset_bottom = 98.0
+mouse_filter = 2
+
+[node name="Track" type="ColorRect" parent="Attributes/Main2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 6.0
+offset_right = 264.0
+offset_bottom = 60.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Main2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 66.0
+offset_bottom = 66.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_10"
+
+[node name="Value" type="Label" parent="Attributes/Main2"]
+mouse_filter = 2
+offset_left = 76.0
+offset_top = 0.0
+offset_right = 272.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 48
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra0_0" type="Control" parent="Attributes"]
+offset_left = 40.0
+offset_top = 141.0
+offset_right = 240.0
+offset_bottom = 195.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra0_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra0_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_2"
+
+[node name="Value" type="Label" parent="Attributes/Extra0_0"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra0_1" type="Control" parent="Attributes"]
+offset_left = 40.0
+offset_top = 202.0
+offset_right = 240.0
+offset_bottom = 256.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra0_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra0_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_11"
+
+[node name="Value" type="Label" parent="Attributes/Extra0_1"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra0_2" type="Control" parent="Attributes"]
+offset_left = 40.0
+offset_top = 263.0
+offset_right = 240.0
+offset_bottom = 317.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra0_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra0_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_15"
+
+[node name="Value" type="Label" parent="Attributes/Extra0_2"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra0_3" type="Control" parent="Attributes"]
+offset_left = 40.0
+offset_top = 324.0
+offset_right = 240.0
+offset_bottom = 378.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra0_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra0_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_20"
+
+[node name="Value" type="Label" parent="Attributes/Extra0_3"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra0_4" type="Control" parent="Attributes"]
+offset_left = 40.0
+offset_top = 385.0
+offset_right = 240.0
+offset_bottom = 439.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra0_4"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra0_4"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_30"
+
+[node name="Value" type="Label" parent="Attributes/Extra0_4"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra1_0" type="Control" parent="Attributes"]
+offset_left = 250.0
+offset_top = 141.0
+offset_right = 450.0
+offset_bottom = 195.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra1_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra1_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_6"
+
+[node name="Value" type="Label" parent="Attributes/Extra1_0"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra1_1" type="Control" parent="Attributes"]
+offset_left = 250.0
+offset_top = 202.0
+offset_right = 450.0
+offset_bottom = 256.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra1_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra1_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_25"
+
+[node name="Value" type="Label" parent="Attributes/Extra1_1"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra1_2" type="Control" parent="Attributes"]
+offset_left = 250.0
+offset_top = 263.0
+offset_right = 450.0
+offset_bottom = 317.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra1_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra1_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_16"
+
+[node name="Value" type="Label" parent="Attributes/Extra1_2"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra1_3" type="Control" parent="Attributes"]
+offset_left = 250.0
+offset_top = 324.0
+offset_right = 450.0
+offset_bottom = 378.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra1_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra1_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_21"
+
+[node name="Value" type="Label" parent="Attributes/Extra1_3"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra1_4" type="Control" parent="Attributes"]
+offset_left = 250.0
+offset_top = 385.0
+offset_right = 450.0
+offset_bottom = 439.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra1_4"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra1_4"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_27"
+
+[node name="Value" type="Label" parent="Attributes/Extra1_4"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra2_0" type="Control" parent="Attributes"]
+offset_left = 460.0
+offset_top = 141.0
+offset_right = 660.0
+offset_bottom = 195.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra2_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra2_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_7"
+
+[node name="Value" type="Label" parent="Attributes/Extra2_0"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra2_1" type="Control" parent="Attributes"]
+offset_left = 460.0
+offset_top = 202.0
+offset_right = 660.0
+offset_bottom = 256.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra2_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra2_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_12"
+
+[node name="Value" type="Label" parent="Attributes/Extra2_1"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra2_2" type="Control" parent="Attributes"]
+offset_left = 460.0
+offset_top = 263.0
+offset_right = 660.0
+offset_bottom = 317.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra2_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra2_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_17"
+
+[node name="Value" type="Label" parent="Attributes/Extra2_2"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra2_3" type="Control" parent="Attributes"]
+offset_left = 460.0
+offset_top = 324.0
+offset_right = 660.0
+offset_bottom = 378.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra2_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra2_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_22"
+
+[node name="Value" type="Label" parent="Attributes/Extra2_3"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra2_4" type="Control" parent="Attributes"]
+offset_left = 460.0
+offset_top = 385.0
+offset_right = 660.0
+offset_bottom = 439.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra2_4"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra2_4"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_32"
+
+[node name="Value" type="Label" parent="Attributes/Extra2_4"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra3_0" type="Control" parent="Attributes"]
+offset_left = 670.0
+offset_top = 141.0
+offset_right = 870.0
+offset_bottom = 195.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra3_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra3_0"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_8"
+
+[node name="Value" type="Label" parent="Attributes/Extra3_0"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra3_1" type="Control" parent="Attributes"]
+offset_left = 670.0
+offset_top = 202.0
+offset_right = 870.0
+offset_bottom = 256.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra3_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra3_1"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_13"
+
+[node name="Value" type="Label" parent="Attributes/Extra3_1"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra3_2" type="Control" parent="Attributes"]
+offset_left = 670.0
+offset_top = 263.0
+offset_right = 870.0
+offset_bottom = 317.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra3_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra3_2"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_24"
+
+[node name="Value" type="Label" parent="Attributes/Extra3_2"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Extra3_3" type="Control" parent="Attributes"]
+offset_left = 670.0
+offset_top = 324.0
+offset_right = 870.0
+offset_bottom = 378.0
+mouse_filter = 1
+
+[node name="Track" type="ColorRect" parent="Attributes/Extra3_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 4.0
+offset_right = 200.0
+offset_bottom = 50.0
+color = Color(0.89,0.88,0.86,1)
+
+[node name="Icon" type="TextureRect" parent="Attributes/Extra3_3"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 54.0
+offset_bottom = 54.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_23"
+
+[node name="Value" type="Label" parent="Attributes/Extra3_3"]
+mouse_filter = 2
+offset_left = 61.0
+offset_top = 0.0
+offset_right = 206.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="SkillTip" type="Control" parent="."]
+offset_left = 234.0
+offset_top = 807.0
+offset_right = 914.0
+offset_bottom = 1117.0
+visible = false
+mouse_filter = 0
+script = ExtResource("tooltip")
+
+[node name="Paper" type="NinePatchRect" parent="SkillTip"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 310.0
+patch_margin_left = 32
+patch_margin_right = 42
+patch_margin_top = 28
+patch_margin_bottom = 55
+
+[node name="ArrowInk" type="Polygon2D" parent="SkillTip"]
+polygon = PackedVector2Array(282, 5, 315, -28, 348, 5)
+color = Color(0,0,0,1)
+
+[node name="ArrowPaper" type="Polygon2D" parent="SkillTip"]
+polygon = PackedVector2Array(293, 9, 315, -14, 337, 9)
+color = Color(1,0.99,0.98,1)
+
+[node name="Background" type="TextureRect" parent="SkillTip"]
+mouse_filter = 2
+offset_left = 30.0
+offset_top = 24.0
+offset_right = 110.0
+offset_bottom = 104.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:skillbg"
+
+[node name="Icon" type="TextureRect" parent="SkillTip"]
+mouse_filter = 2
+offset_left = 30.0
+offset_top = 24.0
+offset_right = 110.0
+offset_bottom = 104.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:skill_1"
+
+[node name="Title" type="Label" parent="SkillTip"]
+mouse_filter = 2
+offset_left = 126.0
+offset_top = 24.0
+offset_right = 330.0
+offset_bottom = 104.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 48
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Cooldown" type="Control" parent="SkillTip"]
+offset_left = 350.0
+offset_top = 24.0
+offset_right = 642.0
+offset_bottom = 104.0
+mouse_filter = 2
+
+[node name="Value" type="RichTextLabel" parent="SkillTip/Cooldown"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.45, 0.05, 0.04, 1)
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+fit_content = false
+scroll_active = false
+autowrap_mode = 0
+text = ""
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Divider" type="ColorRect" parent="SkillTip"]
+mouse_filter = 2
+offset_left = 34.0
+offset_top = 118.0
+offset_right = 642.0
+offset_bottom = 120.0
+color = Color(0.65,0.65,0.64,1)
+
+[node name="Description" type="RichTextLabel" parent="SkillTip"]
+mouse_filter = 2
+offset_left = 34.0
+offset_top = 139.0
+offset_right = 642.0
+offset_bottom = 279.0
+theme_override_colors/default_color = Color(0,0,0,1)
+theme_override_font_sizes/normal_font_size = 37
+text = ""
+bbcode_enabled = true
+fit_content = true
+scroll_active = false
+autowrap_mode = 3
+
+[node name="Notice" type="Control" parent="."]
+offset_left = 300.0
+offset_top = 1375.0
+offset_right = 660.0
+offset_bottom = 1455.0
+visible = false
+mouse_filter = 2
+
+[node name="Ink" type="ColorRect" parent="Notice"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 360.0
+offset_bottom = 80.0
+color = Color(0,0,0,0.92)
+
+[node name="Text" type="Label" parent="Notice"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 360.0
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 38
+text = "还未解锁"
+vertical_alignment = 1
+horizontal_alignment = 1
+
+[node name="Hit" type="Button" parent="Panel/Main0"]
+offset_right = 64.0
+offset_bottom = 64.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "最大生命值为{value}，生命值耗尽后英雄倒下。"
+
+[node name="Hit" type="Button" parent="Panel/Main1"]
+offset_right = 64.0
+offset_bottom = 64.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "攻击力为{value}，作为普通攻击和相关技能伤害的计算基础。"
+
+[node name="Hit" type="Button" parent="Panel/Main2"]
+offset_right = 64.0
+offset_bottom = 64.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "防御力为{value}，抵扣受防御影响的伤害。"
+
+[node name="Hit" type="Button" parent="Attributes/Main0"]
+offset_right = 66.0
+offset_bottom = 66.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "最大生命值为{value}，生命值耗尽后英雄倒下。"
+
+[node name="Hit" type="Button" parent="Attributes/Main1"]
+offset_right = 66.0
+offset_bottom = 66.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "攻击力为{value}，作为普通攻击和相关技能伤害的计算基础。"
+
+[node name="Hit" type="Button" parent="Attributes/Main2"]
+offset_right = 66.0
+offset_bottom = 66.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "防御力为{value}，抵扣受防御影响的伤害。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra0_0"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "每5秒恢复{value}点生命，实际恢复量受恢复增强和治疗增强影响。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra0_1"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "受到的伤害降低{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra0_2"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "命中抵消目标的闪避概率，当前为{value}。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra0_3"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "非持续法术伤害的吸血比例为{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra0_4"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "此属性当前尚未参与战斗计算。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra1_0"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "攻击速度为{value}，提高后缩短攻击间隔，并影响攻击动作速度。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra1_1"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "攻击强度提高相关物理攻击伤害，当前加成为{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra1_2"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "闪避概率为{value}%，会被攻击者的命中抵消。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra1_3"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "受到的治疗与恢复效果提高{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra1_4"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "施加的负面状态持续时间提高{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra2_0"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "非持续伤害的暴击概率为{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra2_1"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "法术强度提高相关法术伤害，当前加成为{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra2_2"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "基础移动速度为{value}，实际移动还受状态和入场加速影响。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra2_3"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "施加的治疗效果提高{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra2_4"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "此属性当前尚未参与战斗计算。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra3_0"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "暴击伤害加成为{value}，实际增幅还与伤害类型和攻击强度有关。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra3_1"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "召唤强度提高召唤物的生命和攻击，当前加成为{value}%。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra3_2"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "防御穿透为{value}，在可穿透的伤害结算中抵消目标防御。"
+
+[node name="Hit" type="Button" parent="Attributes/Extra3_3"]
+offset_right = 54.0
+offset_bottom = 54.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+metadata/description = "英雄倒下后，基础复活等待时间为{value}秒。"
+
+[node name="AttributeTip" type="Control" parent="."]
+offset_left = 234.0
+offset_top = 807.0
+offset_right = 914.0
+offset_bottom = 1227.0
+visible = false
+mouse_filter = 0
+
+[node name="Paper" type="NinePatchRect" parent="AttributeTip"]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 680.0
+offset_bottom = 420.0
+patch_margin_left = 32
+patch_margin_right = 42
+patch_margin_top = 28
+patch_margin_bottom = 55
+
+[node name="ArrowInk" type="Polygon2D" parent="AttributeTip"]
+polygon = PackedVector2Array(-33, 5, 0, -28, 33, 5)
+color = Color(0,0,0,1)
+
+[node name="ArrowPaper" type="Polygon2D" parent="AttributeTip"]
+polygon = PackedVector2Array(-22, 9, 0, -14, 22, 9)
+color = Color(1,0.99,0.98,1)
+
+
+[node name="Icon" type="TextureRect" parent="AttributeTip"]
+mouse_filter = 2
+offset_left = 30.0
+offset_top = 24.0
+offset_right = 110.0
+offset_bottom = 104.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:attr_1"
+
+[node name="Title" type="Label" parent="AttributeTip"]
+mouse_filter = 2
+offset_left = 126.0
+offset_top = 24.0
+offset_right = 470.0
+offset_bottom = 104.0
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 48
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Divider" type="ColorRect" parent="AttributeTip"]
+mouse_filter = 2
+offset_left = 34.0
+offset_top = 118.0
+offset_right = 642.0
+offset_bottom = 120.0
+color = Color(0.65,0.65,0.64,1)
+
+
+[node name="Value" type="Label" parent="AttributeTip"]
+offset_left = 480.0
+offset_top = 24.0
+offset_right = 638.0
+offset_bottom = 104.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0,0,0,1)
+theme_override_font_sizes/font_size = 46
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Description" type="RichTextLabel" parent="AttributeTip"]
+offset_left = 34.0
+offset_top = 139.0
+offset_right = 640.0
+offset_bottom = 367.0
+mouse_filter = 2
+theme_override_colors/default_color = Color(0,0,0,1)
+theme_override_font_sizes/normal_font_size = 36
+bbcode_enabled = true
+scroll_active = false

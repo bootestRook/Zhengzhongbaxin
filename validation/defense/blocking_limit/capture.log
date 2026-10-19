@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[NATIVE BLOCKING] before {"2":{"bound":0,"capacity":15.0,"targeted":0},"4":{"bound":15,"capacity":15.0,"targeted":17},"5":{"bound":15,"capacity":20.0,"targeted":15},"13":{"bound":0,"capacity":15.0,"targeted":0},"17":{"bound":5,"capacity":5.0,"targeted":5}}
+[NATIVE BLOCKING] after {"2":{"bound":0,"capacity":15.0,"targeted":0},"4":{"bound":15,"capacity":15.0,"targeted":15},"5":{"bound":16,"capacity":20.0,"targeted":16},"13":{"bound":0,"capacity":15.0,"targeted":0},"17":{"bound":5,"capacity":5.0,"targeted":5}}
+[OK] blocking native comparison captured

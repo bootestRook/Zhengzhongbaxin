@@ -1,0 +1,2070 @@
+{
+	"assertions": 588,
+	"cases": [],
+	"coverage": {
+		"monsters": [
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 1
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 10
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 100
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 101
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 102
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 103
+			},
+			{
+				"declared_skills": [
+					1056
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1056
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 104
+			},
+			{
+				"declared_skills": [
+					1057,
+					1058
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1058
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 105
+			},
+			{
+				"declared_skills": [
+					1068
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1068
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 106
+			},
+			{
+				"declared_skills": [
+					1069
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1069
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 107
+			},
+			{
+				"declared_skills": [
+					1070
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1070
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 108
+			},
+			{
+				"declared_skills": [
+					1066
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1066
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 109
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 11
+			},
+			{
+				"declared_skills": [
+					1067
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1067
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 110
+			},
+			{
+				"declared_skills": [
+					1051
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1051
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 111
+			},
+			{
+				"declared_skills": [
+					1052
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 112
+			},
+			{
+				"declared_skills": [
+					1053
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 113
+			},
+			{
+				"declared_skills": [
+					1053,
+					1054
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 114
+			},
+			{
+				"declared_skills": [
+					1054,
+					1055
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 115
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 116
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 117
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 118
+			},
+			{
+				"declared_skills": [
+					1063
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1063
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 119
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 12
+			},
+			{
+				"declared_skills": [
+					1064
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1064
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 120
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 121
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 122
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 123
+			},
+			{
+				"declared_skills": [
+					1153,
+					1154
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1153
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 124
+			},
+			{
+				"declared_skills": [
+					1153,
+					1155
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1153
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 125
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 126
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 127
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 128
+			},
+			{
+				"declared_skills": [
+					1148
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 129
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 13
+			},
+			{
+				"declared_skills": [
+					1149
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1149
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 130
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 131
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 132
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 133
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 134
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 135
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 136
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 137
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 138
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 139
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 14
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 140
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 141
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 142
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 143
+			},
+			{
+				"declared_skills": [
+					1166
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 144
+			},
+			{
+				"declared_skills": [
+					1167,
+					1168
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 145
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 146
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 147
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 148
+			},
+			{
+				"declared_skills": [
+					1160
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 149
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 15
+			},
+			{
+				"declared_skills": [
+					1161
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 150
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 151
+			},
+			{
+				"declared_skills": [
+					1176
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 152
+			},
+			{
+				"declared_skills": [
+					1177
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 153
+			},
+			{
+				"declared_skills": [
+					1178
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1178
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 154
+			},
+			{
+				"declared_skills": [
+					1179
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 155
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 156
+			},
+			{
+				"declared_skills": [
+					1170
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 157
+			},
+			{
+				"declared_skills": [
+					1171
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1171
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 158
+			},
+			{
+				"declared_skills": [
+					1172
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1172
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 159
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 16
+			},
+			{
+				"declared_skills": [
+					1173
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 160
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 161
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 162
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 163
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 164
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 165
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 166
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 167
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 168
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 169
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 17
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 170
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 171
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 172
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 173
+			},
+			{
+				"declared_skills": [
+					1163
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 174
+			},
+			{
+				"declared_skills": [
+					1164
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 175
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 176
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 177
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 178
+			},
+			{
+				"declared_skills": [
+					1157
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1157
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 179
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 18
+			},
+			{
+				"declared_skills": [
+					1158
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1158
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 180
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 181
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 182
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 183
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 184
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 185
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 186
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 187
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 188
+			},
+			{
+				"declared_skills": [
+					1511,
+					1512
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1511,
+					1512
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 189
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 19
+			},
+			{
+				"declared_skills": [
+					1511,
+					1512
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 190
+			},
+			{
+				"declared_skills": [
+					1460
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1460
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 191
+			},
+			{
+				"declared_skills": [
+					1461
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1461
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 192
+			},
+			{
+				"declared_skills": [
+					1462
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1462
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 193
+			},
+			{
+				"declared_skills": [
+					1463
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1463
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 194
+			},
+			{
+				"declared_skills": [
+					1464
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					1464
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 195
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 196
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 197
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 198
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 199
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 2
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 20
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 200
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 201
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 21
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 22
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 23
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 24
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 25
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 26
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 27
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 28
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 29
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 3
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 30
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 31
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 32
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 33
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 34
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 35
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 36
+			},
+			{
+				"declared_skills": [
+					909
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					909
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 37
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 38
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 39
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 4
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 40
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 41
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 42
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 43
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 44
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 45
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 46
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 47
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 48
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 49
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 5
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 50
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 51
+			},
+			{
+				"declared_skills": [
+					913
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 52
+			},
+			{
+				"declared_skills": [
+					912
+				],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 53
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 54
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 55
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 56
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 57
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 58
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 59
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 6
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 60
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 61
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 62
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 63
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 64
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 65
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 66
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 67
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 68
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 69
+			},
+			{
+				"declared_skills": [
+					910
+				],
+				"diagnostics": {},
+				"observed_casts": [
+					910
+				],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 7
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 70
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 71
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 72
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 73
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 74
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 75
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 76
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 77
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 78
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 79
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 8
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 80
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 81
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 82
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 83
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 84
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 85
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 86
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 87
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 88
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 89
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 9
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 90
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 91
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 92
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 93
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 94
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 95
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 96
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 97
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 98
+			},
+			{
+				"declared_skills": [],
+				"diagnostics": {},
+				"observed_casts": [],
+				"status": "runtime_smoke_only",
+				"steps": 180,
+				"template": 99
+			}
+		],
+		"scope": "创建、配置及固定步进烟测；不等同于每个技能效果正确",
+		"terms": [
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 201
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 202
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 203
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 204
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 205
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 206
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 207
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 208
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 209
+			},
+			{
+				"hero": 1,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 210
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200301
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200302
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200303
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200306
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200307
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200308
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200310
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200311
+			},
+			{
+				"hero": 2,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200312
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200100
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200101
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200102
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200103
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200104
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200105
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200106
+			},
+			{
+				"hero": 4,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200107
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200400
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200401
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200402
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200403
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200404
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200405
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200406
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200407
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200408
+			},
+			{
+				"hero": 13,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200409
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200500
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200501
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200502
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200503
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200504
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200505
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200506
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200507
+			},
+			{
+				"hero": 17,
+				"status": "configuration_and_runtime_smoke_only",
+				"steps": 180,
+				"term": 200508
+			}
+		]
+	},
+	"duration_ms": 12277,
+	"failures": [],
+	"runtime_fingerprint": "c3186d5fc03581e14874a25df0c422f8b046bb27f1e7c4341e3670b4cd645b9e",
+	"source_hashes": {
+		"01_英雄属性与局外成长.xlsx": "eda3816fab7b79f53065eeaf5796d76381fd8bee8590604a76bcf12524e8b8be",
+		"02_英雄技能.xlsx": "336e15bd974aa30972137c36e135a0914442bca2fdd60c519bede7f37e1fa223",
+		"03_英雄词条.xlsx": "855d8b926432591b096a197ca2ac1fd5a23226513b587fa2d637b3d5bb087393",
+		"04_Buff配置.xlsx": "e3e49a9509182e2b32f981356633e98a7bdab1ff24142dac883a7c66e4a034fe",
+		"05_怪物配置.xlsx": "cc734ae73c98257b1cb27a410dd3fe13c836a9cc7fb715fa65b6bdd6e6b560db",
+		"06_关卡配置.xlsx": "d52daeea0c46a8686add7d2de4c3106bde1896b87d8944f15c446d7d9bc5528d",
+		"07_刷怪配置.xlsx": "ba0817ee7badb58e982ee86ca513c5fd5c012bc585f032c147c96d693d81a0ab",
+		"art.json": "0bd7a5f92d1471e45fe4b12b718d60a819f82865944a188b9f25a252a7564572",
+		"combat.json": "a1f63f04f9ef2f35c0c4c9c42ba0d1bb5a18ca1437eeff69251470699e33f14d",
+		"defense_tables.json": "0261b0934c8d74eb1990058d53479d77f5d0a61c67342dfa9da960d63675e7eb",
+		"reference.json": "cae0c525b8cbf56c8dccf986bba1af1d598ba6fe8c8c0eba9096f2294d223ec0",
+		"rules.json": "de61ab602bca0658944e87b711eddd50504a156e55a26d87b2990a15d721661e"
+	},
+	"suite": "coverage"
+}

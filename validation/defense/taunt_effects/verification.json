@@ -1,0 +1,30 @@
+{
+  "result": "passed",
+  "targeted_assertions": 70,
+  "godot_assertions": 7969,
+  "python_tests": 63,
+  "project_check_exit": 0,
+  "screenshots": [
+    "taunt_960.png",
+    "taunt_720.png",
+    "taunt_540.png"
+  ],
+  "damage_numbers_disabled_feedback_unchanged": true,
+  "visual_fixture": "Real recruited hero, factory-created enemies, real shield action and impacts; controlled actor positions.",
+  "cases": [
+    "one caster caption per area cast",
+    "caster following",
+    "only affected enemy markers",
+    "base and extended expiry",
+    "pause",
+    "caster hidden or dead or removed",
+    "target death",
+    "caption expiry"
+  ],
+  "screenshot_sha256": {
+    "damage_hidden_540.png": "3f0dc89a8b6fe728ea640988e548cf31443bcea53ea51c34a6af61d514868f14",
+    "taunt_540.png": "3f0dc89a8b6fe728ea640988e548cf31443bcea53ea51c34a6af61d514868f14",
+    "taunt_720.png": "18f164966ac9609325a2e8aad3ed88f1403720032e2ae477925ea6318124f2fd",
+    "taunt_960.png": "74140b01424c23c9479beca1117ca611ce0fc86c1a32151103f04a09f2c5d74b"
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"failures": [],
+	"runtime_fingerprint": "8505ee1aed38522099a56526a072517d3bea57544a015f11ae9277dcc990d411",
+	"timeline": [
+		{
+			"damage": 0.0,
+			"image": "res://validation/battle_lab/ice_combo/first.png",
+			"projectiles": 4,
+			"stage": "first",
+			"time_ms": 736
+		},
+		{
+			"damage": 70.0,
+			"image": "res://validation/battle_lab/ice_combo/waiting.png",
+			"projectiles": 3,
+			"stage": "waiting",
+			"time_ms": 1024
+		},
+		{
+			"damage": 70.0,
+			"image": "res://validation/battle_lab/ice_combo/second.png",
+			"projectiles": 7,
+			"stage": "second",
+			"time_ms": 1040
+		},
+		{
+			"damage": 140.0,
+			"image": "res://validation/battle_lab/ice_combo/hits.png",
+			"projectiles": 6,
+			"stage": "hits",
+			"time_ms": 1296
+		}
+	]
+}

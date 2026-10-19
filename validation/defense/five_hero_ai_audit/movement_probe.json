@@ -1,0 +1,543 @@
+[
+	{
+		"counts": {
+			"4:skill_charge": 88
+		},
+		"initial": [
+			4.0
+		],
+		"samples": [
+			{
+				"action": "attack",
+				"at": 78672,
+				"from": "(756.5813, 1369.627)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(757.291, 1361.659)"
+			},
+			{
+				"action": "attack",
+				"at": 78688,
+				"from": "(757.291, 1361.659)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(758.0006, 1353.69)"
+			},
+			{
+				"action": "attack",
+				"at": 78704,
+				"from": "(758.0006, 1353.69)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(758.7103, 1345.722)"
+			},
+			{
+				"action": "attack",
+				"at": 78720,
+				"from": "(758.7103, 1345.722)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(759.4199, 1337.753)"
+			},
+			{
+				"action": "attack",
+				"at": 78736,
+				"from": "(759.4199, 1337.753)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(760.1296, 1329.785)"
+			},
+			{
+				"action": "attack",
+				"at": 78752,
+				"from": "(760.1296, 1329.785)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(760.8392, 1321.816)"
+			},
+			{
+				"action": "attack",
+				"at": 78768,
+				"from": "(760.8392, 1321.816)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(761.5489, 1313.848)"
+			},
+			{
+				"action": "attack",
+				"at": 78784,
+				"from": "(761.5489, 1313.848)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(762.2585, 1305.879)"
+			},
+			{
+				"action": "attack",
+				"at": 78800,
+				"from": "(762.2585, 1305.879)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(762.9682, 1297.911)"
+			},
+			{
+				"action": "attack",
+				"at": 78816,
+				"from": "(762.9682, 1297.911)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(763.6779, 1289.942)"
+			},
+			{
+				"action": "attack",
+				"at": 78832,
+				"from": "(763.6779, 1289.942)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(764.3875, 1281.974)"
+			},
+			{
+				"action": "attack",
+				"at": 78848,
+				"from": "(764.3875, 1281.974)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(765.0972, 1274.005)"
+			},
+			{
+				"action": "attack",
+				"at": 78864,
+				"from": "(765.0972, 1274.005)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(765.8068, 1266.037)"
+			},
+			{
+				"action": "attack",
+				"at": 78880,
+				"from": "(765.8068, 1266.037)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(766.5165, 1258.068)"
+			},
+			{
+				"action": "attack",
+				"at": 78896,
+				"from": "(766.5165, 1258.068)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(767.2261, 1250.1)"
+			},
+			{
+				"action": "attack",
+				"at": 78912,
+				"from": "(767.2261, 1250.1)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(767.9358, 1242.131)"
+			},
+			{
+				"action": "attack",
+				"at": 78928,
+				"from": "(767.9358, 1242.131)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(768.6454, 1234.163)"
+			},
+			{
+				"action": "attack",
+				"at": 78944,
+				"from": "(768.6454, 1234.163)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(769.3551, 1226.194)"
+			},
+			{
+				"action": "attack",
+				"at": 78960,
+				"from": "(769.3551, 1226.194)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(770.0648, 1218.226)"
+			},
+			{
+				"action": "attack",
+				"at": 78976,
+				"from": "(770.0648, 1218.226)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(770.7744, 1210.257)"
+			},
+			{
+				"action": "attack",
+				"at": 78992,
+				"from": "(770.7744, 1210.257)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(771.4841, 1202.289)"
+			},
+			{
+				"action": "attack",
+				"at": 79008,
+				"from": "(771.4841, 1202.289)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(772.1937, 1194.32)"
+			},
+			{
+				"action": "attack",
+				"at": 83616,
+				"from": "(783.5482, 1066.824)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(788.1492, 1073.369)"
+			},
+			{
+				"action": "attack",
+				"at": 83632,
+				"from": "(788.1492, 1073.369)",
+				"hero": 4,
+				"old_action": "attack",
+				"reason": "skill_charge",
+				"teleports": [],
+				"to": "(792.7502, 1079.913)"
+			}
+		],
+		"seed": 6.0
+	},
+	{
+		"counts": {
+			"17:skill_teleport": 1
+		},
+		"initial": [
+			13.0
+		],
+		"samples": [
+			{
+				"action": "skill",
+				"at": 115440,
+				"from": "(756.9674, 1374.38)",
+				"hero": 17,
+				"old_action": "skill",
+				"reason": "skill_teleport",
+				"teleports": [
+					{
+						"actions": [
+							[
+								"delivery",
+								"0"
+							]
+						],
+						"at": 115440,
+						"owner": 91,
+						"skill": 1435,
+						"target": 38
+					}
+				],
+				"to": "(912.2109, 1064.677)"
+			}
+		],
+		"seed": 6.0
+	},
+	{
+		"counts": {
+			"17:skill_teleport": 3
+		},
+		"initial": [
+			17.0
+		],
+		"samples": [
+			{
+				"action": "skill",
+				"at": 78080,
+				"from": "(828.8851, 1332.832)",
+				"hero": 17,
+				"old_action": "skill",
+				"reason": "skill_teleport",
+				"teleports": [
+					{
+						"actions": [
+							[
+								"delivery",
+								"0"
+							]
+						],
+						"at": 78080,
+						"owner": 1,
+						"skill": 1435,
+						"target": 6
+					}
+				],
+				"to": "(800.7043, 903.3392)"
+			},
+			{
+				"action": "skill",
+				"at": 90704,
+				"from": "(805.0848, 920.1856)",
+				"hero": 17,
+				"old_action": "skill",
+				"reason": "skill_teleport",
+				"teleports": [
+					{
+						"actions": [
+							[
+								"delivery",
+								"0"
+							]
+						],
+						"at": 90704,
+						"owner": 1,
+						"skill": 1435,
+						"target": 20
+					}
+				],
+				"to": "(840.1404, 900.1508)"
+			},
+			{
+				"action": "skill",
+				"at": 113952,
+				"from": "(771.0, 1390.0)",
+				"hero": 17,
+				"old_action": "skill",
+				"reason": "skill_teleport",
+				"teleports": [
+					{
+						"actions": [
+							[
+								"delivery",
+								"0"
+							]
+						],
+						"at": 113952,
+						"owner": 1,
+						"skill": 1435,
+						"target": 44
+					}
+				],
+				"to": "(789.0659, 1347.264)"
+			}
+		],
+		"seed": 6.0
+	},
+	{
+		"counts": {
+			"1:action_completed_before_move": 3,
+			"2:action_completed_before_move": 3
+		},
+		"initial": [
+			1.0,
+			2.0,
+			4.0,
+			13.0,
+			17.0
+		],
+		"samples": [
+			{
+				"action": "idle",
+				"at": 33936,
+				"from": "(1050.493, 1173.733)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.476, 1172.933)"
+			},
+			{
+				"action": "walk",
+				"at": 47216,
+				"from": "(601.5571, 1157.807)",
+				"hero": 2,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(600.8856, 1158.242)"
+			},
+			{
+				"action": "idle",
+				"at": 48512,
+				"from": "(1050.41, 1169.734)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.393, 1168.934)"
+			},
+			{
+				"action": "idle",
+				"at": 76368,
+				"from": "(599.5424, 1159.112)",
+				"hero": 2,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(598.7556, 1158.967)"
+			},
+			{
+				"action": "idle",
+				"at": 101776,
+				"from": "(598.7556, 1158.967)",
+				"hero": 2,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(597.9688, 1158.822)"
+			},
+			{
+				"action": "idle",
+				"at": 106512,
+				"from": "(1050.393, 1168.934)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.377, 1168.134)"
+			}
+		],
+		"seed": 1.0
+	},
+	{
+		"counts": {
+			"1:action_completed_before_move": 4
+		},
+		"initial": [
+			1.0,
+			2.0,
+			4.0,
+			13.0,
+			17.0
+		],
+		"samples": [
+			{
+				"action": "walk",
+				"at": 32272,
+				"from": "(1018.44, 1149.291)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1019.169, 1149.622)"
+			},
+			{
+				"action": "idle",
+				"at": 62048,
+				"from": "(1050.484, 1163.857)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.456, 1163.057)"
+			},
+			{
+				"action": "walk",
+				"at": 102640,
+				"from": "(1048.677, 1160.398)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1049.377, 1160.786)"
+			},
+			{
+				"action": "walk",
+				"at": 109472,
+				"from": "(1044.057, 1151.889)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1044.698, 1152.368)"
+			}
+		],
+		"seed": 6.0
+	},
+	{
+		"counts": {
+			"1:action_completed_before_move": 3
+		},
+		"initial": [
+			1.0,
+			2.0,
+			4.0,
+			13.0,
+			17.0
+		],
+		"samples": [
+			{
+				"action": "idle",
+				"at": 32272,
+				"from": "(1050.493, 1173.733)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.476, 1172.933)"
+			},
+			{
+				"action": "idle",
+				"at": 41456,
+				"from": "(1050.152, 1167.752)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.146, 1166.952)"
+			},
+			{
+				"action": "idle",
+				"at": 48320,
+				"from": "(1050.146, 1166.952)",
+				"hero": 1,
+				"old_action": "skill2",
+				"reason": "action_completed_before_move",
+				"teleports": [],
+				"to": "(1050.139, 1166.152)"
+			}
+		],
+		"seed": 81.0
+	}
+]

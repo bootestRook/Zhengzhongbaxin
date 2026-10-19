@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FIXTURE] seed=5 won=false bosses=2 heroes=[17, 5, 9, 10]
+[FIXTURE] seed=6 won=true bosses=3 heroes=[5, 9, 1, 10]

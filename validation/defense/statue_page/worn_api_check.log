@@ -1,0 +1,7 @@
+Godot 4.7.1 exported API signature check:
+Array.remove_at: present in exported Class Reference
+BaseButton.set_pressed_no_signal: present in exported Class Reference
+BaseButton.pressed: present in exported Class Reference
+Button.font_hover_pressed_color: present in exported Class Reference
+Button.hover_pressed: present in exported Class Reference
+Label.vertical_alignment: present in exported Class Reference

@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "command": [
+    "D:\\godot\\Godot_v4.7.1-stable_mono_win64\\Godot_v4.7.1-stable_mono_win64\\Godot_v4.7.1-stable_mono_win64_console.exe",
+    "--fixed-fps",
+    "60",
+    "--resolution",
+    "480x960",
+    "--audio-driver",
+    "Dummy",
+    "--path",
+    "F:\\T8demo\\T8-demo-16",
+    "--script",
+    "F:\\T8demo\\T8-demo-16\\validation\\exe_package_20261016\\capture.gd",
+    "--",
+    "F:/T8demo/T8-demo-16/validation/exe_package_20261016/source",
+    "F:/T8demo/T8-demo-16/validation/exe_package_20261016/expectations.json"
+  ]
+}

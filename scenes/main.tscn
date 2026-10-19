@@ -1,0 +1,682 @@
+[gd_scene format=3 uid="uid://qm4j6l13knir"]
+
+[ext_resource type="Script" uid="uid://billo8aakyqj4" path="res://src/app/app_bootstrap.gd" id="1"]
+[ext_resource type="Script" uid="uid://derlv3quh0q4l" path="res://src/features/defense/presentation/defense_view.gd" id="2"]
+[ext_resource type="Script" uid="uid://8xy3l4nimr42" path="res://src/features/defense/presentation/defense_field.gd" id="3"]
+[ext_resource type="FontFile" uid="uid://fr0duk7vu5n7" path="res://assets/runtime/defense/chinese.ttf" id="5"]
+[ext_resource type="Script" uid="uid://dkb6wxs4ebr8l" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="atlas_sprite"]
+[ext_resource type="Script" uid="uid://dvw4w6efyg7kl" path="res://src/features/defense/presentation/defense_audio.gd" id="audio"]
+[ext_resource type="PackedScene" path="res://scenes/defense/battle_panels.tscn" id="battle_panels"]
+[ext_resource type="Shader" uid="uid://dc5mkfn3k43cp" path="res://src/features/defense/presentation/choice_beam.gdshader" id="beam"]
+[ext_resource type="PackedScene" path="res://scenes/defense/choice_card.tscn" id="choice_card"]
+[ext_resource type="Script" uid="uid://cplv1pmy01iwq" path="res://src/features/defense/presentation/defense_choice_panel.gd" id="choice_panel"]
+[ext_resource type="Script" uid="uid://bsnkl3qd80kw3" path="res://src/features/defense/presentation/defense_choice_refresh.gd" id="choice_refresh"]
+[ext_resource type="Script" uid="uid://ceujwsxaxuk3w" path="res://src/features/defense/presentation/defense_choice_transfer.gd" id="choice_transfer"]
+[ext_resource type="PackedScene" path="res://scenes/defense/hero_terms_panel.tscn" id="hero_terms"]
+[ext_resource type="PackedScene" path="res://scenes/defense/home.tscn" id="home"]
+[ext_resource type="Script" uid="uid://f0uga76ujiyl" path="res://src/features/defense/presentation/defense_hud.gd" id="hud"]
+[ext_resource type="PackedScene" path="res://scenes/defense/result_panel.tscn" id="result_panel"]
+[ext_resource type="Shader" uid="uid://dl7rwdfhv2ohk" path="res://src/features/defense/presentation/revive_light.gdshader" id="revive_light"]
+[ext_resource type="Script" uid="uid://cu7hoqf6x8qx" path="res://src/features/defense/presentation/defense_revive_visual.gd" id="revive_visual"]
+[ext_resource type="PackedScene" path="res://scenes/defense/reward_panel.tscn" id="reward_panel"]
+[ext_resource type="PackedScene" path="res://scenes/defense/roster_card.tscn" id="roster_card"]
+[ext_resource type="PackedScene" path="res://scenes/defense/skill_tooltip.tscn" id="skill_tooltip"]
+[ext_resource type="Script" uid="uid://dm65yoyhj45n2" path="res://src/features/defense/presentation/defense_tombstone_visual.gd" id="tombstone_visual"]
+
+[sub_resource type="StyleBoxFlat" id="Disabled"]
+bg_color = Color(0.64, 0.63, 0.52, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.14, 0.16, 0.1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="Yellow"]
+bg_color = Color(1, 0.82, 0.25, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.14, 0.16, 0.1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="Pressed"]
+bg_color = Color(0.87, 0.64, 0.13, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.14, 0.16, 0.1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="Track"]
+bg_color = Color(0.18, 0.21, 0.14, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.14, 0.16, 0.1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="Fill"]
+bg_color = Color(0.39, 0.76, 0.23, 1)
+border_color = Color(0.14, 0.16, 0.1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="Theme" id="Theme"]
+default_font = ExtResource("5")
+default_font_size = 34
+Button/colors/font_color = Color(0.14, 0.16, 0.1, 1)
+Button/colors/font_hover_color = Color(0.14, 0.16, 0.1, 1)
+Button/colors/font_pressed_color = Color(0.14, 0.16, 0.1, 1)
+Button/styles/disabled = SubResource("Disabled")
+Button/styles/hover = SubResource("Yellow")
+Button/styles/normal = SubResource("Yellow")
+Button/styles/pressed = SubResource("Pressed")
+Label/colors/font_color = Color(0.14, 0.16, 0.1, 1)
+ProgressBar/styles/background = SubResource("Track")
+ProgressBar/styles/fill = SubResource("Fill")
+
+[sub_resource type="ShaderMaterial" id="ReviveLight"]
+shader = ExtResource("revive_light")
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="HudProgress"]
+bg_color = Color(0.29, 0.89, 0.96, 1)
+
+[sub_resource type="StyleBoxFlat" id="HudTrack"]
+bg_color = Color(0.36, 0.36, 0.36, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="HudHealth"]
+bg_color = Color(0.63, 0.84, 0.34, 1)
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="ShaderMaterial" id="Beam"]
+shader = ExtResource("beam")
+
+[sub_resource type="StyleBoxFlat" id="Paper"]
+bg_color = Color(0.98, 0.965, 0.89, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.14, 0.16, 0.1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[node name="App" type="Node" unique_id=2014378175]
+script = ExtResource("1")
+
+[node name="DefenseView" type="Control" parent="." unique_id=1485178243]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+theme = SubResource("Theme")
+script = ExtResource("2")
+
+[node name="Field" type="Control" parent="DefenseView" unique_id=291429533]
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+script = ExtResource("3")
+
+[node name="ReviveEffects" type="Control" parent="DefenseView/Field" unique_id=355238254]
+material = SubResource("ReviveLight")
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("revive_visual")
+
+[node name="TombstoneEffects" type="Control" parent="DefenseView/Field" unique_id=1802799942]
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("tombstone_visual")
+
+[node name="Home" parent="DefenseView" unique_id=287684526 instance=ExtResource("home")]
+unique_name_in_owner = true
+anchors_preset = 0
+
+[node name="ChoiceTransfer" type="Control" parent="DefenseView" unique_id=2100449102]
+z_index = 3
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("choice_transfer")
+
+[node name="HUD" type="Control" parent="DefenseView" unique_id=1816710908]
+unique_name_in_owner = true
+z_index = 2
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("hud")
+
+[node name="RosterHeader" type="TextureRect" parent="DefenseView/HUD" unique_id=1230958800]
+layout_mode = 0
+offset_top = 1534.0
+offset_right = 960.0
+offset_bottom = 1590.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("atlas_sprite")
+resource_key = "map:roster_header"
+
+[node name="RosterPaper" type="TextureRect" parent="DefenseView/HUD" unique_id=222493266]
+layout_mode = 0
+offset_top = 1590.0
+offset_right = 960.0
+offset_bottom = 1830.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("atlas_sprite")
+resource_key = "map:roster_paper"
+
+[node name="RosterFooter" type="TextureRect" parent="DefenseView/HUD" unique_id=1077061131]
+layout_mode = 0
+offset_top = 1830.0
+offset_right = 960.0
+offset_bottom = 2009.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("atlas_sprite")
+resource_key = "map:roster_footer"
+
+[node name="Pause" type="Button" parent="DefenseView/HUD" unique_id=1980279508]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 30.0
+offset_top = 15.0
+offset_right = 111.0
+offset_bottom = 93.0
+tooltip_text = "暂停战斗"
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+
+[node name="Speed" type="Button" parent="DefenseView/HUD" unique_id=950403303]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 150.0
+offset_top = 15.0
+offset_right = 231.0
+offset_bottom = 93.0
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+
+[node name="Wave" type="Label" parent="DefenseView/HUD" unique_id=177171838]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 295.0
+offset_top = 24.0
+offset_right = 680.0
+offset_bottom = 105.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 54
+text = "第1／20波"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RunLevel" type="Label" parent="DefenseView/HUD" unique_id=1715442201]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 119.0
+offset_top = 113.0
+offset_right = 173.0
+offset_bottom = 165.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 32
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WaveDetail" type="Label" parent="DefenseView/HUD" unique_id=1181430837]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 730.0
+offset_top = 17.0
+offset_right = 935.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 60
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Progress" type="ProgressBar" parent="DefenseView/HUD" unique_id=1464046444]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 170.0
+offset_top = 128.0
+offset_right = 808.0
+offset_bottom = 149.0
+mouse_filter = 2
+theme_override_styles/background = SubResource("Empty")
+theme_override_styles/fill = SubResource("HudProgress")
+show_percentage = false
+
+[node name="WallHealth" type="ProgressBar" parent="DefenseView/HUD" unique_id=216813055]
+unique_name_in_owner = true
+layout_mode = 0
+offset_top = 1537.0
+offset_right = 960.0
+offset_bottom = 1565.0
+mouse_filter = 2
+theme_override_styles/background = SubResource("HudTrack")
+theme_override_styles/fill = SubResource("HudHealth")
+show_percentage = false
+
+[node name="WallText" type="Label" parent="DefenseView/HUD" unique_id=629260496]
+unique_name_in_owner = true
+layout_mode = 0
+offset_top = 1528.0
+offset_right = 960.0
+offset_bottom = 1575.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hero0" parent="DefenseView/HUD" unique_id=679232658 instance=ExtResource("roster_card")]
+anchors_preset = 0
+offset_left = 22.0
+offset_top = 1590.0
+offset_right = 194.0
+offset_bottom = 1920.0
+
+[node name="Hero1" parent="DefenseView/HUD" unique_id=1592738174 instance=ExtResource("roster_card")]
+anchors_preset = 0
+offset_left = 208.0
+offset_top = 1590.0
+offset_right = 380.0
+offset_bottom = 1920.0
+
+[node name="Hero2" parent="DefenseView/HUD" unique_id=373970310 instance=ExtResource("roster_card")]
+anchors_preset = 0
+offset_left = 394.0
+offset_top = 1590.0
+offset_right = 566.0
+offset_bottom = 1920.0
+
+[node name="Hero3" parent="DefenseView/HUD" unique_id=1618456061 instance=ExtResource("roster_card")]
+anchors_preset = 0
+offset_left = 580.0
+offset_top = 1590.0
+offset_right = 752.0
+offset_bottom = 1920.0
+
+[node name="Hero4" parent="DefenseView/HUD" unique_id=585850688 instance=ExtResource("roster_card")]
+anchors_preset = 0
+offset_left = 766.0
+offset_top = 1590.0
+offset_right = 938.0
+offset_bottom = 1920.0
+
+[node name="BattleStats" type="Button" parent="DefenseView/HUD" unique_id=2076472784]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 27.0
+offset_top = 208.0
+offset_right = 103.0
+offset_bottom = 304.0
+tooltip_text = "查看战斗统计"
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+
+[node name="MonsterInfo" type="Button" parent="DefenseView/HUD" unique_id=854188564]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 29.0
+offset_top = 347.0
+offset_right = 108.0
+offset_bottom = 419.0
+tooltip_text = "本关怪物"
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+
+[node name="GemStats" type="Button" parent="DefenseView/HUD" unique_id=186859543]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 706.0
+offset_top = 231.0
+offset_right = 948.0
+offset_bottom = 315.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+text = "宝石属性"
+
+[node name="ChoicePanel" type="Control" parent="DefenseView" unique_id=1980571225]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+script = ExtResource("choice_panel")
+
+[node name="Shade" type="ColorRect" parent="DefenseView/ChoicePanel" unique_id=2008758564]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 1563.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.63)
+
+[node name="RosterShade" type="ColorRect" parent="DefenseView/ChoicePanel" unique_id=1930369953]
+layout_mode = 0
+offset_top = 1563.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.04)
+
+[node name="Lights" type="Control" parent="DefenseView/ChoicePanel" unique_id=693665744]
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+
+[node name="Beam0" type="ColorRect" parent="DefenseView/ChoicePanel/Lights" unique_id=355041430]
+material = SubResource("Beam")
+layout_mode = 0
+offset_left = -10.0
+offset_top = 130.0
+offset_right = 346.0
+offset_bottom = 1395.0
+mouse_filter = 2
+
+[node name="Beam1" type="ColorRect" parent="DefenseView/ChoicePanel/Lights" unique_id=586126739]
+material = SubResource("Beam")
+layout_mode = 0
+offset_left = 300.0
+offset_top = 130.0
+offset_right = 656.0
+offset_bottom = 1395.0
+mouse_filter = 2
+
+[node name="Beam2" type="ColorRect" parent="DefenseView/ChoicePanel/Lights" unique_id=2116412684]
+material = SubResource("Beam")
+layout_mode = 0
+offset_left = 610.0
+offset_top = 130.0
+offset_right = 966.0
+offset_bottom = 1395.0
+mouse_filter = 2
+
+[node name="Cards" type="Control" parent="DefenseView/ChoicePanel" unique_id=144866854]
+anchors_preset = 0
+offset_left = 22.0
+offset_top = 328.0
+offset_right = 934.0
+offset_bottom = 1188.0
+mouse_filter = 2
+
+[node name="Card0" parent="DefenseView/ChoicePanel/Cards" unique_id=934044044 instance=ExtResource("choice_card")]
+layout_mode = 0
+
+[node name="Card1" parent="DefenseView/ChoicePanel/Cards" unique_id=972914702 instance=ExtResource("choice_card")]
+layout_mode = 0
+offset_left = 310.0
+offset_right = 602.0
+
+[node name="Card2" parent="DefenseView/ChoicePanel/Cards" unique_id=1983609858 instance=ExtResource("choice_card")]
+layout_mode = 0
+offset_left = 620.0
+offset_right = 912.0
+
+[node name="Refresh" type="Button" parent="DefenseView/ChoicePanel" unique_id=1597206571]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 365.0
+offset_top = 1237.0
+offset_right = 595.0
+offset_bottom = 1393.0
+tooltip_text = "刷新本轮三个候选"
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+script = ExtResource("choice_refresh")
+
+[node name="Title" type="Label" parent="DefenseView/ChoicePanel/Refresh" unique_id=16164893]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 22.0
+offset_right = 208.0
+offset_bottom = 92.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 44
+text = "刷新"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Remaining" type="Label" parent="DefenseView/ChoicePanel/Refresh" unique_id=1566675914]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 108.0
+offset_right = 210.0
+offset_bottom = 150.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 28
+text = "剩余1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ResultPanel" parent="DefenseView" unique_id=1052727464 instance=ExtResource("result_panel")]
+unique_name_in_owner = true
+anchors_preset = 0
+
+[node name="BattlePanels" parent="DefenseView" unique_id=2022192629 instance=ExtResource("battle_panels")]
+anchors_preset = 0
+
+[node name="SkillTooltip" parent="DefenseView" unique_id=1881413936 instance=ExtResource("skill_tooltip")]
+anchors_preset = 0
+
+[node name="HeroTerms" parent="DefenseView" unique_id=1779585879 instance=ExtResource("hero_terms")]
+anchors_preset = 0
+
+[node name="RewardPanel" parent="DefenseView" unique_id=1572344317 instance=ExtResource("reward_panel")]
+layout_mode = 1
+
+[node name="LevelPanel" type="Control" parent="DefenseView" unique_id=1771632144]
+unique_name_in_owner = true
+visible = false
+z_index = 4
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+
+[node name="Shade" type="ColorRect" parent="DefenseView/LevelPanel" unique_id=157728813]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+color = Color(0.03, 0.06, 0.02, 0.73)
+
+[node name="LevelPaper" type="Panel" parent="DefenseView/LevelPanel" unique_id=1722908475]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 250.0
+offset_right = 915.0
+offset_bottom = 1650.0
+theme_override_styles/panel = SubResource("Paper")
+
+[node name="SelectTitle" type="Label" parent="DefenseView/LevelPanel" unique_id=1151058766]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 120.0
+offset_top = 300.0
+offset_right = 840.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 54
+text = "选择关卡"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Levels" type="GridContainer" parent="DefenseView/LevelPanel" unique_id=408331567]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 105.0
+offset_top = 450.0
+offset_right = 855.0
+offset_bottom = 1450.0
+theme_override_constants/h_separation = 18
+theme_override_constants/v_separation = 18
+columns = 5
+
+[node name="LevelClose" type="Button" parent="DefenseView/LevelPanel" unique_id=1247043019]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 270.0
+offset_top = 1500.0
+offset_right = 690.0
+offset_bottom = 1590.0
+text = "返回"
+
+[node name="Notice" type="Label" parent="DefenseView" unique_id=2031500249]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 80.0
+offset_top = 290.0
+offset_right = 880.0
+offset_bottom = 375.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HomeInfoPanel" type="Control" parent="DefenseView" unique_id=216660888]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+
+[node name="Shade" type="ColorRect" parent="DefenseView/HomeInfoPanel" unique_id=1500083607]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.65)
+
+[node name="Paper" type="Panel" parent="DefenseView/HomeInfoPanel" unique_id=276338891]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 510.0
+offset_right = 870.0
+offset_bottom = 1390.0
+theme_override_styles/panel = SubResource("Paper")
+
+[node name="HomeInfoTitle" type="Label" parent="DefenseView/HomeInfoPanel" unique_id=1027799564]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 130.0
+offset_top = 560.0
+offset_right = 830.0
+offset_bottom = 650.0
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HomeInfoText" type="Label" parent="DefenseView/HomeInfoPanel" unique_id=108069873]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 145.0
+offset_top = 710.0
+offset_right = 815.0
+offset_bottom = 1210.0
+theme_override_font_sizes/font_size = 32
+autowrap_mode = 2
+
+[node name="HomeInfoClose" type="Button" parent="DefenseView/HomeInfoPanel" unique_id=713076330]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 330.0
+offset_top = 1240.0
+offset_right = 630.0
+offset_bottom = 1340.0
+text = "返回"
+
+[node name="DefenseAudio" type="Node" parent="." unique_id=878020251]
+script = ExtResource("audio")
+
+[node name="Music" type="AudioStreamPlayer" parent="DefenseAudio" unique_id=1007523326]
+volume_db = -23.0
+
+[node name="Effects" type="Node" parent="DefenseAudio" unique_id=89217478]
+
+[node name="Sound0" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=1321208160]
+volume_db = -17.0
+
+[node name="Sound1" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=699602347]
+volume_db = -17.0
+
+[node name="Sound2" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=1202924321]
+volume_db = -17.0
+
+[node name="Sound3" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=327463846]
+volume_db = -17.0
+
+[node name="Sound4" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=947461150]
+volume_db = -17.0
+
+[node name="Sound5" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=1574587515]
+volume_db = -17.0
+
+[node name="Sound6" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=1657787648]
+volume_db = -17.0
+
+[node name="Sound7" type="AudioStreamPlayer" parent="DefenseAudio/Effects" unique_id=2102818367]
+volume_db = -17.0

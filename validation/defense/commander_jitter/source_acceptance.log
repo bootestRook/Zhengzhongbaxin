@@ -1,0 +1,52 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+WARNING: res://scenes/main.tscn:3 - ext_resource, invalid UID: uid://billo8aakyqj4 - using text path instead: res://src/app/app_bootstrap.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:4 - ext_resource, invalid UID: uid://derlv3quh0q4l - using text path instead: res://src/features/defense/presentation/defense_view.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:5 - ext_resource, invalid UID: uid://8xy3l4nimr42 - using text path instead: res://src/features/defense/presentation/defense_field.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:6 - ext_resource, invalid UID: uid://fr0duk7vu5n7 - using text path instead: res://assets/runtime/defense/chinese.ttf
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:7 - ext_resource, invalid UID: uid://dkb6wxs4ebr8l - using text path instead: res://src/features/defense/presentation/defense_atlas_sprite.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:8 - ext_resource, invalid UID: uid://dvw4w6efyg7kl - using text path instead: res://src/features/defense/presentation/defense_audio.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:10 - ext_resource, invalid UID: uid://dc5mkfn3k43cp - using text path instead: res://src/features/defense/presentation/choice_beam.gdshader
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:12 - ext_resource, invalid UID: uid://cplv1pmy01iwq - using text path instead: res://src/features/defense/presentation/defense_choice_panel.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:13 - ext_resource, invalid UID: uid://bsnkl3qd80kw3 - using text path instead: res://src/features/defense/presentation/defense_choice_refresh.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:15 - ext_resource, invalid UID: uid://f0uga76ujiyl - using text path instead: res://src/features/defense/presentation/defense_hud.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:17 - ext_resource, invalid UID: uid://dl7rwdfhv2ohk - using text path instead: res://src/features/defense/presentation/revive_light.gdshader
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+WARNING: res://scenes/main.tscn:18 - ext_resource, invalid UID: uid://cu7hoqf6x8qx - using text path instead: res://src/features/defense/presentation/defense_revive_visual.gd
+   at: load (scene/resources/resource_format_text.cpp:501)
+   GDScript backtrace (most recent call first):
+       [0] run_checks (res://validation/exe_package_20261015/capture.gd:33)
+[ACCEPTANCE] {"assets_loaded":106,"battle":{"bosses_dead":3,"heroes":5,"phase":"result","seed":6,"time_ms":228448,"wave":20,"won":true},"captures":[{"height":960,"name":"home_480x960","width":480},{"height":1440,"name":"home_720x1440","width":720},{"height":1920,"name":"home_960x1920","width":960},{"height":720,"name":"home_1280x720","width":360},{"height":1080,"name":"home_1920x1080","width":540},{"height":768,"name":"home_1024x768","width":384},{"height":960,"name":"levels","width":480},{"height":960,"name":"gallery","width":480},{"height":960,"name":"initial_choice","width":480},{"height":960,"name":"choice_tooltip","width":480},{"height":960,"name":"choice_attributes","width":480},{"height":960,"name":"battle","width":480},{"height":960,"name":"pause","width":480},{"height":960,"name":"five_heroes","width":480},{"height":960,"name":"fifth_attributes","width":480},{"height":960,"name":"result","width":480}],"dpi":192,"errors":[],"font_characters":957,"fullscreen_size":[3840,2160],"missing_glyphs":[],"raw_files_verified":5,"rules":{"boss_waves":[8,14,20],"formation_five":{"back":[[1160,1150],[440,1150],[620,1150],[980,1150],[800,1150]],"front":[[1160,1000],[440,1000],[620,950],[980,950],[800,950]]},"hero_limit":5,"hero_spawn":[771,1390],"max_level":20,"recruit_chance":2500,"revive_seconds":{"1":20,"10":20,"2":10,"3":10,"4":20,"5":10},"schema_version":3,"unlocked_heroes":[1,2,4,5,13,17],"wave_count":20}}

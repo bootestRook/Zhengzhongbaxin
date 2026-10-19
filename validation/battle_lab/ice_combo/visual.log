@@ -1,0 +1,8 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+
+
+[ICE COMBO VISUAL] [{ "stage": "first", "time_ms": 736, "damage": 0.0, "projectiles": 4, "image": "res://validation/battle_lab/ice_combo/first.png" }, { "stage": "waiting", "time_ms": 1024, "damage": 70.0, "projectiles": 3, "image": "res://validation/battle_lab/ice_combo/waiting.png" }, { "stage": "second", "time_ms": 1040, "damage": 70.0, "projectiles": 7, "image": "res://validation/battle_lab/ice_combo/second.png" }, { "stage": "hits", "time_ms": 1296, "damage": 140.0, "projectiles": 6, "image": "res://validation/battle_lab/ice_combo/hits.png" }] failures=[]
+[OK] ice combo actual battle viewport

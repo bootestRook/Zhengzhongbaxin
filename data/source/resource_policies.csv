@@ -1,0 +1,8 @@
+id,asset_kind,allowed_extensions,max_bytes,max_width,max_height,import_mode,source_required
+audio_stream,audio,.ogg|.wav,8388608,0,0,stream,true
+texture_runtime,texture_2d,.png|.webp,4194304,4096,4096,vram_compressed,true
+ui_vector,ui,.svg|.png|.webp,262144,2048,2048,lossless,true
+vfx_texture,vfx,.png|.webp,2097152,2048,2048,vram_compressed,true
+font_runtime,font,.ttf|.otf|.woff|.woff2|.fnt,20971520,0,0,default,true
+defense_atlas,texture_2d,.png,16777216,4096,4096,lossless,true
+defense_audio,audio,.mp3|.wav|.ogg,8388608,0,0,stream,true

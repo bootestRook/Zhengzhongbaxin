@@ -1,0 +1,525 @@
+{
+  "scope": "寒冰词条只作用多重射击、星辰之箭及其派生；集中不改变全局属性。",
+  "domain": {
+    "assertions": 979,
+    "failures": 0,
+    "log": "domain.log"
+  },
+  "ui": {
+    "assertions": 50,
+    "failures": 0,
+    "log": "capture.log"
+  },
+  "fixture_regression": {
+    "assertions": 74,
+    "failures": 0,
+    "log": "regression_fixtures.log"
+  },
+  "probability": {
+    "casts_per_replay": 10000,
+    "replays": 2,
+    "combo": 4957,
+    "rain": 2009,
+    "identical_replay": true,
+    "log": "probabilities.log"
+  },
+  "isolation": {
+    "heroes": [],
+    "options": [],
+    "skills": [
+      "17"
+    ],
+    "note": "火球技能17的5度弹道配置为同时进行的弹道任务已获批准变更。",
+    "reference_unchanged": true
+  },
+  "terms": [
+    {
+      "__id__": 200400,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "向目标方向射出3根箭矢，每根造成50%冰系伤害",
+      "draw_weight": 5000,
+      "equip_skill": [],
+      "ice_mod": {},
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200400,
+      "isNew": 1,
+      "options_num": 1,
+      "premise1": [],
+      "premise2": [],
+      "recruit_weight": 5000,
+      "root_option": 200400,
+      "term_id": 400,
+      "term_type": "initial",
+      "title": "多重射击",
+      "trigger_skill": 20002,
+      "type": [
+        13
+      ],
+      "unlock": [
+        "20002"
+      ]
+    },
+    {
+      "__id__": 200401,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "多重射击伤害+60%",
+      "draw_weight": 3000,
+      "ice_mod": {
+        "bonus": 60
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200401,
+      "options_num": 2,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 401,
+      "term_type": "initial",
+      "title": "增伤",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200402,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "多重射击伤害+20%，穿透+1",
+      "draw_weight": 3000,
+      "ice_mod": {
+        "bonus": 20,
+        "pierce": 1
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200402,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 402,
+      "term_type": "initial",
+      "title": "穿透",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200403,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "多重射击伤害+20%，齐射+1",
+      "draw_weight": 2000,
+      "ice_mod": {
+        "bonus": 20,
+        "copies": 1
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200403,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 403,
+      "term_type": "initial",
+      "title": "齐射",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200404,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "多重射击伤害+20%，施放时有50%概率额外触发1次多重射击",
+      "draw_weight": 2000,
+      "ice_mod": {
+        "bonus": 20,
+        "combo_chance": 50
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200404,
+      "options_num": 1,
+      "premise1": [
+        [
+          200403,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 404,
+      "term_type": "initial",
+      "title": "连击",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200405,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "多重射击及其折射命中后施加[冰冷],持续5秒\n冰冷:减少10%移动速度,叠加至5层后冻结3秒",
+      "draw_weight": 2000,
+      "ice_mod": {
+        "chill": true
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200405,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 405,
+      "term_type": "initial",
+      "title": "冰冻侵袭",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200406,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "多重射击伤害+30%，其箭矢命中后有50%的概率击退怪物一定距离",
+      "draw_weight": 1000,
+      "ice_mod": {
+        "bonus": 30,
+        "knock_chance": 50
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200406,
+      "options_num": 1,
+      "premise1": [
+        [
+          200402,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 406,
+      "term_type": "initial",
+      "title": "击退",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200407,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "每次施放多重射击，为该技能叠加攻击力+1%、法术强度+1，持续4秒，可叠加40次。",
+      "draw_weight": 1000,
+      "ice_mod": {
+        "focus": true
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200407,
+      "options_num": 1,
+      "premise1": [
+        [
+          200400,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 407,
+      "term_type": "initial",
+      "title": "集中",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200408,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "施放多重射击时有20%概率召唤寒冰箭雨，对目标范围造成100%冰系伤害,并冻结目标1秒,持续5秒",
+      "draw_weight": 1000,
+      "ice_mod": {
+        "rain_chance": 20
+      },
+      "icon": "869:2",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200408,
+      "options_num": 1,
+      "premise1": [
+        [
+          200405,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 408,
+      "term_type": "initial",
+      "title": "箭雨",
+      "type": [
+        13
+      ],
+      "unlock": []
+    },
+    {
+      "__id__": 200409,
+      "active": 0,
+      "aim_skill": [
+        20002
+      ],
+      "description": "将多重射击升级为星辰之箭,每次命中目标后额外触发1次折射",
+      "draw_weight": 2000,
+      "ice_mod": {
+        "upgraded": true
+      },
+      "icon": "869:5",
+      "icon_res": "gameIcon:skill_87",
+      "id": 200409,
+      "options_num": 1,
+      "premise1": [
+        [
+          200401,
+          1
+        ],
+        [
+          200402,
+          1
+        ],
+        [
+          200405,
+          1
+        ]
+      ],
+      "premise2": [],
+      "root_option": 200400,
+      "term_id": 409,
+      "term_type": "upgrade",
+      "title": "星辰之箭",
+      "type": [
+        13
+      ],
+      "unlock": []
+    }
+  ],
+  "skill_config": {
+    "bonus": 0,
+    "bounce_radius": 300,
+    "chill": false,
+    "chill_ms": 5000,
+    "chill_status": 20401,
+    "combo_chance": 0,
+    "copies": 3,
+    "focus": false,
+    "focus_cap": 40,
+    "focus_ms": 4000,
+    "freeze_ms": 3000,
+    "freeze_status": 20402,
+    "knock_chance": 0,
+    "knock_distance": 80,
+    "knock_ms": 200,
+    "pierce": 0,
+    "rain_chance": 0,
+    "rain_freeze_ms": 1000,
+    "rain_interval_ms": 1000,
+    "rain_ms": 5000,
+    "rain_radius": 180,
+    "rain_skill": 20404,
+    "rain_ticks": 5,
+    "spread_degrees": 7,
+    "upgraded": false
+  },
+  "screenshots": [
+    {
+      "path": "battle_effects_540.png",
+      "size": [
+        540,
+        1080
+      ]
+    },
+    {
+      "path": "battle_effects_720.png",
+      "size": [
+        720,
+        1440
+      ]
+    },
+    {
+      "path": "battle_effects_960.png",
+      "size": [
+        960,
+        1920
+      ]
+    },
+    {
+      "path": "rain_offer_540.png",
+      "size": [
+        540,
+        1080
+      ]
+    },
+    {
+      "path": "rain_offer_720.png",
+      "size": [
+        720,
+        1440
+      ]
+    },
+    {
+      "path": "rain_offer_960.png",
+      "size": [
+        960,
+        1920
+      ]
+    },
+    {
+      "path": "rain_offer_scrolled_540.png",
+      "size": [
+        540,
+        1080
+      ]
+    },
+    {
+      "path": "rain_offer_scrolled_720.png",
+      "size": [
+        720,
+        1440
+      ]
+    },
+    {
+      "path": "rain_offer_scrolled_960.png",
+      "size": [
+        960,
+        1920
+      ]
+    },
+    {
+      "path": "recruit_540.png",
+      "size": [
+        540,
+        1080
+      ]
+    },
+    {
+      "path": "recruit_720.png",
+      "size": [
+        720,
+        1440
+      ]
+    },
+    {
+      "path": "recruit_960.png",
+      "size": [
+        960,
+        1920
+      ]
+    },
+    {
+      "path": "star_description_540.png",
+      "size": [
+        540,
+        1080
+      ]
+    },
+    {
+      "path": "star_description_720.png",
+      "size": [
+        720,
+        1440
+      ]
+    },
+    {
+      "path": "star_description_960.png",
+      "size": [
+        960,
+        1920
+      ]
+    }
+  ],
+  "project_check": {
+    "status": "passed",
+    "exit_code": 0,
+    "python_tests": 64,
+    "godot_assertions": 8240,
+    "runtime_smoke": true,
+    "error_markers": false,
+    "log": "project_check.log"
+  },
+  "concentration_limit": "4秒持续与技能基础4秒冷却相同，常规状态叠高层受限。",
+  "exports_performed": false,
+  "release": {
+    "file_count": 606,
+    "total_bytes": 89883176,
+    "combined_sha256": "e6850147a5ff8f27ce01c28a799c1ce5825315c2dd4d0ab1c24882e71f8953e0"
+  },
+  "source_sha256": "4e9cb51b2dec9296624973bdf311501e7840018096edcf520818597e74451903",
+  "current_evidence_sha256": {
+    "domain.log": "41a9cd2bd7cd40e747b5435752ead02bcbbef21d05edf699fb092a019c59ba64",
+    "capture.log": "516c77938205de04c4507d2dd10f5f3d385624df00651df7a14ad6c063e33f6c",
+    "probabilities.log": "ad1bbf370d5fa452ada1469c18cc394aa3f404f224557ef34b6db096250f0e6b",
+    "regression_fixtures.log": "6c08287aa0c178b0386e1f4a5c6c57f1c857c1f843a6c37495897fd9a95dc7a3",
+    "project_check.log": "0fb038257cc57b725bc1c9bac07c05d3f5b6141205feddc463e2a901f8fce5d9"
+  },
+  "full_battle": {
+    "bosses": 3,
+    "kills": 254,
+    "phase": "result",
+    "time": 265200,
+    "wall": 3900.0,
+    "wave": 20,
+    "won": true
+  }
+}

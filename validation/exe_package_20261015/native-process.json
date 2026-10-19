@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "errors": [],
+  "clean_directory": true,
+  "initial_files": [
+    {
+      "name": "defense-demo.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "name": "defense-demo.pck",
+      "sha256": "55ed4fd1133085c4d1765794d90b99458f38d4475e5fbc6edeec4b2fb491df00"
+    }
+  ]
+}

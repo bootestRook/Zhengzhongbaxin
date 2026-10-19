@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[WARRIOR WEIGHTS] ordinary { 200101: 481, 200102: 459, 200103: 607, 200104: 453 }
+[WARRIOR WEIGHTS] bonus { 200101: 441, 200102: 439, 200103: 609, 200104: 511 }
+[WARRIOR WEIGHTS] chest { 200101: 460, 200102: 441, 200103: 621, 200104: 478 }
+[OK] skill range UI assertions: 153; failures: 0

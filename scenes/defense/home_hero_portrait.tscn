@@ -1,0 +1,118 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="sprite"]
+
+[ext_resource type="Shader" path="res://src/features/defense/presentation/home_hero_locked.gdshader" id="gray"]
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1,1,1,1)
+
+[sub_resource type="ShaderMaterial" id="Gray"]
+resource_local_to_scene = true
+shader = ExtResource("gray")
+
+[node name="HeroPortrait" type="Button"]
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 172.0
+offset_bottom = 204.0
+custom_minimum_size = Vector2(172,204)
+
+[node name="Ink" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 172.0
+offset_bottom = 204.0
+color = Color(0,0,0,1)
+
+[node name="Selected" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 168.0
+offset_bottom = 200.0
+color = Color(1,0.824,0.247,1)
+visible = false
+
+[node name="Paper" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 163.0
+offset_bottom = 195.0
+color = Color(0.74,0.74,0.74,1)
+
+[node name="PortraitInk" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 14.0
+offset_top = 14.0
+offset_right = 158.0
+offset_bottom = 188.0
+color = Color(0,0,0,1)
+
+[node name="PortraitPaper" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 18.0
+offset_top = 18.0
+offset_right = 154.0
+offset_bottom = 180.0
+color = Color(0.52,0.52,0.52,1)
+
+[node name="Portrait" type="TextureRect" parent="."]
+mouse_filter = 2
+offset_left = 19.0
+offset_top = 19.0
+offset_right = 153.0
+offset_bottom = 173.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:heroHead1_new"
+material = SubResource("Gray")
+
+[node name="Level" type="Label" parent="."]
+mouse_filter = 2
+offset_left = 17.0
+offset_top = 149.0
+offset_right = 157.0
+offset_bottom = 197.0
+theme_override_colors/font_color = Color(1,0.9,0.35,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 42
+text = "Lv:1"
+vertical_alignment = 1
+horizontal_alignment = 0
+
+[node name="Shade" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 163.0
+offset_bottom = 195.0
+color = Color(0.1,0.11,0.09,0.43)
+
+[node name="Lock" type="TextureRect" parent="."]
+mouse_filter = 2
+offset_left = 119.0
+offset_top = 133.0
+offset_right = 155.0
+offset_bottom = 173.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "home:icon_Lock"

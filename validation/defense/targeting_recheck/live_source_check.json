@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-10-15T05:03:42.989036+00:00",
+  "proof": {
+    "method": "read-only VMDK; SQLite files checked twice; only net_ battle tables queried",
+    "database_files": [
+      {
+        "file": "jsb.sqlite",
+        "bytes": 3788800,
+        "sha256": "10a9d9ce0771fa43a63fd0adf13e8e1e9d2f038777aa1155590f5ec535cc345d"
+      },
+      {
+        "file": "jsb.sqlite-wal",
+        "bytes": 524288,
+        "sha256": "48bfd9c2024271e984014eb311989048bbb70d8925fa0a1e10a27e0613a8a921"
+      },
+      {
+        "file": "jsb.sqlite-shm",
+        "bytes": 32768,
+        "sha256": "22cc5346b9a46821c51b081caa6e230853012586af71b2a23b7538e1a642a90b"
+      }
+    ],
+    "hot_script_sha256": "66290c7f1756b8a2574d061be0dd658a6fc7791cab98a00d6e996d8b779a20d0",
+    "hot_script_matches_research": false
+  },
+  "tables": [
+    {
+      "table": "lead",
+      "rows": 18,
+      "same_as_project_reference": true,
+      "sha256": "2caa76c0a516418aa99c7a4d1a2cbe44abe432b0e011e985617432688fd1970b"
+    },
+    {
+      "table": "attribute",
+      "rows": 32,
+      "same_as_project_reference": true,
+      "sha256": "aa1a37bb4435717d9b1547c7eda1bccf9edbe8daf05c360f7e1165d499082975"
+    },
+    {
+      "table": "monster",
+      "rows": 201,
+      "same_as_project_reference": true,
+      "sha256": "7f7935197194831a9b6eeb50e52732da863c1305b34d8ec71bca0999ad1a632c"
+    },
+    {
+      "table": "entity",
+      "rows": 40,
+      "same_as_project_reference": false,
+      "sha256": "50a3414c5e7bad0b852c5e0daa4a188e7fda52b9640486d55a7d74d670820822"
+    },
+    {
+      "table": "skill2",
+      "rows": 1458,
+      "same_as_project_reference": false,
+      "sha256": "fab1e0c1e3d30a532b04471ba17e6b98aab48a76e67a5fc5c296bb840333b889"
+    },
+    {
+      "table": "target2",
+      "rows": 131,
+      "same_as_project_reference": true,
+      "sha256": "1bb4d11837ea3abf0dadd1fba955472ed36fb073fdc827ef9d4234ca771417cd"
+    },
+    {
+      "table": "function_price",
+      "rows": 135,
+      "same_as_project_reference": false,
+      "sha256": "90ec6f689d5cfd584bae433a847a173bbec6be969143fb8e1fe0d47532e98a1a"
+    },
+    {
+      "table": "enemyLevel",
+      "rows": 500,
+      "same_as_project_reference": true,
+      "sha256": "cfee90c18a303e732b1c1b56f2483f4d48f81598e6e22de0728b40dd232568e7"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+test_bad_parameters_references_and_ownership (tools.tests.test_defense_assassin_terms.AssassinTermsDataTests.test_bad_parameters_references_and_ownership) ... ok
+test_library_and_immutable_source (tools.tests.test_defense_assassin_terms.AssassinTermsDataTests.test_library_and_immutable_source) ... ok
+test_other_heroes_and_frozen_reference_unchanged (tools.tests.test_defense_assassin_terms.AssassinTermsDataTests.test_other_heroes_and_frozen_reference_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.646s
+
+OK

@@ -1,0 +1,146 @@
+[OK] defense catalog: 18 hero entries, 17 available, 50 levels, 1500 waves
+[OK] defense_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets check: assets=106, bytes=85775658
+[OK] asset_pipeline.py check
+[OK] delivery check: files=1011, AGENTS.md<=70 lines/5000 bytes
+[OK] delivery check
+test_baked_home_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_baked_home_atlas_page_rejected) ... ok
+
+test_home_bindings_checked_against_current_art (test_defense_presentation_data.DefensePresentationDataTests.test_home_bindings_checked_against_current_art) ... ok
+
+test_invalid_action_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_action_timing_rejected) ... ok
+
+test_invalid_formation_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_formation_rejected) ... ok
+
+test_invalid_revival_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_revival_timing_rejected) ... ok
+
+test_invalid_sprite_page_and_bounds_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_sprite_page_and_bounds_rejected) ... ok
+
+test_missing_home_sprite_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_home_sprite_rejected) ... ok
+
+test_missing_skill_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_skill_image_rejected) ... ok
+
+test_missing_tag_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_tag_image_rejected) ... ok
+
+test_other_interface_missing_named_art_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_other_interface_missing_named_art_rejected) ... ok
+
+test_other_scene_cannot_bake_an_atlas_region (test_defense_presentation_data.DefensePresentationDataTests.test_other_scene_cannot_bake_an_atlas_region) ... ok
+
+test_other_script_cannot_draw_raw_atlas_pages (test_defense_presentation_data.DefensePresentationDataTests.test_other_script_cannot_draw_raw_atlas_pages) ... ok
+
+test_ui_content_region_follows_new_page_position_and_size (test_defense_presentation_data.DefensePresentationDataTests.test_ui_content_region_follows_new_page_position_and_size) ... ok
+
+test_unknown_skill_icon_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_unknown_skill_icon_rejected) ... ok
+
+test_baseline_manifest_is_deterministic (test_pipelines.AssetPipelineTests.test_baseline_manifest_is_deterministic) ... ok
+
+test_budget_violation_is_rejected (test_pipelines.AssetPipelineTests.test_budget_violation_is_rejected) ... ok
+
+test_bad_reference_is_rejected (test_pipelines.DataPipelineTests.test_bad_reference_is_rejected) ... ok
+
+test_baseline_is_deterministic (test_pipelines.DataPipelineTests.test_baseline_is_deterministic) ... ok
+
+test_duplicate_id_reports_source_line_and_field (test_pipelines.DataPipelineTests.test_duplicate_id_reports_source_line_and_field) ... ok
+
+test_typed_setting_and_tuning_range_are_rejected (test_pipelines.DataPipelineTests.test_typed_setting_and_tuning_range_are_rejected) ... ok
+
+test_class_member_query_returns_exact_signature (test_pipelines.GodotApiTests.test_class_member_query_returns_exact_signature) ... ok
+
+test_confirmed_profiles_match_project_and_presets (test_pipelines.PackageProfileTests.test_confirmed_profiles_match_project_and_presets) ... ok
+
+test_engine_cache_cleanup_is_scoped (test_pipelines.PackageProfileTests.test_engine_cache_cleanup_is_scoped) ... ok
+
+test_unconfirmed_profile_is_blocked (test_pipelines.PackageProfileTests.test_unconfirmed_profile_is_blocked) ... ok
+
+test_web_archive_has_root_index_and_size_gate (test_pipelines.PackageProfileTests.test_web_archive_has_root_index_and_size_gate) ... ok
+
+test_clean_zero_exit_is_accepted (test_project_gate.EngineOutputTests.test_clean_zero_exit_is_accepted) ... ok
+
+test_zero_exit_with_resource_error_is_rejected (test_project_gate.EngineOutputTests.test_zero_exit_with_resource_error_is_rejected) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 27 tests in 8.330s
+
+
+
+OK
+[OK] Python pipeline tests
+[OK] architecture lint
+[OK] architecture lint
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+
+[0m
+
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (3 steps)[39m[0m
+
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+
+[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+
+[  33% ] [90m[1mloading_editor_layout[22m | Reopening scenes...[39m[0m
+
+[  50% ] [90m[1mloading_editor_layout[22m | Loading central editor layout...[39m[0m
+
+[  66% ] [90m[1mloading_editor_layout[22m | Loading plugin window layout...[39m[0m
+
+[  83% ] [90m[1mloading_editor_layout[22m | Editor layout ready.[39m[0m
+
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+
+[0m
+[OK] Godot import
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[SKILL PAUSE TEST] before inspect phase=playing paused=true
+
+[SKILL PAUSE TEST] after inspect tooltip=false paused=true
+
+[FAIL] Godot tests: 1 failure(s), 20136 assertions
+
+ERROR: TEST FAILURE: skill inspection preserves an existing manual pause
+
+   at: push_error (core/variant/variant_utility.cpp:1023)
+
+   GDScript backtrace (most recent call first):
+
+       [0] _run (res://tests/test_runner.gd:42)
+
+       [1] run (res://tests/test_defense_battle_ui.gd:130)
+[FAIL] Godot tests: exit=1, marker_failure=True

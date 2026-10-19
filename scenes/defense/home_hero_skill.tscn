@@ -1,0 +1,48 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="sprite"]
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1,1,1,1)
+
+[node name="InitialSkill" type="Button"]
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/disabled = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 84.0
+offset_bottom = 84.0
+custom_minimum_size = Vector2(84,84)
+
+[node name="Background" type="TextureRect" parent="."]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 84.0
+offset_bottom = 84.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:skillbg"
+
+[node name="Icon" type="TextureRect" parent="."]
+mouse_filter = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 84.0
+offset_bottom = 84.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "gameIcon:skill_1"

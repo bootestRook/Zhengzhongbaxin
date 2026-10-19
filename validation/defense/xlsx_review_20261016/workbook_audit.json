@@ -1,0 +1,75 @@
+[
+  {
+    "file": "01_英雄属性与局外成长.xlsx",
+    "sheets": [
+      "英雄初始属性",
+      "当前英雄设定",
+      "当前英雄设定明细",
+      "填写说明"
+    ],
+    "sha256": "eda3816fab7b79f53065eeaf5796d76381fd8bee8590604a76bcf12524e8b8be"
+  },
+  {
+    "file": "02_英雄技能.xlsx",
+    "sheets": [
+      "技能参数",
+      "技能参数明细",
+      "目标规则",
+      "目标规则明细",
+      "被动参数",
+      "被动参数明细",
+      "填写说明"
+    ],
+    "sha256": "336e15bd974aa30972137c36e135a0914442bca2fdd60c519bede7f37e1fa223"
+  },
+  {
+    "file": "03_英雄词条.xlsx",
+    "sheets": [
+      "词条参数",
+      "词条参数明细",
+      "填写说明"
+    ],
+    "sha256": "855d8b926432591b096a197ca2ac1fd5a23226513b587fa2d637b3d5bb087393"
+  },
+  {
+    "file": "04_Buff配置.xlsx",
+    "sheets": [
+      "状态参数",
+      "状态参数明细",
+      "填写说明"
+    ],
+    "sha256": "e3e49a9509182e2b32f981356633e98a7bdab1ff24142dac883a7c66e4a034fe"
+  },
+  {
+    "file": "05_怪物配置.xlsx",
+    "sheets": [
+      "怪物参数",
+      "怪物参数明细",
+      "召唤物参数",
+      "召唤物参数明细",
+      "填写说明"
+    ],
+    "sha256": "cc734ae73c98257b1cb27a410dd3fe13c836a9cc7fb715fa65b6bdd6e6b560db"
+  },
+  {
+    "file": "06_关卡配置.xlsx",
+    "sheets": [
+      "关卡系数",
+      "填写说明"
+    ],
+    "sha256": "d52daeea0c46a8686add7d2de4c3106bde1896b87d8944f15c446d7d9bc5528d"
+  },
+  {
+    "file": "07_刷怪配置.xlsx",
+    "sheets": [
+      "刷怪批次",
+      "填写说明",
+      "怪池成员"
+    ],
+    "sha256": "ba0817ee7badb58e982ee86ca513c5fd5c012bc585f032c147c96d693d81a0ab"
+  },
+  {
+    "original_cell_values_unchanged": 385322,
+    "gameplay_data_unchanged": true
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "heroes": {
+    "compared": 17,
+    "fire_changes": [],
+    "parallel_other_hero_changes": [
+      "13",
+      "17",
+      "2"
+    ]
+  },
+  "options": {
+    "compared": 2094,
+    "fire_changes": [],
+    "parallel_other_hero_changes": [
+      "100",
+      "101",
+      "102",
+      "1076",
+      "1077",
+      "1078",
+      "1079",
+      "1080",
+      "1093",
+      "1097",
+      "1098",
+      "1099",
+      "614",
+      "615",
+      "616",
+      "617",
+      "621",
+      "631",
+      "632",
+      "633",
+      "81",
+      "82",
+      "83",
+      "84",
+      "94"
+    ]
+  },
+  "skills": {
+    "compared": 1460,
+    "fire_changes": [
+      "17",
+      "21",
+      "22"
+    ],
+    "parallel_other_hero_changes": [
+      "1435",
+      "20002",
+      "661",
+      "868",
+      "869",
+      "870"
+    ]
+  },
+  "statuses": {
+    "compared": 283,
+    "fire_changes": [],
+    "parallel_other_hero_changes": []
+  },
+  "targets": {
+    "compared": 132,
+    "fire_changes": [],
+    "parallel_other_hero_changes": []
+  },
+  "parallel_adrs": [
+    "docs/adr/0019-defense-druid-terms.md",
+    "docs/adr/0020-defense-ice-terms.md",
+    "docs/adr/0021-defense-assassin-terms.md"
+  ],
+  "new_skills": [
+    "20201",
+    "20301",
+    "20404"
+  ],
+  "new_statuses": [
+    "20201",
+    "20202",
+    "20301",
+    "20303",
+    "20306",
+    "20312",
+    "20401",
+    "20402",
+    "20403",
+    "20501",
+    "20502",
+    "20503"
+  ],
+  "fire_options": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "baseline_sha256": "565281fe9a8d18b59a03241eeec79974ff588e2bbd5fd482a30b6a8158cf1d59",
+  "catalog_sha256": "9a2c378f8682164e793213bf2226936e68afbb29866d22502d6f5ad7f2265e47"
+}

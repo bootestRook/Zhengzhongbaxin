@@ -1,0 +1,8 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[MOVEMENT CLASSIFIED] {"counts":{"4:skill_charge":88},"initial":[4.0],"seed":6.0}
+[MOVEMENT CLASSIFIED] {"counts":{"17:skill_teleport":1},"initial":[13.0],"seed":6.0}
+[MOVEMENT CLASSIFIED] {"counts":{"17:skill_teleport":3},"initial":[17.0],"seed":6.0}
+[MOVEMENT CLASSIFIED] {"counts":{"1:action_completed_before_move":3,"2:action_completed_before_move":3},"initial":[1.0,2.0,4.0,13.0,17.0],"seed":1.0}
+[MOVEMENT CLASSIFIED] {"counts":{"1:action_completed_before_move":4},"initial":[1.0,2.0,4.0,13.0,17.0],"seed":6.0}
+[MOVEMENT CLASSIFIED] {"counts":{"1:action_completed_before_move":3},"initial":[1.0,2.0,4.0,13.0,17.0],"seed":81.0}

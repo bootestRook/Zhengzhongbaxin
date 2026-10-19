@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[FIRE WEIGHTS] ordinary { 201: 687, 202: 663, 206: 209, 208: 239, 209: 202 }
+[FIRE WEIGHTS] bonus { 201: 656, 202: 697, 206: 210, 208: 211, 209: 226 }
+[FIRE WEIGHTS] chest { 201: 664, 202: 648, 206: 218, 208: 227, 209: 243 }
+[FIRE TESTS] 121 assertions; failures=0

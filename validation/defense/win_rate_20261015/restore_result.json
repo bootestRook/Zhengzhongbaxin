@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-15",
+  "status": "superseded_by_latest_request",
+  "level": 2,
+  "previous_enemy_hp_multiplier": 0.51,
+  "current_enemy_hp_multiplier": 1,
+  "runtime_gameplay_definitions_match_unadjusted_compilation": true,
+  "catalog_sha256": "aecf6527d78b307c5591b51cffe47be505ab1b733ad5149d9ba555ce4f2f6f09",
+  "active_enemy_hp_multiplier": 0.51
+}

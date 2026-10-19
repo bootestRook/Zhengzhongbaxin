@@ -1,0 +1,36 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[DRUID WEIGHTS] ordinary { 200302: 423, 200303: 382, 200306: 206, 200307: 289 }
+[DRUID WEIGHTS] bonus { 200302: 395, 200303: 396, 200306: 241, 200307: 268 }
+[DRUID WEIGHTS] chest { 200302: 407, 200303: 391, 200306: 192, 200307: 310 }
+[FAN] ice count=3 degrees=[0, -7, 7]
+[FAN] ice count=3 degrees=[0, -7, 7]
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+[FAN] ice count=4 degrees=[0, -7, 7, -14]
+[FAN] fire count=1 degrees=[0]
+[FAN] fire count=2 degrees=[0, -5]
+[FAN] fire count=3 degrees=[0, -5, 5]
+[PROJECTILES] fan, sweep, penetration, refraction and termination verified
+[MELEE STABILITY] {"attacks":27,"seed":6,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":25,"seed":17,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":30,"seed":81,"stutters":0,"time":120000}
+[MELEE STABILITY] {"attacks":25,"seed":1,"stutters":0,"time":120000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+[SCOPE REGRESSION] assertions=330 failures=2
+ERROR: enemy entering the exact circle boundary permits immediate casting
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/druid_terms/run_scope_regression.gd:13)
+ERROR: cooldown starts from the successful activation: expected=11000 actual=0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/druid_terms/run_scope_regression.gd:13)

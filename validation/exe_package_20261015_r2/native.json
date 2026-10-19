@@ -1,0 +1,32 @@
+{
+  "exit_code": 0,
+  "errors": [],
+  "clean_directory": true,
+  "initial_files": [
+    {
+      "name": "defense-demo.exe",
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "name": "defense-demo.pck",
+      "sha256": "4be1b3d0c20ae743f69393a27b63ecbc3e56a8873aeb048f69b53f1135dcd1a4"
+    }
+  ],
+  "main_menu": true,
+  "recruitment": true,
+  "two_skills": true,
+  "refresh": true,
+  "battle": true,
+  "pause": true,
+  "result": true,
+  "return_home": true,
+  "observations": [
+    "独立EXE主页正常，开始后可见三张双技能招募卡和剩余2次刷新",
+    "勇者第二技能践踏显示对应说明，再次点击关闭且没有确认招募",
+    "刷新后候选变化，剩余次数由2减为1",
+    "招募勇者进入第1波，底栏同时显示圣盾和践踏图标",
+    "暂停页面、退出结算、确认返回主页均正常",
+    "Alt+F4关闭，进程退出码0，日志无SCRIPT ERROR或ERROR"
+  ],
+  "method": "computer-use sky; only verified final EXE and PCK present in the temporary working directory"
+}

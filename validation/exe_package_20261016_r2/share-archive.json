@@ -1,0 +1,21 @@
+{
+  "archive": "F:\\T8demo\\T8-demo-16\\build\\守城战斗试玩-Windows-20261016.zip",
+  "bytes": 103532997,
+  "sha256": "6276c9663ee73698b9b4cd5cd02768344cfe21c34bf7600158090960a2585a2a",
+  "crc": "passed",
+  "files": [
+    {
+      "path": "启动游戏.exe",
+      "bytes": 109456896,
+      "sha256": "ced72399c0c035da2bd1e0c97e3ead18f69d9de39458bcd1091796872db142f8"
+    },
+    {
+      "path": "启动游戏.pck",
+      "bytes": 69817420,
+      "sha256": "182a71e8d8a6e3c52fa482745e10b8a84abed8ff81611dc5ca8f1faf4b6a5e2b"
+    }
+  ],
+  "readme_utf8": true,
+  "extracted_startup_exit_code": 0,
+  "source_combined_sha256": "52bf99568706a945928536cb25d67e35d23845b7134803ea5909459b3bd6253f"
+}

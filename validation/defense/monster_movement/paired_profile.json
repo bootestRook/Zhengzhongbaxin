@@ -1,0 +1,74 @@
+[
+	{
+		"before": true,
+		"count": 100,
+		"mean_ms": 4.53720800000001,
+		"p95_ms": 5.647
+	},
+	{
+		"before": false,
+		"count": 100,
+		"mean_ms": 3.537568,
+		"p95_ms": 4.169
+	},
+	{
+		"before": false,
+		"count": 100,
+		"mean_ms": 3.551758,
+		"p95_ms": 4.319
+	},
+	{
+		"before": true,
+		"count": 100,
+		"mean_ms": 4.622956,
+		"p95_ms": 7.026
+	},
+	{
+		"before": true,
+		"count": 100,
+		"mean_ms": 4.638814,
+		"p95_ms": 6.358
+	},
+	{
+		"before": false,
+		"count": 100,
+		"mean_ms": 3.530886,
+		"p95_ms": 4.181
+	},
+	{
+		"before": true,
+		"count": 300,
+		"mean_ms": 16.237838,
+		"p95_ms": 20.925
+	},
+	{
+		"before": false,
+		"count": 300,
+		"mean_ms": 13.42926,
+		"p95_ms": 15.252
+	},
+	{
+		"before": false,
+		"count": 300,
+		"mean_ms": 13.50666,
+		"p95_ms": 15.268
+	},
+	{
+		"before": true,
+		"count": 300,
+		"mean_ms": 16.068508,
+		"p95_ms": 18.11
+	},
+	{
+		"before": true,
+		"count": 300,
+		"mean_ms": 16.224454,
+		"p95_ms": 20.436
+	},
+	{
+		"before": false,
+		"count": 300,
+		"mean_ms": 13.00106,
+		"p95_ms": 14.427
+	}
+]

@@ -1,0 +1,28 @@
+.godot/
+.import/
+.impeccable/
+build/
+dist/
+reports/
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+data/source/*.translation
+validation/*.pck
+
+# Validation media is local evidence only; keep lightweight reports and scripts.
+validation/**/*.png
+validation/**/*.jpg
+validation/**/*.jpeg
+validation/**/*.gif
+validation/**/*.webp
+validation/**/*.bmp
+validation/**/*.mp4
+validation/**/*.mov
+validation/**/*.webm
+validation/**/*.avi
+validation/**/*.mkv
+
+# Godot import sidecars are regenerated from source assets.
+*.import

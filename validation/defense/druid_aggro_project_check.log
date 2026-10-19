@@ -1,0 +1,178 @@
+[OK] defense catalog: 18 hero entries, 17 available, 50 levels, 1500 waves
+[OK] defense_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets check: assets=106, bytes=85796875
+[OK] asset_pipeline.py check
+[OK] delivery check: files=2298, AGENTS.md<=70 lines/5000 bytes
+[OK] delivery check
+test_baked_home_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_baked_home_atlas_page_rejected) ... ok
+
+test_changed_or_unregistered_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_changed_or_unregistered_atlas_page_rejected) ... ok
+
+test_chest_probability_out_of_range_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_chest_probability_out_of_range_rejected) ... ok
+
+test_chest_weights_and_probability_use_current_source (test_defense_presentation_data.DefensePresentationDataTests.test_chest_weights_and_probability_use_current_source) ... ok
+
+test_home_bindings_checked_against_current_art (test_defense_presentation_data.DefensePresentationDataTests.test_home_bindings_checked_against_current_art) ... ok
+
+test_invalid_action_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_action_timing_rejected) ... ok
+
+test_invalid_chest_quality_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_chest_quality_rejected) ... ok
+
+test_invalid_chest_weight_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_chest_weight_rejected) ... ok
+
+test_invalid_formation_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_formation_rejected) ... ok
+
+test_invalid_revival_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_revival_timing_rejected) ... ok
+
+test_invalid_sprite_page_and_bounds_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_sprite_page_and_bounds_rejected) ... ok
+
+test_missing_chest_beam_frame_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_chest_beam_frame_rejected) ... ok
+
+test_missing_home_sprite_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_home_sprite_rejected) ... ok
+
+test_missing_patrol_boundary_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_patrol_boundary_rejected) ... ok
+
+test_missing_skill_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_skill_image_rejected) ... ok
+
+test_missing_tag_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_tag_image_rejected) ... ok
+
+test_obsolete_back_boundary_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_obsolete_back_boundary_rejected) ... ok
+
+test_other_interface_missing_named_art_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_other_interface_missing_named_art_rejected) ... ok
+
+test_other_scene_cannot_bake_an_atlas_region (test_defense_presentation_data.DefensePresentationDataTests.test_other_scene_cannot_bake_an_atlas_region) ... ok
+
+test_other_script_cannot_draw_raw_atlas_pages (test_defense_presentation_data.DefensePresentationDataTests.test_other_script_cannot_draw_raw_atlas_pages) ... ok
+
+test_result_reward_reference_rejects_unknown_icons_and_bad_counts (test_defense_presentation_data.DefensePresentationDataTests.test_result_reward_reference_rejects_unknown_icons_and_bad_counts) ... ok
+
+test_reversed_patrol_boundaries_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_reversed_patrol_boundaries_rejected) ... ok
+
+test_ui_content_region_follows_new_page_position_and_size (test_defense_presentation_data.DefensePresentationDataTests.test_ui_content_region_follows_new_page_position_and_size) ... ok
+
+test_unknown_skill_icon_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_unknown_skill_icon_rejected) ... ok
+
+test_baseline_manifest_is_deterministic (test_pipelines.AssetPipelineTests.test_baseline_manifest_is_deterministic) ... ok
+
+test_budget_violation_is_rejected (test_pipelines.AssetPipelineTests.test_budget_violation_is_rejected) ... ok
+
+test_bad_reference_is_rejected (test_pipelines.DataPipelineTests.test_bad_reference_is_rejected) ... ok
+
+test_baseline_is_deterministic (test_pipelines.DataPipelineTests.test_baseline_is_deterministic) ... ok
+
+test_duplicate_id_reports_source_line_and_field (test_pipelines.DataPipelineTests.test_duplicate_id_reports_source_line_and_field) ... ok
+
+test_typed_setting_and_tuning_range_are_rejected (test_pipelines.DataPipelineTests.test_typed_setting_and_tuning_range_are_rejected) ... ok
+
+test_class_member_query_returns_exact_signature (test_pipelines.GodotApiTests.test_class_member_query_returns_exact_signature) ... ok
+
+test_confirmed_profiles_match_project_and_presets (test_pipelines.PackageProfileTests.test_confirmed_profiles_match_project_and_presets) ... ok
+
+test_engine_cache_cleanup_is_scoped (test_pipelines.PackageProfileTests.test_engine_cache_cleanup_is_scoped) ... ok
+
+test_unconfirmed_profile_is_blocked (test_pipelines.PackageProfileTests.test_unconfirmed_profile_is_blocked) ... ok
+
+test_web_archive_has_root_index_and_size_gate (test_pipelines.PackageProfileTests.test_web_archive_has_root_index_and_size_gate) ... ok
+
+test_clean_zero_exit_is_accepted (test_project_gate.EngineOutputTests.test_clean_zero_exit_is_accepted) ... ok
+
+test_zero_exit_with_resource_error_is_rejected (test_project_gate.EngineOutputTests.test_zero_exit_with_resource_error_is_rejected) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 37 tests in 8.438s
+
+
+
+OK
+[OK] Python pipeline tests
+[OK] architecture lint
+[OK] architecture lint
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+
+[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+
+[  33% ] [90m[1mloading_editor_layout[22m | Reopening scenes...[39m[0m
+
+[  50% ] [90m[1mloading_editor_layout[22m | Loading central editor layout...[39m[0m
+
+[  66% ] [90m[1mloading_editor_layout[22m | Loading plugin window layout...[39m[0m
+
+[  83% ] [90m[1mloading_editor_layout[22m | Editor layout ready.[39m[0m
+
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+
+[0m
+[OK] Godot import
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[BASELINE] hero=1 learned=[17, 21, 22, 1269] emitted=[17, 21, 22] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom"]
+
+[BASELINE] hero=2 learned=[194, 1269] emitted=[194] effects=["hero2:normal04"]
+
+[BASELINE] hero=3 learned=[1, 2, 1269] emitted=[1, 2] effects=["hero3:normal_0"]
+
+[BASELINE] hero=4 learned=[621, 1269] emitted=[621] effects=["hero4:sword"]
+
+[BASELINE] hero=5 learned=[429, 1269] emitted=[] effects=[]
+
+[BASELINE] hero=6 learned=[450, 1269] emitted=[450] effects=[]
+
+[BASELINE] hero=7 learned=[201, 1269] emitted=[201] effects=["bullet:summon"]
+
+[BASELINE] hero=8 learned=[240, 241, 1269] emitted=[241, 240] effects=["bullet2:boombat"]
+
+[BASELINE] hero=9 learned=[413, 1269] emitted=[413] effects=["hero9:fireballboom4"]
+
+[BASELINE] hero=10 learned=[50, 1269] emitted=[50] effects=["hero10:laserdie"]
+
+[BASELINE] hero=11 learned=[605, 1269] emitted=[605] effects=["bullet:thunder_pl3"]
+
+[BASELINE] hero=12 learned=[745, 749, 751, 1269] emitted=[749] effects=["hero12:chengjie2"]
+
+[BASELINE] hero=13 learned=[1269] emitted=[] effects=[]
+
+[BASELINE] hero=14 learned=[71, 1269] emitted=[71] effects=["hero14:bullet_fm"]
+
+[BASELINE] hero=15 learned=[1076, 1269] emitted=[] effects=[]
+
+[BASELINE] hero=16 learned=[1270, 1326, 1327] emitted=[1326] effects=[]
+
+[BASELINE] hero=17 learned=[1269, 1429] emitted=[1429] effects=["bullet2:chong4"]
+
+[OK] Godot tests: 2868 assertions
+[OK] Godot tests
+[OK] release manifest check: files=575, bytes=90194725
+[OK] release_manifest.py check
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+[OK] runtime smoke

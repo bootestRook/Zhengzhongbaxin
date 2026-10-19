@@ -1,0 +1,26 @@
+{
+  "skills": {
+    "17": {
+      "cast_range": 1200
+    },
+    "1435": {
+      "visual_tint": "#ffe45b"
+    },
+    "20002": {
+      "visual_tint": "#72d8ff"
+    },
+    "661": {
+      "movie_effect": [
+        "blood",
+        "0.3",
+        "0.4"
+      ],
+      "visual_tint": "#8bd47a"
+    }
+  },
+  "options": {
+    "1": {
+      "description": "1200范围内有敌人时短暂蓄力，释放1个火球造成火系伤害和范围爆炸，冷却6秒。"
+    }
+  }
+}

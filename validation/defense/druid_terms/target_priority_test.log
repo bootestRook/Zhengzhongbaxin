@@ -1,0 +1,6 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[DRUID WEIGHTS] ordinary { 200302: 423, 200303: 382, 200306: 206, 200307: 289 }
+[DRUID WEIGHTS] bonus { 200302: 395, 200303: 396, 200306: 241, 200307: 268 }
+[DRUID WEIGHTS] chest { 200302: 407, 200303: 391, 200306: 192, 200307: 310 }
+[DRUID] assertions=96 failures=0

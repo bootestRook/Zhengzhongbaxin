@@ -1,0 +1,66 @@
+[
+  {
+    "name": "battle.png",
+    "identical": true
+  },
+  {
+    "name": "choice_attributes.png",
+    "identical": true
+  },
+  {
+    "name": "choice_tooltip.png",
+    "identical": true
+  },
+  {
+    "name": "fifth_attributes.png",
+    "identical": true
+  },
+  {
+    "name": "five_heroes.png",
+    "identical": true
+  },
+  {
+    "name": "gallery.png",
+    "identical": true
+  },
+  {
+    "name": "home_1024x768.png",
+    "identical": true
+  },
+  {
+    "name": "home_1280x720.png",
+    "identical": true
+  },
+  {
+    "name": "home_1920x1080.png",
+    "identical": true
+  },
+  {
+    "name": "home_480x960.png",
+    "identical": true
+  },
+  {
+    "name": "home_720x1440.png",
+    "identical": true
+  },
+  {
+    "name": "home_960x1920.png",
+    "identical": true
+  },
+  {
+    "name": "initial_choice.png",
+    "identical": true
+  },
+  {
+    "name": "levels.png",
+    "identical": true
+  },
+  {
+    "name": "pause.png",
+    "identical": true
+  },
+  {
+    "name": "result.png",
+    "identical": true
+  }
+]

@@ -1,0 +1,15 @@
+key,en,zh_CN
+cue.sample.limit_reached,Limit reached,已达到上限
+cue.sample.value_changed,Value changed,数值已变化
+definition.sample.interaction_reward,Completion marker,完成标记
+definition.sample.interaction_target,Interaction target,交互目标
+setting.app.default_locale,Default locale,默认语言
+setting.app.target_fps,Target frame rate,目标帧率
+setting.debug.trace_limit,Event trace limit,事件轨迹上限
+setting.presentation.ui_scale,UI scale,界面缩放
+setting.save.autosave,Enable autosave,启用自动存档
+ui.apply_intent,Apply intent,提交意图
+ui.load,Load,读取
+ui.reset,Reset,重置
+ui.save,Save,保存
+ui.title,Universal Godot Framework,通用 Godot 游戏框架

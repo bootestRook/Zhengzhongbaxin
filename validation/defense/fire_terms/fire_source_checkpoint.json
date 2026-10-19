@@ -1,0 +1,2976 @@
+{
+  "format_version": 1,
+  "project": "Universal Godot Game Framework",
+  "godot_baseline": "4.7.1",
+  "generator": "tools/release_manifest.py",
+  "file_count": 593,
+  "total_bytes": 89862532,
+  "combined_sha256": "461f6be4f2ed5d220ae638402a4f13431c7b3756a47ccc3be3c92a09bb4e1786",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1095,
+      "sha256": "0c449ba9c6d33c504feec024eb4b0eea6492436e3468596d3619aee9cd347f3a"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2038,
+      "sha256": "76ce09e3b9eac6664a09bd1f79af728b9df3e00d278b1601ea88d12ce23d5402"
+    },
+    {
+      "path": "assets/generated/asset_manifest.json",
+      "bytes": 125215,
+      "sha256": "fb2df5460dcf840d86f57bbda9511278f54b4d8a862c0729297e16bbf11bd941"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_00.png",
+      "bytes": 3578517,
+      "sha256": "d40192d66b7e32d7a3781cd93677e0095c3c6d0ca4918022f2ffb2ee0fd145b2"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_00.png.import",
+      "bytes": 951,
+      "sha256": "0afeb6c7ac9f73c447d745d6b07361eb24528acda5d73df8d53f457356591815"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_01.png",
+      "bytes": 7888658,
+      "sha256": "b6dc32e0ad47299be9414317a4148a09ef748bb0e229d37e204de38e1365738e"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_01.png.import",
+      "bytes": 950,
+      "sha256": "1b29e48f04928773c1a7cf5ed1460c8203bc1f6370b5261179f2e62797723b23"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_02.png",
+      "bytes": 7530197,
+      "sha256": "4a0ea8d578e1fb8887bfc04aee55e617cecf5c471e7e19c4b5ae93c4d3a9819d"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_02.png.import",
+      "bytes": 951,
+      "sha256": "aece76f43a2be63782a6ccf678bfbaaa1a409adaa50e0dd7cc718bff477e4323"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_03.png",
+      "bytes": 5528223,
+      "sha256": "adbbd0aa6eff58ac6ca1b24a91043d1b5aecc403d291370ea550eb79b16d58e9"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_03.png.import",
+      "bytes": 950,
+      "sha256": "47ef17b2cd65a58f47e930a8fe7b42e83a3c0d93dac44c942d39561197511b05"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_04.png",
+      "bytes": 6655942,
+      "sha256": "bda93011a8a52f2424bcb08d438f3e14e6272d751a0df099d2f0480e40145eff"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_04.png.import",
+      "bytes": 951,
+      "sha256": "bbfc241f125b979ad23779b5524e3e0b860c882009fc021fa49c2df7fe46682a"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_05.png",
+      "bytes": 5540059,
+      "sha256": "494574e9a4d072b768228095140f7a1666870aa25653b85a73324699dc156387"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_05.png.import",
+      "bytes": 950,
+      "sha256": "69bf09bec59a6f2df731fe97ab13c44b8f615e87d2bc4e5cce66c29ab52776fe"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_06.png",
+      "bytes": 4117265,
+      "sha256": "e10b148c3a6c3824eae2dc4ec0173d7fed470282aa2db88514876f437c8fd50b"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_06.png.import",
+      "bytes": 951,
+      "sha256": "ac06d55b653a5c1e1945bb6aff952f24d8ffc4d15f839e0daa45d031c26b1bca"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_07.png",
+      "bytes": 3206523,
+      "sha256": "a6f24f00b1e5931a018c40cf06ffada054d60e697a7e3ff3164a58daef08287f"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_07.png.import",
+      "bytes": 951,
+      "sha256": "7a92e42b920a5aa133d62a4badcffb0e7f6c86bd64214ca3ceb312f6a9e70efb"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_08.png",
+      "bytes": 3748716,
+      "sha256": "ea66f7ed76ca8b0e4b7fe95742ce8a979623bb4d2a94f050435d6236dae62c6f"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_08.png.import",
+      "bytes": 951,
+      "sha256": "e2af71e2b1c01dc9cd0fb4b961719a64b9282736b20568cb67bb1acb2f981789"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_09.png",
+      "bytes": 2395578,
+      "sha256": "0a71b7ada5ffcac652d8a4d9bddb70c8134c978a2fc25cfc4fb800439f8ba068"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_09.png.import",
+      "bytes": 950,
+      "sha256": "a0b302741a977fcc8a3ce6f8410d8e26d9840a7d8dce898f65e989251b3f1130"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_10.png",
+      "bytes": 1150951,
+      "sha256": "0584ef72ddd41841467290d3588e118be99cbe4c25b5dafff6d4ec45d71e27bd"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_10.png.import",
+      "bytes": 950,
+      "sha256": "f44c8666eca2f447a39f6cc3cd5f14a964e7a52b6ecb5ed74237183c52fe55ec"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_11.png",
+      "bytes": 2827002,
+      "sha256": "bc4c90610d0fcbb974c3f49483ded93a42a211213ca99b93c8627a738b049d4f"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_11.png.import",
+      "bytes": 951,
+      "sha256": "f90c064bdd67b74a0347509e0136b7d0d12e3a8c66571d557f5a1f73fd667857"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_12.png",
+      "bytes": 3800768,
+      "sha256": "84dfdffca11a9e470342f8e994a4b5e32da2ff51f30fac94b6520e07887283f3"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_12.png.import",
+      "bytes": 950,
+      "sha256": "144e7b6f5db497fb4841006997675b86c453e445979a576b266b0577e01e17b8"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_13.png",
+      "bytes": 1675499,
+      "sha256": "848981d91cba84f8a0fc4798e4f8c77ba2d7c850170efda583671c6525f9597c"
+    },
+    {
+      "path": "assets/runtime/defense/atlas_13.png.import",
+      "bytes": 951,
+      "sha256": "27348fae78362a12ca32e6f239a300a606581288d0b1965b1f33a10cce127424"
+    },
+    {
+      "path": "assets/runtime/defense/audio/aoshu_8d6d3f2ae334.mp3",
+      "bytes": 21795,
+      "sha256": "8d6d3f2ae334e118088d2714c775830e05aac2606ff868ce24d8171ff29dd225"
+    },
+    {
+      "path": "assets/runtime/defense/audio/aoshu_8d6d3f2ae334.mp3.import",
+      "bytes": 412,
+      "sha256": "83900368c4771410db87447955b6fd18c0918439c343d21535a27272451c0c44"
+    },
+    {
+      "path": "assets/runtime/defense/audio/aoshu_att_204d4155766a.mp3",
+      "bytes": 40597,
+      "sha256": "204d4155766af6bace57aea075826b2fd547a69dd5a9da1d145856391e52f922"
+    },
+    {
+      "path": "assets/runtime/defense/audio/aoshu_att_204d4155766a.mp3.import",
+      "bytes": 423,
+      "sha256": "9429a89ffc73d0a1ca5d1cb8b89f2a775b47c6a13859fe76478a7b105ee09ac1"
+    },
+    {
+      "path": "assets/runtime/defense/audio/arrow2_373d063242ec.mp3",
+      "bytes": 25754,
+      "sha256": "373d063242ec70268d6932c143e4c70c83b4798d4ab5e09441c57d5e0ae02182"
+    },
+    {
+      "path": "assets/runtime/defense/audio/arrow2_373d063242ec.mp3.import",
+      "bytes": 415,
+      "sha256": "77768d2814a94645bc0ddae3c5f16992f2d09474c67316def12ddfbc59622fa1"
+    },
+    {
+      "path": "assets/runtime/defense/audio/arrow3_a7909b0e2d1c.mp3",
+      "bytes": 40801,
+      "sha256": "a7909b0e2d1ca1f531fc899f2d59f54234d1dd00ab2fd95b44a44cda50e48217"
+    },
+    {
+      "path": "assets/runtime/defense/audio/arrow3_a7909b0e2d1c.mp3.import",
+      "bytes": 414,
+      "sha256": "32460254b8e7172a1b8e17f0a3f8b16947b7573befd30c83d10dc10af384dbc6"
+    },
+    {
+      "path": "assets/runtime/defense/audio/arrow_afdcc91ceb1f.mp3",
+      "bytes": 13691,
+      "sha256": "afdcc91ceb1f818abb0b6878552bc59cba51c5c3f7693d1999e32a1f2a5cf607"
+    },
+    {
+      "path": "assets/runtime/defense/audio/arrow_afdcc91ceb1f.mp3.import",
+      "bytes": 412,
+      "sha256": "c153399cbb1ff5ae36d0a9a6b6b16b0275355c4fb0c2392c05519e9d04cfb2f7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/bg_f553adf02941.mp3",
+      "bytes": 6636191,
+      "sha256": "f553adf029416b0004e64e8844f865236e7e092b37495d882e3c92ef01790bed"
+    },
+    {
+      "path": "assets/runtime/defense/audio/bg_f553adf02941.mp3.import",
+      "bytes": 403,
+      "sha256": "fa789b7d2966e9b3aefa2fbbdc4f761ea0b559ced28e5d01027c50a8f31e9ee7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/bingzui_19440329eafa.mp3",
+      "bytes": 75570,
+      "sha256": "19440329eafae547a30eb2909ae7083af09c8a2fe1dad9971aca36924dd4120c"
+    },
+    {
+      "path": "assets/runtime/defense/audio/bingzui_19440329eafa.mp3.import",
+      "bytes": 418,
+      "sha256": "9e6c21634491507292cff05d231cce0eee4ddc8a858ea5329ecbcbb92bc68b7f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/bingzui_att_ba365370ea43.mp3",
+      "bytes": 84445,
+      "sha256": "ba365370ea43cb82df9131c067f74069254c4e0cfeae9e3d47b77dc20dc92f33"
+    },
+    {
+      "path": "assets/runtime/defense/audio/bingzui_att_ba365370ea43.mp3.import",
+      "bytes": 430,
+      "sha256": "e9db6cf3fe6d7e40e5ccd5525d8d9adeaf9b4dd5de4e28ca0b216022785b036b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/boosComeOut_c6a27c04d868.mp3",
+      "bytes": 113210,
+      "sha256": "c6a27c04d8683ac096ca0d20a0da865f96c28985216c9eaf7e73b092b52a0c3f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/boosComeOut_c6a27c04d868.mp3.import",
+      "bytes": 429,
+      "sha256": "eadbb26bc70d81f1ec0594e149a004aa9f1aec41531abcad963ce76c3f86fceb"
+    },
+    {
+      "path": "assets/runtime/defense/audio/chanrao_8f83e2181c39.mp3",
+      "bytes": 41841,
+      "sha256": "8f83e2181c39496c90f4456f524e26bf41838f4d2214f572d2c7c040d495cc96"
+    },
+    {
+      "path": "assets/runtime/defense/audio/chanrao_8f83e2181c39.mp3.import",
+      "bytes": 417,
+      "sha256": "16ecad970c2116d6305e3b295b32a914145b0b37594bec4ce05ae8bf63c4abfd"
+    },
+    {
+      "path": "assets/runtime/defense/audio/chop_ce0217256f1f.mp3",
+      "bytes": 10425,
+      "sha256": "ce0217256f1f6b4cbc2d3d711cfbb4ae05d5375cc2baa8ab4a76cff74212cb92"
+    },
+    {
+      "path": "assets/runtime/defense/audio/chop_ce0217256f1f.mp3.import",
+      "bytes": 409,
+      "sha256": "f8679879f095a44036026d93172e95a842acf069ef4ccd724c8ec61360a3b76d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/cibao_cd0ae41e87a4.mp3",
+      "bytes": 23915,
+      "sha256": "cd0ae41e87a44f30b9c151db69666c6bed7942d9fd1e38a2bc8f4d36d16693c6"
+    },
+    {
+      "path": "assets/runtime/defense/audio/cibao_cd0ae41e87a4.mp3.import",
+      "bytes": 411,
+      "sha256": "54e40b06f5ffe3b8f320c493709fde0a4a7dfea9d243349658ab925c71252974"
+    },
+    {
+      "path": "assets/runtime/defense/audio/clickSmall_693ed39ea573.mp3",
+      "bytes": 7125,
+      "sha256": "693ed39ea57311ffbfa05e989e70f082e19ec97fd9541244e1b3b5be79b727fb"
+    },
+    {
+      "path": "assets/runtime/defense/audio/clickSmall_693ed39ea573.mp3.import",
+      "bytes": 427,
+      "sha256": "f3035e80658c0c090c6f7132b7b144b77bfc1feed4134d03db387ba61779aab4"
+    },
+    {
+      "path": "assets/runtime/defense/audio/click_7e06c29498fc.mp3",
+      "bytes": 12827,
+      "sha256": "7e06c29498fc1e85e1fc119aaa6bc8b4b7314b2720e98b5384cdd4af80d0f9ee"
+    },
+    {
+      "path": "assets/runtime/defense/audio/click_7e06c29498fc.mp3.import",
+      "bytes": 412,
+      "sha256": "a8991fa2ee5d4fb1921200207f25f59655826f5794985811fc9a7dedc058910b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count1_13b9a354deb7.mp3",
+      "bytes": 10730,
+      "sha256": "13b9a354deb7af1a40668197533d51ecd1bf44ec82c03a8cb5adb9ed08bf0577"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count1_13b9a354deb7.mp3.import",
+      "bytes": 415,
+      "sha256": "b9e7ba5f90b116ce4434e0a848d0af10f91163f519becc414a2067c8c9ff4906"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count2_9a4855c22557.mp3",
+      "bytes": 10730,
+      "sha256": "9a4855c225576a86800257095cc128422525c9fc6f28c858339e5164eb189ab7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count2_9a4855c22557.mp3.import",
+      "bytes": 414,
+      "sha256": "10151da5a656c5d149c16bf4eea074b7a228a30f99200db34b6333af76b8d2ef"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count3_8d6d3975c6c6.mp3",
+      "bytes": 10730,
+      "sha256": "8d6d3975c6c6625ceca12fcc9de35f92f9a1bd165a15b4cd5c096a291eb02a68"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count3_8d6d3975c6c6.mp3.import",
+      "bytes": 414,
+      "sha256": "93a402226f9470553da0e6a71247a449028ca62e0c375f32e71feb2471af3f1d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count4_02a3892342f5.mp3",
+      "bytes": 10730,
+      "sha256": "02a3892342f53e87fbc558b75a3a18574c37b6f162a19b4a3ada22f3c329b15a"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count4_02a3892342f5.mp3.import",
+      "bytes": 415,
+      "sha256": "6fb2a3f5f4f6e033044d74debb0afd0d08c1810cea4782aa90b159bfc632da8a"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count5_d4c771c3a785.mp3",
+      "bytes": 10730,
+      "sha256": "d4c771c3a7858913da694913e022e639c4c204ae3d617a01b801736461514e3a"
+    },
+    {
+      "path": "assets/runtime/defense/audio/count5_d4c771c3a785.mp3.import",
+      "bytes": 415,
+      "sha256": "77b5065039b09d91157771d74c0705d75b36148fcb2123596528bc2f15601813"
+    },
+    {
+      "path": "assets/runtime/defense/audio/crawAtt_4f8ef4045459.mp3",
+      "bytes": 10499,
+      "sha256": "4f8ef404545924fe458b70619e9f7993318c160a8f7bc69d45a26e575886e45e"
+    },
+    {
+      "path": "assets/runtime/defense/audio/crawAtt_4f8ef4045459.mp3.import",
+      "bytes": 418,
+      "sha256": "7d7e5c1bedebe02a3e75f21aecb3bc3c9462ba9ea76494e8f0abfee59b358118"
+    },
+    {
+      "path": "assets/runtime/defense/audio/crow_9ac37439ff2b.wav",
+      "bytes": 266708,
+      "sha256": "9ac37439ff2b53f5120c4ffc37b1f7fe8d5fdee44bc966ffb6ba0d1330b8f258"
+    },
+    {
+      "path": "assets/runtime/defense/audio/crow_9ac37439ff2b.wav.import",
+      "bytes": 537,
+      "sha256": "505bec8b3c6502f7c64bab5ee888d52007d9f412a3a990c76d8c5ef48cc9caa5"
+    },
+    {
+      "path": "assets/runtime/defense/audio/dianci_3d25ec22df24.mp3",
+      "bytes": 43513,
+      "sha256": "3d25ec22df241a5054d2dc532ae4e5beb4e9f0b8fd12ecc8cd644e8e9ae378fa"
+    },
+    {
+      "path": "assets/runtime/defense/audio/dianci_3d25ec22df24.mp3.import",
+      "bytes": 415,
+      "sha256": "202f0687c409b1e9fbad75c3d80ccdc7f6f01d32053aad8d04bf59b4ff5e26f6"
+    },
+    {
+      "path": "assets/runtime/defense/audio/explode_c37fe4936f94.mp3",
+      "bytes": 65653,
+      "sha256": "c37fe4936f94926ea0abda247d0bcadd2257661ffc595b85bd94f80f7642e28d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/explode_c37fe4936f94.mp3.import",
+      "bytes": 418,
+      "sha256": "3e1c975457a16c6f9b29d19a01409ef5b4a98c6cd56160a81353b906c552d8c7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fail_a4a0a9539318.mp3",
+      "bytes": 59907,
+      "sha256": "a4a0a953931837bef9f0eacc39780dcbb85a23b0c0a4aa161334e2f65f1cdecf"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fail_a4a0a9539318.mp3.import",
+      "bytes": 409,
+      "sha256": "d0cbf07be856b2bebbbfb219c0f37c90aa1e82ad8f247e260bed758d6e4b25e2"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fightbg_eb928bf1d5b0.mp3",
+      "bytes": 4188001,
+      "sha256": "eb928bf1d5b023138fbd24d2386d2fc8074be9663309ada7eed679ee12a0df64"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fightbg_eb928bf1d5b0.mp3.import",
+      "bytes": 418,
+      "sha256": "5bcb1733157d06c86d914043bfcd8586e85184ecbfdbbdbad4fb22169d21d7f9"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fireAtt_7b70f96e3128.mp3",
+      "bytes": 42263,
+      "sha256": "7b70f96e31282578178116acb75f66099e7cf26fd6666a1026eeebdc442c77e2"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fireAtt_7b70f96e3128.mp3.import",
+      "bytes": 417,
+      "sha256": "6b682e26da93160ee52db0e9697b0dddd25fec5f055a0fa2bbd8e3ec987d7eba"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fireGun_71a9d5c68034.mp3",
+      "bytes": 18720,
+      "sha256": "71a9d5c68034ba8910f836ece261624a3a0bec0150fbbb5e8655198ddd4cd206"
+    },
+    {
+      "path": "assets/runtime/defense/audio/fireGun_71a9d5c68034.mp3.import",
+      "bytes": 417,
+      "sha256": "52904ec75e0a926a923a0be6fbccc20a17cba6423fa5529521b8fa154f56bbfa"
+    },
+    {
+      "path": "assets/runtime/defense/audio/firecrackerB_984122da4e56.mp3",
+      "bytes": 38493,
+      "sha256": "984122da4e56f3098c126f2d7a19e9fc20d134fbdbde4cc22039391d3d966a21"
+    },
+    {
+      "path": "assets/runtime/defense/audio/firecrackerB_984122da4e56.mp3.import",
+      "bytes": 433,
+      "sha256": "6608c26124d9c447246b099aa5391440c354a70af4fa5814366c035d0ab81525"
+    },
+    {
+      "path": "assets/runtime/defense/audio/flash1_8d67e709335d.mp3",
+      "bytes": 28055,
+      "sha256": "8d67e709335d062e6f8c4231e296673df4be8a0fd87780acdbdaab418972f3da"
+    },
+    {
+      "path": "assets/runtime/defense/audio/flash1_8d67e709335d.mp3.import",
+      "bytes": 414,
+      "sha256": "b2f9e5591ff277017d5a6621f29eb6d324de8b3b4c7b81740bd64af1cedba409"
+    },
+    {
+      "path": "assets/runtime/defense/audio/flower_0803e2e07a0b.mp3",
+      "bytes": 10347,
+      "sha256": "0803e2e07a0be5a2e6afc1b04dbed5080b26a4a06b4e9098d3e2b3082f14d08c"
+    },
+    {
+      "path": "assets/runtime/defense/audio/flower_0803e2e07a0b.mp3.import",
+      "bytes": 415,
+      "sha256": "aeaa37fe4c1a72f711485643ed5782ae80068366e0e396877b6eb384cd9a6ef1"
+    },
+    {
+      "path": "assets/runtime/defense/audio/gemError_830b2019b21f.wav",
+      "bytes": 344000,
+      "sha256": "830b2019b21f9532d1cf2bf3ebb93919c24d92b92a2aa22d231393a4b8ffb472"
+    },
+    {
+      "path": "assets/runtime/defense/audio/gemError_830b2019b21f.wav.import",
+      "bytes": 550,
+      "sha256": "1b68d2041b79fd2c505dbdb75c87ccea167ee60e3f1e4d0db03ffdd5d03dee6c"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getCilp_c28ae29525c6.mp3",
+      "bytes": 23051,
+      "sha256": "c28ae29525c6935d3f870a67f17b3e240b85f8cd10a835dc2ca6a2b032e234ca"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getCilp_c28ae29525c6.mp3.import",
+      "bytes": 418,
+      "sha256": "8aaa5c4f57b0d6dc7a0dec23a971603c681486128d04592fdf6e4e84c3a79b75"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getCoin_ccd0e90da310.mp3",
+      "bytes": 15096,
+      "sha256": "ccd0e90da3104e58b3b5f2ee0a597595d2ae3c26ef820dc4173b6387f2121dcb"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getCoin_ccd0e90da310.mp3.import",
+      "bytes": 417,
+      "sha256": "a770d24466a854e62b51d29f585d15785d5a9843ab135867ff91d0dc470025ce"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getEquip_6051e68c4b2e.mp3",
+      "bytes": 20062,
+      "sha256": "6051e68c4b2e7d24893eeca448dd116155c2fcde1884b3a5e75123828f3d911b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getEquip_6051e68c4b2e.mp3.import",
+      "bytes": 421,
+      "sha256": "80e97fe80ff70a70036cebdc43f948a4c7c9ba98c268102b4ef75afda71a9007"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getJade_b10f15f225fe.mp3",
+      "bytes": 32484,
+      "sha256": "b10f15f225fea0db4833af88930b99c1f11945c238ca64d36570e35d786b963f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getJade_b10f15f225fe.mp3.import",
+      "bytes": 417,
+      "sha256": "e30666f6417db2464023eef0e0b000b864ca0b392f9fdc1b1f4235f788a39fa3"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getSoul_feb7e11bce13.mp3",
+      "bytes": 39787,
+      "sha256": "feb7e11bce13682fdde8e8212ad8fd964756ec5c0a9ee677061ed1f95e5f197a"
+    },
+    {
+      "path": "assets/runtime/defense/audio/getSoul_feb7e11bce13.mp3.import",
+      "bytes": 417,
+      "sha256": "c5d3831e45dcf576038704d6dd3633d37d796c960c3ae8571fe5432dbf8ce99a"
+    },
+    {
+      "path": "assets/runtime/defense/audio/gunmu_fa39f4ef60c8.mp3",
+      "bytes": 100105,
+      "sha256": "fa39f4ef60c8833088f67c06eb200da30303f8375ac3d6ebcc2d4a2ec0b2e2fb"
+    },
+    {
+      "path": "assets/runtime/defense/audio/gunmu_fa39f4ef60c8.mp3.import",
+      "bytes": 412,
+      "sha256": "0f823c9557f0d7711f83040234d0986535ee20fc6347dc5fcfe67d9b7f4f5307"
+    },
+    {
+      "path": "assets/runtime/defense/audio/guwu_3543d4bef95b.mp3",
+      "bytes": 89279,
+      "sha256": "3543d4bef95b14382cad261e563096efd92956c297bf9a97ea5746b81810d0c5"
+    },
+    {
+      "path": "assets/runtime/defense/audio/guwu_3543d4bef95b.mp3.import",
+      "bytes": 409,
+      "sha256": "44dd368564a3f44ac09ee3b13e0d34f8a83c60d16de3f0f7a48979e7cddb950b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/heroCom_b64f8ee67481.mp3",
+      "bytes": 76068,
+      "sha256": "b64f8ee674816497f3155e2153beda2d99e2b919e97c8c4ada576b2f9b511763"
+    },
+    {
+      "path": "assets/runtime/defense/audio/heroCom_b64f8ee67481.mp3.import",
+      "bytes": 418,
+      "sha256": "0eb176ebb2a4148d9123b8646e87b16f6ddaf5a8fbefc1aaaec8ed9f7527f4fb"
+    },
+    {
+      "path": "assets/runtime/defense/audio/hongliu_49ee38430d19.mp3",
+      "bytes": 65706,
+      "sha256": "49ee38430d1918c9c52e17ec9c873b2d7eb30c4f0b4a1be0676b54699f234f41"
+    },
+    {
+      "path": "assets/runtime/defense/audio/hongliu_49ee38430d19.mp3.import",
+      "bytes": 418,
+      "sha256": "e3a45d42a1ab08491257dde944d690db863dfe2232efe6adf721a840db0337b8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huanying_ab58d1864223.mp3",
+      "bytes": 10499,
+      "sha256": "ab58d1864223e5a161ae59c2972505363a21232a23a564547f611c7b99322cb0"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huanying_ab58d1864223.mp3.import",
+      "bytes": 421,
+      "sha256": "a41459d03a08593c74c711a811cf6268a7ed07ec78f00674cf6941f1e6700457"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huoqiang_31969f483ab5.mp3",
+      "bytes": 32750,
+      "sha256": "31969f483ab58ed50c013dc309dcfa62806a0a5c74c60e5dccffdafe64b3b0bc"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huoqiang_31969f483ab5.mp3.import",
+      "bytes": 421,
+      "sha256": "97a776ed529161ee76c74564a3082b83e946fa6237f9ffa84c02c64f58a48282"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huoqiu_283340d4e1ed.mp3",
+      "bytes": 20856,
+      "sha256": "283340d4e1edc7aa07a14bff9b063e5b2aabb93bf1d254a6674ef800a76c87db"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huoqiu_283340d4e1ed.mp3.import",
+      "bytes": 415,
+      "sha256": "917811a390b5f0b86653ebc2bda6659c16053da21f67eabb86751992e6598a55"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huoqiu_att_396e177fd27b.mp3",
+      "bytes": 33416,
+      "sha256": "396e177fd27b163e8612719bb6b4294a9c2a125efef95f26695066e975c1848e"
+    },
+    {
+      "path": "assets/runtime/defense/audio/huoqiu_att_396e177fd27b.mp3.import",
+      "bytes": 427,
+      "sha256": "03f922a9b93616b3921be00065056d76131867c824407600546bb6646bc66b80"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jianqi_e41987b3268e.mp3",
+      "bytes": 20947,
+      "sha256": "e41987b3268e7df5330daa8924e9b2bdabc8add3bea8b7b48724ce37ccc362d2"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jianqi_e41987b3268e.mp3.import",
+      "bytes": 415,
+      "sha256": "2fd8263de33c17664a57d3559bbd956222e6c2df574b430254764a0da5137586"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jianta_7bf0d9c22e4c.mp3",
+      "bytes": 15299,
+      "sha256": "7bf0d9c22e4c545d6d152467fabd83c5b23f64bfe39c70f621a50600f1119a2e"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jianta_7bf0d9c22e4c.mp3.import",
+      "bytes": 414,
+      "sha256": "6fc71ae9ec03cfd38a89cb2fb2b7c8c65ec8c617e5f59f0e3c14068e53095dba"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jiguang2_410c81f2be8d.mp3",
+      "bytes": 125834,
+      "sha256": "410c81f2be8db373a74e393a4e19e112ad1ec6a78ba3104cbddf8547c2e05425"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jiguang2_410c81f2be8d.mp3.import",
+      "bytes": 421,
+      "sha256": "383975c81583def06897a9c318bd7bf615839dcd8c4077ef9560e949c74146c8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jiguang_f62736eb1b11.mp3",
+      "bytes": 36506,
+      "sha256": "f62736eb1b11e717253a0274dbcf9408640aa4c88d6c8d84ab6e505080ecaf45"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jiguang_f62736eb1b11.mp3.import",
+      "bytes": 417,
+      "sha256": "670e5a967d96740db893c9e25efab781ffcd575686a02463f15a6a50232d4d7b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jufeng_9e79f9c0eb03.mp3",
+      "bytes": 31999,
+      "sha256": "9e79f9c0eb03676f2b5ea65324f671dec029a2c1851c66b470e6b4e368d730a8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jufeng_9e79f9c0eb03.mp3.import",
+      "bytes": 415,
+      "sha256": "333a91c7213dd9bedebc540684bc1a8a363e6f6766977721b44baf036f3b4a12"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jufeng_att_a9cc7cf2eb70.mp3",
+      "bytes": 52081,
+      "sha256": "a9cc7cf2eb70ca834d80cf188c7f78c78f94dd6812fc5db1bf1e8b2c3d8a80e8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/jufeng_att_a9cc7cf2eb70.mp3.import",
+      "bytes": 427,
+      "sha256": "0f5b95c619f9af16cbf868c608d5dc320c2b7d91618b9c249ffc697c2e32de12"
+    },
+    {
+      "path": "assets/runtime/defense/audio/kuilei_06459fe24c11.mp3",
+      "bytes": 12170,
+      "sha256": "06459fe24c1170563fe124223ab6d7e39378c13c965915d8861bf693073e5925"
+    },
+    {
+      "path": "assets/runtime/defense/audio/kuilei_06459fe24c11.mp3.import",
+      "bytes": 415,
+      "sha256": "cfce0f626f03b2da66274a3811fd1797c0143fe76770ced2145bf89a3bd99965"
+    },
+    {
+      "path": "assets/runtime/defense/audio/leiji_c0a55b0896de.mp3",
+      "bytes": 15119,
+      "sha256": "c0a55b0896dec38fe3043861aee3aa33ae15fe0230985a72504d434c00277526"
+    },
+    {
+      "path": "assets/runtime/defense/audio/leiji_c0a55b0896de.mp3.import",
+      "bytes": 412,
+      "sha256": "cc5c086eb3ff82e09f36c846c4458dc7f388d6d81938f705407e027496acea7f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting2_7335828b4855.mp3",
+      "bytes": 39086,
+      "sha256": "7335828b48554f5677f003d6954162962b87739ed7e469421c71d851ace5d6ad"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting2_7335828b4855.mp3.import",
+      "bytes": 424,
+      "sha256": "1d4979521e92468d24d997bc371403a1af4a65be2b2ac11009d995b5d4770cf8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting3_79f2833970cb.mp3",
+      "bytes": 31168,
+      "sha256": "79f2833970cb1b431fe0e17334ce7158c14fe4bf2dd82bcb5f09172f5c2960cd"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting3_79f2833970cb.mp3.import",
+      "bytes": 423,
+      "sha256": "ec0f5e09df5f3e84169693dc106ed8165c88e902cb4bdb5880b682e7b535c82f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting4_151f05f4a320.mp3",
+      "bytes": 40384,
+      "sha256": "151f05f4a3203a2c80b8c9ae8bde567a7fad81a77a9181f0f594e79f3e7de760"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting4_151f05f4a320.mp3.import",
+      "bytes": 424,
+      "sha256": "efb5474c605230d3ab560668bd77b454cdc3a710424c79478026670062eb0e71"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting_c0a55b0896de.mp3",
+      "bytes": 15119,
+      "sha256": "c0a55b0896dec38fe3043861aee3aa33ae15fe0230985a72504d434c00277526"
+    },
+    {
+      "path": "assets/runtime/defense/audio/lighting_c0a55b0896de.mp3.import",
+      "bytes": 420,
+      "sha256": "fac0af565fec433fd2bae420d59e347ed0f8f910cdbb5e03c4434d405c0c9f02"
+    },
+    {
+      "path": "assets/runtime/defense/audio/linghunranshao_63baa927f4c1.mp3",
+      "bytes": 45330,
+      "sha256": "63baa927f4c182b017b7bdc7a57decd65fd78b846ea18a72642718f3ce37b0d8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/linghunranshao_63baa927f4c1.mp3.import",
+      "bytes": 438,
+      "sha256": "cea12db13c057013180260eb5b5abcccaf86c2bce32f50774454706b9fcd9390"
+    },
+    {
+      "path": "assets/runtime/defense/audio/linghunsuolian_6b28179b233f.mp3",
+      "bytes": 11508,
+      "sha256": "6b28179b233fcde0872200a2013cf99182394797c57126a11c3ba0e479e7ce11"
+    },
+    {
+      "path": "assets/runtime/defense/audio/linghunsuolian_6b28179b233f.mp3.import",
+      "bytes": 439,
+      "sha256": "db729d12218069573ca6ca04406765a9d7728ef2060204f9bdd2064e930a0d6e"
+    },
+    {
+      "path": "assets/runtime/defense/audio/loadingbg_947d25679f1f.mp3",
+      "bytes": 1443048,
+      "sha256": "947d25679f1fcf2ce18b27b5246a1f31bab142781bf45887d55310d4c6556d1e"
+    },
+    {
+      "path": "assets/runtime/defense/audio/loadingbg_947d25679f1f.mp3.import",
+      "bytes": 423,
+      "sha256": "94f50bb220e60b70110f1d9cf8ecdb9088252afbf0ce26992db069b96fc1cf2b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/magicAtt_6b28179b233f.mp3",
+      "bytes": 11508,
+      "sha256": "6b28179b233fcde0872200a2013cf99182394797c57126a11c3ba0e479e7ce11"
+    },
+    {
+      "path": "assets/runtime/defense/audio/magicAtt_6b28179b233f.mp3.import",
+      "bytes": 420,
+      "sha256": "6ded8b804cfd2941b515d97b9b504670edea8429c677304e3ee69b04b4d2c842"
+    },
+    {
+      "path": "assets/runtime/defense/audio/naiCry_1841be92512c.mp3",
+      "bytes": 28779,
+      "sha256": "1841be92512c859ae4a1c3c130ffd31c8b4caa82e33b5cac3b64fab2dd8d07b8"
+    },
+    {
+      "path": "assets/runtime/defense/audio/naiCry_1841be92512c.mp3.import",
+      "bytes": 415,
+      "sha256": "afcfd585d8341154717f49978a06cc441f03d60e32c193feecab903592fcd674"
+    },
+    {
+      "path": "assets/runtime/defense/audio/openBattleBox_655d1d38b88b.wav",
+      "bytes": 353132,
+      "sha256": "655d1d38b88be9b96ccb37a41b4b95fc88b16c142fae2fd64490dc1112b8d834"
+    },
+    {
+      "path": "assets/runtime/defense/audio/openBattleBox_655d1d38b88b.wav.import",
+      "bytes": 565,
+      "sha256": "4c0e94f96ab93db4a19de60539f2d4ae2bb28ba69aa56585070f281d77dcde8d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/openBox_80b0fbb4a156.mp3",
+      "bytes": 3991,
+      "sha256": "80b0fbb4a156b254d7898ffacce4f15b845b1b71b05117a8dfe19eeb1129ac74"
+    },
+    {
+      "path": "assets/runtime/defense/audio/openBox_80b0fbb4a156.mp3.import",
+      "bytes": 418,
+      "sha256": "d066141a1655232530336c1c9b9e7b069ff6f89ef8d79444927336e0de062537"
+    },
+    {
+      "path": "assets/runtime/defense/audio/ranshao_0064dd158a9f.mp3",
+      "bytes": 91583,
+      "sha256": "0064dd158a9f6237a418fefe670688398a371e326453acba08381ce372c2f5ab"
+    },
+    {
+      "path": "assets/runtime/defense/audio/ranshao_0064dd158a9f.mp3.import",
+      "bytes": 418,
+      "sha256": "96577a596f89051e7c1c9fa439d02445c75e89c5fbf8aa5f87661adee3fe64e3"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shenli_1d3f191731a1.mp3",
+      "bytes": 89905,
+      "sha256": "1d3f191731a15c0f13f00fd8d9c0832c8fd9ab1f15fadb1a78bf430bc7afc301"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shenli_1d3f191731a1.mp3.import",
+      "bytes": 415,
+      "sha256": "52380d22c778d70cade56221c6bd29a5d9b97e59a8487b8d02e8c7e68832c021"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shigui_95cdf7640d67.mp3",
+      "bytes": 72142,
+      "sha256": "95cdf7640d6754031be9d11efd8f477cc1238b09a8a497808bec21cac324dd38"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shigui_95cdf7640d67.mp3.import",
+      "bytes": 414,
+      "sha256": "a6c58e7133e8a802aa51d5dceb5e6f5e12d1e0e47d60766f3160c20702eada5d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shopbg_298ea1f21856.mp3",
+      "bytes": 1322890,
+      "sha256": "298ea1f21856b1f410d6307288b81821cb0fdf31fdb2a6464156267a16d20ccd"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shopbg_298ea1f21856.mp3.import",
+      "bytes": 415,
+      "sha256": "dbb4ab3980e1789e9cae68383060710cc4b485c734cbdc3e1d87f4e968df39b7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shouge_94340a75d880.mp3",
+      "bytes": 17186,
+      "sha256": "94340a75d880b0f0a5f315670ab9b9412b433c2c4e678ab91ddaaafd209b8a35"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shouge_94340a75d880.mp3.import",
+      "bytes": 414,
+      "sha256": "94a5654bf5f749e3b51fde1402367cea6346a370a9d6350a44134369d063f9d0"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shoulei_att_a2b35bda7e81.mp3",
+      "bytes": 29864,
+      "sha256": "a2b35bda7e81f369e5cfa56d79ee3e9202defdc626b6373453d93bec7557491e"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shoulei_att_a2b35bda7e81.mp3.import",
+      "bytes": 430,
+      "sha256": "e0f74b4f234cd84b0f2f8966f3b92272b4913425c7e227e131beef31267f7e63"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shoulei_c7c8d21d2851.mp3",
+      "bytes": 28994,
+      "sha256": "c7c8d21d285122f1a924900ce13962541395f0c6f9a34c760831dc2cdd1a170f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shoulei_c7c8d21d2851.mp3.import",
+      "bytes": 418,
+      "sha256": "7e6940ff300f87a1fc1aef2de222829f5c88bf207ff7834733ac9b6fb828bd20"
+    },
+    {
+      "path": "assets/runtime/defense/audio/showCard_651080b15924.wav",
+      "bytes": 493892,
+      "sha256": "651080b1592459ecdbf90c59a218ae6af005051349f22c238a33a25a4edb5544"
+    },
+    {
+      "path": "assets/runtime/defense/audio/showCard_651080b15924.wav.import",
+      "bytes": 550,
+      "sha256": "b2bd4d1ef12c0cfa337f05de394763bc649efd5fec74468e8e19afe4b6a953cc"
+    },
+    {
+      "path": "assets/runtime/defense/audio/showHighQualityGem_6e83503e35d5.mp3",
+      "bytes": 108713,
+      "sha256": "6e83503e35d5ce6661d2f4ca19c79ed14d375d529e01efeb18b8e25209a4fb5f"
+    },
+    {
+      "path": "assets/runtime/defense/audio/showHighQualityGem_6e83503e35d5.mp3.import",
+      "bytes": 451,
+      "sha256": "509d7db58beb9c9d9b08a586e935d9250b4833c9b1a19963791ccd4d8e2a71ee"
+    },
+    {
+      "path": "assets/runtime/defense/audio/showReward_fb6f5b848c5f.mp3",
+      "bytes": 71053,
+      "sha256": "fb6f5b848c5f7d2f3cddcfcec57fb5790b653060f40b614b33f19d68a4fad259"
+    },
+    {
+      "path": "assets/runtime/defense/audio/showReward_fb6f5b848c5f.mp3.import",
+      "bytes": 427,
+      "sha256": "964a9bfdeb931c16d4aafcb3698fe4eedce7793209b2153a4e31c098edd5804b"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shuangbao_2c375eddedc0.mp3",
+      "bytes": 23535,
+      "sha256": "2c375eddedc0601aeba9e0cf33743d76623692d919323096e622e06afaa7ec0d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/shuangbao_2c375eddedc0.mp3.import",
+      "bytes": 424,
+      "sha256": "921fa75bedb2476e802c59c226122b9546f63bdebf6b4495b998db25058cf437"
+    },
+    {
+      "path": "assets/runtime/defense/audio/swordAtt2_1dd893289669.mp3",
+      "bytes": 23873,
+      "sha256": "1dd893289669f635b54e008913cd46d1a54650529f19e4ee3aafadb8c5d48a03"
+    },
+    {
+      "path": "assets/runtime/defense/audio/swordAtt2_1dd893289669.mp3.import",
+      "bytes": 423,
+      "sha256": "7f7dfde3465cf0c0a2b8d28c2342a7c8f244b5ff483c53f5fcd11d45e2103215"
+    },
+    {
+      "path": "assets/runtime/defense/audio/swordAtt3_2a8aa9077a36.mp3",
+      "bytes": 7358,
+      "sha256": "2a8aa9077a368d52a5588ff9fb8fe69d0c52ad4c62dea354efcd3f42ae40fcaf"
+    },
+    {
+      "path": "assets/runtime/defense/audio/swordAtt3_2a8aa9077a36.mp3.import",
+      "bytes": 424,
+      "sha256": "7acab145b053a5c2be0cc9a291413a000900085e64c644eced7a014445102916"
+    },
+    {
+      "path": "assets/runtime/defense/audio/swordAtt_ab58d1864223.mp3",
+      "bytes": 10499,
+      "sha256": "ab58d1864223e5a161ae59c2972505363a21232a23a564547f611c7b99322cb0"
+    },
+    {
+      "path": "assets/runtime/defense/audio/swordAtt_ab58d1864223.mp3.import",
+      "bytes": 420,
+      "sha256": "ef5a166b7ebb10ccad17c9290aa33b515b1cc1c30cfbe50ad0e77b94a01be2db"
+    },
+    {
+      "path": "assets/runtime/defense/audio/sword_11d81d95e3ef.wav",
+      "bytes": 32248,
+      "sha256": "11d81d95e3ef63261098cd18ed0f65682ecc1fa9929a9c888f9e6d3869890f91"
+    },
+    {
+      "path": "assets/runtime/defense/audio/sword_11d81d95e3ef.wav.import",
+      "bytes": 541,
+      "sha256": "c0b1ecce3a535c34beebe300dfacf9cffdb28fc13c91d77282817e4a4d0f94a7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/synthesis_3d0a1356ae91.mp3",
+      "bytes": 78240,
+      "sha256": "3d0a1356ae918d9650b5be3c3085562e7f42f99c1331a4a428f2d2d9ebcc83d1"
+    },
+    {
+      "path": "assets/runtime/defense/audio/synthesis_3d0a1356ae91.mp3.import",
+      "bytes": 424,
+      "sha256": "356d8c544e4286db5cb9cd4215377b7f2adca13eb90383f30dc476e8170ac9fc"
+    },
+    {
+      "path": "assets/runtime/defense/audio/throwAtt_079b44466f6e.mp3",
+      "bytes": 11334,
+      "sha256": "079b44466f6e42786d47aaadd143b72008f14cc5b57adb934cd89648e98e451d"
+    },
+    {
+      "path": "assets/runtime/defense/audio/throwAtt_079b44466f6e.mp3.import",
+      "bytes": 420,
+      "sha256": "0e460b5b07113ec3005785c7087985b570fe3d59ba0817bc9a1b21607ae01cfb"
+    },
+    {
+      "path": "assets/runtime/defense/audio/throw_e0c385794c64.mp3",
+      "bytes": 51580,
+      "sha256": "e0c385794c64b405db1092286062f426d635e07d55cdfad21afef981419c8916"
+    },
+    {
+      "path": "assets/runtime/defense/audio/throw_e0c385794c64.mp3.import",
+      "bytes": 412,
+      "sha256": "c4748e9d41b6acdffb71ec7a6777f164174e20d3e0dd6d162354689d6bc5be37"
+    },
+    {
+      "path": "assets/runtime/defense/audio/tips1_06e3c804bd85.mp3",
+      "bytes": 5401,
+      "sha256": "06e3c804bd85cdfaeed4fa082364b70d665ab8be956cb71df2269e8892c20ce7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/tips1_06e3c804bd85.mp3.import",
+      "bytes": 412,
+      "sha256": "e6cade749580bc9370330096d5bdb0913f0d8d7a7edd92242b04c0af9c96cecf"
+    },
+    {
+      "path": "assets/runtime/defense/audio/tips_7317cc267067.mp3",
+      "bytes": 7438,
+      "sha256": "7317cc2670673df3075a2774e5f60f24bcecdac45024e87c56ca72acf393dd0c"
+    },
+    {
+      "path": "assets/runtime/defense/audio/tips_7317cc267067.mp3.import",
+      "bytes": 409,
+      "sha256": "a302658aa531698bd1ffc132ff9267812157b271d9a6f28958fdc5513a34cff4"
+    },
+    {
+      "path": "assets/runtime/defense/audio/tornado_3900e820a78c.mp3",
+      "bytes": 81502,
+      "sha256": "3900e820a78c3851bdb4c92dc8e73a7a8b9a00dd634f72214ff618a3912eb40c"
+    },
+    {
+      "path": "assets/runtime/defense/audio/tornado_3900e820a78c.mp3.import",
+      "bytes": 418,
+      "sha256": "21fa69a9155c1a5583c24281d8f5836bec1bed46b0fd733a9f8bc1639e9077ca"
+    },
+    {
+      "path": "assets/runtime/defense/audio/victory_7cbacb423e80.mp3",
+      "bytes": 123054,
+      "sha256": "7cbacb423e807f5b5f70c9a83fecce947c26d0cf2e064a45a9608955ccf60999"
+    },
+    {
+      "path": "assets/runtime/defense/audio/victory_7cbacb423e80.mp3.import",
+      "bytes": 418,
+      "sha256": "4d90f84aa92cc8d65bfc5968e5d773ca15f7ba2c0916cf388e0a75e6f36cbc61"
+    },
+    {
+      "path": "assets/runtime/defense/audio/wheelDisc_71acfa3a1cb6.mp3",
+      "bytes": 63782,
+      "sha256": "71acfa3a1cb6fbfaa847bb8bb36ce8c9dc947b34f3ec1a1ee888a65a1f770382"
+    },
+    {
+      "path": "assets/runtime/defense/audio/wheelDisc_71acfa3a1cb6.mp3.import",
+      "bytes": 424,
+      "sha256": "1a89bf63240a2489aac7e90e56a656aa4f81e7c6e0fccf979f1226c15d4a9d16"
+    },
+    {
+      "path": "assets/runtime/defense/audio/xixueqiu_3cc5e7fec421.mp3",
+      "bytes": 25545,
+      "sha256": "3cc5e7fec421cef124188cb86b1b83d486c39d90a9245835a53325e31b554048"
+    },
+    {
+      "path": "assets/runtime/defense/audio/xixueqiu_3cc5e7fec421.mp3.import",
+      "bytes": 420,
+      "sha256": "46b93193533d3359bfd04c445067bdf6833a8f748b2d3eab49dbbf6dba9c8b94"
+    },
+    {
+      "path": "assets/runtime/defense/audio/yuansu_6a0246af4509.mp3",
+      "bytes": 6269,
+      "sha256": "6a0246af4509fcb926a55c40f42980719a1c0edadac9014b2b9a43b62a0894c7"
+    },
+    {
+      "path": "assets/runtime/defense/audio/yuansu_6a0246af4509.mp3.import",
+      "bytes": 414,
+      "sha256": "d1f0bbe4d4f8c90b9332ea2bc3b084265332e43f44fd063ecd2261b70fcf6a19"
+    },
+    {
+      "path": "assets/runtime/defense/audio/yunshi_35dc26e54fad.mp3",
+      "bytes": 21231,
+      "sha256": "35dc26e54fadd311b24908020bd436b493eebb1f9794c6b11e4d37911be8a98a"
+    },
+    {
+      "path": "assets/runtime/defense/audio/yunshi_35dc26e54fad.mp3.import",
+      "bytes": 415,
+      "sha256": "f7e0d7248109295ab1f5ab7603f836ed137babf4e7f4e2653e2a36ca0f03880c"
+    },
+    {
+      "path": "assets/runtime/defense/chinese.ttf",
+      "bytes": 7952148,
+      "sha256": "056f0bc660a025b45738740c21effbdaccb729f406465b8d6d0ca4bdb27076b5"
+    },
+    {
+      "path": "assets/runtime/defense/chinese.ttf.import",
+      "bytes": 768,
+      "sha256": "bb31c9a8276b2a55acadff0b280456e192eef97c5517e5cd63f235ce6f4a906d"
+    },
+    {
+      "path": "assets/runtime/defense/home_reference_icons.png",
+      "bytes": 91232,
+      "sha256": "88425e16b867eb9605845ac3acea5f48199938735b28ed00ad432d6a0eb46021"
+    },
+    {
+      "path": "assets/runtime/defense/home_reference_icons.png.import",
+      "bytes": 986,
+      "sha256": "442762251dd4afdd4864577bde0a2e48a657af86f05cc60ccdaf7c289bc31939"
+    },
+    {
+      "path": "assets/runtime/ui/sample_badge.svg",
+      "bytes": 323,
+      "sha256": "78fc079eff4c7137be704b83c34b8ffb0ad03c063b772a3bf1150732e6dc0807"
+    },
+    {
+      "path": "assets/runtime/ui/sample_badge.svg.import",
+      "bytes": 1055,
+      "sha256": "d8f2a971cc587c9cc66fa96b489b8f29d83ce16aa1b5c85867e01fe3b89bafb5"
+    },
+    {
+      "path": "data/generated/ability_plans.json",
+      "bytes": 1838,
+      "sha256": "826a514d95d94dd706dd12f0931e364ec73cc98d481f8278845b75c59a82d31a"
+    },
+    {
+      "path": "data/generated/data_catalog.json",
+      "bytes": 55633,
+      "sha256": "15073d98084bf3341942da037ed4761c66d93f90ba238edab35149d868102b06"
+    },
+    {
+      "path": "data/generated/data_manifest.json",
+      "bytes": 2268,
+      "sha256": "845ce7674acfe1521ca02c2f6dfd5d3ded837ac410c0f2e5281d4b902552f4b8"
+    },
+    {
+      "path": "data/generated/defense_catalog.json",
+      "bytes": 3232509,
+      "sha256": "8c6e36c738595384ecf2b796d21661bc61e58323804c78cb6e1db6a200c38b63"
+    },
+    {
+      "path": "export_presets.cfg",
+      "bytes": 2250,
+      "sha256": "4a4e159c8ecccf82e02308927ac6d4939c1950d80ce18b6d1b14aff410ad1ab3"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 1071,
+      "sha256": "4c393137f5ba3f156f2f1cc11ddd5cbff70992e0811502fee7fdcd39e34787b0"
+    },
+    {
+      "path": "scenes/defense/battle_panels.tscn",
+      "bytes": 10247,
+      "sha256": "5213ca57ab61cb4e36f950cfeaddbe87b8f5de21e4d87bd761a5af3e1b636e57"
+    },
+    {
+      "path": "scenes/defense/choice_card.tscn",
+      "bytes": 4698,
+      "sha256": "dea71de1f84eee29404e5c295def9e01c204e2c00f796a7beb332fb3aa353280"
+    },
+    {
+      "path": "scenes/defense/contribution_row.tscn",
+      "bytes": 1235,
+      "sha256": "b2ae602feec00187a850b8a53405a142cd3ab0f4cbda7050e8ef61ae41345fa5"
+    },
+    {
+      "path": "scenes/defense/hero_item.tscn",
+      "bytes": 886,
+      "sha256": "c8ac9395bca6819cc997764d3b471f7c3e998b7d925bc1ef0b37ea6e3a0e6d37"
+    },
+    {
+      "path": "scenes/defense/home.tscn",
+      "bytes": 38057,
+      "sha256": "92d276e019762f7a18f2a705a4edb7887b9f3e164c06a5069ac8dd1827a3e0ee"
+    },
+    {
+      "path": "scenes/defense/level_button.tscn",
+      "bytes": 103,
+      "sha256": "83c9cc7968dde7b5ab540ca91803ef3200dbe5d781c734b7e2003778e4691937"
+    },
+    {
+      "path": "scenes/defense/monster_portrait.tscn",
+      "bytes": 1071,
+      "sha256": "230331c1cecf03b4fe3dd3f6d622d9a6c805846f9d2da8105e7c849d41157f6c"
+    },
+    {
+      "path": "scenes/defense/monster_row.tscn",
+      "bytes": 1751,
+      "sha256": "3e088f758691be1e3b278e8cce891af9aad58af785728f25921f915ac538e25c"
+    },
+    {
+      "path": "scenes/defense/result_card.tscn",
+      "bytes": 2338,
+      "sha256": "5005664d2cd8c800c3de000d71959c86441b5c4e2525f14e800a9335234bb2c8"
+    },
+    {
+      "path": "scenes/defense/result_item.tscn",
+      "bytes": 1015,
+      "sha256": "b5c2ab187a1fb64b5096d5d3a9247b15523896cdce89bc796e2908231fbc0e9a"
+    },
+    {
+      "path": "scenes/defense/result_panel.tscn",
+      "bytes": 5955,
+      "sha256": "91b63e585011e1cb4717a47109c438e0a7f94bd385ba8aa036f4b499870ea900"
+    },
+    {
+      "path": "scenes/defense/roster_card.tscn",
+      "bytes": 2514,
+      "sha256": "16f2818c75d0b2ac95a84a2935078020e20b0077adcdfe551595a4ab5bc13166"
+    },
+    {
+      "path": "scenes/defense/skill_tooltip.tscn",
+      "bytes": 893,
+      "sha256": "e5bd4aafda6570fd6271f473ec3e117e4cb465d4b25626c0aaabe5fc887d1440"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "bytes": 23452,
+      "sha256": "8aa621343ab131fe9e2b7c357dc1b1fd2bfbecad8842dc9e0dc0605ce99f8365"
+    },
+    {
+      "path": "src/app/app_bootstrap.gd",
+      "bytes": 1747,
+      "sha256": "c831ff01c66b7bde9f325d30d0d88167703bfc894f58520faa55916fd80b0b33"
+    },
+    {
+      "path": "src/app/app_bootstrap.gd.uid",
+      "bytes": 20,
+      "sha256": "25a1c32e1de11efd3ced81d52220c8a0ee722b95b1d4b5b322f57b5d54e74d70"
+    },
+    {
+      "path": "src/data/data_registry.gd",
+      "bytes": 4050,
+      "sha256": "288fcfb73f5b07ad79fdf965b9d5aaa3e8ce5f527de141dc25bfe0c7050f5c03"
+    },
+    {
+      "path": "src/data/data_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "8ee497501d50df0546792b8c4cded9bed2312e25c65814a5571c90ebaaad4bb6"
+    },
+    {
+      "path": "src/features/defense/domain/defense_ai.gd",
+      "bytes": 8291,
+      "sha256": "8bf0c09ca2e4a764b7fab0129012fb0033722ca961fbad9e949a96e5cd648207"
+    },
+    {
+      "path": "src/features/defense/domain/defense_ai.gd.uid",
+      "bytes": 20,
+      "sha256": "3256264809ca757fc781b01ac5cf02931e22d991deea4dd9592af680d0763a5c"
+    },
+    {
+      "path": "src/features/defense/domain/defense_attack_geometry.gd",
+      "bytes": 2727,
+      "sha256": "d1e64c328a7a1ecb973eeaf4e8299157938a410c672329a4a13cacd78de41fdf"
+    },
+    {
+      "path": "src/features/defense/domain/defense_attack_geometry.gd.uid",
+      "bytes": 20,
+      "sha256": "bf5754c002ba06abdca28abb3628c1948833d66aa83bcbfd7162dcbe82c61d97"
+    },
+    {
+      "path": "src/features/defense/domain/defense_ballistics.gd",
+      "bytes": 1269,
+      "sha256": "4e95428cd4f9b87eba20bb539f7457765f3ef1cd9956ce57a25e47f3b90e89e3"
+    },
+    {
+      "path": "src/features/defense/domain/defense_ballistics.gd.uid",
+      "bytes": 20,
+      "sha256": "dd93f1e2119336042d0681a322b2b8bc6f1df2131f7a8cc6aa8d7385b6865764"
+    },
+    {
+      "path": "src/features/defense/domain/defense_cast_graph.gd",
+      "bytes": 2101,
+      "sha256": "59068653e06a99f18692c72f7af38e093e3dd432edb14f960d885846e24f5ece"
+    },
+    {
+      "path": "src/features/defense/domain/defense_cast_graph.gd.uid",
+      "bytes": 20,
+      "sha256": "9fcb055d6d0ad80ff031002b3c46d36ededc48c58bf2c95718da1fc2d2dcefa5"
+    },
+    {
+      "path": "src/features/defense/domain/defense_catalog.gd",
+      "bytes": 2238,
+      "sha256": "6c58a2c3e3cd26c0487b10bfed7418b3b419996fb9bd88af8a4b0c751d803b00"
+    },
+    {
+      "path": "src/features/defense/domain/defense_catalog.gd.uid",
+      "bytes": 20,
+      "sha256": "41eb03944260ff8d85785cec811f251280ae63112fc34e51dc3d61ad3d0a4ef5"
+    },
+    {
+      "path": "src/features/defense/domain/defense_choices.gd",
+      "bytes": 7693,
+      "sha256": "68488a8b737dee993d42271464e86301272be73f85d4e530b43b604a9c01f938"
+    },
+    {
+      "path": "src/features/defense/domain/defense_choices.gd.uid",
+      "bytes": 20,
+      "sha256": "c5466139115c4824870da2e4739e1eff7cd9b844b3a82e3bcdc678b9ec7875f7"
+    },
+    {
+      "path": "src/features/defense/domain/defense_damage.gd",
+      "bytes": 8579,
+      "sha256": "255269da63d3285098ef8bfd14a027a18be3a42ee8394821dc4d613b3210d9fd"
+    },
+    {
+      "path": "src/features/defense/domain/defense_damage.gd.uid",
+      "bytes": 20,
+      "sha256": "bd5ca075322ccf6d4c90d31a24c5ab47514601aa06216b54dcda3844e74e3997"
+    },
+    {
+      "path": "src/features/defense/domain/defense_displacement.gd",
+      "bytes": 2007,
+      "sha256": "23f0a7759b9eca1095e0e3ec90b3f35413c5f8707e834a40040e329b1f79006c"
+    },
+    {
+      "path": "src/features/defense/domain/defense_displacement.gd.uid",
+      "bytes": 20,
+      "sha256": "9ae3a7fd1694e4220374b6483e0bb942ca4b30f941d4ed1314b6059f043a21d3"
+    },
+    {
+      "path": "src/features/defense/domain/defense_fire_patterns.gd",
+      "bytes": 1832,
+      "sha256": "f6fa4040e75956b32c486054c803a7b3543f1ea862431b158fa927bb2e594512"
+    },
+    {
+      "path": "src/features/defense/domain/defense_fire_patterns.gd.uid",
+      "bytes": 19,
+      "sha256": "4ea04b4a8feb77bd217489be35158aef87c556f3b40b89124d02cf2a41efbb69"
+    },
+    {
+      "path": "src/features/defense/domain/defense_fireball.gd",
+      "bytes": 5369,
+      "sha256": "535f83f8ae0e66ee648209e0d75c6ca5e8765adc67e2842544a0e501c60e60d2"
+    },
+    {
+      "path": "src/features/defense/domain/defense_fireball.gd.uid",
+      "bytes": 19,
+      "sha256": "b8da75d7ab77d4f98c8a581daa3964943a5ae21950d1e177462f87504c9257a8"
+    },
+    {
+      "path": "src/features/defense/domain/defense_loot.gd",
+      "bytes": 3438,
+      "sha256": "df48cb191d770edaf9435c61eb7e7047361f0dabd8389c0c252389056bf193da"
+    },
+    {
+      "path": "src/features/defense/domain/defense_loot.gd.uid",
+      "bytes": 20,
+      "sha256": "171c583a4cf2bb68a0d466d9c8d247b5574bb479132885325dd2efe98b0337e2"
+    },
+    {
+      "path": "src/features/defense/domain/defense_mitigation.gd",
+      "bytes": 1977,
+      "sha256": "badf787ecfbc419b0fdd94ac389db5777a0bc8a8f6d70ab8bfd1af8820c014dc"
+    },
+    {
+      "path": "src/features/defense/domain/defense_mitigation.gd.uid",
+      "bytes": 20,
+      "sha256": "897720e4d9a544d4bdfd679bd91e0bb2beacee67edc14d8477997cefcb5ba164"
+    },
+    {
+      "path": "src/features/defense/domain/defense_navigation.gd",
+      "bytes": 1529,
+      "sha256": "8b0fa467a09902d4f170049d12a753727988278d01cd4b831386b47ba6930d74"
+    },
+    {
+      "path": "src/features/defense/domain/defense_navigation.gd.uid",
+      "bytes": 20,
+      "sha256": "91d24026103856101ad8ada4bda5ed096520d55a255ad607c0005970b98606d1"
+    },
+    {
+      "path": "src/features/defense/domain/defense_passives.gd",
+      "bytes": 4240,
+      "sha256": "d78a1da890dabf9f28ebc382f8f4554b2ad5b297340e1d96748a11dda4ccb3bb"
+    },
+    {
+      "path": "src/features/defense/domain/defense_passives.gd.uid",
+      "bytes": 20,
+      "sha256": "e7aaeeebcfe7c865df45ff3ada102d1353be15646f0ba820723d85c82503a120"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectile_factory.gd",
+      "bytes": 5667,
+      "sha256": "5da1e7a71e0cd85ea89df71306418fd0a107cd416f52a145b2f7789be25fdccf"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectile_factory.gd.uid",
+      "bytes": 20,
+      "sha256": "b1950c2abd801820442547a12519c52352c43e48bfd96a92a082da385dcc26fb"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectile_geometry.gd",
+      "bytes": 3258,
+      "sha256": "b21ad9100ce472da538208d76e0ed5335d75295b2ad99d5e5158b01f2a92a45a"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectile_geometry.gd.uid",
+      "bytes": 19,
+      "sha256": "ecebf061d0f1da1609b993bfd4ed6b18db9bc57c524575a91e4c2364cf9798bc"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectile_motion.gd",
+      "bytes": 3285,
+      "sha256": "f9849ef2c57f14e1386c75ca8c0a0b3e4a39de06ba8a3a8ed35a74ff71599598"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectile_motion.gd.uid",
+      "bytes": 20,
+      "sha256": "21ee6052dd5220600fdd122261ab6758180807916663ce68fda10cb5d5761f73"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectiles.gd",
+      "bytes": 8222,
+      "sha256": "c0cc5b62df80d9e7239e1df5ead6d3d0d3e93e4f464bb0b9a8499d381ad6f48f"
+    },
+    {
+      "path": "src/features/defense/domain/defense_projectiles.gd.uid",
+      "bytes": 19,
+      "sha256": "dc0bd17868ff52b56c2683fd855649f1dc897693752418f2a2d679af91a4cf56"
+    },
+    {
+      "path": "src/features/defense/domain/defense_protection.gd",
+      "bytes": 3455,
+      "sha256": "fcd4df84e1c54ff62396393ff67c88569d663146b939410b956a8cfecc35d638"
+    },
+    {
+      "path": "src/features/defense/domain/defense_protection.gd.uid",
+      "bytes": 20,
+      "sha256": "7b61804cb034da4520d37ca8a4c2dbd9c799d9be035cc597b55bc25b8d505908"
+    },
+    {
+      "path": "src/features/defense/domain/defense_result.gd",
+      "bytes": 1574,
+      "sha256": "e0d72bcc8ded477b3aa98ccc18050fa0a65837a40bb473dc410f09522c2d8adc"
+    },
+    {
+      "path": "src/features/defense/domain/defense_result.gd.uid",
+      "bytes": 20,
+      "sha256": "38f871d97a7ca325bfe80c199734e97c2f3b5608e6242dd2620eea7bc31e6c2e"
+    },
+    {
+      "path": "src/features/defense/domain/defense_session.gd",
+      "bytes": 7246,
+      "sha256": "8191284338b356c61dd7d359b834a30aca9e7ecfb272316e82f9d0469ba000dd"
+    },
+    {
+      "path": "src/features/defense/domain/defense_session.gd.uid",
+      "bytes": 20,
+      "sha256": "91b397276b097a8346203ba342dd42489177161aa9c730a374782dfb85b111af"
+    },
+    {
+      "path": "src/features/defense/domain/defense_skill_actions.gd",
+      "bytes": 3730,
+      "sha256": "7a78160803c7c09c94b03e9a7cd926f5868d2fbfae0f78ab8f3185a2ebac9344"
+    },
+    {
+      "path": "src/features/defense/domain/defense_skill_actions.gd.uid",
+      "bytes": 20,
+      "sha256": "80b79be5d1ef31178612760d874c68aaf202bf4ff7184c34ffce0b72fe8de168"
+    },
+    {
+      "path": "src/features/defense/domain/defense_skill_effects.gd",
+      "bytes": 4241,
+      "sha256": "9eb1c062287b789a89579b001e134b9f99a9e7618edf9acd3d8434f569af927f"
+    },
+    {
+      "path": "src/features/defense/domain/defense_skill_effects.gd.uid",
+      "bytes": 20,
+      "sha256": "89da49b1cb7915095bc7874363d5689c2745db4edb19ca11650b2c33c71c2ad8"
+    },
+    {
+      "path": "src/features/defense/domain/defense_skills.gd",
+      "bytes": 10045,
+      "sha256": "2ad9fe10dacfc216144eab174b3c60f179696a37fa829813848b3d0626602d71"
+    },
+    {
+      "path": "src/features/defense/domain/defense_skills.gd.uid",
+      "bytes": 20,
+      "sha256": "04db8620f138b127b9b46d0b43615c01cff2843090e38f0f0d3bbdce282f6323"
+    },
+    {
+      "path": "src/features/defense/domain/defense_snapshot.gd",
+      "bytes": 6850,
+      "sha256": "85ef0d26bea46e85e051e45a739d0c0dddf8f9fab6c4779163014f38b61ce1a6"
+    },
+    {
+      "path": "src/features/defense/domain/defense_snapshot.gd.uid",
+      "bytes": 20,
+      "sha256": "003ea746767ff8153f157e494b88f1cbf6056872f06254dd7ef37be947da58ba"
+    },
+    {
+      "path": "src/features/defense/domain/defense_space.gd",
+      "bytes": 4315,
+      "sha256": "9ccb4a2f733c59e41c406073aa3fc86ad9a05b401f59bd53fdb057d9371ccc40"
+    },
+    {
+      "path": "src/features/defense/domain/defense_space.gd.uid",
+      "bytes": 20,
+      "sha256": "b50928cde1444679991ab07ae99d34ae4f6743177f8ecd9bed9955f42626c3f1"
+    },
+    {
+      "path": "src/features/defense/domain/defense_spawn.gd",
+      "bytes": 3447,
+      "sha256": "4f8ba6f9855679492c09e9caf24168cd38c9ef4bfd11b3260508d8602fdbac31"
+    },
+    {
+      "path": "src/features/defense/domain/defense_spawn.gd.uid",
+      "bytes": 20,
+      "sha256": "8aaebc91f5c8973f148af6028f4bf7917e7f32ec93ab241ae7c1cd52bbbdfdff"
+    },
+    {
+      "path": "src/features/defense/domain/defense_statue.gd",
+      "bytes": 424,
+      "sha256": "04abfae5f85278a72ab08887e9990dca1364190fa9f3f5070c860656c409796d"
+    },
+    {
+      "path": "src/features/defense/domain/defense_statue.gd.uid",
+      "bytes": 19,
+      "sha256": "c61d295cfd471d2f490e93fbe5f2b659488f0264960732b410277919993461fc"
+    },
+    {
+      "path": "src/features/defense/domain/defense_status.gd",
+      "bytes": 6038,
+      "sha256": "bb60b579cd6b5052071f941235b1dd0a8b5aa9b6bf207a0af0f6bcad3e6c4725"
+    },
+    {
+      "path": "src/features/defense/domain/defense_status.gd.uid",
+      "bytes": 20,
+      "sha256": "9b5bed86193eccf5f8d3ed1685f7a2e932f4da6d6f984959f783f5f7d86f3424"
+    },
+    {
+      "path": "src/features/defense/domain/defense_targets.gd",
+      "bytes": 10008,
+      "sha256": "4ac11d7f7717223eab4a2e4c70c5657426c7557b8f54837286c03615fbecc2f3"
+    },
+    {
+      "path": "src/features/defense/domain/defense_targets.gd.uid",
+      "bytes": 20,
+      "sha256": "3867b811f297215d0498d2388956e31d65184e1f2f363be8e8ff0ddc18e2ae02"
+    },
+    {
+      "path": "src/features/defense/domain/defense_thorns.gd",
+      "bytes": 6295,
+      "sha256": "01e8bfceb997f8bb10a3db1f8f809e6cd26c2f37880f8a238bd587260a0186be"
+    },
+    {
+      "path": "src/features/defense/domain/defense_thorns.gd.uid",
+      "bytes": 20,
+      "sha256": "ce2eeada938b6659d1209dd1a4c0f008b747532274734db598641d007a6737ab"
+    },
+    {
+      "path": "src/features/defense/domain/defense_traits.gd",
+      "bytes": 1312,
+      "sha256": "2ec7a335df4f125cc5141c1ee9405dcb36a5302d142b06cd2c3f926a99f78164"
+    },
+    {
+      "path": "src/features/defense/domain/defense_traits.gd.uid",
+      "bytes": 20,
+      "sha256": "0c2eddf67bc9d77cd7dc4aa9ab5b84c02d39baf291ae880f756a427268605353"
+    },
+    {
+      "path": "src/features/defense/domain/defense_units.gd",
+      "bytes": 8458,
+      "sha256": "cc7631eccd4c41d399ea259e3db3ecd9cb2247d5f03a0447d072ad27a3911947"
+    },
+    {
+      "path": "src/features/defense/domain/defense_units.gd.uid",
+      "bytes": 20,
+      "sha256": "052160e118cea8b6a64aa83946ead4e23c7b7c9878b1f7bf480a17f998db62ef"
+    },
+    {
+      "path": "src/features/defense/domain/defense_upgrades.gd",
+      "bytes": 6455,
+      "sha256": "227556f8a0eb3423b32aa065684d4331caa11ba405f669afb5f01a43fcb887e5"
+    },
+    {
+      "path": "src/features/defense/domain/defense_upgrades.gd.uid",
+      "bytes": 19,
+      "sha256": "417af58c131a7d583fdc98edcda8cf34b127687c9c1933ae51295a1b7651bf4c"
+    },
+    {
+      "path": "src/features/defense/presentation/battle_blur.gdshader",
+      "bytes": 198,
+      "sha256": "dd3ac35021354c1341dd045e1713987458adf6b7dfab24b52dd38941392d963c"
+    },
+    {
+      "path": "src/features/defense/presentation/battle_blur.gdshader.uid",
+      "bytes": 20,
+      "sha256": "de1cc4341b03804465678f3a46eee8c1a00b05b3c7efdd0dedc68e57b66e020a"
+    },
+    {
+      "path": "src/features/defense/presentation/choice_beam.gdshader",
+      "bytes": 334,
+      "sha256": "1e399ee5b3b3d1c66a00617a32753bdd0a495c2c110d10e2fe3bc26429c4c68e"
+    },
+    {
+      "path": "src/features/defense/presentation/choice_beam.gdshader.uid",
+      "bytes": 20,
+      "sha256": "e5a55f0127ccf936135e185bffc31f004ffb939120d203b944a12b19deea5f45"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_actor_outline.gd",
+      "bytes": 1867,
+      "sha256": "93d519f37d80e86f67a90b529c67ee216130891b5f96d58528ef4b888896964e"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_actor_outline.gd.uid",
+      "bytes": 20,
+      "sha256": "d475e1dd568e68ced45a15593ae9cab0eaa651ec4a967ce6069028413991d6f1"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_atlas.gd",
+      "bytes": 4116,
+      "sha256": "e31ff33dcb0eebc3e48bc8d04fbfd7fdf7984d46e44da1b8b23aaf1fc705ebd9"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_atlas.gd.uid",
+      "bytes": 19,
+      "sha256": "0eb2fdf33db325461a51c48c067ef25eebffefc58d1d0af3bcedc3c54c22cafc"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_atlas_sprite.gd",
+      "bytes": 487,
+      "sha256": "329d1db88d35f31289fce763aebc7c051f27cbd42d9116f4dee4b2ac3d28b78c"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_atlas_sprite.gd.uid",
+      "bytes": 20,
+      "sha256": "dfd0ced012a5b2ad46e8f6e33d203df778b59744455e8c72f4d97e1321a9e78c"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_audio.gd",
+      "bytes": 1438,
+      "sha256": "e468f3fb5ba0fdce7eb6d16da22f419ffe24d194ff1e850346be8c6dba6f7731"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_audio.gd.uid",
+      "bytes": 20,
+      "sha256": "a3cc7ddb2dbdf1ef2dc09fb427475a267cfc1b8e7c4dd77a6ba1715fee5a0f05"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_battle_panels.gd",
+      "bytes": 9807,
+      "sha256": "b60be2c733f568b050a804deb2d72f31dae91b7b62f6c5d63f7cf06e8e4fb04c"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_battle_panels.gd.uid",
+      "bytes": 20,
+      "sha256": "34f87a435acbb1ff25f9ae22bf0cce15645cd50705d550dfd1629551c889fde0"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_chest_visual.gd",
+      "bytes": 3781,
+      "sha256": "ed30506ee2026ca56a14598a09db646f9541d931e2b578bdea61302ea611031f"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_chest_visual.gd.uid",
+      "bytes": 20,
+      "sha256": "a8443b402695331d4f10f5d1e4f7b9f5b0adc1d9752a8f627f1346c4b409c689"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_card.gd",
+      "bytes": 4547,
+      "sha256": "e5d857d5e117c5d3f0d2196f05e787ac57b40331ec71411b3dc4d429ee482e12"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_card.gd.uid",
+      "bytes": 20,
+      "sha256": "be43745c3d023e508208edf8e3c13794a15cf1f0176875342e0c1778bc3c1a7b"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_panel.gd",
+      "bytes": 4378,
+      "sha256": "e2f9d2610ef1a4d0dd70cc4dca75da7065014b317058e53dcf4a2cc04cdd19b1"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_panel.gd.uid",
+      "bytes": 20,
+      "sha256": "e58dfbb17c5c5373608c05a413f4cac7f4bd8a5df407240e21278c7597095881"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_refresh.gd",
+      "bytes": 493,
+      "sha256": "3d4e17f7628170d0a29b139ed6f5733a490c6fbcc82b48111d6a60b5e7a24563"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_refresh.gd.uid",
+      "bytes": 20,
+      "sha256": "6e8c6d7133730c68be33eead838b2a33cd029a08dbe37435d109baa7927e098e"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_skill_button.gd",
+      "bytes": 254,
+      "sha256": "2bb76dc6c980e502a3ef25f611ba78824a3d11a7106c78d2b4d7de1613134cd4"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_choice_skill_button.gd.uid",
+      "bytes": 19,
+      "sha256": "e5c2609a2c5f56f4f7143a0bc567e208005634e3d09a8db977e9a476b79003b9"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_contribution_row.gd",
+      "bytes": 477,
+      "sha256": "47c8c603b64e66e2c7265f9b53e48db18e27fc64895944188b9e20af08094c5b"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_contribution_row.gd.uid",
+      "bytes": 20,
+      "sha256": "9aacccd5900955ecf1c68818886a6e718a38be1257e68112ebb39d6013ef9bc5"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_effect_colors.gd",
+      "bytes": 840,
+      "sha256": "8e0264bdd1fcf07efb6ecabba544a194839660738fb09504d72fbbbc1e0a940f"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_effect_colors.gd.uid",
+      "bytes": 20,
+      "sha256": "6496be455d0d89e273e02506c5dfb6d06411e2f7418ca3e91cfa38001fc3c44d"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_field.gd",
+      "bytes": 8154,
+      "sha256": "a25bd5f114642190aa0c573e632ee6856d518b8d0718f4a071b4a464b7f9a202"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_field.gd.uid",
+      "bytes": 19,
+      "sha256": "b6167ce165d3cd00bd8ec8b1307fdc315be3d7cfa5322d5ec386229440627f89"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_fire_visual.gd",
+      "bytes": 2015,
+      "sha256": "586dabb0249949032e25a2bacbbc4989f83c088512f33e1d4c1dc1cfdc89a140"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_fire_visual.gd.uid",
+      "bytes": 20,
+      "sha256": "dc0f72a5f1a9ea3c789f27a0214aaff7f3813530a7af63d4161773d0be98ec48"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_home.gd",
+      "bytes": 4953,
+      "sha256": "aa7845f8cd3e59cca3c7c9ed1f334cbbb3ffa6e3a8a7a6ea2bff882bb0c32945"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_home.gd.uid",
+      "bytes": 20,
+      "sha256": "acaf184eecf4820eb9a55cf5ef3f5a803ceba858294f5da512707e36d276e90b"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_home_boss.gd",
+      "bytes": 1030,
+      "sha256": "097643c4f07f821146bd01689913d70fce7942b7b684ff5c022ba5b6bb39cb9d"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_home_boss.gd.uid",
+      "bytes": 20,
+      "sha256": "85a35dae2b84ba21ce42a84e337973e32ab04680ea5eec7506b6cf74203dc5e9"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_hud.gd",
+      "bytes": 1556,
+      "sha256": "0f07c6ed45741398e731e1b7764282943231f2bcfaaedd99d71309940c3a21b2"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_hud.gd.uid",
+      "bytes": 19,
+      "sha256": "9dccec431dd84ea1821b0e2ee49a096e0bc25691fb2f95b53384264546643c61"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_monster_portrait.gd",
+      "bytes": 837,
+      "sha256": "189900b0a20490cba4b0e12b565c2ef612ac67e3d6112a7fb762d224e777cfe3"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_monster_portrait.gd.uid",
+      "bytes": 20,
+      "sha256": "a85f6ee74a085b3811cfc92114492734d7f7b13ab86a2489b005c50f85557898"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_monster_row.gd",
+      "bytes": 572,
+      "sha256": "7238c4c143ac7703c8ea3e14715c1e3cbf76b1bcaceb7991945a60e80ffe84a2"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_monster_row.gd.uid",
+      "bytes": 19,
+      "sha256": "35c1414441948441d3d0f3e01acff7f4a82ea6314f693903acb4178d35fc2eda"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_panel_art.gd",
+      "bytes": 117,
+      "sha256": "ddd2b26cf180a0026f791ed1ef792d4478f4d8c1e9f72a34a0d93a87e2bfc619"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_panel_art.gd.uid",
+      "bytes": 20,
+      "sha256": "e25cd23b9ecde5ae38e3b84ebf7dc9ce35a04f559abd83b3c80f9ee6531bc0e4"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_portrait.gd",
+      "bytes": 549,
+      "sha256": "f7ba4cf2f39fb4169e9b296eb0f9c0645a6aa39475dc69b46ff548a68b757f98"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_portrait.gd.uid",
+      "bytes": 20,
+      "sha256": "7a521b30da0a75a9a0cdcf9b4160834f155cd7d2a215e58b5e8e4b352eecf9cb"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_card.gd",
+      "bytes": 2267,
+      "sha256": "c2fd0065dd9dde11e773e1af64eb8fd072907b43ed4cc2a3cc126aa660df40be"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_card.gd.uid",
+      "bytes": 19,
+      "sha256": "010296df738a354d34b862beea0927113374bbcaa2521b2ec7c41412d1495289"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_item.gd",
+      "bytes": 771,
+      "sha256": "b79130d494813616702a4753156e2601616c3b246ce3fa2c235b08f127ca0718"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_item.gd.uid",
+      "bytes": 20,
+      "sha256": "62684dd0acc1329d399cd389feb79b152325bb1c4dc6fe598ff43766aff60392"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_panel.gd",
+      "bytes": 4221,
+      "sha256": "f74f10b3944341a23c836bc20029c81de72f269092c663d44c11c504dea41e31"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_panel.gd.uid",
+      "bytes": 19,
+      "sha256": "058fcfafbfc8dd37c26be1907602397f039e3156ad0bc7816774d4a150cf98f7"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_progress.gd",
+      "bytes": 1151,
+      "sha256": "8565f38ba43e9394791325c73a4bf46a3dc42703b24928c83ea98e9cb2a23f73"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_result_progress.gd.uid",
+      "bytes": 20,
+      "sha256": "c7e309bb356d70b8a6997007e2b3a79fb140a13b5e037a3c5b273ef23870f427"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_revive_visual.gd",
+      "bytes": 443,
+      "sha256": "a8e0fde83432499067e2e6555825234d40913f7595d19105a8eaa3b45aa7651b"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_revive_visual.gd.uid",
+      "bytes": 19,
+      "sha256": "a539cad8809479c2319e045cd9149415ff27c92eee919a9b2e26de53269d2f4e"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_roster_card.gd",
+      "bytes": 2733,
+      "sha256": "25dc03cfed33d416aa28f5e74e5d30b73f1f76932b333acc9faaf585dee6bfcb"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_roster_card.gd.uid",
+      "bytes": 20,
+      "sha256": "26d14b6b7226bc161f6bb8bb9bd12c354070d73a037218ebd10594423fa96efc"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_skill_tooltip.gd",
+      "bytes": 4186,
+      "sha256": "672e0498527c313dc68e1c831184e7ec8df073309218d9f444aa2e983a67928b"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_skill_tooltip.gd.uid",
+      "bytes": 20,
+      "sha256": "b0cf037c282cca4e3ee66d00c78fcf960d16183a2aef77c2c9e6d506eda9c539"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_view.gd",
+      "bytes": 8435,
+      "sha256": "299a439b9430b56d279539caa58facd9ee51553e1395bc26932aab7666916e66"
+    },
+    {
+      "path": "src/features/defense/presentation/defense_view.gd.uid",
+      "bytes": 20,
+      "sha256": "8d9c8e17567ad0d7631eda09e2093bd03cd0f8a62671ad44e86073c42f8aa604"
+    },
+    {
+      "path": "src/features/defense/presentation/home_light.gdshader",
+      "bytes": 256,
+      "sha256": "48aee3adc5c7ee4ca0979ff7b658c9b27151ad9e28c12c387f99daa5074e7936"
+    },
+    {
+      "path": "src/features/defense/presentation/home_light.gdshader.uid",
+      "bytes": 20,
+      "sha256": "a8283a71cf4250b4164de8e16cfa80b910d77d71efe9f254032f07e5ef4dbdc0"
+    },
+    {
+      "path": "src/features/defense/presentation/result_blur.gdshader",
+      "bytes": 218,
+      "sha256": "02dee6c78d2c0a5cf78a10e7f107d45e311b18011af4c803357fa2934de1d000"
+    },
+    {
+      "path": "src/features/defense/presentation/result_blur.gdshader.uid",
+      "bytes": 20,
+      "sha256": "9eec9413cf72cfe17147caf7a3ed551c430671ba235e03ab2f5cf0392086c19c"
+    },
+    {
+      "path": "src/features/defense/presentation/revive_light.gdshader",
+      "bytes": 92,
+      "sha256": "9b922719902a25e9580dbec7c63c5709b8e173a8c18ff0d7ce348025e644293c"
+    },
+    {
+      "path": "src/features/defense/presentation/revive_light.gdshader.uid",
+      "bytes": 20,
+      "sha256": "d02556266f5666129f4aba8fcb145a725662bfddcaec9ae7d966adfa698b8b95"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/clamp_delta_hook.gd",
+      "bytes": 234,
+      "sha256": "3a85eb6cc08c195d86ba222a52683488d25f0e2fa1a82d32f9d210a85c8bdb62"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/clamp_delta_hook.gd.uid",
+      "bytes": 20,
+      "sha256": "432f25157b7eed208656326f3343df83a916b1672965af530f00a29bcff3d1d2"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/commands/change_value_command.gd",
+      "bytes": 1273,
+      "sha256": "9b96babd91defb5390368674d8b4395fca66a8f82b663dbbee61241572a262ca"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/commands/change_value_command.gd.uid",
+      "bytes": 19,
+      "sha256": "011e461f6b7245d4485a585e5785475e4346ee9568dd37a3810ecfef6ada70e5"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/increment_action.gd",
+      "bytes": 1186,
+      "sha256": "5c6a141519929817f926148da60bd90f9be9b1908f2abc40fd0e82dbd86a1b35"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/increment_action.gd.uid",
+      "bytes": 19,
+      "sha256": "899da77dfce3717cbcb2c7724dbaa66ff7d3d20e7d26baa1b858ffe737fa9894"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_context.gd",
+      "bytes": 391,
+      "sha256": "94867553dde902306132bc759581503a33b3edcebbba0f97f7f20b1f44fd1660"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_context.gd.uid",
+      "bytes": 19,
+      "sha256": "135f933194ec8f89aa46eeeaa1bd78fad00d8a00845e9d84938ab833cf4fccaf"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_feature.gd",
+      "bytes": 1674,
+      "sha256": "b24809bfa124b10f59d4af2831cbe0fe39e2896558fea74e3f7c6616d2644d4c"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_feature.gd.uid",
+      "bytes": 20,
+      "sha256": "27bd883ca6b87e3f80687df43548e76478e670757098ff27e43e5f09f67d6784"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_intent.gd",
+      "bytes": 275,
+      "sha256": "818f7db3bb0b92bbae7d99d20fd9b31503487a0a6f04730d28bb1ac8f4955c57"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_intent.gd.uid",
+      "bytes": 20,
+      "sha256": "f521816f34f7cc7b57a2354b06aaf2a8b416ff19f9e886583543a5b5b40bcdfc"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_state.gd",
+      "bytes": 923,
+      "sha256": "862abf242830a276c259be2f79a5078025697e967c4691abfa02f114027c3b26"
+    },
+    {
+      "path": "src/features/sample_interaction/domain/sample_state.gd.uid",
+      "bytes": 20,
+      "sha256": "15cf832f438f0fef78ddce136dc80de1b4b6a337b5e4c876ce9357b0540f3cc2"
+    },
+    {
+      "path": "src/features/sample_interaction/presentation/main_view.gd",
+      "bytes": 2806,
+      "sha256": "0eaf20801bc791771cf1835e4281a0e99a4841b17362875b484e759b2129a03a"
+    },
+    {
+      "path": "src/features/sample_interaction/presentation/main_view.gd.uid",
+      "bytes": 20,
+      "sha256": "3ae1dc316f928f4654667bd5871226c028953b6613721f78c3c864accef9cca4"
+    },
+    {
+      "path": "src/foundation/deterministic_rng.gd",
+      "bytes": 1499,
+      "sha256": "0fcf94b818ccdc8cc73cfc906afc41c64b6c8329a7a668734d38235be6732862"
+    },
+    {
+      "path": "src/foundation/deterministic_rng.gd.uid",
+      "bytes": 20,
+      "sha256": "35f5958e99347eeeb5c8ea78f39136f9655a65577782b6c521b249932b8fac51"
+    },
+    {
+      "path": "src/foundation/rng_set.gd",
+      "bytes": 1615,
+      "sha256": "f9d15413255a9fe58b3512a46d2c9d9825a7fe5699b64df2ceec2edaec5490a6"
+    },
+    {
+      "path": "src/foundation/rng_set.gd.uid",
+      "bytes": 20,
+      "sha256": "780e8eb719939ad52c3113cdd0fad972c18b0cb7d7b76d37598b2830b13321a1"
+    },
+    {
+      "path": "src/foundation/save_codec.gd",
+      "bytes": 2060,
+      "sha256": "fe9b5ba0467d3a504e4f3355d5c473297fd8135442393480e2160530d8a0e07b"
+    },
+    {
+      "path": "src/foundation/save_codec.gd.uid",
+      "bytes": 20,
+      "sha256": "f40600565e8992b53173ea9cfb4b32f568d236f2101fdcbba42a6b02d5f82a61"
+    },
+    {
+      "path": "src/platform/save_store.gd",
+      "bytes": 1745,
+      "sha256": "147f7013d47bd28a44f3aca2fd427679705705fb5fe0836d41844c48e882a66a"
+    },
+    {
+      "path": "src/platform/save_store.gd.uid",
+      "bytes": 20,
+      "sha256": "a0dd5929fa8fd223dd1b137fb704978e19d22a438d3c1719ff23babc912f631f"
+    },
+    {
+      "path": "src/resources/resource_catalog.gd",
+      "bytes": 1230,
+      "sha256": "0bed9c3696d4e292d504cff078aa704d0fdeed039d77815f452ccdf0e3b0e6c5"
+    },
+    {
+      "path": "src/resources/resource_catalog.gd.uid",
+      "bytes": 20,
+      "sha256": "a7fe55e60fc6986f17c824f7f224193ceff820dc69960f27cf4cdc406b83c387"
+    },
+    {
+      "path": "src/runtime/ability/ability_action_node_configuration.gd",
+      "bytes": 264,
+      "sha256": "f97d30b7753eed689f3cc0a6b762e8c8804a1ea1da94f06cd38688467fb775ef"
+    },
+    {
+      "path": "src/runtime/ability/ability_action_node_configuration.gd.uid",
+      "bytes": 19,
+      "sha256": "ffbd05b2c94f34ad1b278cfabdb66fd733fd547ae93d32c73cb06ff776ec6e4c"
+    },
+    {
+      "path": "src/runtime/ability/ability_action_registry.gd",
+      "bytes": 789,
+      "sha256": "33f41c6bd0e46926bfd87284064996d503b04d40c6e505a6ccd088408732a064"
+    },
+    {
+      "path": "src/runtime/ability/ability_action_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "0d4d9e5ff2df2a78b7bf38f684d456fc312f47ad53b0d3063031b11d55544f2a"
+    },
+    {
+      "path": "src/runtime/ability/ability_cooldown_store.gd",
+      "bytes": 684,
+      "sha256": "7378f1e51b6348d0706a96ba68a1b355a25c02bca6a0f662f13e3cb87f7d5542"
+    },
+    {
+      "path": "src/runtime/ability/ability_cooldown_store.gd.uid",
+      "bytes": 20,
+      "sha256": "f33165a70791462a3e25dd364bffe436cf8eca936480df185d6375b9c16f54c8"
+    },
+    {
+      "path": "src/runtime/ability/ability_debug_registry.gd",
+      "bytes": 3099,
+      "sha256": "629d128d23b7b94c8faefcf4afa08e6cd53434fde80dba587be2472d1d9efe86"
+    },
+    {
+      "path": "src/runtime/ability/ability_debug_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "368a5761c9c73cd5e1fd476c60313be78f948cdcc145011249a1cc9798430f3b"
+    },
+    {
+      "path": "src/runtime/ability/ability_definition.gd",
+      "bytes": 830,
+      "sha256": "0b35d6c4cd4e2911dd442031e118003c71d847d52a1b38a58f841f2419bff757"
+    },
+    {
+      "path": "src/runtime/ability/ability_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "60b317cdbdbe814a976088461c91da2d4b19e82ce685d45e2e12b1319265ff9f"
+    },
+    {
+      "path": "src/runtime/ability/ability_execution_plan.gd",
+      "bytes": 4925,
+      "sha256": "79e5afa4d7414094ae39f8e2a48c30d62a6bc62da1d5c4eb34f0f3d382d5250f"
+    },
+    {
+      "path": "src/runtime/ability/ability_execution_plan.gd.uid",
+      "bytes": 19,
+      "sha256": "fe5f60fdae5810499200c921c1f070bd2195fc5a5345a8f1b3a2d46897147215"
+    },
+    {
+      "path": "src/runtime/ability/ability_execution_snapshot.gd",
+      "bytes": 1466,
+      "sha256": "f8ec23167f1b206a3cb8316462132590c24c08f0b6c51492dc852f1446f0001a"
+    },
+    {
+      "path": "src/runtime/ability/ability_execution_snapshot.gd.uid",
+      "bytes": 19,
+      "sha256": "907cb548fd41f2835c54ed9a8791acab601143ed509839683bfc4a8345f8a5b6"
+    },
+    {
+      "path": "src/runtime/ability/ability_extension_manifest.gd",
+      "bytes": 1103,
+      "sha256": "7430be640047fdfd26e1adc7e9b9209ccb33a4d3871d1f84a423567e6c4cdbc8"
+    },
+    {
+      "path": "src/runtime/ability/ability_extension_manifest.gd.uid",
+      "bytes": 20,
+      "sha256": "8b558411580183fe25826432ca92b41ac9d81d34c14123b02b02747aed5dd3c2"
+    },
+    {
+      "path": "src/runtime/ability/ability_framework_registry.gd",
+      "bytes": 1955,
+      "sha256": "40c88ba80cd066c3a2c27bf965df1ddd5ee4957c21a553fe60fe50e23e576b4c"
+    },
+    {
+      "path": "src/runtime/ability/ability_framework_registry.gd.uid",
+      "bytes": 19,
+      "sha256": "71efe72a37267b2bc0ab16e1de9c9892091bb2f135dfcad45d085d583bd87aee"
+    },
+    {
+      "path": "src/runtime/ability/ability_grant_store.gd",
+      "bytes": 1509,
+      "sha256": "9342cdc153e8a40dccc23285789a48654c512cf129a2d0a0529b7b031ef318d1"
+    },
+    {
+      "path": "src/runtime/ability/ability_grant_store.gd.uid",
+      "bytes": 20,
+      "sha256": "0d46f02038dfaf6ca6597b52bc2914e024b327bf312e34aaedfc29726daf45e0"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_compile_result.gd",
+      "bytes": 831,
+      "sha256": "31b7021ab74ea59835b9c5188ef89065b43c2889c6400e233efe8cccaf3d66a0"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_compile_result.gd.uid",
+      "bytes": 20,
+      "sha256": "36c3cfe72b16b98beb29fe77f6dcefb72f5eeccb132ef6fab65ca285f5b6f87b"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_compiler.gd",
+      "bytes": 9555,
+      "sha256": "50d9be113e5260c084844f0efcf8cad78504f57a141123d7e061884248593eea"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_compiler.gd.uid",
+      "bytes": 19,
+      "sha256": "7a5d92778bb46537e5866a8258958e04a2f4cb338608f7ceca29b3dfe322f419"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_connection_definition.gd",
+      "bytes": 527,
+      "sha256": "18d2378b8d8d1948d61a2d624e2323a5f99125971af97f21ea36144ea3e0f293"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_connection_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "7f8602fe8ec9f3c390cc69c493aab1169222fd3055d43d2e3e3e7c0e6d67ca7e"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_connection_policy.gd",
+      "bytes": 4085,
+      "sha256": "2b4e3a033c18828c901059e3411f50a066ef614d8b77b089fb2c80b7f0f605b2"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_connection_policy.gd.uid",
+      "bytes": 19,
+      "sha256": "bef8f173a3ad7ff3c7ca77d93561b37831dfc1708dc2edd4087bc74a309779d5"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_connection_resource.gd",
+      "bytes": 799,
+      "sha256": "8ed021495f3e41948d4ad665cc84fe166c7659ebc391a465bfbb31419bcfa9bd"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_connection_resource.gd.uid",
+      "bytes": 20,
+      "sha256": "c7193279b03da9b9ba07bf1e49b9f4be27d9ae65973c7707a41fa026ca074283"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_cycle_policy.gd",
+      "bytes": 1692,
+      "sha256": "0ddadc6d662675a6c33b4e7de16812ec5980166e7de49a2bad6e92f4c9500dd0"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_cycle_policy.gd.uid",
+      "bytes": 20,
+      "sha256": "d122d5ef59e9532a7757628476a1b3ea4ebd55875519d998cd8ad3928267c86a"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_definition.gd",
+      "bytes": 640,
+      "sha256": "0e7a93e82814c81520291df02a8c2b0f9776868a680dd059fe77235665bc6876"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "caf4b4e2cc108347e669014835ffb6d2231c945a3ae9962c2186233375495940"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_node_definition.gd",
+      "bytes": 378,
+      "sha256": "13a3b9b59f129ae39ddca33cf97ea9a4071c3a00e272921236a0ba12ae7684ee"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_node_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "e59c798a844d28e7b9e718415808c82b003f459148f8860939fb7ca38df81b9f"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_node_resource.gd",
+      "bytes": 960,
+      "sha256": "6d9a50eea630d91fa4b7c4b5fa9c6150ea1d76eed891af24dd1e525a79aa08f9"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_node_resource.gd.uid",
+      "bytes": 19,
+      "sha256": "6c54ef88ffb56ac3f4f236b0d23a76f64f30ff08714a28640204b6b241832a18"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_resource.gd",
+      "bytes": 8395,
+      "sha256": "9e79fa1e9517990266b1f874e7c568aee0c5654663d566b2736a632ce20fb63e"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_resource.gd.uid",
+      "bytes": 20,
+      "sha256": "6336beeef6b8c14b1f937318d40f280f62e9c12e8b17fdc50f38a1fc8d225cfa"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_subgraph_policy.gd",
+      "bytes": 1076,
+      "sha256": "296c04cfe939f14a6013fd63d98575ebdf41f843efbd23676f26add503f243d1"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_subgraph_policy.gd.uid",
+      "bytes": 20,
+      "sha256": "143ee0209488ee7edc936ddb10592751d3e24c82273d76a83afdd044da36448e"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_variable_definition.gd",
+      "bytes": 942,
+      "sha256": "0d15f66ce75dd54ff89fab321bfa273bbdc1e761009dbf25e186d8fd31088521"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_variable_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "086ab88fd7d71101cff66aecd128849a489c7d47034ae303f432a9049cb5a614"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_variable_policy.gd",
+      "bytes": 749,
+      "sha256": "142e1932c730a18dcf5fbd7f4b4cffb608193b6da65adc45b008bbdd9969b2b8"
+    },
+    {
+      "path": "src/runtime/ability/ability_graph_variable_policy.gd.uid",
+      "bytes": 20,
+      "sha256": "df93baa1b4cdef70016fd3dca0073a9e53c2c255056c235ed5fc052e96db058d"
+    },
+    {
+      "path": "src/runtime/ability/ability_node_configuration.gd",
+      "bytes": 202,
+      "sha256": "ff6d30535c9fc2e8c8e57f4389c3e8f711b547497f8dadd6759399cf7f0c76cd"
+    },
+    {
+      "path": "src/runtime/ability/ability_node_configuration.gd.uid",
+      "bytes": 20,
+      "sha256": "07382f93210bca085ec42a511fe1c11860e18bb371c16fb04b691a04d82feccf"
+    },
+    {
+      "path": "src/runtime/ability/ability_node_descriptor.gd",
+      "bytes": 6856,
+      "sha256": "714f28d5ce210dc57044c2c109b2ee1525613f876bea3c0f9e3e9926c849f61e"
+    },
+    {
+      "path": "src/runtime/ability/ability_node_descriptor.gd.uid",
+      "bytes": 20,
+      "sha256": "b682a4a180e820b03e2cad18a3ee338886730bb15c975e5dcb668c5907f5c87f"
+    },
+    {
+      "path": "src/runtime/ability/ability_node_registry.gd",
+      "bytes": 3951,
+      "sha256": "60924e01d54b70dd8c6a2af0c0c29b33b5a51d9b2c017f1f1bb44b94a7504db8"
+    },
+    {
+      "path": "src/runtime/ability/ability_node_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "8f6c3539c2a5ebe39275cd70942a177df324db166c37d58990589691b9d1260c"
+    },
+    {
+      "path": "src/runtime/ability/ability_pin_descriptor.gd",
+      "bytes": 2424,
+      "sha256": "e2ea5d987e8f8d7c20fe606a8080ca059ccbfeb7e21ffbd8aa68f93e1b7ce2f2"
+    },
+    {
+      "path": "src/runtime/ability/ability_pin_descriptor.gd.uid",
+      "bytes": 19,
+      "sha256": "9e4d52dbd39b28ed4fb88213f49b235a51d7f5e3533ac68158fdc110488a1103"
+    },
+    {
+      "path": "src/runtime/ability/ability_plan_catalog.gd",
+      "bytes": 1336,
+      "sha256": "783d4c15cb46ddba019a9a2478afb4e66e8f6294de353de7a2a7bd145ee4e747"
+    },
+    {
+      "path": "src/runtime/ability/ability_plan_catalog.gd.uid",
+      "bytes": 19,
+      "sha256": "d00aaaa1b17fac23006e26da523589c0515436be52156731ac356ab1c43390db"
+    },
+    {
+      "path": "src/runtime/ability/ability_plan_operation.gd",
+      "bytes": 557,
+      "sha256": "c6e21fc6b111b19914ea74605681ab65335e9b06ba3ff8e79b284aeef4336761"
+    },
+    {
+      "path": "src/runtime/ability/ability_plan_operation.gd.uid",
+      "bytes": 19,
+      "sha256": "88824c61af6676c20b48b892ab846308ae33989e224e7fb4f02848d8187e40a5"
+    },
+    {
+      "path": "src/runtime/ability/ability_run.gd",
+      "bytes": 10728,
+      "sha256": "2675c2174ad35ae33fa1e1d763615f212d7e73e1ac8ba460b0ead2c5bd2b5810"
+    },
+    {
+      "path": "src/runtime/ability/ability_run.gd.uid",
+      "bytes": 20,
+      "sha256": "9e3547f176331d81cc9a08d3b86b4c8881905c1f372b3d7be494c26857dd8ec6"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_data_ops.gd",
+      "bytes": 2376,
+      "sha256": "9895bd1b3fd2782b7f929492cab5ea237b83f40c4d2663e2520d70b0cef79b1b"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_data_ops.gd.uid",
+      "bytes": 20,
+      "sha256": "d3be1177fbd6d7895888651cbde7e42e88fff0fd704365ef1a3ed75b2efc4454"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_scope_ops.gd",
+      "bytes": 992,
+      "sha256": "0496b32b5826c419def8aa8fadd85451f566900ac5bed019b704af0bab585c4e"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_scope_ops.gd.uid",
+      "bytes": 20,
+      "sha256": "0b9334ed0ff94bbf4593960b351d0bb93c6b3fec6cff93be757ad072b7629f38"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_snapshot_codec.gd",
+      "bytes": 2651,
+      "sha256": "b2351aa31c703172aa84c81549a897eed5128c9868214d91cac4e18c223f272f"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_snapshot_codec.gd.uid",
+      "bytes": 19,
+      "sha256": "6c4b3287413dabccede8acd64e9771deb5febbe30a25d84109a38ea2118ce03c"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_subgraph_ops.gd",
+      "bytes": 4299,
+      "sha256": "f21062a4fe182ebaec94d6dc82a3e15c50a43ed955dc8731b769f70da2b2f861"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_subgraph_ops.gd.uid",
+      "bytes": 20,
+      "sha256": "db95126c51b8765c2270d883c6943a3bcdeac72c3326873b98a108f1d2f6339c"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_trace_ops.gd",
+      "bytes": 538,
+      "sha256": "757c50fec171cc33119c50a31caadba9b212139795d840448d3862047fabfebb"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_trace_ops.gd.uid",
+      "bytes": 20,
+      "sha256": "0e59f9b64eecabf0273eed245db212efe265255f9d41d117593f2ebc7859985f"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_wait_ops.gd",
+      "bytes": 2428,
+      "sha256": "ae03f73cde3f4e2cc70d62e76c838f09dfa7f174c6776d25cf55d6316ce12a14"
+    },
+    {
+      "path": "src/runtime/ability/ability_run_wait_ops.gd.uid",
+      "bytes": 20,
+      "sha256": "d090d140bd81b55778039dbb43db26fdab912d83e4030ce4dbbb73fc1a26420d"
+    },
+    {
+      "path": "src/runtime/ability/ability_service.gd",
+      "bytes": 10534,
+      "sha256": "cfe962d864125214675fb60276b71433f92791db483f703c89b0b33b80e4c028"
+    },
+    {
+      "path": "src/runtime/ability/ability_service.gd.uid",
+      "bytes": 19,
+      "sha256": "78145dcccc2f1bb33987afca6472c1bf3f3eb2e94c5cf64e012efd279b234824"
+    },
+    {
+      "path": "src/runtime/ability/ability_service_snapshot_codec.gd",
+      "bytes": 2576,
+      "sha256": "7d76619d70acbd9c5bcf21a8db5eca0bddf2848edb13713945e21ac9a9217383"
+    },
+    {
+      "path": "src/runtime/ability/ability_service_snapshot_codec.gd.uid",
+      "bytes": 20,
+      "sha256": "63c256bfe87d032ce3a6d408498a261c4794e52237797b71c393741800ae2b92"
+    },
+    {
+      "path": "src/runtime/ability/ability_standard_node_catalog.gd",
+      "bytes": 9826,
+      "sha256": "e41c72cb65ab88fdd8c838c69fb35ad42d67a268358697b37a587645cf3cbb8d"
+    },
+    {
+      "path": "src/runtime/ability/ability_standard_node_catalog.gd.uid",
+      "bytes": 20,
+      "sha256": "43c42448bd4f65d733a06dab2f0d7a0120b67cc1f5b4b87c9c1a304d707e4898"
+    },
+    {
+      "path": "src/runtime/ability/ability_subgraph_catalog.gd",
+      "bytes": 1192,
+      "sha256": "855e7246a9c3449bb17a4287005d1b5369ee17ae07421a47f3f2da1998d56501"
+    },
+    {
+      "path": "src/runtime/ability/ability_subgraph_catalog.gd.uid",
+      "bytes": 20,
+      "sha256": "2bde10928f9e1e09922fb04b2e620590325c5df052ff463c47846a9b29ecf01a"
+    },
+    {
+      "path": "src/runtime/ability/ability_subgraph_reference.gd",
+      "bytes": 963,
+      "sha256": "565c58164eddfdb8b31c224a825695a3a4399b9b4c91881de43846060f32ca11"
+    },
+    {
+      "path": "src/runtime/ability/ability_subgraph_reference.gd.uid",
+      "bytes": 20,
+      "sha256": "2acb3a3d77963cd2a6445b1a223d80b0f53305b62f1afb3d49b2c5a75efbb216"
+    },
+    {
+      "path": "src/runtime/ability/ability_target_action_resolver.gd",
+      "bytes": 1287,
+      "sha256": "9ccf3d2ea4522730b4dbc4d734d613343835c87edbd1667c31793d0a32e9c9c0"
+    },
+    {
+      "path": "src/runtime/ability/ability_target_action_resolver.gd.uid",
+      "bytes": 20,
+      "sha256": "ea8bb6fa8241c316d2812185d76fb1fd43f0278ace4144d8cbb450c315eb47dd"
+    },
+    {
+      "path": "src/runtime/action_executor.gd",
+      "bytes": 2474,
+      "sha256": "ffd33fe7201d4f0602263c604d74b0ca4d273dfdb28425dc4b972c15cd92bdb6"
+    },
+    {
+      "path": "src/runtime/action_executor.gd.uid",
+      "bytes": 20,
+      "sha256": "1859f92e65a604bb720e08747bbe4d68c4091694ed6db3d6e42547d3b98c0f5a"
+    },
+    {
+      "path": "src/runtime/action_result.gd",
+      "bytes": 450,
+      "sha256": "dd1cc46c2b8004d6c286f1e80640cb9846f30ff47a597fd08209176d545d13b7"
+    },
+    {
+      "path": "src/runtime/action_result.gd.uid",
+      "bytes": 20,
+      "sha256": "262055a9bf08e7590abce11c5125c813296d2c7b0cf298791ea82efd85edb445"
+    },
+    {
+      "path": "src/runtime/core/core_attribute_definition.gd",
+      "bytes": 968,
+      "sha256": "a8e65240baaa327fda7c4578b11bc4507a8423068495c448f61451eb7237ae13"
+    },
+    {
+      "path": "src/runtime/core/core_attribute_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "a3717b32b251d1f6edfdc633a6c067ca04628df5c185427174d583d90c122048"
+    },
+    {
+      "path": "src/runtime/core/core_attribute_modifier.gd",
+      "bytes": 480,
+      "sha256": "ef5f02b02528ab6ddc7fd3a99f8cea7bfc80c25c3381498cc69ab60a6616e50e"
+    },
+    {
+      "path": "src/runtime/core/core_attribute_modifier.gd.uid",
+      "bytes": 20,
+      "sha256": "b73d0080adee08405b814de6b3055c9439a194c8165e45d9ef60c2901b1b8a6e"
+    },
+    {
+      "path": "src/runtime/core/core_attribute_store.gd",
+      "bytes": 9021,
+      "sha256": "abf6a89ba4837d8527f352ca2a3c7c9af27ca3114067be01864989c32bc66a51"
+    },
+    {
+      "path": "src/runtime/core/core_attribute_store.gd.uid",
+      "bytes": 20,
+      "sha256": "016b7ae83dce570feabddbd89789bc089ec84cc82d3b167f4ee2e5cf48ad11be"
+    },
+    {
+      "path": "src/runtime/core/core_condition_registry.gd",
+      "bytes": 934,
+      "sha256": "f85bff19b06e05cf05a04e1d3cf6fe8456f10e0be7c44eac124376dac807abf3"
+    },
+    {
+      "path": "src/runtime/core/core_condition_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "05a528267e95eb93b6ce38d70fc1fe885c1657bd541084f0fde0838c1377a1b2"
+    },
+    {
+      "path": "src/runtime/core/core_condition_result.gd",
+      "bytes": 382,
+      "sha256": "cec47bd1435d6d88705215da979f419d35e3dfe6425d4156640ce2146bce72bd"
+    },
+    {
+      "path": "src/runtime/core/core_condition_result.gd.uid",
+      "bytes": 20,
+      "sha256": "d1a35e1ed47675314eff53ff835cac8b07fac4f03d9c86f21277ab766effed3e"
+    },
+    {
+      "path": "src/runtime/core/core_domain_event.gd",
+      "bytes": 879,
+      "sha256": "782fd946df20c1a9e7241678ae9a597505077a22d67c0cd85369b0f242195ad8"
+    },
+    {
+      "path": "src/runtime/core/core_domain_event.gd.uid",
+      "bytes": 19,
+      "sha256": "4914c4c0647bfe28e01e2288147444d9b4f1dd5f6c6aad03352b0794fdd98021"
+    },
+    {
+      "path": "src/runtime/core/core_effect_definition.gd",
+      "bytes": 2053,
+      "sha256": "eeac55adf14fbe907469a6b01031e6f2f856380c0c75263b5af1ed4be9964f5c"
+    },
+    {
+      "path": "src/runtime/core/core_effect_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "1536214d108226425066141367570fa78143d5acedd05a1c141b8ee9efcd9023"
+    },
+    {
+      "path": "src/runtime/core/core_effect_instance.gd",
+      "bytes": 1093,
+      "sha256": "0caef0670b22f52b77aa3c5b4043a02b833d44b9874413555365872a025bd76c"
+    },
+    {
+      "path": "src/runtime/core/core_effect_instance.gd.uid",
+      "bytes": 20,
+      "sha256": "01a56874ea116633bc154ae74e19482214bb656391ef61ef05263058f59e62ee"
+    },
+    {
+      "path": "src/runtime/core/core_effect_store.gd",
+      "bytes": 9265,
+      "sha256": "f90205752ecbe353f06e050924ca6f0c1c30e81e8b496fad40b1a7aa789476ee"
+    },
+    {
+      "path": "src/runtime/core/core_effect_store.gd.uid",
+      "bytes": 20,
+      "sha256": "451bb6133cff678c6a9d559532a150bf522b7ec85da02a08a49e651045cf2614"
+    },
+    {
+      "path": "src/runtime/core/core_entity_instance.gd",
+      "bytes": 2157,
+      "sha256": "f7362c6db8fda8d467a9ec6e870cc18e805ca67359f1717c9061483cd44c47be"
+    },
+    {
+      "path": "src/runtime/core/core_entity_instance.gd.uid",
+      "bytes": 19,
+      "sha256": "b8bfc39c319646608d4a0849aacbf7f84d2850da53574bd2f30b289f3da2fc68"
+    },
+    {
+      "path": "src/runtime/core/core_event_context.gd",
+      "bytes": 598,
+      "sha256": "cee51a2b1702dcb1704eee386b097fe10b4c703187f6413e065cd232830f1087"
+    },
+    {
+      "path": "src/runtime/core/core_event_context.gd.uid",
+      "bytes": 20,
+      "sha256": "0b25a10665a7008053fd86c27075f9fc5e82f14fa008ccd52dd7680158933959"
+    },
+    {
+      "path": "src/runtime/core/core_event_handler_result.gd",
+      "bytes": 1252,
+      "sha256": "ffb3957e2725b8703dd333c7cebd5d971998271127fdc02a633c100a3800c1ef"
+    },
+    {
+      "path": "src/runtime/core/core_event_handler_result.gd.uid",
+      "bytes": 20,
+      "sha256": "2accdbfff489e933b178669a0b5df8c72487800cc23db79abf81e41207cd074c"
+    },
+    {
+      "path": "src/runtime/core/core_event_pipeline.gd",
+      "bytes": 8234,
+      "sha256": "4ccf4e0d4107580d86dd21a10f4d7913e0f2254ed1a34eed0d52bd4d404d2451"
+    },
+    {
+      "path": "src/runtime/core/core_event_pipeline.gd.uid",
+      "bytes": 19,
+      "sha256": "74d0ee0bc067cefbd90c15bbe10db9611699ef59c9b4c0a097d5a1953dd126fd"
+    },
+    {
+      "path": "src/runtime/core/core_event_pipeline_result.gd",
+      "bytes": 883,
+      "sha256": "b55949471efc04e3ea21b9a4ec67fc710c774ec7a7d169c5437166760257f91f"
+    },
+    {
+      "path": "src/runtime/core/core_event_pipeline_result.gd.uid",
+      "bytes": 19,
+      "sha256": "2e1a2c4a4a45874902741afc5b443be3aca45a593d1dafd671cbe2aab5878c9a"
+    },
+    {
+      "path": "src/runtime/core/core_event_request.gd",
+      "bytes": 1131,
+      "sha256": "70ef44fd43fad4e588594b51a8a3ad8cd93313b3d83852a226f45aff701b2612"
+    },
+    {
+      "path": "src/runtime/core/core_event_request.gd.uid",
+      "bytes": 20,
+      "sha256": "875998d8d1437442e7815dcdacc2b5d350d0052973d460cfe4c8d64bd1742c21"
+    },
+    {
+      "path": "src/runtime/core/core_event_trace.gd",
+      "bytes": 1847,
+      "sha256": "f3b53beb8a7d0d28573e4c73e762e913384cdf6274282184e409cac167dd96e6"
+    },
+    {
+      "path": "src/runtime/core/core_event_trace.gd.uid",
+      "bytes": 19,
+      "sha256": "eacf78168c04584818c3394cd7f411338aed47bf7253a5fbb08f4b9e270fe5b7"
+    },
+    {
+      "path": "src/runtime/core/core_event_trace_comparison.gd",
+      "bytes": 1265,
+      "sha256": "545b9e16fa51f35faf58c6e14d178347bb4c8226fa90aa705c470428b94018db"
+    },
+    {
+      "path": "src/runtime/core/core_event_trace_comparison.gd.uid",
+      "bytes": 20,
+      "sha256": "83814c4042c53062821c067055e523fc964cf2b46882be11264df32a25aac836"
+    },
+    {
+      "path": "src/runtime/core/core_execution_context.gd",
+      "bytes": 3105,
+      "sha256": "cfb37684efbe02e49f0d05e2955a8e6a103cd75ee3e2d423bc1530dc91accbda"
+    },
+    {
+      "path": "src/runtime/core/core_execution_context.gd.uid",
+      "bytes": 20,
+      "sha256": "5a1322afb1c82dea605b361ab09df2f59dc31c2a729b91041f032f36e81bc506"
+    },
+    {
+      "path": "src/runtime/core/core_formula_plan.gd",
+      "bytes": 7371,
+      "sha256": "5321ac6558642de3fc0a25ae92f6cda4072f4c7bd8cda98c5e2d27e3e3c9154c"
+    },
+    {
+      "path": "src/runtime/core/core_formula_plan.gd.uid",
+      "bytes": 20,
+      "sha256": "502018d5a53ce746dfde8cd7b98b9a3c7f3f21c6fd5ef1c710e2c9593a9836e1"
+    },
+    {
+      "path": "src/runtime/core/core_formula_registry.gd",
+      "bytes": 902,
+      "sha256": "37cb106f63844133d97026966ac17f4de49378f28bb63be69dfc5215480756bb"
+    },
+    {
+      "path": "src/runtime/core/core_formula_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "ef0a2a90b53e38c69396847933e9cd0c848a95743c798ddf9e28e5acbda59b5c"
+    },
+    {
+      "path": "src/runtime/core/core_formula_result.gd",
+      "bytes": 440,
+      "sha256": "8296c6a7dacd64089ee2e7307c0d2c11cc3c0bb0f41ea037d0186e44dc0105a4"
+    },
+    {
+      "path": "src/runtime/core/core_formula_result.gd.uid",
+      "bytes": 20,
+      "sha256": "43529faa9eb719b1b21935390a17030affc41abe39446d481a5a3efd41d5c30c"
+    },
+    {
+      "path": "src/runtime/core/core_state.gd",
+      "bytes": 2322,
+      "sha256": "3da993562d5445b1a47900de92477938b09bcbfd61c4bef3d14316f152b5e5f3"
+    },
+    {
+      "path": "src/runtime/core/core_state.gd.uid",
+      "bytes": 20,
+      "sha256": "6889f4f0daeda7f6696f6ed2e664a800521a6e0029115b98c018441965d19bc1"
+    },
+    {
+      "path": "src/runtime/core/core_tag_store.gd",
+      "bytes": 2303,
+      "sha256": "ce1c4906f580b56a5be1f09c3754ef874cb03e36465bc4014b7c472d50ddd5dd"
+    },
+    {
+      "path": "src/runtime/core/core_tag_store.gd.uid",
+      "bytes": 19,
+      "sha256": "0f333a26448d8f415cc62fa228f19aac37df58f9e7a068c9850b2ffc1323c87d"
+    },
+    {
+      "path": "src/runtime/core/core_target_query_definition.gd",
+      "bytes": 1100,
+      "sha256": "cf736c7660f4b93eb963970288b0a4f56dbeeb039aea836e042b7f9243619521"
+    },
+    {
+      "path": "src/runtime/core/core_target_query_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "76ca4991d948b763723dfd4dfa3c6f924720fa3896f29f8558f7dcc0987f99bf"
+    },
+    {
+      "path": "src/runtime/core/core_target_resolver_registry.gd",
+      "bytes": 5045,
+      "sha256": "ef807b08d0ddff41894807cb850d43a6421d1b7f7ca6d066b384982b54efe705"
+    },
+    {
+      "path": "src/runtime/core/core_target_resolver_registry.gd.uid",
+      "bytes": 19,
+      "sha256": "66f6fb2a52a437bd6081d7071f90f0b831e899690eedcd3c27555bccbb35c3b4"
+    },
+    {
+      "path": "src/runtime/core/core_target_result.gd",
+      "bytes": 579,
+      "sha256": "e4151afa2382b3c14ae44cd57a6d46c47b2e5dfe1a89d09d71409eadd8d58595"
+    },
+    {
+      "path": "src/runtime/core/core_target_result.gd.uid",
+      "bytes": 20,
+      "sha256": "c7f0e16e33756f32978f64d99d4fcd81fd054c3dd444a0488238e125567f0036"
+    },
+    {
+      "path": "src/runtime/core/core_trigger_definition.gd",
+      "bytes": 1411,
+      "sha256": "382805ec06e66939ea3d602da23d6526c8302048641ce5a83aa83498dca5ca14"
+    },
+    {
+      "path": "src/runtime/core/core_trigger_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "db5a110b54ced5e175fbc386e0d3b24dfa4ef1d7c94b8145b798bfef958478fe"
+    },
+    {
+      "path": "src/runtime/core/core_trigger_handler.gd",
+      "bytes": 2375,
+      "sha256": "a1c4013aff703dfb2ebf284c2f29571355b76c839e13d40403b1ffa7921dd888"
+    },
+    {
+      "path": "src/runtime/core/core_trigger_handler.gd.uid",
+      "bytes": 20,
+      "sha256": "8dec7ca788bf80b0ce499e33d4228182b2ce91bd437aff9bed05813dec012733"
+    },
+    {
+      "path": "src/runtime/core/core_trigger_registry.gd",
+      "bytes": 1018,
+      "sha256": "6caef7eb29833e50610a5705d2189274df7f7080ffc38603c0989193dea1d2c3"
+    },
+    {
+      "path": "src/runtime/core/core_trigger_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "39445da55ad883feec9993a1512532d16113f72e2e264e6b2d205a8e8c19046d"
+    },
+    {
+      "path": "src/runtime/hook_pipeline.gd",
+      "bytes": 1436,
+      "sha256": "6d234dcbfc8d948ef6160827e3216fb99d93e6d3daae238849d83b226ec3fb04"
+    },
+    {
+      "path": "src/runtime/hook_pipeline.gd.uid",
+      "bytes": 20,
+      "sha256": "84fcbe7bdde4929a3211da9bf63a92d4fe32180d5794942b0f41ea5675868976"
+    },
+    {
+      "path": "src/runtime/modules/area/area_module.gd",
+      "bytes": 2371,
+      "sha256": "eeec81301feee6c21fe2592b11158590f7071c838edac21e4c1b2dfcad24ab8b"
+    },
+    {
+      "path": "src/runtime/modules/area/area_module.gd.uid",
+      "bytes": 20,
+      "sha256": "f17eb7dbca52f21a9dc01dabf97800dad6407774208fd89e3e877b9207f1d750"
+    },
+    {
+      "path": "src/runtime/modules/area/area_query_action_resolver.gd",
+      "bytes": 1226,
+      "sha256": "03600082f627f4f0d91264a16e1a6188eb088927f4926c361ef2025bf42588d4"
+    },
+    {
+      "path": "src/runtime/modules/area/area_query_action_resolver.gd.uid",
+      "bytes": 20,
+      "sha256": "e650146bbfee3c367acbe932c8b09040705db2278de3b7ce25ac54a11370905a"
+    },
+    {
+      "path": "src/runtime/modules/buff/buff_action_resolver.gd",
+      "bytes": 1900,
+      "sha256": "2d4bfda4f559a682d16bbf2964273d95a7f963ab31bae495dc4a7ce5047b3947"
+    },
+    {
+      "path": "src/runtime/modules/buff/buff_action_resolver.gd.uid",
+      "bytes": 20,
+      "sha256": "4d1b6f80a0e64af936a1efb3ae05f9458bb5c4fa76404558d4471bdc71596b39"
+    },
+    {
+      "path": "src/runtime/modules/buff/buff_module.gd",
+      "bytes": 2119,
+      "sha256": "a06d89008b39f4fe3a0a472c8209ff9ff81af4603c57a10b0650c9eb56edae1e"
+    },
+    {
+      "path": "src/runtime/modules/buff/buff_module.gd.uid",
+      "bytes": 20,
+      "sha256": "4e7fcaf4f51c745a9e3b8ae70e8a5ff046deccbd9b9a3ffb1ad82c4b956b6b11"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_action_resolver.gd",
+      "bytes": 3417,
+      "sha256": "501f51346330c65813772a93ee08228844c498442f2c245488d5ec485f4f290e"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_action_resolver.gd.uid",
+      "bytes": 19,
+      "sha256": "4048e8bbc00f1b37f9574ef4fc5d50c319d1ee0abe536e061d0d0172ce670514"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_commit_handler.gd",
+      "bytes": 4129,
+      "sha256": "8bdede5f47da15a17c79acee98a23a745dd531c20e4a0074801dd6ccd5fa5421"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_commit_handler.gd.uid",
+      "bytes": 19,
+      "sha256": "0ef5e318e6dd960b7c17ce0c1afa06369d6a119ffc177d3d10a9f8466e6ec11b"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_component.gd",
+      "bytes": 955,
+      "sha256": "5aeeec0c59cae5fe890dfd090a4804ee87ff81c163e99aa92057eb9977aff64f"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_component.gd.uid",
+      "bytes": 19,
+      "sha256": "9b2cd8698556f01bf87f99147c8ad9ec4d38e4f1b40e3bc739d1e95433135fa2"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_module.gd",
+      "bytes": 3742,
+      "sha256": "22299bdda4de6b1db61d77d1d3de7f2989b39b0ae1e94fa462cd3e6dea29f01d"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_module.gd.uid",
+      "bytes": 20,
+      "sha256": "8e9443f74d5f7da8cd448240ff06078e871d940a98a825499c9016c6a1fd72b3"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_outcome.gd",
+      "bytes": 721,
+      "sha256": "5300f279808ab75f0d329be2a2febb3bc7d9435b1083df7f76380e9c897526a3"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_outcome.gd.uid",
+      "bytes": 20,
+      "sha256": "cd2c131fc78c0f5015b29b9127a494b84c2e32c6509ca708790fac7e151eea93"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_spec.gd",
+      "bytes": 2270,
+      "sha256": "88db4ea530c932c302952e3b8919ea76a3db813f26930771a120d13d029056f3"
+    },
+    {
+      "path": "src/runtime/modules/damage/damage_spec.gd.uid",
+      "bytes": 19,
+      "sha256": "95762e465991ebe8d868010db6c5a045810ff2b0cf82b3eb466c6b17e5f5ee12"
+    },
+    {
+      "path": "src/runtime/modules/damage/hit_module.gd",
+      "bytes": 752,
+      "sha256": "db95483d94177d460f76ce3118ae86b7c8b156aedb0d4f1c8cff068a6bdddce4"
+    },
+    {
+      "path": "src/runtime/modules/damage/hit_module.gd.uid",
+      "bytes": 20,
+      "sha256": "a5abe1f31953deca4d5d822d36f26e2dab39565f4b32784fce7b8ed3bde32c7f"
+    },
+    {
+      "path": "src/runtime/modules/damage/hit_result.gd",
+      "bytes": 389,
+      "sha256": "24e6d223faddfc13e35cbc142ce43d109a3b9663a386dade0e3644d976ec5586"
+    },
+    {
+      "path": "src/runtime/modules/damage/hit_result.gd.uid",
+      "bytes": 19,
+      "sha256": "ec1deec024bbc40a021ea05982955beffb67e268ba4d3007841e940e2951f3f2"
+    },
+    {
+      "path": "src/runtime/modules/gameplay_module_catalog.gd",
+      "bytes": 2850,
+      "sha256": "dfec407770368bc1e0551cdb04142f675e517ebd25a6f28f112bf462c1807fef"
+    },
+    {
+      "path": "src/runtime/modules/gameplay_module_catalog.gd.uid",
+      "bytes": 20,
+      "sha256": "cd496bd17661cfcb6d16d102ff1b5a5f117b3edda5c239eec48fe61238a1236c"
+    },
+    {
+      "path": "src/runtime/modules/movement/movement_action_resolver.gd",
+      "bytes": 1551,
+      "sha256": "8373de13aea4db32cd1c308847a14969ec2a0da2785a244c4751d19ba16cd035"
+    },
+    {
+      "path": "src/runtime/modules/movement/movement_action_resolver.gd.uid",
+      "bytes": 20,
+      "sha256": "48585e36eba2fd1754931461dfa3b332bd3389284cad073692a0ed75735af32c"
+    },
+    {
+      "path": "src/runtime/modules/movement/movement_module.gd",
+      "bytes": 2183,
+      "sha256": "eb969e4dac1686eb941e681f45a397e8ff29dd74511f16396c53989e6d0fe1ee"
+    },
+    {
+      "path": "src/runtime/modules/movement/movement_module.gd.uid",
+      "bytes": 19,
+      "sha256": "1ce81d981a258b7ce01edd60f3ff73912f9dff6dbc7da1bc727c715ceb2fe7c4"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_action_resolver.gd",
+      "bytes": 1931,
+      "sha256": "b250daa6fda4a86b18838b662c207d4f8bccd5d28f7e0b41c82b48ed21549e8a"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_action_resolver.gd.uid",
+      "bytes": 20,
+      "sha256": "aa21e4d3faed9324e5e1ee2d41f11537a5acc6c746760f859dcee80c9e626482"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_definition.gd",
+      "bytes": 1420,
+      "sha256": "0d4bf3f4e366b298f47955d30fbe9d6f7e13fe438c08345df7cc0b2a485581f0"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_definition.gd.uid",
+      "bytes": 20,
+      "sha256": "b1eed41b2224eeb9d18b9286b9aa06965bdd280484eb5b146fa356cf2945a613"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_instance.gd",
+      "bytes": 727,
+      "sha256": "2f27589bc0b7250925bf98ea3af674f9c68883f2950f62527df2dfc1ca29daab"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_instance.gd.uid",
+      "bytes": 20,
+      "sha256": "8f91747882f38aafce0d9dda12bb51dd920bbf67f94a4cd2565102664661c26f"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_module.gd",
+      "bytes": 5124,
+      "sha256": "ee04a6c69e9fe05d6e54183286de61049e0901397758247072db29fde302d5aa"
+    },
+    {
+      "path": "src/runtime/modules/projectile/projectile_module.gd.uid",
+      "bytes": 20,
+      "sha256": "dfeeb6d6b353fc88c3f2d79c94dca65e6def119df2e2493754ac21c80548c099"
+    },
+    {
+      "path": "src/runtime/modules/summon/summon_action_resolver.gd",
+      "bytes": 1252,
+      "sha256": "8a21d0f17c9293a5ad3b81a8f6b6057c43f1902e0275722fd27ffe9e9710fe25"
+    },
+    {
+      "path": "src/runtime/modules/summon/summon_action_resolver.gd.uid",
+      "bytes": 19,
+      "sha256": "7d6e15de8bd939cb153de7d3e800438259aaea19d7f81a4a5cf4b98b92a4009e"
+    },
+    {
+      "path": "src/runtime/modules/summon/summon_module.gd",
+      "bytes": 2503,
+      "sha256": "5bbd58d5ee42aa881b884f7633be5708f31dbb25190bf386b7c8c188c8fe6e65"
+    },
+    {
+      "path": "src/runtime/modules/summon/summon_module.gd.uid",
+      "bytes": 20,
+      "sha256": "e0c8d6de7ee0d9cdacb679e833e1ebc5d3b5fa2c3838585f3bee7a99e3fe5270"
+    },
+    {
+      "path": "src/runtime/presentation/core_cue_router.gd",
+      "bytes": 789,
+      "sha256": "cd1da7aef6604b508c39778a4133e2852003d82bc29dd44e1dd1537029ec65c3"
+    },
+    {
+      "path": "src/runtime/presentation/core_cue_router.gd.uid",
+      "bytes": 20,
+      "sha256": "71d357fd69316a3d24cb8ce08d4746372b0ac7f9c94b35c101413641a388a3e2"
+    }
+  ]
+}

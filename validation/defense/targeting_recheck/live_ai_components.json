@@ -1,0 +1,196 @@
+{
+  "captured_at": "2026-10-15T05:09:06.777745+00:00",
+  "method": "Read live VMDK rb; decrypt both scripts in memory; compare complete IIFE component blocks. No commercial source written to project.",
+  "frozen_script_sha256": "fa19ce2377cc7a92740213a9368a31d76b96911b72a10294191fedb3d61a263a",
+  "live_script_sha256": "66290c7f1756b8a2574d061be0dd658a6fc7791cab98a00d6e996d8b779a20d0",
+  "components": [
+    {
+      "component": "MonsterAttackAction",
+      "same": true,
+      "frozen_sha256": "61a9fe1231d99ba55b5ec83cc86b7420192341972b7c0f8cd99d6404ea8f3d9b",
+      "live_sha256": "61a9fe1231d99ba55b5ec83cc86b7420192341972b7c0f8cd99d6404ea8f3d9b",
+      "live_lines": 46
+    },
+    {
+      "component": "MonsterDownAction",
+      "same": true,
+      "frozen_sha256": "2076bb78486d9dee01161f7a1d8d00f7275734df20ac23bc594870a921055ec8",
+      "live_sha256": "2076bb78486d9dee01161f7a1d8d00f7275734df20ac23bc594870a921055ec8",
+      "live_lines": 39
+    },
+    {
+      "component": "WallAction",
+      "same": true,
+      "frozen_sha256": "9f24f690ffb00888cd66daaa5ac4f6142908ba57fc85b16562978d4ebe1e3dbe",
+      "live_sha256": "9f24f690ffb00888cd66daaa5ac4f6142908ba57fc85b16562978d4ebe1e3dbe",
+      "live_lines": 33
+    },
+    {
+      "component": "FindTragetSystem",
+      "same": true,
+      "frozen_sha256": "bef118721d1d38dd826e0bb4e1b96ce16bceaab48778bf93ff1687839def885b",
+      "live_sha256": "bef118721d1d38dd826e0bb4e1b96ce16bceaab48778bf93ff1687839def885b",
+      "live_lines": 398
+    },
+    {
+      "component": "BaseObjectComponent",
+      "same": false,
+      "frozen_sha256": "cd7dbb683b058e20015e04d65b581fcea8603003ce010a16f560e2ab66e6ffa4",
+      "live_sha256": "8c9b044e5a58c34b9366a585cdfdd4d1b73539ed83f99208d82252e7917a18d0",
+      "live_lines": 803
+    },
+    {
+      "component": "WalkState",
+      "same": true,
+      "frozen_sha256": "212b6b34b575dec0d99a281f63ec50e08e4ec153edaef1934bcfb367d0d31187",
+      "live_sha256": "212b6b34b575dec0d99a281f63ec50e08e4ec153edaef1934bcfb367d0d31187",
+      "live_lines": 288
+    },
+    {
+      "component": "UnitComponent",
+      "same": true,
+      "frozen_sha256": "b47a1600784e68c7a6c53a47bf0d40e7d8aae1666b81e526ff7f961c2ecd289f",
+      "live_sha256": "b47a1600784e68c7a6c53a47bf0d40e7d8aae1666b81e526ff7f961c2ecd289f",
+      "live_lines": 318
+    },
+    {
+      "component": "AttackAction",
+      "same": true,
+      "frozen_sha256": "241268056e68ed4d8bce0ac041e04c4282ba567e50deeaa83780aea2543a22c5",
+      "live_sha256": "241268056e68ed4d8bce0ac041e04c4282ba567e50deeaa83780aea2543a22c5",
+      "live_lines": 191
+    },
+    {
+      "component": "AttackState",
+      "same": true,
+      "frozen_sha256": "dfa7919b9d680ad058c2f8c26d0bc50ae55449e4ca574edcf81a8b3839254ad3",
+      "live_sha256": "dfa7919b9d680ad058c2f8c26d0bc50ae55449e4ca574edcf81a8b3839254ad3",
+      "live_lines": 236
+    },
+    {
+      "component": "IdleState",
+      "same": true,
+      "frozen_sha256": "00e65bd9bfa9d8156fa33ebad93acf8d21487f9109c1bce382dae85c7b9609f7",
+      "live_sha256": "00e65bd9bfa9d8156fa33ebad93acf8d21487f9109c1bce382dae85c7b9609f7",
+      "live_lines": 41
+    },
+    {
+      "component": "HideState",
+      "same": true,
+      "frozen_sha256": "db38258f6fa7e8ad25b6aa0eaab2e05996ddcbcb560cae1106570add9196efce",
+      "live_sha256": "db38258f6fa7e8ad25b6aa0eaab2e05996ddcbcb560cae1106570add9196efce",
+      "live_lines": 114
+    },
+    {
+      "component": "Hide2State",
+      "same": true,
+      "frozen_sha256": "25cbfd456c1632b6061bea13408a9e1105e539dc7e8c384e1e773279e8dedb31",
+      "live_sha256": "25cbfd456c1632b6061bea13408a9e1105e539dc7e8c384e1e773279e8dedb31",
+      "live_lines": 110
+    },
+    {
+      "component": "EntityBattle",
+      "same": false,
+      "frozen_sha256": "76070836621a36f6e993e5990eed3113ba8718eb4ef3ed72fb380e02dba5c82d",
+      "live_sha256": "ab15a29fce997ed6b754f022efd6d30a1d06ba9467cd759987cb7b5cdcde359b",
+      "live_lines": 432
+    },
+    {
+      "component": "EntityMgr",
+      "same": false,
+      "frozen_sha256": "76070836621a36f6e993e5990eed3113ba8718eb4ef3ed72fb380e02dba5c82d",
+      "live_sha256": "ab15a29fce997ed6b754f022efd6d30a1d06ba9467cd759987cb7b5cdcde359b",
+      "live_lines": 432
+    },
+    {
+      "component": "ActionOthMgr",
+      "same": true,
+      "frozen_sha256": "5d56b8f01d45a0dcf398edc9fc7b3c46bb92ebc738d8bf7b6cad5f7dd76bea3b",
+      "live_sha256": "5d56b8f01d45a0dcf398edc9fc7b3c46bb92ebc738d8bf7b6cad5f7dd76bea3b",
+      "live_lines": 687
+    },
+    {
+      "component": "SkillAction",
+      "same": true,
+      "frozen_sha256": "49a1b865992fbae1d329f230df02bb041b731ec12c16e0d7f8b7c8bfdf0b9e2d",
+      "live_sha256": "49a1b865992fbae1d329f230df02bb041b731ec12c16e0d7f8b7c8bfdf0b9e2d",
+      "live_lines": 32
+    },
+    {
+      "component": "ObjectActionFactory",
+      "same": true,
+      "frozen_sha256": "840c0009b44e68a0d17b4ed774d0e4dd8bdd687a8dae7ea4cff410e326d4d965",
+      "live_sha256": "840c0009b44e68a0d17b4ed774d0e4dd8bdd687a8dae7ea4cff410e326d4d965",
+      "live_lines": 50
+    },
+    {
+      "component": "TargetMgr",
+      "same": true,
+      "frozen_sha256": "36d2eee614a8ff923324a88f04f68fd1d89fe2b8e5f36f05aea164d3fc5d370b",
+      "live_sha256": "36d2eee614a8ff923324a88f04f68fd1d89fe2b8e5f36f05aea164d3fc5d370b",
+      "live_lines": 48
+    },
+    {
+      "component": "TargetData",
+      "same": true,
+      "frozen_sha256": "f80223cb83c45df7f364a0c2030eb864434f7144323bb52942c56925db66d363",
+      "live_sha256": "f80223cb83c45df7f364a0c2030eb864434f7144323bb52942c56925db66d363",
+      "live_lines": 397
+    },
+    {
+      "component": "NearSelfTarget",
+      "same": true,
+      "frozen_sha256": "f80223cb83c45df7f364a0c2030eb864434f7144323bb52942c56925db66d363",
+      "live_sha256": "f80223cb83c45df7f364a0c2030eb864434f7144323bb52942c56925db66d363",
+      "live_lines": 397
+    },
+    {
+      "component": "SkillComponent",
+      "same": true,
+      "frozen_sha256": "88323d7ba987d4b21acb3b3a45ffe2e0c042aa5afd58aa46ded00ee1513c1934",
+      "live_sha256": "88323d7ba987d4b21acb3b3a45ffe2e0c042aa5afd58aa46ded00ee1513c1934",
+      "live_lines": 386
+    },
+    {
+      "component": "BulletTriggerMgr",
+      "same": true,
+      "frozen_sha256": "d798788e2fe1224e0f0e4bdb875c995f111ee21dc991dc053b4eb9a06456e788",
+      "live_sha256": "d798788e2fe1224e0f0e4bdb875c995f111ee21dc991dc053b4eb9a06456e788",
+      "live_lines": 156
+    },
+    {
+      "component": "Entity",
+      "same": true,
+      "frozen_sha256": "d5344c09923fc1f2142537993899fe606ed1be7d8f654a0c18f6bb33480e2b9a",
+      "live_sha256": "d5344c09923fc1f2142537993899fe606ed1be7d8f654a0c18f6bb33480e2b9a",
+      "live_lines": 163
+    }
+  ],
+  "blocking_methods": [
+    {
+      "method": "bindBlock",
+      "same": true,
+      "live_sha256": "c638d63875b41531af107386d169e13baea3448635b23c307dc4551f18c17f32"
+    },
+    {
+      "method": "unbindBlock",
+      "same": true,
+      "live_sha256": "7e6b199b9322dfc681b45f0dd039d07400a0253604303fff97e7a4d53cc07721"
+    },
+    {
+      "method": "clearAggro",
+      "same": true,
+      "live_sha256": "7aa571769c49dc71d51abd8653a387b78133e3336f74950445668556e0fa42fc"
+    },
+    {
+      "method": "releaseAllBlocked",
+      "same": true,
+      "live_sha256": "dfc570c84408d71e64dabd5b516b9cb329ae07a490d79b74d80ae0cc5d033841"
+    }
+  ],
+  "non_targeting_differences": {
+    "BaseObjectComponent": "getDamageDefense adds null-safe minimum damage; binding methods identical",
+    "EntityBattle/EntityMgr": "adds bossCount; target-region update otherwise unchanged"
+  },
+  "completed_at": "2026-10-15T05:14:28.861229+00:00"
+}

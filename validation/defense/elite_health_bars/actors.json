@@ -1,0 +1,37 @@
+[
+	{
+		"kind": "enemy",
+		"label": "ordinary",
+		"max_hp": 60.0,
+		"x": 251.42,
+		"y": 559.24
+	},
+	{
+		"kind": "elite",
+		"label": "wave_elite",
+		"max_hp": 418.0,
+		"x": 691.42,
+		"y": 559.24
+	},
+	{
+		"kind": "elite",
+		"label": "encounter_8",
+		"max_hp": 2236.466232,
+		"x": 251.42,
+		"y": 889.24
+	},
+	{
+		"kind": "elite",
+		"label": "encounter_14",
+		"max_hp": 2987.92186790697,
+		"x": 686.84,
+		"y": 866.16
+	},
+	{
+		"kind": "boss",
+		"label": "encounter_20",
+		"max_hp": 4865.08863679257,
+		"x": 483.24,
+		"y": 1122.0
+	}
+]

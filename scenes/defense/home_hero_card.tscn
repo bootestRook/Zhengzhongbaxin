@@ -1,0 +1,292 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home_hero_card.gd" id="card"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_atlas_sprite.gd" id="sprite"]
+[ext_resource type="Shader" path="res://src/features/defense/presentation/home_hero_locked.gdshader" id="gray"]
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 1)
+
+[sub_resource type="ShaderMaterial" id="PortraitGray"]
+resource_local_to_scene = true
+shader = ExtResource("gray")
+
+[sub_resource type="ShaderMaterial" id="RaceGray"]
+resource_local_to_scene = true
+shader = ExtResource("gray")
+
+[sub_resource type="StyleBoxFlat" id="ProgressTrack"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.85, 0.85, 0.85, 1)
+
+[sub_resource type="StyleBoxFlat" id="ProgressFill"]
+bg_color = Color(0, 0.92, 0.95, 1)
+
+[node name="HeroCard" type="Button"]
+custom_minimum_size = Vector2(210, 352)
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+script = ExtResource("card")
+
+[node name="Ink" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Selected" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+color = Color(1, 0.824, 0.247, 1)
+
+[node name="Paper" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 6.0
+offset_top = 6.0
+offset_right = -6.0
+offset_bottom = -6.0
+mouse_filter = 2
+color = Color(0.76, 0.76, 0.76, 1)
+
+[node name="PortraitInk" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 12.0
+offset_top = 12.0
+offset_right = -12.0
+offset_bottom = 222.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="PortraitPaper" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 16.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = 217.0
+mouse_filter = 2
+color = Color(0.53, 0.53, 0.53, 1)
+
+[node name="Portrait" type="TextureRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 19.0
+offset_top = 18.0
+offset_right = -19.0
+offset_bottom = 198.0
+mouse_filter = 2
+material = SubResource("PortraitGray")
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+
+[node name="LevelTrack" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 17.0
+offset_top = 186.0
+offset_right = -17.0
+offset_bottom = 216.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Level" type="Label" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 20.0
+offset_top = 174.0
+offset_right = -20.0
+offset_bottom = 223.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.35, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 44
+text = "Lv:1"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="Progress" type="ProgressBar" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 12.0
+offset_top = 227.0
+offset_right = -12.0
+offset_bottom = 250.0
+mouse_filter = 2
+theme_override_styles/background = SubResource("ProgressTrack")
+theme_override_styles/fill = SubResource("ProgressFill")
+max_value = 14.0
+value = 0.0
+show_percentage = false
+
+[node name="FragmentCount" type="Label" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 12.0
+offset_top = 221.0
+offset_right = -12.0
+offset_bottom = 253.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 27
+text = "0/14"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 9.0
+offset_top = 252.0
+offset_right = -9.0
+offset_bottom = 299.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 34
+text = ""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RaceInk" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 12.0
+offset_top = 303.0
+offset_right = -12.0
+offset_bottom = 341.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="RacePaper" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 16.0
+offset_top = 307.0
+offset_right = -16.0
+offset_bottom = 337.0
+mouse_filter = 2
+color = Color(0.94, 0.94, 0.94, 1)
+
+[node name="Race" type="Label" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 60.0
+offset_top = 300.0
+offset_right = -14.0
+offset_bottom = 344.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 32
+text = ""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RaceIcon" type="TextureRect" parent="."]
+layout_mode = 1
+grow_horizontal = 2
+offset_left = 8.0
+offset_top = 296.0
+offset_right = 57.0
+offset_bottom = 345.0
+mouse_filter = 2
+material = SubResource("RaceGray")
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+
+[node name="Profession" type="TextureRect" parent="."]
+layout_mode = 1
+grow_horizontal = 2
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 53.0
+offset_bottom = 53.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+
+[node name="LockedShade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 6.0
+offset_top = 6.0
+offset_right = -6.0
+offset_bottom = -6.0
+mouse_filter = 2
+color = Color(0.1, 0.11, 0.09, 0.43)
+
+[node name="Lock" type="TextureRect" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+grow_horizontal = 2
+offset_left = 151.0
+offset_top = 151.0
+offset_right = -19.0
+offset_bottom = 199.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("sprite")
+resource_key = "home:icon_Lock"

@@ -1,0 +1,11 @@
+python -X utf8 tools/architecture_lint.py
+[OK] architecture lint
+
+
+python -X utf8 tools/content_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=113, resource_policies=7, system_settings=5, tuning=3
+
+
+python -X utf8 tools/asset_pipeline.py check
+[OK] assets check: assets=113, bytes=86203810
+

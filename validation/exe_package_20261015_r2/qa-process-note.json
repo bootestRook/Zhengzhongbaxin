@@ -1,0 +1,6 @@
+{
+  "initial_final_capture": "Process exited before result capture; stdout contained only the engine and GPU header; no SCRIPT ERROR or ERROR was emitted.",
+  "windows_event": "Application event 1001 / AppHangB1 for Godot at 2026-10-15 16:31:29 +08:00.",
+  "followup": "Same final PCK completed the repeated twenty-wave run and all 20 frames matched the source exactly, exit 0.",
+  "harness_adjustment": "The accelerated simulation previously ran without yielding between the five-hero capture and result. It now yields a process frame every 256 ticks in that segment to keep window message processing active. This is a validation harness change only."
+}

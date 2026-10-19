@@ -1,0 +1,322 @@
+[
+	{
+		"aim": "(706.84, 794.16)",
+		"body_center": "(597.84, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 112.057960510254,
+		"template": 106,
+		"x": 600
+	},
+	{
+		"aim": "(493.16, 794.16)",
+		"body_center": "(602.16, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 92.4326858520508,
+		"template": 106,
+		"x": 600
+	},
+	{
+		"aim": "(1106.84, 794.16)",
+		"body_center": "(997.84, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 91.6042709350586,
+		"template": 106,
+		"x": 1000
+	},
+	{
+		"aim": "(893.16, 794.16)",
+		"body_center": "(1002.16, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 112.057960510254,
+		"template": 106,
+		"x": 1000
+	},
+	{
+		"aim": "(451.96, 803.84)",
+		"body_center": "(600.96, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 111.43155670166,
+		"template": 112,
+		"x": 600
+	},
+	{
+		"aim": "(748.04, 803.84)",
+		"body_center": "(599.04, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 151.251449584961,
+		"template": 112,
+		"x": 600
+	},
+	{
+		"aim": "(851.96, 803.84)",
+		"body_center": "(1000.96, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 151.251449584961,
+		"template": 112,
+		"x": 1000
+	},
+	{
+		"aim": "(1148.04, 803.84)",
+		"body_center": "(999.04, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 110.292198181152,
+		"template": 112,
+		"x": 1000
+	},
+	{
+		"aim": "(630.42, 783.24)",
+		"body_center": "(600.42, 780.24)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			47
+		],
+		"damage": 92.4,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 2,
+		"ray_to_body_center": 30.1496276855469,
+		"template": 103,
+		"x": 600
+	},
+	{
+		"aim": "(569.58, 783.24)",
+		"body_center": "(599.58, 780.24)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			47
+		],
+		"damage": 92.4,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 2,
+		"ray_to_body_center": 25.3589458465576,
+		"template": 103,
+		"x": 600
+	},
+	{
+		"aim": "(1030.42, 783.24)",
+		"body_center": "(1000.42, 780.24)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			47
+		],
+		"damage": 92.4,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 2,
+		"ray_to_body_center": 25.0785236358643,
+		"template": 103,
+		"x": 1000
+	},
+	{
+		"aim": "(969.58, 783.24)",
+		"body_center": "(999.58, 780.24)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			47
+		],
+		"damage": 92.4,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 2,
+		"ray_to_body_center": 30.1496276855469,
+		"template": 103,
+		"x": 1000
+	},
+	{
+		"aim": "(706.84, 794.16)",
+		"body_center": "(597.84, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 112.057960510254,
+		"template": 107,
+		"x": 600
+	},
+	{
+		"aim": "(493.16, 794.16)",
+		"body_center": "(602.16, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 92.4326858520508,
+		"template": 107,
+		"x": 600
+	},
+	{
+		"aim": "(1106.84, 794.16)",
+		"body_center": "(997.84, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 91.6042709350586,
+		"template": 107,
+		"x": 1000
+	},
+	{
+		"aim": "(893.16, 794.16)",
+		"body_center": "(1002.16, 768.16)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			69
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 112.057960510254,
+		"template": 107,
+		"x": 1000
+	},
+	{
+		"aim": "(451.96, 803.84)",
+		"body_center": "(600.96, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 111.43155670166,
+		"template": 113,
+		"x": 600
+	},
+	{
+		"aim": "(748.04, 803.84)",
+		"body_center": "(599.04, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 151.251449584961,
+		"template": 113,
+		"x": 600
+	},
+	{
+		"aim": "(851.96, 803.84)",
+		"body_center": "(1000.96, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": -1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 151.251449584961,
+		"template": 113,
+		"x": 1000
+	},
+	{
+		"aim": "(1148.04, 803.84)",
+		"body_center": "(999.04, 777.84)",
+		"body_overlaps": 0,
+		"body_size": [
+			48,
+			43
+		],
+		"damage": 0.0,
+		"facing": 1.0,
+		"from": "(796.0, 1068.36)",
+		"hits": 0,
+		"ray_to_body_center": 110.292198181152,
+		"template": 113,
+		"x": 1000
+	}
+]

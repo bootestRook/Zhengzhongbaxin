@@ -1,0 +1,2529 @@
+[OK] package profile exe: design=960x1920, matrix=480x960, 720x1440, 960x1920, 1280x720, 1920x1080, 1024x768, output=build/windows/defense-demo.exe
+[OK] defense catalog: 18 hero entries, 5 unlocked, 5 hero slots, 50 levels, 1000 waves
+[OK] defense_pipeline.py build
+[OK] data build: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py build
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets build: assets=106, bytes=85796875
+[OK] asset_pipeline.py build
+[OK] release manifest build: files=583, bytes=89854189
+[OK] release_manifest.py build
+[OK] defense catalog: 18 hero entries, 5 unlocked, 5 hero slots, 50 levels, 1000 waves
+[OK] defense_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets check: assets=106, bytes=85796875
+[OK] asset_pipeline.py check
+[OK] delivery check: files=2963, AGENTS.md<=70 lines/5000 bytes
+[OK] delivery check
+test_baked_home_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_baked_home_atlas_page_rejected) ... ok
+
+test_changed_or_unregistered_atlas_page_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_changed_or_unregistered_atlas_page_rejected) ... ok
+
+test_chest_probability_out_of_range_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_chest_probability_out_of_range_rejected) ... ok
+
+test_chest_weights_and_probability_use_current_source (test_defense_presentation_data.DefensePresentationDataTests.test_chest_weights_and_probability_use_current_source) ... ok
+
+test_compiled_experience_rules_and_source_isolation (test_defense_presentation_data.DefensePresentationDataTests.test_compiled_experience_rules_and_source_isolation) ... ok
+
+test_home_bindings_checked_against_current_art (test_defense_presentation_data.DefensePresentationDataTests.test_home_bindings_checked_against_current_art) ... ok
+
+test_initial_roster_and_invalid_unlock_rules (test_defense_presentation_data.DefensePresentationDataTests.test_initial_roster_and_invalid_unlock_rules) ... ok
+
+test_invalid_action_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_action_timing_rejected) ... ok
+
+test_invalid_chest_quality_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_chest_quality_rejected) ... ok
+
+test_invalid_chest_weight_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_chest_weight_rejected) ... ok
+
+test_invalid_experience_rules_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_experience_rules_rejected) ... ok
+
+test_invalid_formation_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_formation_rejected) ... ok
+
+test_invalid_revival_timing_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_revival_timing_rejected) ... ok
+
+test_invalid_sprite_page_and_bounds_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_sprite_page_and_bounds_rejected) ... ok
+
+test_invalid_two_skill_source_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_invalid_two_skill_source_rejected) ... ok
+
+test_level_balance_only_changes_declared_level_and_preserves_source (test_defense_presentation_data.DefensePresentationDataTests.test_level_balance_only_changes_declared_level_and_preserves_source) ... ok
+
+test_level_balance_rejects_invalid_schema_ids_and_values (test_defense_presentation_data.DefensePresentationDataTests.test_level_balance_rejects_invalid_schema_ids_and_values) ... ok
+
+test_missing_chest_beam_frame_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_chest_beam_frame_rejected) ... ok
+
+test_missing_home_sprite_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_home_sprite_rejected) ... ok
+
+test_missing_patrol_boundary_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_patrol_boundary_rejected) ... ok
+
+test_missing_skill_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_skill_image_rejected) ... ok
+
+test_missing_tag_image_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_missing_tag_image_rejected) ... ok
+
+test_obsolete_back_boundary_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_obsolete_back_boundary_rejected) ... ok
+
+test_obsolete_fixed_recruitment_schema_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_obsolete_fixed_recruitment_schema_rejected) ... ok
+
+test_other_interface_missing_named_art_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_other_interface_missing_named_art_rejected) ... ok
+
+test_other_scene_cannot_bake_an_atlas_region (test_defense_presentation_data.DefensePresentationDataTests.test_other_scene_cannot_bake_an_atlas_region) ... ok
+
+test_other_script_cannot_draw_raw_atlas_pages (test_defense_presentation_data.DefensePresentationDataTests.test_other_script_cannot_draw_raw_atlas_pages) ... ok
+
+test_result_reward_reference_rejects_unknown_icons_and_bad_counts (test_defense_presentation_data.DefensePresentationDataTests.test_result_reward_reference_rejects_unknown_icons_and_bad_counts) ... ok
+
+test_reversed_patrol_boundaries_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_reversed_patrol_boundaries_rejected) ... ok
+
+test_two_initial_skills_ownership_and_removed_trees (test_defense_presentation_data.DefensePresentationDataTests.test_two_initial_skills_ownership_and_removed_trees) ... ok
+
+test_ui_content_region_follows_new_page_position_and_size (test_defense_presentation_data.DefensePresentationDataTests.test_ui_content_region_follows_new_page_position_and_size) ... ok
+
+test_unknown_profession_and_boss_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_unknown_profession_and_boss_rejected) ... ok
+
+test_unknown_skill_icon_rejected (test_defense_presentation_data.DefensePresentationDataTests.test_unknown_skill_icon_rejected) ... ok
+
+test_baseline_manifest_is_deterministic (test_pipelines.AssetPipelineTests.test_baseline_manifest_is_deterministic) ... ok
+
+test_budget_violation_is_rejected (test_pipelines.AssetPipelineTests.test_budget_violation_is_rejected) ... ok
+
+test_bad_reference_is_rejected (test_pipelines.DataPipelineTests.test_bad_reference_is_rejected) ... ok
+
+test_baseline_is_deterministic (test_pipelines.DataPipelineTests.test_baseline_is_deterministic) ... ok
+
+test_duplicate_id_reports_source_line_and_field (test_pipelines.DataPipelineTests.test_duplicate_id_reports_source_line_and_field) ... ok
+
+test_typed_setting_and_tuning_range_are_rejected (test_pipelines.DataPipelineTests.test_typed_setting_and_tuning_range_are_rejected) ... ok
+
+test_class_member_query_returns_exact_signature (test_pipelines.GodotApiTests.test_class_member_query_returns_exact_signature) ... ok
+
+test_confirmed_profiles_match_project_and_presets (test_pipelines.PackageProfileTests.test_confirmed_profiles_match_project_and_presets) ... ok
+
+test_engine_cache_cleanup_is_scoped (test_pipelines.PackageProfileTests.test_engine_cache_cleanup_is_scoped) ... ok
+
+test_unconfirmed_profile_is_blocked (test_pipelines.PackageProfileTests.test_unconfirmed_profile_is_blocked) ... ok
+
+test_web_archive_has_root_index_and_size_gate (test_pipelines.PackageProfileTests.test_web_archive_has_root_index_and_size_gate) ... ok
+
+test_clean_zero_exit_is_accepted (test_project_gate.EngineOutputTests.test_clean_zero_exit_is_accepted) ... ok
+
+test_zero_exit_with_resource_error_is_rejected (test_project_gate.EngineOutputTests.test_zero_exit_with_resource_error_is_rejected) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 46 tests in 10.057s
+
+
+
+OK
+[OK] Python pipeline tests
+[OK] architecture lint
+[OK] architecture lint
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+
+[0m
+
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (214 steps)[39m[0m
+
+[   0% ] [90m[1mupdate_scripts_classes[22m | AbilityDebuggerPlugin[39m[0m
+
+[   0% ] [90m[1mupdate_scripts_classes[22m | AbilityEditorPlaceholderAction[39m[0m
+
+[   0% ] [90m[1mupdate_scripts_classes[22m | AbilityEditorPlaceholderResolver[39m[0m
+
+[   1% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphDocumentController[39m[0m
+
+[   1% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphEditor[39m[0m
+
+[   2% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphNodeView[39m[0m
+
+[   2% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[   3% ] [90m[1mupdate_scripts_classes[22m | AppBootstrap[39m[0m
+
+[   3% ] [90m[1mupdate_scripts_classes[22m | DataRegistry[39m[0m
+
+[   4% ] [90m[1mupdate_scripts_classes[22m | DefenseAI[39m[0m
+
+[   4% ] [90m[1mupdate_scripts_classes[22m | DefenseAttackGeometry[39m[0m
+
+[   5% ] [90m[1mupdate_scripts_classes[22m | DefenseBallistics[39m[0m
+
+[   5% ] [90m[1mupdate_scripts_classes[22m | DefenseCastGraph[39m[0m
+
+[   6% ] [90m[1mupdate_scripts_classes[22m | DefenseCatalog[39m[0m
+
+[   6% ] [90m[1mupdate_scripts_classes[22m | DefenseChoices[39m[0m
+
+[   6% ] [90m[1mupdate_scripts_classes[22m | DefenseDamage[39m[0m
+
+[   7% ] [90m[1mupdate_scripts_classes[22m | DefenseDisplacement[39m[0m
+
+[   7% ] [90m[1mupdate_scripts_classes[22m | DefenseFirePatterns[39m[0m
+
+[   8% ] [90m[1mupdate_scripts_classes[22m | DefenseLoot[39m[0m
+
+[   8% ] [90m[1mupdate_scripts_classes[22m | DefenseMitigation[39m[0m
+
+[   9% ] [90m[1mupdate_scripts_classes[22m | DefenseNavigation[39m[0m
+
+[   9% ] [90m[1mupdate_scripts_classes[22m | DefensePassives[39m[0m
+
+[  10% ] [90m[1mupdate_scripts_classes[22m | DefenseProjectiles[39m[0m
+
+[  10% ] [90m[1mupdate_scripts_classes[22m | DefenseProjectileFactory[39m[0m
+
+[  11% ] [90m[1mupdate_scripts_classes[22m | DefenseProjectileGeometry[39m[0m
+
+[  11% ] [90m[1mupdate_scripts_classes[22m | DefenseProjectileMotion[39m[0m
+
+[  12% ] [90m[1mupdate_scripts_classes[22m | DefenseResult[39m[0m
+
+[  12% ] [90m[1mupdate_scripts_classes[22m | DefenseSession[39m[0m
+
+[  13% ] [90m[1mupdate_scripts_classes[22m | DefenseSkills[39m[0m
+
+[  13% ] [90m[1mupdate_scripts_classes[22m | DefenseSkillActions[39m[0m
+
+[  13% ] [90m[1mupdate_scripts_classes[22m | DefenseSkillEffects[39m[0m
+
+[  14% ] [90m[1mupdate_scripts_classes[22m | DefenseSnapshot[39m[0m
+
+[  14% ] [90m[1mupdate_scripts_classes[22m | DefenseSpace[39m[0m
+
+[  15% ] [90m[1mupdate_scripts_classes[22m | DefenseSpawn[39m[0m
+
+[  15% ] [90m[1mupdate_scripts_classes[22m | DefenseStatue[39m[0m
+
+[  16% ] [90m[1mupdate_scripts_classes[22m | DefenseStatus[39m[0m
+
+[  16% ] [90m[1mupdate_scripts_classes[22m | DefenseTargets[39m[0m
+
+[  17% ] [90m[1mupdate_scripts_classes[22m | DefenseTraits[39m[0m
+
+[  17% ] [90m[1mupdate_scripts_classes[22m | DefenseUnits[39m[0m
+
+[  18% ] [90m[1mupdate_scripts_classes[22m | DefenseUpgrades[39m[0m
+
+[  18% ] [90m[1mupdate_scripts_classes[22m | DefenseActorOutline[39m[0m
+
+[  19% ] [90m[1mupdate_scripts_classes[22m | DefenseAtlas[39m[0m
+
+[  19% ] [90m[1mupdate_scripts_classes[22m | DefenseAtlasSprite[39m[0m
+
+[  20% ] [90m[1mupdate_scripts_classes[22m | DefenseAudio[39m[0m
+
+[  20% ] [90m[1mupdate_scripts_classes[22m | DefenseBattlePanels[39m[0m
+
+[  20% ] [90m[1mupdate_scripts_classes[22m | DefenseChestVisual[39m[0m
+
+[  21% ] [90m[1mupdate_scripts_classes[22m | DefenseChoiceCard[39m[0m
+
+[  21% ] [90m[1mupdate_scripts_classes[22m | DefenseChoicePanel[39m[0m
+
+[  22% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  22% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  23% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  23% ] [90m[1mupdate_scripts_classes[22m | DefenseField[39m[0m
+
+[  24% ] [90m[1mupdate_scripts_classes[22m | DefenseHome[39m[0m
+
+[  24% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  25% ] [90m[1mupdate_scripts_classes[22m | DefenseHud[39m[0m
+
+[  25% ] [90m[1mupdate_scripts_classes[22m | DefenseMonsterPortrait[39m[0m
+
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  26% ] [90m[1mupdate_scripts_classes[22m | DefensePortrait[39m[0m
+
+[  27% ] [90m[1mupdate_scripts_classes[22m | DefenseResultCard[39m[0m
+
+[  27% ] [90m[1mupdate_scripts_classes[22m | DefenseResultItem[39m[0m
+
+[  28% ] [90m[1mupdate_scripts_classes[22m | DefenseResultPanel[39m[0m
+
+[  28% ] [90m[1mupdate_scripts_classes[22m | DefenseResultProgress[39m[0m
+
+[  29% ] [90m[1mupdate_scripts_classes[22m | DefenseReviveVisual[39m[0m
+
+[  29% ] [90m[1mupdate_scripts_classes[22m | DefenseRosterCard[39m[0m
+
+[  30% ] [90m[1mupdate_scripts_classes[22m | DefenseSkillTooltip[39m[0m
+
+[  30% ] [90m[1mupdate_scripts_classes[22m | DefenseView[39m[0m
+
+[  31% ] [90m[1mupdate_scripts_classes[22m | ChangeValueCommand[39m[0m
+
+[  31% ] [90m[1mupdate_scripts_classes[22m | ClampDeltaHook[39m[0m
+
+[  32% ] [90m[1mupdate_scripts_classes[22m | IncrementAction[39m[0m
+
+[  32% ] [90m[1mupdate_scripts_classes[22m | SampleContext[39m[0m
+
+[  33% ] [90m[1mupdate_scripts_classes[22m | SampleFeature[39m[0m
+
+[  33% ] [90m[1mupdate_scripts_classes[22m | SampleIntent[39m[0m
+
+[  33% ] [90m[1mupdate_scripts_classes[22m | SampleState[39m[0m
+
+[  34% ] [90m[1mupdate_scripts_classes[22m | MainView[39m[0m
+
+[  34% ] [90m[1mupdate_scripts_classes[22m | DeterministicRng[39m[0m
+
+[  35% ] [90m[1mupdate_scripts_classes[22m | RngSet[39m[0m
+
+[  35% ] [90m[1mupdate_scripts_classes[22m | SaveCodec[39m[0m
+
+[  36% ] [90m[1mupdate_scripts_classes[22m | SaveStore[39m[0m
+
+[  36% ] [90m[1mupdate_scripts_classes[22m | ResourceCatalog[39m[0m
+
+[  37% ] [90m[1mupdate_scripts_classes[22m | AbilityActionNodeConfiguration[39m[0m
+
+[  37% ] [90m[1mupdate_scripts_classes[22m | AbilityActionRegistry[39m[0m
+
+[  38% ] [90m[1mupdate_scripts_classes[22m | AbilityCooldownStore[39m[0m
+
+[  38% ] [90m[1mupdate_scripts_classes[22m | AbilityDebugRegistry[39m[0m
+
+[  39% ] [90m[1mupdate_scripts_classes[22m | AbilityDefinition[39m[0m
+
+[  39% ] [90m[1mupdate_scripts_classes[22m | AbilityExecutionPlan[39m[0m
+
+[  40% ] [90m[1mupdate_scripts_classes[22m | AbilityExecutionSnapshot[39m[0m
+
+[  40% ] [90m[1mupdate_scripts_classes[22m | AbilityExtensionManifest[39m[0m
+
+[  40% ] [90m[1mupdate_scripts_classes[22m | AbilityFrameworkRegistry[39m[0m
+
+[  41% ] [90m[1mupdate_scripts_classes[22m | AbilityGrantStore[39m[0m
+
+[  41% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphCompiler[39m[0m
+
+[  42% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphCompileResult[39m[0m
+
+[  42% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphConnectionDefinition[39m[0m
+
+[  43% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphConnectionPolicy[39m[0m
+
+[  43% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphConnectionResource[39m[0m
+
+[  44% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphCyclePolicy[39m[0m
+
+[  44% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphDefinition[39m[0m
+
+[  45% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphNodeDefinition[39m[0m
+
+[  45% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphNodeResource[39m[0m
+
+[  46% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphResource[39m[0m
+
+[  46% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphSubgraphPolicy[39m[0m
+
+[  46% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphVariableDefinition[39m[0m
+
+[  47% ] [90m[1mupdate_scripts_classes[22m | AbilityGraphVariablePolicy[39m[0m
+
+[  47% ] [90m[1mupdate_scripts_classes[22m | AbilityNodeConfiguration[39m[0m
+
+[  48% ] [90m[1mupdate_scripts_classes[22m | AbilityNodeDescriptor[39m[0m
+
+[  48% ] [90m[1mupdate_scripts_classes[22m | AbilityNodeRegistry[39m[0m
+
+[  49% ] [90m[1mupdate_scripts_classes[22m | AbilityPinDescriptor[39m[0m
+
+[  49% ] [90m[1mupdate_scripts_classes[22m | AbilityPlanCatalog[39m[0m
+
+[  50% ] [90m[1mupdate_scripts_classes[22m | AbilityPlanOperation[39m[0m
+
+[  50% ] [90m[1mupdate_scripts_classes[22m | AbilityRun[39m[0m
+
+[  51% ] [90m[1mupdate_scripts_classes[22m | AbilityRunDataOps[39m[0m
+
+[  51% ] [90m[1mupdate_scripts_classes[22m | AbilityRunScopeOps[39m[0m
+
+[  52% ] [90m[1mupdate_scripts_classes[22m | AbilityRunSnapshotCodec[39m[0m
+
+[  52% ] [90m[1mupdate_scripts_classes[22m | AbilityRunSubgraphOps[39m[0m
+
+[  53% ] [90m[1mupdate_scripts_classes[22m | AbilityRunTraceOps[39m[0m
+
+[  53% ] [90m[1mupdate_scripts_classes[22m | AbilityRunWaitOps[39m[0m
+
+[  53% ] [90m[1mupdate_scripts_classes[22m | AbilityService[39m[0m
+
+[  54% ] [90m[1mupdate_scripts_classes[22m | AbilityServiceSnapshotCodec[39m[0m
+
+[  54% ] [90m[1mupdate_scripts_classes[22m | AbilityStandardNodeCatalog[39m[0m
+
+[  55% ] [90m[1mupdate_scripts_classes[22m | AbilitySubgraphCatalog[39m[0m
+
+[  55% ] [90m[1mupdate_scripts_classes[22m | AbilitySubgraphReference[39m[0m
+
+[  56% ] [90m[1mupdate_scripts_classes[22m | AbilityTargetActionResolver[39m[0m
+
+[  56% ] [90m[1mupdate_scripts_classes[22m | CoreAttributeDefinition[39m[0m
+
+[  57% ] [90m[1mupdate_scripts_classes[22m | CoreAttributeModifier[39m[0m
+
+[  57% ] [90m[1mupdate_scripts_classes[22m | CoreAttributeStore[39m[0m
+
+[  58% ] [90m[1mupdate_scripts_classes[22m | CoreConditionRegistry[39m[0m
+
+[  58% ] [90m[1mupdate_scripts_classes[22m | CoreConditionResult[39m[0m
+
+[  59% ] [90m[1mupdate_scripts_classes[22m | CoreDomainEvent[39m[0m
+
+[  59% ] [90m[1mupdate_scripts_classes[22m | CoreEffectDefinition[39m[0m
+
+[  60% ] [90m[1mupdate_scripts_classes[22m | CoreEffectInstance[39m[0m
+
+[  60% ] [90m[1mupdate_scripts_classes[22m | CoreEffectStore[39m[0m
+
+[  60% ] [90m[1mupdate_scripts_classes[22m | CoreEntityInstance[39m[0m
+
+[  61% ] [90m[1mupdate_scripts_classes[22m | CoreEventContext[39m[0m
+
+[  61% ] [90m[1mupdate_scripts_classes[22m | CoreEventHandlerResult[39m[0m
+
+[  62% ] [90m[1mupdate_scripts_classes[22m | CoreEventPipeline[39m[0m
+
+[  62% ] [90m[1mupdate_scripts_classes[22m | CoreEventPipelineResult[39m[0m
+
+[  63% ] [90m[1mupdate_scripts_classes[22m | CoreEventRequest[39m[0m
+
+[  63% ] [90m[1mupdate_scripts_classes[22m | CoreEventTrace[39m[0m
+
+[  64% ] [90m[1mupdate_scripts_classes[22m | CoreEventTraceComparison[39m[0m
+
+[  64% ] [90m[1mupdate_scripts_classes[22m | CoreExecutionContext[39m[0m
+
+[  65% ] [90m[1mupdate_scripts_classes[22m | CoreFormulaPlan[39m[0m
+
+[  65% ] [90m[1mupdate_scripts_classes[22m | CoreFormulaRegistry[39m[0m
+
+[  66% ] [90m[1mupdate_scripts_classes[22m | CoreFormulaResult[39m[0m
+
+[  66% ] [90m[1mupdate_scripts_classes[22m | CoreState[39m[0m
+
+[  66% ] [90m[1mupdate_scripts_classes[22m | CoreTagStore[39m[0m
+
+[  67% ] [90m[1mupdate_scripts_classes[22m | CoreTargetQueryDefinition[39m[0m
+
+[  67% ] [90m[1mupdate_scripts_classes[22m | CoreTargetResolverRegistry[39m[0m
+
+[  68% ] [90m[1mupdate_scripts_classes[22m | CoreTargetResult[39m[0m
+
+[  68% ] [90m[1mupdate_scripts_classes[22m | CoreTriggerDefinition[39m[0m
+
+[  69% ] [90m[1mupdate_scripts_classes[22m | CoreTriggerHandler[39m[0m
+
+[  69% ] [90m[1mupdate_scripts_classes[22m | CoreTriggerRegistry[39m[0m
+
+[  70% ] [90m[1mupdate_scripts_classes[22m | AreaModule[39m[0m
+
+[  70% ] [90m[1mupdate_scripts_classes[22m | AreaQueryActionResolver[39m[0m
+
+[  71% ] [90m[1mupdate_scripts_classes[22m | BuffActionResolver[39m[0m
+
+[  71% ] [90m[1mupdate_scripts_classes[22m | BuffModule[39m[0m
+
+[  72% ] [90m[1mupdate_scripts_classes[22m | DamageActionResolver[39m[0m
+
+[  72% ] [90m[1mupdate_scripts_classes[22m | DamageCommitHandler[39m[0m
+
+[  73% ] [90m[1mupdate_scripts_classes[22m | DamageComponent[39m[0m
+
+[  73% ] [90m[1mupdate_scripts_classes[22m | DamageModule[39m[0m
+
+[  73% ] [90m[1mupdate_scripts_classes[22m | DamageOutcome[39m[0m
+
+[  74% ] [90m[1mupdate_scripts_classes[22m | DamageSpec[39m[0m
+
+[  74% ] [90m[1mupdate_scripts_classes[22m | HitModule[39m[0m
+
+[  75% ] [90m[1mupdate_scripts_classes[22m | HitResult[39m[0m
+
+[  75% ] [90m[1mupdate_scripts_classes[22m | MovementActionResolver[39m[0m
+
+[  76% ] [90m[1mupdate_scripts_classes[22m | MovementModule[39m[0m
+
+[  76% ] [90m[1mupdate_scripts_classes[22m | ProjectileActionResolver[39m[0m
+
+[  77% ] [90m[1mupdate_scripts_classes[22m | ProjectileDefinition[39m[0m
+
+[  77% ] [90m[1mupdate_scripts_classes[22m | ProjectileInstance[39m[0m
+
+[  78% ] [90m[1mupdate_scripts_classes[22m | ProjectileModule[39m[0m
+
+[  78% ] [90m[1mupdate_scripts_classes[22m | SummonActionResolver[39m[0m
+
+[  79% ] [90m[1mupdate_scripts_classes[22m | SummonModule[39m[0m
+
+[  79% ] [90m[1mupdate_scripts_classes[22m | GameplayModuleCatalog[39m[0m
+
+[  80% ] [90m[1mupdate_scripts_classes[22m | CoreCueRouter[39m[0m
+
+[  80% ] [90m[1mupdate_scripts_classes[22m | ActionExecutor[39m[0m
+
+[  80% ] [90m[1mupdate_scripts_classes[22m | ActionResult[39m[0m
+
+[  81% ] [90m[1mupdate_scripts_classes[22m | HookPipeline[39m[0m
+
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  92% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  92% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  94% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  94% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  95% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  95% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  96% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  96% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  97% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  97% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  98% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[  98% ] [90m[1mupdate_scripts_classes[22m | TestSupport[39m[0m
+
+[  99% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+
+[0m
+
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (106 steps)[39m[0m
+
+[   0% ] [90m[1m_update_scan_actions[22m | aoshu_8d6d3f2ae334.mp3[39m[0m
+
+[   0% ] [90m[1m_update_scan_actions[22m | aoshu_att_204d4155766a.mp3[39m[0m
+
+[   1% ] [90m[1m_update_scan_actions[22m | arrow2_373d063242ec.mp3[39m[0m
+
+[   2% ] [90m[1m_update_scan_actions[22m | arrow3_a7909b0e2d1c.mp3[39m[0m
+
+[   3% ] [90m[1m_update_scan_actions[22m | arrow_afdcc91ceb1f.mp3[39m[0m
+
+[   4% ] [90m[1m_update_scan_actions[22m | bg_f553adf02941.mp3[39m[0m
+
+[   5% ] [90m[1m_update_scan_actions[22m | bingzui_19440329eafa.mp3[39m[0m
+
+[   6% ] [90m[1m_update_scan_actions[22m | bingzui_att_ba365370ea43.mp3[39m[0m
+
+[   7% ] [90m[1m_update_scan_actions[22m | boosComeOut_c6a27c04d868.mp3[39m[0m
+
+[   8% ] [90m[1m_update_scan_actions[22m | chanrao_8f83e2181c39.mp3[39m[0m
+
+[   9% ] [90m[1m_update_scan_actions[22m | chop_ce0217256f1f.mp3[39m[0m
+
+[  10% ] [90m[1m_update_scan_actions[22m | cibao_cd0ae41e87a4.mp3[39m[0m
+
+[  11% ] [90m[1m_update_scan_actions[22m | clickSmall_693ed39ea573.mp3[39m[0m
+
+[  12% ] [90m[1m_update_scan_actions[22m | click_7e06c29498fc.mp3[39m[0m
+
+[  13% ] [90m[1m_update_scan_actions[22m | count1_13b9a354deb7.mp3[39m[0m
+
+[  14% ] [90m[1m_update_scan_actions[22m | count2_9a4855c22557.mp3[39m[0m
+
+[  14% ] [90m[1m_update_scan_actions[22m | count3_8d6d3975c6c6.mp3[39m[0m
+
+[  15% ] [90m[1m_update_scan_actions[22m | count4_02a3892342f5.mp3[39m[0m
+
+[  16% ] [90m[1m_update_scan_actions[22m | count5_d4c771c3a785.mp3[39m[0m
+
+[  17% ] [90m[1m_update_scan_actions[22m | crawAtt_4f8ef4045459.mp3[39m[0m
+
+[  18% ] [90m[1m_update_scan_actions[22m | crow_9ac37439ff2b.wav[39m[0m
+
+[  19% ] [90m[1m_update_scan_actions[22m | dianci_3d25ec22df24.mp3[39m[0m
+
+[  20% ] [90m[1m_update_scan_actions[22m | explode_c37fe4936f94.mp3[39m[0m
+
+[  21% ] [90m[1m_update_scan_actions[22m | fail_a4a0a9539318.mp3[39m[0m
+
+[  22% ] [90m[1m_update_scan_actions[22m | fightbg_eb928bf1d5b0.mp3[39m[0m
+
+[  23% ] [90m[1m_update_scan_actions[22m | fireAtt_7b70f96e3128.mp3[39m[0m
+
+[  24% ] [90m[1m_update_scan_actions[22m | firecrackerB_984122da4e56.mp3[39m[0m
+
+[  25% ] [90m[1m_update_scan_actions[22m | fireGun_71a9d5c68034.mp3[39m[0m
+
+[  26% ] [90m[1m_update_scan_actions[22m | flash1_8d67e709335d.mp3[39m[0m
+
+[  27% ] [90m[1m_update_scan_actions[22m | flower_0803e2e07a0b.mp3[39m[0m
+
+[  28% ] [90m[1m_update_scan_actions[22m | gemError_830b2019b21f.wav[39m[0m
+
+[  28% ] [90m[1m_update_scan_actions[22m | getCilp_c28ae29525c6.mp3[39m[0m
+
+[  29% ] [90m[1m_update_scan_actions[22m | getCoin_ccd0e90da310.mp3[39m[0m
+
+[  30% ] [90m[1m_update_scan_actions[22m | getEquip_6051e68c4b2e.mp3[39m[0m
+
+[  31% ] [90m[1m_update_scan_actions[22m | getJade_b10f15f225fe.mp3[39m[0m
+
+[  32% ] [90m[1m_update_scan_actions[22m | getSoul_feb7e11bce13.mp3[39m[0m
+
+[  33% ] [90m[1m_update_scan_actions[22m | gunmu_fa39f4ef60c8.mp3[39m[0m
+
+[  34% ] [90m[1m_update_scan_actions[22m | guwu_3543d4bef95b.mp3[39m[0m
+
+[  35% ] [90m[1m_update_scan_actions[22m | heroCom_b64f8ee67481.mp3[39m[0m
+
+[  36% ] [90m[1m_update_scan_actions[22m | hongliu_49ee38430d19.mp3[39m[0m
+
+[  37% ] [90m[1m_update_scan_actions[22m | huanying_ab58d1864223.mp3[39m[0m
+
+[  38% ] [90m[1m_update_scan_actions[22m | huoqiang_31969f483ab5.mp3[39m[0m
+
+[  39% ] [90m[1m_update_scan_actions[22m | huoqiu_283340d4e1ed.mp3[39m[0m
+
+[  40% ] [90m[1m_update_scan_actions[22m | huoqiu_att_396e177fd27b.mp3[39m[0m
+
+[  41% ] [90m[1m_update_scan_actions[22m | jianqi_e41987b3268e.mp3[39m[0m
+
+[  42% ] [90m[1m_update_scan_actions[22m | jianta_7bf0d9c22e4c.mp3[39m[0m
+
+[  42% ] [90m[1m_update_scan_actions[22m | jiguang2_410c81f2be8d.mp3[39m[0m
+
+[  43% ] [90m[1m_update_scan_actions[22m | jiguang_f62736eb1b11.mp3[39m[0m
+
+[  44% ] [90m[1m_update_scan_actions[22m | jufeng_9e79f9c0eb03.mp3[39m[0m
+
+[  45% ] [90m[1m_update_scan_actions[22m | jufeng_att_a9cc7cf2eb70.mp3[39m[0m
+
+[  46% ] [90m[1m_update_scan_actions[22m | kuilei_06459fe24c11.mp3[39m[0m
+
+[  47% ] [90m[1m_update_scan_actions[22m | leiji_c0a55b0896de.mp3[39m[0m
+
+[  48% ] [90m[1m_update_scan_actions[22m | lighting2_7335828b4855.mp3[39m[0m
+
+[  49% ] [90m[1m_update_scan_actions[22m | lighting3_79f2833970cb.mp3[39m[0m
+
+[  50% ] [90m[1m_update_scan_actions[22m | lighting4_151f05f4a320.mp3[39m[0m
+
+[  51% ] [90m[1m_update_scan_actions[22m | lighting_c0a55b0896de.mp3[39m[0m
+
+[  52% ] [90m[1m_update_scan_actions[22m | linghunranshao_63baa927f4c1.mp3[39m[0m
+
+[  53% ] [90m[1m_update_scan_actions[22m | linghunsuolian_6b28179b233f.mp3[39m[0m
+
+[  54% ] [90m[1m_update_scan_actions[22m | loadingbg_947d25679f1f.mp3[39m[0m
+
+[  55% ] [90m[1m_update_scan_actions[22m | magicAtt_6b28179b233f.mp3[39m[0m
+
+[  56% ] [90m[1m_update_scan_actions[22m | naiCry_1841be92512c.mp3[39m[0m
+
+[  57% ] [90m[1m_update_scan_actions[22m | openBattleBox_655d1d38b88b.wav[39m[0m
+
+[  57% ] [90m[1m_update_scan_actions[22m | openBox_80b0fbb4a156.mp3[39m[0m
+
+[  58% ] [90m[1m_update_scan_actions[22m | ranshao_0064dd158a9f.mp3[39m[0m
+
+[  59% ] [90m[1m_update_scan_actions[22m | shenli_1d3f191731a1.mp3[39m[0m
+
+[  60% ] [90m[1m_update_scan_actions[22m | shigui_95cdf7640d67.mp3[39m[0m
+
+[  61% ] [90m[1m_update_scan_actions[22m | shopbg_298ea1f21856.mp3[39m[0m
+
+[  62% ] [90m[1m_update_scan_actions[22m | shouge_94340a75d880.mp3[39m[0m
+
+[  63% ] [90m[1m_update_scan_actions[22m | shoulei_att_a2b35bda7e81.mp3[39m[0m
+
+[  64% ] [90m[1m_update_scan_actions[22m | shoulei_c7c8d21d2851.mp3[39m[0m
+
+[  65% ] [90m[1m_update_scan_actions[22m | showCard_651080b15924.wav[39m[0m
+
+[  66% ] [90m[1m_update_scan_actions[22m | showHighQualityGem_6e83503e35d5.mp3[39m[0m
+
+[  67% ] [90m[1m_update_scan_actions[22m | showReward_fb6f5b848c5f.mp3[39m[0m
+
+[  68% ] [90m[1m_update_scan_actions[22m | shuangbao_2c375eddedc0.mp3[39m[0m
+
+[  69% ] [90m[1m_update_scan_actions[22m | swordAtt2_1dd893289669.mp3[39m[0m
+
+[  70% ] [90m[1m_update_scan_actions[22m | swordAtt3_2a8aa9077a36.mp3[39m[0m
+
+[  71% ] [90m[1m_update_scan_actions[22m | swordAtt_ab58d1864223.mp3[39m[0m
+
+[  71% ] [90m[1m_update_scan_actions[22m | sword_11d81d95e3ef.wav[39m[0m
+
+[  72% ] [90m[1m_update_scan_actions[22m | synthesis_3d0a1356ae91.mp3[39m[0m
+
+[  73% ] [90m[1m_update_scan_actions[22m | throwAtt_079b44466f6e.mp3[39m[0m
+
+[  74% ] [90m[1m_update_scan_actions[22m | throw_e0c385794c64.mp3[39m[0m
+
+[  75% ] [90m[1m_update_scan_actions[22m | tips1_06e3c804bd85.mp3[39m[0m
+
+[  76% ] [90m[1m_update_scan_actions[22m | tips_7317cc267067.mp3[39m[0m
+
+[  77% ] [90m[1m_update_scan_actions[22m | tornado_3900e820a78c.mp3[39m[0m
+
+[  78% ] [90m[1m_update_scan_actions[22m | victory_7cbacb423e80.mp3[39m[0m
+
+[  79% ] [90m[1m_update_scan_actions[22m | wheelDisc_71acfa3a1cb6.mp3[39m[0m
+
+[  80% ] [90m[1m_update_scan_actions[22m | xixueqiu_3cc5e7fec421.mp3[39m[0m
+
+[  81% ] [90m[1m_update_scan_actions[22m | yuansu_6a0246af4509.mp3[39m[0m
+
+[  82% ] [90m[1m_update_scan_actions[22m | yunshi_35dc26e54fad.mp3[39m[0m
+
+[  83% ] [90m[1m_update_scan_actions[22m | atlas_00.png[39m[0m
+
+[  84% ] [90m[1m_update_scan_actions[22m | atlas_01.png[39m[0m
+
+[  85% ] [90m[1m_update_scan_actions[22m | atlas_02.png[39m[0m
+
+[  85% ] [90m[1m_update_scan_actions[22m | atlas_03.png[39m[0m
+
+[  86% ] [90m[1m_update_scan_actions[22m | atlas_04.png[39m[0m
+
+[  87% ] [90m[1m_update_scan_actions[22m | atlas_05.png[39m[0m
+
+[  88% ] [90m[1m_update_scan_actions[22m | atlas_06.png[39m[0m
+
+[  89% ] [90m[1m_update_scan_actions[22m | atlas_07.png[39m[0m
+
+[  90% ] [90m[1m_update_scan_actions[22m | atlas_08.png[39m[0m
+
+[  91% ] [90m[1m_update_scan_actions[22m | atlas_09.png[39m[0m
+
+[  92% ] [90m[1m_update_scan_actions[22m | atlas_10.png[39m[0m
+
+[  93% ] [90m[1m_update_scan_actions[22m | atlas_11.png[39m[0m
+
+[  94% ] [90m[1m_update_scan_actions[22m | atlas_12.png[39m[0m
+
+[  95% ] [90m[1m_update_scan_actions[22m | atlas_13.png[39m[0m
+
+[  96% ] [90m[1m_update_scan_actions[22m | chinese.ttf[39m[0m
+
+[  97% ] [90m[1m_update_scan_actions[22m | home_reference_icons.png[39m[0m
+
+[  98% ] [90m[1m_update_scan_actions[22m | sample_badge.svg[39m[0m
+
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+
+[0m
+
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (106 steps)[39m[0m
+
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+
+[   0% ] [90m[1mreimport[22m | chinese.ttf[39m[0m
+
+[   0% ] [90m[1mreimport[22m | chinese.ttf[39m[0m
+
+[   1% ] [90m[1mreimport[22m | shigui_95cdf7640d67.mp3[39m[0m
+
+[   2% ] [90m[1mreimport[22m | shenli_1d3f191731a1.mp3[39m[0m
+
+[   3% ] [90m[1mreimport[22m | ranshao_0064dd158a9f.mp3[39m[0m
+
+[   4% ] [90m[1mreimport[22m | openBox_80b0fbb4a156.mp3[39m[0m
+
+[   5% ] [90m[1mreimport[22m | naiCry_1841be92512c.mp3[39m[0m
+
+[   6% ] [90m[1mreimport[22m | magicAtt_6b28179b233f.mp3[39m[0m
+
+[   7% ] [90m[1mreimport[22m | loadingbg_947d25679f1f.mp3[39m[0m
+
+[   8% ] [90m[1mreimport[22m | linghunsuolian_6b28179b233f.mp3[39m[0m
+
+[   9% ] [90m[1mreimport[22m | linghunranshao_63baa927f4c1.mp3[39m[0m
+
+[  10% ] [90m[1mreimport[22m | lighting_c0a55b0896de.mp3[39m[0m
+
+[  11% ] [90m[1mreimport[22m | lighting4_151f05f4a320.mp3[39m[0m
+
+[  12% ] [90m[1mreimport[22m | lighting3_79f2833970cb.mp3[39m[0m
+
+[  13% ] [90m[1mreimport[22m | lighting2_7335828b4855.mp3[39m[0m
+
+[  14% ] [90m[1mreimport[22m | leiji_c0a55b0896de.mp3[39m[0m
+
+[  14% ] [90m[1mreimport[22m | kuilei_06459fe24c11.mp3[39m[0m
+
+[  15% ] [90m[1mreimport[22m | jufeng_att_a9cc7cf2eb70.mp3[39m[0m
+
+[  16% ] [90m[1mreimport[22m | jufeng_9e79f9c0eb03.mp3[39m[0m
+
+[  17% ] [90m[1mreimport[22m | jiguang_f62736eb1b11.mp3[39m[0m
+
+[  18% ] [90m[1mreimport[22m | jiguang2_410c81f2be8d.mp3[39m[0m
+
+[  19% ] [90m[1mreimport[22m | jianta_7bf0d9c22e4c.mp3[39m[0m
+
+[  20% ] [90m[1mreimport[22m | jianqi_e41987b3268e.mp3[39m[0m
+
+[  21% ] [90m[1mreimport[22m | yunshi_35dc26e54fad.mp3[39m[0m
+
+[  22% ] [90m[1mreimport[22m | yuansu_6a0246af4509.mp3[39m[0m
+
+[  23% ] [90m[1mreimport[22m | xixueqiu_3cc5e7fec421.mp3[39m[0m
+
+[  24% ] [90m[1mreimport[22m | wheelDisc_71acfa3a1cb6.mp3[39m[0m
+
+[  25% ] [90m[1mreimport[22m | victory_7cbacb423e80.mp3[39m[0m
+
+[  26% ] [90m[1mreimport[22m | tornado_3900e820a78c.mp3[39m[0m
+
+[  27% ] [90m[1mreimport[22m | tips_7317cc267067.mp3[39m[0m
+
+[  28% ] [90m[1mreimport[22m | tips1_06e3c804bd85.mp3[39m[0m
+
+[  28% ] [90m[1mreimport[22m | throw_e0c385794c64.mp3[39m[0m
+
+[  29% ] [90m[1mreimport[22m | throwAtt_079b44466f6e.mp3[39m[0m
+
+[  30% ] [90m[1mreimport[22m | synthesis_3d0a1356ae91.mp3[39m[0m
+
+[  31% ] [90m[1mreimport[22m | swordAtt_ab58d1864223.mp3[39m[0m
+
+[  32% ] [90m[1mreimport[22m | swordAtt3_2a8aa9077a36.mp3[39m[0m
+
+[  33% ] [90m[1mreimport[22m | swordAtt2_1dd893289669.mp3[39m[0m
+
+[  34% ] [90m[1mreimport[22m | shuangbao_2c375eddedc0.mp3[39m[0m
+
+[  35% ] [90m[1mreimport[22m | showReward_fb6f5b848c5f.mp3[39m[0m
+
+[  36% ] [90m[1mreimport[22m | showHighQualityGem_6e83503e35d5.mp3[39m[0m
+
+[  37% ] [90m[1mreimport[22m | shoulei_c7c8d21d2851.mp3[39m[0m
+
+[  38% ] [90m[1mreimport[22m | shoulei_att_a2b35bda7e81.mp3[39m[0m
+
+[  39% ] [90m[1mreimport[22m | shouge_94340a75d880.mp3[39m[0m
+
+[  40% ] [90m[1mreimport[22m | shopbg_298ea1f21856.mp3[39m[0m
+
+[  41% ] [90m[1mreimport[22m | explode_c37fe4936f94.mp3[39m[0m
+
+[  42% ] [90m[1mreimport[22m | dianci_3d25ec22df24.mp3[39m[0m
+
+[  42% ] [90m[1mreimport[22m | crawAtt_4f8ef4045459.mp3[39m[0m
+
+[  43% ] [90m[1mreimport[22m | count5_d4c771c3a785.mp3[39m[0m
+
+[  44% ] [90m[1mreimport[22m | count4_02a3892342f5.mp3[39m[0m
+
+[  45% ] [90m[1mreimport[22m | count3_8d6d3975c6c6.mp3[39m[0m
+
+[  46% ] [90m[1mreimport[22m | count2_9a4855c22557.mp3[39m[0m
+
+[  47% ] [90m[1mreimport[22m | count1_13b9a354deb7.mp3[39m[0m
+
+[  48% ] [90m[1mreimport[22m | click_7e06c29498fc.mp3[39m[0m
+
+[  49% ] [90m[1mreimport[22m | clickSmall_693ed39ea573.mp3[39m[0m
+
+[  50% ] [90m[1mreimport[22m | cibao_cd0ae41e87a4.mp3[39m[0m
+
+[  51% ] [90m[1mreimport[22m | chop_ce0217256f1f.mp3[39m[0m
+
+[  52% ] [90m[1mreimport[22m | chanrao_8f83e2181c39.mp3[39m[0m
+
+[  53% ] [90m[1mreimport[22m | boosComeOut_c6a27c04d868.mp3[39m[0m
+
+[  54% ] [90m[1mreimport[22m | bingzui_att_ba365370ea43.mp3[39m[0m
+
+[  55% ] [90m[1mreimport[22m | bingzui_19440329eafa.mp3[39m[0m
+
+[  56% ] [90m[1mreimport[22m | bg_f553adf02941.mp3[39m[0m
+
+[  57% ] [90m[1mreimport[22m | arrow_afdcc91ceb1f.mp3[39m[0m
+
+[  57% ] [90m[1mreimport[22m | arrow3_a7909b0e2d1c.mp3[39m[0m
+
+[  58% ] [90m[1mreimport[22m | arrow2_373d063242ec.mp3[39m[0m
+
+[  59% ] [90m[1mreimport[22m | aoshu_att_204d4155766a.mp3[39m[0m
+
+[  60% ] [90m[1mreimport[22m | aoshu_8d6d3f2ae334.mp3[39m[0m
+
+[  61% ] [90m[1mreimport[22m | huoqiu_att_396e177fd27b.mp3[39m[0m
+
+[  62% ] [90m[1mreimport[22m | huoqiu_283340d4e1ed.mp3[39m[0m
+
+[  63% ] [90m[1mreimport[22m | huoqiang_31969f483ab5.mp3[39m[0m
+
+[  64% ] [90m[1mreimport[22m | huanying_ab58d1864223.mp3[39m[0m
+
+[  65% ] [90m[1mreimport[22m | hongliu_49ee38430d19.mp3[39m[0m
+
+[  66% ] [90m[1mreimport[22m | heroCom_b64f8ee67481.mp3[39m[0m
+
+[  67% ] [90m[1mreimport[22m | guwu_3543d4bef95b.mp3[39m[0m
+
+[  68% ] [90m[1mreimport[22m | gunmu_fa39f4ef60c8.mp3[39m[0m
+
+[  69% ] [90m[1mreimport[22m | getSoul_feb7e11bce13.mp3[39m[0m
+
+[  70% ] [90m[1mreimport[22m | getJade_b10f15f225fe.mp3[39m[0m
+
+[  71% ] [90m[1mreimport[22m | getEquip_6051e68c4b2e.mp3[39m[0m
+
+[  71% ] [90m[1mreimport[22m | getCoin_ccd0e90da310.mp3[39m[0m
+
+[  72% ] [90m[1mreimport[22m | getCilp_c28ae29525c6.mp3[39m[0m
+
+[  73% ] [90m[1mreimport[22m | flower_0803e2e07a0b.mp3[39m[0m
+
+[  74% ] [90m[1mreimport[22m | flash1_8d67e709335d.mp3[39m[0m
+
+[  75% ] [90m[1mreimport[22m | fireGun_71a9d5c68034.mp3[39m[0m
+
+[  76% ] [90m[1mreimport[22m | firecrackerB_984122da4e56.mp3[39m[0m
+
+[  77% ] [90m[1mreimport[22m | fail_a4a0a9539318.mp3[39m[0m
+
+[  78% ] [90m[1mreimport[22m | fireAtt_7b70f96e3128.mp3[39m[0m
+
+[  79% ] [90m[1mreimport[22m | chinese.ttf[39m[0m
+
+[  80% ] [90m[1mreimport[22m | shigui_95cdf7640d67.mp3[39m[0m
+
+[  81% ] [90m[1mreimport[22m | shenli_1d3f191731a1.mp3[39m[0m
+
+[  82% ] [90m[1mreimport[22m | ranshao_0064dd158a9f.mp3[39m[0m
+
+[  82% ] [90m[1mreimport[22m | ranshao_0064dd158a9f.mp3[39m[0m
+
+[  83% ] [90m[1mreimport[22m | openBox_80b0fbb4a156.mp3[39m[0m
+
+[  84% ] [90m[1mreimport[22m | naiCry_1841be92512c.mp3[39m[0m
+
+[  85% ] [90m[1mreimport[22m | magicAtt_6b28179b233f.mp3[39m[0m
+
+[  85% ] [90m[1mreimport[22m | loadingbg_947d25679f1f.mp3[39m[0m
+
+[  86% ] [90m[1mreimport[22m | linghunsuolian_6b28179b233f.mp3[39m[0m
+
+[  87% ] [90m[1mreimport[22m | linghunranshao_63baa927f4c1.mp3[39m[0m
+
+[  88% ] [90m[1mreimport[22m | lighting_c0a55b0896de.mp3[39m[0m
+
+[  89% ] [90m[1mreimport[22m | lighting4_151f05f4a320.mp3[39m[0m
+
+[  90% ] [90m[1mreimport[22m | lighting3_79f2833970cb.mp3[39m[0m
+
+[  91% ] [90m[1mreimport[22m | lighting2_7335828b4855.mp3[39m[0m
+
+[  92% ] [90m[1mreimport[22m | leiji_c0a55b0896de.mp3[39m[0m
+
+[  93% ] [90m[1mreimport[22m | kuilei_06459fe24c11.mp3[39m[0m
+
+[  94% ] [90m[1mreimport[22m | chinese.ttf[39m[0m
+
+[  95% ] [90m[1mreimport[22m | shigui_95cdf7640d67.mp3[39m[0m
+
+[  96% ] [90m[1mreimport[22m | shenli_1d3f191731a1.mp3[39m[0m
+
+[  97% ] [90m[1mreimport[22m | ranshao_0064dd158a9f.mp3[39m[0m
+
+[  98% ] [90m[1mreimport[22m | openBox_80b0fbb4a156.mp3[39m[0m
+
+[  99% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+
+[92m[ DONE ][39m [1mreimport[22m
+
+[0m
+
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (106 steps)[39m[0m
+
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+
+[92m[ DONE ][39m [1mreimport[22m
+
+[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+
+[0m
+[OK] Godot import
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[FULL RUN] {"bosses":3,"heroes":[{"initial_options":[1,2],"stats":{"damage":9040.67324358515,"heal":321.5,"taken":1824.5},"template":1,"upgrades":[1,2,4,6,8,3,7]},{"initial_options":[601,614],"stats":{"damage":18254.6488123451,"heal":638.62,"taken":5797.6000000596},"template":17,"upgrades":[601,614,616,615,617]},{"initial_options":[325,801],"stats":{"damage":25756.2722263941,"heal":1092.72,"taken":4567.72},"template":4,"upgrades":[325,801,802,803]},{"initial_options":[1076,1081],"stats":{"damage":12907.9135870642,"heal":480.0,"taken":2025.0},"template":13,"upgrades":[1076,1081,1082]},{"initial_options":[495,81],"stats":{"damage":16036.8290484955,"heal":1651.4800000596,"taken":2434.5},"template":2,"upgrades":[495,81,83,82,497,84]}],"history":[{"id":1,"kind":"hero","owner":0,"stage":0},{"id":17,"kind":"hero","owner":0,"stage":1},{"id":4,"kind":"hero","owner":0,"stage":2},{"id":13,"kind":"hero","owner":0,"stage":3},{"id":2,"kind":"hero","owner":0,"stage":4},{"id":4,"kind":"upgrade","owner":1,"stage":5},{"id":616,"kind":"upgrade","owner":15,"stage":6},{"id":802,"kind":"upgrade","owner":20,"stage":7},{"id":83,"kind":"upgrade","owner":32,"stage":8},{"id":6,"kind":"upgrade","owner":1,"stage":9},{"id":8,"kind":"upgrade","owner":1,"stage":10},{"id":615,"kind":"upgrade","owner":15,"stage":11},{"id":617,"kind":"upgrade","owner":15,"stage":12},{"id":803,"kind":"upgrade","owner":20,"stage":13},{"id":3,"kind":"upgrade","owner":1,"stage":14},{"id":82,"kind":"upgrade","owner":32,"stage":15},{"id":7,"kind":"upgrade","owner":1,"stage":16},{"id":497,"kind":"upgrade","owner":32,"stage":17},{"id":84,"kind":"upgrade","owner":32,"stage":18},{"id":1082,"kind":"upgrade","owner":24,"stage":19}],"kills":260,"phase":"result","time":281424,"wall":3533.0,"wave":20,"won":true}
+
+[COUPLED FIRE] [17, 21, 22, 25]
+
+[MIXED] slots=30000 recruits=7518 counts=[4195, 4241, 1415, 149]
+
+[MELEE STABILITY] {"attacks":34,"seed":6,"stutters":0,"time":120000}
+
+[MELEE STABILITY] {"attacks":33,"seed":17,"stutters":0,"time":120000}
+
+[MELEE STABILITY] {"attacks":38,"seed":81,"stutters":0,"time":120000}
+
+[MELEE STABILITY] {"attacks":14,"seed":1,"stutters":0,"time":120000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":106,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":112,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":103,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":107,"x":1000}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":600}
+
+[MOVING CONTACT] {"attacks":10,"flips":0,"stutters":0,"template":113,"x":1000}
+
+[BLOCK CAPACITY] hero=1 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=2 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=4 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=13 capacity=15 peak=15 overflow_ticks=0 stale_ticks=0
+
+[BLOCK CAPACITY] hero=17 capacity=5 peak=5 overflow_ticks=0 stale_ticks=0
+
+[BASELINE] hero=1 learned=[17, 21, 22, 25, 1269] emitted=[17, 21, 22, 25] effects=["hero1:fireball_pl3", "hero1:fireball", "bullet:fireballboom", "bullet2:gun2"]
+
+[BASELINE] hero=2 learned=[506, 661, 1269] emitted=[] effects=[]
+
+[BASELINE] hero=4 learned=[413, 755, 857, 1269] emitted=[413, 755] effects=["hero9:fireballboom4"]
+
+[BASELINE] hero=13 learned=[866, 1269] emitted=[866] effects=["hero13:arrow2"]
+
+[BASELINE] hero=17 learned=[1269, 1429, 1434, 1435] emitted=[1435, 1434, 1429] effects=["hero17:kill", "bullet2:chong4"]
+
+[OK] Godot tests: 6350 assertions
+[OK] Godot tests
+[OK] release manifest check: files=583, bytes=89854189
+[OK] release_manifest.py check
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+[OK] runtime smoke
+[OK] fresh source fingerprint: ef64261d5ed2332727c30c2f8f23ea060f1719a7fd6ed170ceebdd6b55048e90
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+
+[0m
+
+[   0% ] [90m[1msavepack[22m | Started Packing (102 steps)[39m[0m
+
+[   1% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_instance.gdc[39m[0m
+
+[   1% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_module.gdc[39m[0m
+
+[   1% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/summon/summon_action_resolver.gdc[39m[0m
+
+[   2% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/summon/summon_module.gdc[39m[0m
+
+[   2% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/gameplay_module_catalog.gdc[39m[0m
+
+[   2% ] [90m[1msavepack[22m | Storing File: res://src/runtime/presentation/core_cue_router.gdc[39m[0m
+
+[   3% ] [90m[1msavepack[22m | Storing File: res://src/runtime/action_executor.gdc[39m[0m
+
+[   3% ] [90m[1msavepack[22m | Storing File: res://scaffold-manifest.json[39m[0m
+
+[   3% ] [90m[1msavepack[22m | Storing File: res://assets/generated/asset_manifest.json[39m[0m
+
+[   4% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/aoshu_8d6d3f2ae334.mp3-07609e855c468f8fd742e46f45c48b99.mp3str[39m[0m
+
+[   4% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/aoshu_8d6d3f2ae334.mp3.import[39m[0m
+
+[   4% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/aoshu_att_204d4155766a.mp3-26f439b2e4635de83b2014fc74429bae.mp3str[39m[0m
+
+[   4% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/aoshu_att_204d4155766a.mp3.import[39m[0m
+
+[   4% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/arrow2_373d063242ec.mp3-796ce4814249ff7e33dbb9dd117dbde8.mp3str[39m[0m
+
+[   4% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/arrow2_373d063242ec.mp3.import[39m[0m
+
+[   5% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/arrow3_a7909b0e2d1c.mp3-e810a579f63dffb839cbd972ebef7f26.mp3str[39m[0m
+
+[   5% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/arrow3_a7909b0e2d1c.mp3.import[39m[0m
+
+[   5% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/arrow_afdcc91ceb1f.mp3-a5c967757ead09ef19a9f03b63812de2.mp3str[39m[0m
+
+[   5% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/arrow_afdcc91ceb1f.mp3.import[39m[0m
+
+[   5% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/bg_f553adf02941.mp3-c1c388130b900c9b96f11c3d4956638a.mp3str[39m[0m
+
+[   5% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/bg_f553adf02941.mp3.import[39m[0m
+
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/bingzui_19440329eafa.mp3-f019b25785762ff0ec95ab337b319bd1.mp3str[39m[0m
+
+[   6% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/bingzui_19440329eafa.mp3.import[39m[0m
+
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/bingzui_att_ba365370ea43.mp3-31ab9afe37967b73bf128184d1c7f073.mp3str[39m[0m
+
+[   6% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/bingzui_att_ba365370ea43.mp3.import[39m[0m
+
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/boosComeOut_c6a27c04d868.mp3-038cf3de23914986983014a11c887ff6.mp3str[39m[0m
+
+[   6% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/boosComeOut_c6a27c04d868.mp3.import[39m[0m
+
+[   7% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/chanrao_8f83e2181c39.mp3-6ccba859e8a029822f2350500d33f863.mp3str[39m[0m
+
+[   7% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/chanrao_8f83e2181c39.mp3.import[39m[0m
+
+[   7% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/chop_ce0217256f1f.mp3-c3add513cea5fff7c4aaec3beb9fab92.mp3str[39m[0m
+
+[   7% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/chop_ce0217256f1f.mp3.import[39m[0m
+
+[   7% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/cibao_cd0ae41e87a4.mp3-c69703a1fd8284b84b06c18047d1df40.mp3str[39m[0m
+
+[   7% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/cibao_cd0ae41e87a4.mp3.import[39m[0m
+
+[   8% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/clickSmall_693ed39ea573.mp3-d6ed4140379a43166e16b4c0658a519a.mp3str[39m[0m
+
+[   8% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/clickSmall_693ed39ea573.mp3.import[39m[0m
+
+[   8% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/click_7e06c29498fc.mp3-12ab7d7d5849f374e51ebb9f47564eb9.mp3str[39m[0m
+
+[   8% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/click_7e06c29498fc.mp3.import[39m[0m
+
+[   8% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/count1_13b9a354deb7.mp3-2a6530d6ab4c8e631298e8c81ba3505d.mp3str[39m[0m
+
+[   8% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/count1_13b9a354deb7.mp3.import[39m[0m
+
+[   9% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/count2_9a4855c22557.mp3-cf9c2a89b4fe012fbd9f17cc4762e07e.mp3str[39m[0m
+
+[   9% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/count2_9a4855c22557.mp3.import[39m[0m
+
+[   9% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/count3_8d6d3975c6c6.mp3-574813df56b8c1d147500cf4ae18babe.mp3str[39m[0m
+
+[   9% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/count3_8d6d3975c6c6.mp3.import[39m[0m
+
+[   9% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/count4_02a3892342f5.mp3-982ef1d1ae1bb81189d03ed98b344bd2.mp3str[39m[0m
+
+[   9% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/count4_02a3892342f5.mp3.import[39m[0m
+
+[  10% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/count5_d4c771c3a785.mp3-35eebada774c7ce199cacd65ad650c2b.mp3str[39m[0m
+
+[  10% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/count5_d4c771c3a785.mp3.import[39m[0m
+
+[  10% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/crawAtt_4f8ef4045459.mp3-dda89e782394e16312b46a6f3a5cff97.mp3str[39m[0m
+
+[  10% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/crawAtt_4f8ef4045459.mp3.import[39m[0m
+
+[  10% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/crow_9ac37439ff2b.wav-4db59f76d48aab622e64c84f7254c7d0.sample[39m[0m
+
+[  10% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/crow_9ac37439ff2b.wav.import[39m[0m
+
+[  11% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/dianci_3d25ec22df24.mp3-3e5c17b347d5641c157f0191c7d544da.mp3str[39m[0m
+
+[  11% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/dianci_3d25ec22df24.mp3.import[39m[0m
+
+[  11% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/explode_c37fe4936f94.mp3-294260f57d17f162e2b992d642f12741.mp3str[39m[0m
+
+[  11% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/explode_c37fe4936f94.mp3.import[39m[0m
+
+[  11% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/fail_a4a0a9539318.mp3-e52dbb4a9bf899d9b4b938383dadb6cd.mp3str[39m[0m
+
+[  11% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/fail_a4a0a9539318.mp3.import[39m[0m
+
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/fightbg_eb928bf1d5b0.mp3-82d77ebddf8a07ca07ec436fb6fbee32.mp3str[39m[0m
+
+[  12% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/fightbg_eb928bf1d5b0.mp3.import[39m[0m
+
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/fireAtt_7b70f96e3128.mp3-4ed0abc5fc52459f3a01f61acf73ef4e.mp3str[39m[0m
+
+[  12% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/fireAtt_7b70f96e3128.mp3.import[39m[0m
+
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/firecrackerB_984122da4e56.mp3-bde5ab077a4fe28b6b8a9a045e46e780.mp3str[39m[0m
+
+[  12% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/firecrackerB_984122da4e56.mp3.import[39m[0m
+
+[  13% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/fireGun_71a9d5c68034.mp3-210d6448a518dce47ceb611f7f0e92a9.mp3str[39m[0m
+
+[  13% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/fireGun_71a9d5c68034.mp3.import[39m[0m
+
+[  13% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/flash1_8d67e709335d.mp3-ba8f54a2cceac28c81a209e1ad3118f6.mp3str[39m[0m
+
+[  13% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/flash1_8d67e709335d.mp3.import[39m[0m
+
+[  13% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/flower_0803e2e07a0b.mp3-15beb01eecf8bdc734cd884c80b5bec5.mp3str[39m[0m
+
+[  13% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/flower_0803e2e07a0b.mp3.import[39m[0m
+
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/gemError_830b2019b21f.wav-5c7df471a4346e709b86a44c6a8ce4c1.sample[39m[0m
+
+[  14% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/gemError_830b2019b21f.wav.import[39m[0m
+
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/getCilp_c28ae29525c6.mp3-b0be33902df602ed4ad4fe37717363db.mp3str[39m[0m
+
+[  14% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/getCilp_c28ae29525c6.mp3.import[39m[0m
+
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/getCoin_ccd0e90da310.mp3-0d2e8e613d37c75890b632f8df728b8c.mp3str[39m[0m
+
+[  14% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/getCoin_ccd0e90da310.mp3.import[39m[0m
+
+[  15% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/getEquip_6051e68c4b2e.mp3-10946f850f4b02de15c498e1d4a3812b.mp3str[39m[0m
+
+[  15% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/getEquip_6051e68c4b2e.mp3.import[39m[0m
+
+[  15% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/getJade_b10f15f225fe.mp3-7130b47b26634111f43d6ceca95343a3.mp3str[39m[0m
+
+[  15% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/getJade_b10f15f225fe.mp3.import[39m[0m
+
+[  15% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/getSoul_feb7e11bce13.mp3-b58fbdda1fce41d047edd2833a63291f.mp3str[39m[0m
+
+[  15% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/getSoul_feb7e11bce13.mp3.import[39m[0m
+
+[  16% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/gunmu_fa39f4ef60c8.mp3-7097f8bfb0804223628d2b07ce0facb7.mp3str[39m[0m
+
+[  16% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/gunmu_fa39f4ef60c8.mp3.import[39m[0m
+
+[  16% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/guwu_3543d4bef95b.mp3-068594d971e36c7fd20cae1e9980c145.mp3str[39m[0m
+
+[  16% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/guwu_3543d4bef95b.mp3.import[39m[0m
+
+[  16% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/heroCom_b64f8ee67481.mp3-ffa3bd1f226effd4d3d8a30905ee244f.mp3str[39m[0m
+
+[  16% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/heroCom_b64f8ee67481.mp3.import[39m[0m
+
+[  17% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/hongliu_49ee38430d19.mp3-ceb30373cdad399c49bc14ebf7c87447.mp3str[39m[0m
+
+[  17% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/hongliu_49ee38430d19.mp3.import[39m[0m
+
+[  17% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/huanying_ab58d1864223.mp3-d811fe37b5604b66d2b3bb0b92f21552.mp3str[39m[0m
+
+[  17% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/huanying_ab58d1864223.mp3.import[39m[0m
+
+[  17% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/huoqiang_31969f483ab5.mp3-3abf50ed49c1d31e2253f241800cb101.mp3str[39m[0m
+
+[  17% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/huoqiang_31969f483ab5.mp3.import[39m[0m
+
+[  18% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/huoqiu_283340d4e1ed.mp3-8cf8d9d28eeb06f5f75f9256bbe9a0c9.mp3str[39m[0m
+
+[  18% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/huoqiu_283340d4e1ed.mp3.import[39m[0m
+
+[  18% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/huoqiu_att_396e177fd27b.mp3-35e08813053c97f500d5b6ae8f2d443a.mp3str[39m[0m
+
+[  18% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/huoqiu_att_396e177fd27b.mp3.import[39m[0m
+
+[  18% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/jianqi_e41987b3268e.mp3-2228738d7ca3d9df6946769556d3b044.mp3str[39m[0m
+
+[  18% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/jianqi_e41987b3268e.mp3.import[39m[0m
+
+[  19% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/jianta_7bf0d9c22e4c.mp3-e78e8db8f71a56bb701a0cac63eb036f.mp3str[39m[0m
+
+[  19% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/jianta_7bf0d9c22e4c.mp3.import[39m[0m
+
+[  19% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/jiguang2_410c81f2be8d.mp3-b21bd50d889b4d8c1b804281a7c28629.mp3str[39m[0m
+
+[  19% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/jiguang2_410c81f2be8d.mp3.import[39m[0m
+
+[  19% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/jiguang_f62736eb1b11.mp3-47eab0a91a62bb7e3f3cb1233670f10b.mp3str[39m[0m
+
+[  19% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/jiguang_f62736eb1b11.mp3.import[39m[0m
+
+[  20% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/jufeng_9e79f9c0eb03.mp3-62dc738840a63e0b5fb0e7990fff8a42.mp3str[39m[0m
+
+[  20% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/jufeng_9e79f9c0eb03.mp3.import[39m[0m
+
+[  20% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/jufeng_att_a9cc7cf2eb70.mp3-7fa042fe599c372e03bd36e2a2e11878.mp3str[39m[0m
+
+[  20% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/jufeng_att_a9cc7cf2eb70.mp3.import[39m[0m
+
+[  20% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/kuilei_06459fe24c11.mp3-9d2531f54fc8aae86c55fa5a6bda5694.mp3str[39m[0m
+
+[  20% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/kuilei_06459fe24c11.mp3.import[39m[0m
+
+[  21% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/leiji_c0a55b0896de.mp3-b3cc0d7e03202da508491df513b9730b.mp3str[39m[0m
+
+[  21% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/leiji_c0a55b0896de.mp3.import[39m[0m
+
+[  21% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/lighting2_7335828b4855.mp3-57024e05b6ba718fe50ffdfaac497ec7.mp3str[39m[0m
+
+[  21% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/lighting2_7335828b4855.mp3.import[39m[0m
+
+[  21% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/lighting3_79f2833970cb.mp3-a0060c56583a1df84fb6b835e8dfe08b.mp3str[39m[0m
+
+[  21% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/lighting3_79f2833970cb.mp3.import[39m[0m
+
+[  22% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/lighting4_151f05f4a320.mp3-43da42c841b19dfbdf07f6a24e84e473.mp3str[39m[0m
+
+[  22% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/lighting4_151f05f4a320.mp3.import[39m[0m
+
+[  22% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/lighting_c0a55b0896de.mp3-b6f2d913edf87f8bfe9a6a6ceaec5f85.mp3str[39m[0m
+
+[  22% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/lighting_c0a55b0896de.mp3.import[39m[0m
+
+[  22% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/linghunranshao_63baa927f4c1.mp3-da7d3e4ce8ca19c239881e8802fbfdb6.mp3str[39m[0m
+
+[  22% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/linghunranshao_63baa927f4c1.mp3.import[39m[0m
+
+[  23% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/linghunsuolian_6b28179b233f.mp3-bddd35a1ef5758b10524854be4cd6780.mp3str[39m[0m
+
+[  23% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/linghunsuolian_6b28179b233f.mp3.import[39m[0m
+
+[  23% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/loadingbg_947d25679f1f.mp3-b93aaf53541e0cfdbed2ea63a4c6e7a5.mp3str[39m[0m
+
+[  23% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/loadingbg_947d25679f1f.mp3.import[39m[0m
+
+[  23% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/magicAtt_6b28179b233f.mp3-0e4775c0807fab6a031f0927f4cadcbe.mp3str[39m[0m
+
+[  23% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/magicAtt_6b28179b233f.mp3.import[39m[0m
+
+[  24% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/naiCry_1841be92512c.mp3-5c977ff05b92924ea4f171207123da10.mp3str[39m[0m
+
+[  24% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/naiCry_1841be92512c.mp3.import[39m[0m
+
+[  24% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/openBattleBox_655d1d38b88b.wav-399496cc4bfe6d49e6b27d3a165dca67.sample[39m[0m
+
+[  24% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/openBattleBox_655d1d38b88b.wav.import[39m[0m
+
+[  24% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/openBox_80b0fbb4a156.mp3-86b4b5d9468f7a67df52cac432466ae3.mp3str[39m[0m
+
+[  24% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/openBox_80b0fbb4a156.mp3.import[39m[0m
+
+[  25% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/ranshao_0064dd158a9f.mp3-82351af514f6243282bae93b3e226d34.mp3str[39m[0m
+
+[  25% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/ranshao_0064dd158a9f.mp3.import[39m[0m
+
+[  25% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shenli_1d3f191731a1.mp3-bc6e5966242a5c8614d1cedc39f003ba.mp3str[39m[0m
+
+[  25% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shenli_1d3f191731a1.mp3.import[39m[0m
+
+[  25% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shigui_95cdf7640d67.mp3-69d1123d1d539b8b515f92200a7f9077.mp3str[39m[0m
+
+[  25% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shigui_95cdf7640d67.mp3.import[39m[0m
+
+[  26% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shopbg_298ea1f21856.mp3-4c9680df361841f9422745827bda4060.mp3str[39m[0m
+
+[  26% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shopbg_298ea1f21856.mp3.import[39m[0m
+
+[  26% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shouge_94340a75d880.mp3-e4c148bca1ea04a44edc23f904d0aafb.mp3str[39m[0m
+
+[  26% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shouge_94340a75d880.mp3.import[39m[0m
+
+[  26% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shoulei_att_a2b35bda7e81.mp3-d8f48059a67b772344a673682ffbdcfd.mp3str[39m[0m
+
+[  26% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shoulei_att_a2b35bda7e81.mp3.import[39m[0m
+
+[  27% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shoulei_c7c8d21d2851.mp3-f13f10096565ee5e2e4b1e5a44214d01.mp3str[39m[0m
+
+[  27% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shoulei_c7c8d21d2851.mp3.import[39m[0m
+
+[  27% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/showCard_651080b15924.wav-7ab1a2ec64db0392b8c6835a78eb4dab.sample[39m[0m
+
+[  27% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/showCard_651080b15924.wav.import[39m[0m
+
+[  27% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/showHighQualityGem_6e83503e35d5.mp3-e909a5114b66c4daeaff11f297f796bd.mp3str[39m[0m
+
+[  27% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/showHighQualityGem_6e83503e35d5.mp3.import[39m[0m
+
+[  28% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/showReward_fb6f5b848c5f.mp3-9e3cb7ef0f06a0ad6f833a73bb72d924.mp3str[39m[0m
+
+[  28% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/showReward_fb6f5b848c5f.mp3.import[39m[0m
+
+[  28% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/shuangbao_2c375eddedc0.mp3-6044fbb7c29062b85a8f93a77f3c3ad0.mp3str[39m[0m
+
+[  28% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/shuangbao_2c375eddedc0.mp3.import[39m[0m
+
+[  28% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/swordAtt2_1dd893289669.mp3-df468d1fbe42d8f14061e59b2d3d33ad.mp3str[39m[0m
+
+[  28% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/swordAtt2_1dd893289669.mp3.import[39m[0m
+
+[  29% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/swordAtt3_2a8aa9077a36.mp3-aaa2d21de05f5a3d45522fafd128ba49.mp3str[39m[0m
+
+[  29% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/swordAtt3_2a8aa9077a36.mp3.import[39m[0m
+
+[  29% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/swordAtt_ab58d1864223.mp3-7ba84cff2a354a2ebaec02c3135d8cda.mp3str[39m[0m
+
+[  29% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/swordAtt_ab58d1864223.mp3.import[39m[0m
+
+[  29% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/sword_11d81d95e3ef.wav-fe56a37d545f19f98400f61edbb963fa.sample[39m[0m
+
+[  29% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/sword_11d81d95e3ef.wav.import[39m[0m
+
+[  30% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/synthesis_3d0a1356ae91.mp3-786e5186ae2e00348601944ce5f86365.mp3str[39m[0m
+
+[  30% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/synthesis_3d0a1356ae91.mp3.import[39m[0m
+
+[  30% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/throwAtt_079b44466f6e.mp3-56790504cedbbacb555890658b8fd75f.mp3str[39m[0m
+
+[  30% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/throwAtt_079b44466f6e.mp3.import[39m[0m
+
+[  30% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/throw_e0c385794c64.mp3-836572a3aa5f6f3227da35a4eaf5b51c.mp3str[39m[0m
+
+[  30% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/throw_e0c385794c64.mp3.import[39m[0m
+
+[  31% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/tips1_06e3c804bd85.mp3-ffb4a2584b1a7756c0ded5662b56d2fe.mp3str[39m[0m
+
+[  31% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/tips1_06e3c804bd85.mp3.import[39m[0m
+
+[  31% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/tips_7317cc267067.mp3-d4c1da17212ceb2e6ce9eb78ca1995f0.mp3str[39m[0m
+
+[  31% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/tips_7317cc267067.mp3.import[39m[0m
+
+[  31% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/tornado_3900e820a78c.mp3-67122817a35b9fd956f6ef80103b9ec8.mp3str[39m[0m
+
+[  31% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/tornado_3900e820a78c.mp3.import[39m[0m
+
+[  32% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/victory_7cbacb423e80.mp3-7bacf54a06faef7366cc8420d2492c10.mp3str[39m[0m
+
+[  32% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/victory_7cbacb423e80.mp3.import[39m[0m
+
+[  32% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/wheelDisc_71acfa3a1cb6.mp3-b785db2cb547dc3bf666eb5c5d239726.mp3str[39m[0m
+
+[  32% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/wheelDisc_71acfa3a1cb6.mp3.import[39m[0m
+
+[  32% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/xixueqiu_3cc5e7fec421.mp3-42446ffe94484bddf86e8123148d2f2f.mp3str[39m[0m
+
+[  32% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/xixueqiu_3cc5e7fec421.mp3.import[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/yuansu_6a0246af4509.mp3-9d366113bbcb7539722e40f8aa188fe2.mp3str[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/yuansu_6a0246af4509.mp3.import[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/yunshi_35dc26e54fad.mp3-75b2702c3efece430f9a6aa171aef4b9.mp3str[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/audio/yunshi_35dc26e54fad.mp3.import[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_00.png-637817c7e236502f231ccaa8379d6008.ctex[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_00.png.import[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_01.png-79d122b08346b5a7ae0981217bc6ce35.ctex[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_01.png.import[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_02.png-7b1de300d1971f811dd36386bd75d084.ctex[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_02.png.import[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_03.png-7a20a4350f4fa1092458b711aeb35a01.ctex[39m[0m
+
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_03.png.import[39m[0m
+
+[  34% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_04.png-226dc3e9fbdb29f63e4b691ca1ce4cef.ctex[39m[0m
+
+[  34% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_04.png.import[39m[0m
+
+[  34% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_05.png-7eb37a6042f374c4653ce60d5ece520a.ctex[39m[0m
+
+[  34% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_05.png.import[39m[0m
+
+[  34% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_06.png-e5d3ac58afa919e3482722a648e7ecc4.ctex[39m[0m
+
+[  34% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_06.png.import[39m[0m
+
+[  35% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_07.png-9b29778954aac66493da2f72603db22c.ctex[39m[0m
+
+[  35% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_07.png.import[39m[0m
+
+[  35% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_08.png-4e82a22af8f03332678dd80eb0e24b3c.ctex[39m[0m
+
+[  35% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_08.png.import[39m[0m
+
+[  35% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_09.png-c866e53a40dde8d04fad6d51abff4fd9.ctex[39m[0m
+
+[  35% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_09.png.import[39m[0m
+
+[  36% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_10.png-331eedee3b5373955f5ee98b830673a4.ctex[39m[0m
+
+[  36% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_10.png.import[39m[0m
+
+[  36% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_11.png-657e00e895019ac4e261fd87c6b2687f.ctex[39m[0m
+
+[  36% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_11.png.import[39m[0m
+
+[  36% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_12.png-b86e606818629d80f4ee926f2d524550.ctex[39m[0m
+
+[  36% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_12.png.import[39m[0m
+
+[  37% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/atlas_13.png-dca24e959f9b13491c163dc64976b408.ctex[39m[0m
+
+[  37% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/atlas_13.png.import[39m[0m
+
+[  37% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/chinese.ttf-034238e7a677bccce33d22588d04bdc9.fontdata[39m[0m
+
+[  37% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/chinese.ttf.import[39m[0m
+
+[  37% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/home_reference_icons.png-93199568c684ddcbda3edef54aecf863.ctex[39m[0m
+
+[  37% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/defense/home_reference_icons.png.import[39m[0m
+
+[  38% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/sample_badge.svg-27cd058f13af5817fe2fde2767b0e9d3.ctex[39m[0m
+
+[  38% ] [90m[1msavepack[22m | Storing File: res://assets/runtime/ui/sample_badge.svg.import[39m[0m
+
+[  38% ] [90m[1msavepack[22m | Storing File: res://src/runtime/action_result.gdc[39m[0m
+
+[  38% ] [90m[1msavepack[22m | Storing File: res://src/runtime/hook_pipeline.gdc[39m[0m
+
+[  39% ] [90m[1msavepack[22m | Storing File: res://data/generated/ability_plans.json[39m[0m
+
+[  39% ] [90m[1msavepack[22m | Storing File: res://data/generated/data_catalog.json[39m[0m
+
+[  39% ] [90m[1msavepack[22m | Storing File: res://data/generated/data_manifest.json[39m[0m
+
+[  40% ] [90m[1msavepack[22m | Storing File: res://data/generated/defense_catalog.json[39m[0m
+
+[  40% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-55ac84f8f3e52070744df8b362f67a11-battle_panels.scn[39m[0m
+
+[  40% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-c17c9bf7fe99df179fea0439f0a7f4ce-choice_card.scn[39m[0m
+
+[  41% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-a81e508db803e44201e6773c6478a95f-contribution_row.scn[39m[0m
+
+[  41% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-e4f81853d191fc533e2eff4bf3705f6c-hero_item.scn[39m[0m
+
+[  41% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-9e8ad4a6a6d26a3bbeddf942afe75c75-home.scn[39m[0m
+
+[  42% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-84a220df93916ecfdb6885f58ad28f6b-level_button.scn[39m[0m
+
+[  42% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-9d24564f28a9ffa60a2f36bd846bb009-monster_portrait.scn[39m[0m
+
+[  42% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-61c563fa12820ce951c58fa9caad9ba1-monster_row.scn[39m[0m
+
+[  43% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-f8487330a8a3a3153bab21b424034056-result_card.scn[39m[0m
+
+[  43% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-21c21a6ae2b66d5f81a230b439ac9702-result_item.scn[39m[0m
+
+[  43% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-fcd56ff43a9d9c1e08eada4f34eb3559-result_panel.scn[39m[0m
+
+[  44% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-89511f320f1ca304632ab06393a4e652-roster_card.scn[39m[0m
+
+[  44% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-c3f4b4958f62020b1a611179829fe00f-skill_tooltip.scn[39m[0m
+
+[  44% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn[39m[0m
+
+[  45% ] [90m[1msavepack[22m | Storing File: res://src/app/app_bootstrap.gdc[39m[0m
+
+[  45% ] [90m[1msavepack[22m | Storing File: res://src/data/data_registry.gdc[39m[0m
+
+[  45% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_ai.gdc[39m[0m
+
+[  46% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_attack_geometry.gdc[39m[0m
+
+[  46% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_ballistics.gdc[39m[0m
+
+[  46% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_cast_graph.gdc[39m[0m
+
+[  47% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_catalog.gdc[39m[0m
+
+[  47% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_choices.gdc[39m[0m
+
+[  47% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_damage.gdc[39m[0m
+
+[  48% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_displacement.gdc[39m[0m
+
+[  48% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_fire_patterns.gdc[39m[0m
+
+[  48% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_loot.gdc[39m[0m
+
+[  49% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_mitigation.gdc[39m[0m
+
+[  49% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_navigation.gdc[39m[0m
+
+[  49% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_passives.gdc[39m[0m
+
+[  50% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectiles.gdc[39m[0m
+
+[  50% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectile_factory.gdc[39m[0m
+
+[  50% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectile_geometry.gdc[39m[0m
+
+[  51% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectile_motion.gdc[39m[0m
+
+[  51% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_result.gdc[39m[0m
+
+[  51% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_session.gdc[39m[0m
+
+[  52% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_skills.gdc[39m[0m
+
+[  52% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_skill_actions.gdc[39m[0m
+
+[  52% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_skill_effects.gdc[39m[0m
+
+[  53% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_snapshot.gdc[39m[0m
+
+[  53% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_space.gdc[39m[0m
+
+[  53% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_spawn.gdc[39m[0m
+
+[  54% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_statue.gdc[39m[0m
+
+[  54% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_status.gdc[39m[0m
+
+[  54% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_targets.gdc[39m[0m
+
+[  55% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_traits.gdc[39m[0m
+
+[  55% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_units.gdc[39m[0m
+
+[  55% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_upgrades.gdc[39m[0m
+
+[  56% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/battle_blur.gdshader[39m[0m
+
+[  56% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/choice_beam.gdshader[39m[0m
+
+[  56% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_actor_outline.gdc[39m[0m
+
+[  57% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_atlas.gdc[39m[0m
+
+[  57% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_atlas_sprite.gdc[39m[0m
+
+[  57% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_audio.gdc[39m[0m
+
+[  58% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_battle_panels.gdc[39m[0m
+
+[  58% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_chest_visual.gdc[39m[0m
+
+[  58% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_card.gdc[39m[0m
+
+[  59% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_panel.gdc[39m[0m
+
+[  59% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_refresh.gdc[39m[0m
+
+[  59% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_skill_button.gdc[39m[0m
+
+[  60% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_contribution_row.gdc[39m[0m
+
+[  60% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_field.gdc[39m[0m
+
+[  60% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_home.gdc[39m[0m
+
+[  61% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_home_boss.gdc[39m[0m
+
+[  61% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_hud.gdc[39m[0m
+
+[  61% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_monster_portrait.gdc[39m[0m
+
+[  62% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_monster_row.gdc[39m[0m
+
+[  62% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_panel_art.gdc[39m[0m
+
+[  62% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_portrait.gdc[39m[0m
+
+[  63% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_card.gdc[39m[0m
+
+[  63% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_item.gdc[39m[0m
+
+[  63% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_panel.gdc[39m[0m
+
+[  64% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_progress.gdc[39m[0m
+
+[  64% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_revive_visual.gdc[39m[0m
+
+[  64% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_roster_card.gdc[39m[0m
+
+[  65% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_skill_tooltip.gdc[39m[0m
+
+[  65% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_view.gdc[39m[0m
+
+[  65% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/home_light.gdshader[39m[0m
+
+[  66% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/result_blur.gdshader[39m[0m
+
+[  66% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/revive_light.gdshader[39m[0m
+
+[  66% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/commands/change_value_command.gdc[39m[0m
+
+[  66% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/clamp_delta_hook.gdc[39m[0m
+
+[  66% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/increment_action.gdc[39m[0m
+
+[  66% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_context.gdc[39m[0m
+
+[  67% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_feature.gdc[39m[0m
+
+[  67% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_intent.gdc[39m[0m
+
+[  67% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_state.gdc[39m[0m
+
+[  68% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/presentation/main_view.gdc[39m[0m
+
+[  68% ] [90m[1msavepack[22m | Storing File: res://src/foundation/deterministic_rng.gdc[39m[0m
+
+[  68% ] [90m[1msavepack[22m | Storing File: res://src/foundation/rng_set.gdc[39m[0m
+
+[  69% ] [90m[1msavepack[22m | Storing File: res://src/foundation/save_codec.gdc[39m[0m
+
+[  69% ] [90m[1msavepack[22m | Storing File: res://src/platform/save_store.gdc[39m[0m
+
+[  69% ] [90m[1msavepack[22m | Storing File: res://src/resources/resource_catalog.gdc[39m[0m
+
+[  70% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_action_node_configuration.gdc[39m[0m
+
+[  70% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_action_registry.gdc[39m[0m
+
+[  70% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_cooldown_store.gdc[39m[0m
+
+[  71% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_debug_registry.gdc[39m[0m
+
+[  71% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_definition.gdc[39m[0m
+
+[  71% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_execution_plan.gdc[39m[0m
+
+[  72% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_execution_snapshot.gdc[39m[0m
+
+[  72% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_extension_manifest.gdc[39m[0m
+
+[  72% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_framework_registry.gdc[39m[0m
+
+[  73% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_grant_store.gdc[39m[0m
+
+[  73% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_compiler.gdc[39m[0m
+
+[  73% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_compile_result.gdc[39m[0m
+
+[  74% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_connection_definition.gdc[39m[0m
+
+[  74% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_connection_policy.gdc[39m[0m
+
+[  74% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_connection_resource.gdc[39m[0m
+
+[  75% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_cycle_policy.gdc[39m[0m
+
+[  75% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_definition.gdc[39m[0m
+
+[  75% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_node_definition.gdc[39m[0m
+
+[  76% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_node_resource.gdc[39m[0m
+
+[  76% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_resource.gdc[39m[0m
+
+[  76% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_subgraph_policy.gdc[39m[0m
+
+[  77% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_variable_definition.gdc[39m[0m
+
+[  77% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_variable_policy.gdc[39m[0m
+
+[  77% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_node_configuration.gdc[39m[0m
+
+[  78% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_node_descriptor.gdc[39m[0m
+
+[  78% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_node_registry.gdc[39m[0m
+
+[  78% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_pin_descriptor.gdc[39m[0m
+
+[  79% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_plan_catalog.gdc[39m[0m
+
+[  79% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_plan_operation.gdc[39m[0m
+
+[  79% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run.gdc[39m[0m
+
+[  80% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_data_ops.gdc[39m[0m
+
+[  80% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_scope_ops.gdc[39m[0m
+
+[  80% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_snapshot_codec.gdc[39m[0m
+
+[  81% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_subgraph_ops.gdc[39m[0m
+
+[  81% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_trace_ops.gdc[39m[0m
+
+[  81% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_wait_ops.gdc[39m[0m
+
+[  82% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_service.gdc[39m[0m
+
+[  82% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_service_snapshot_codec.gdc[39m[0m
+
+[  82% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_standard_node_catalog.gdc[39m[0m
+
+[  83% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_subgraph_catalog.gdc[39m[0m
+
+[  83% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_subgraph_reference.gdc[39m[0m
+
+[  83% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_target_action_resolver.gdc[39m[0m
+
+[  84% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_attribute_definition.gdc[39m[0m
+
+[  84% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_attribute_modifier.gdc[39m[0m
+
+[  84% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_attribute_store.gdc[39m[0m
+
+[  85% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_condition_registry.gdc[39m[0m
+
+[  85% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_condition_result.gdc[39m[0m
+
+[  85% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_domain_event.gdc[39m[0m
+
+[  86% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_effect_definition.gdc[39m[0m
+
+[  86% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_effect_instance.gdc[39m[0m
+
+[  86% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_effect_store.gdc[39m[0m
+
+[  87% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_entity_instance.gdc[39m[0m
+
+[  87% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_context.gdc[39m[0m
+
+[  87% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_handler_result.gdc[39m[0m
+
+[  88% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_pipeline.gdc[39m[0m
+
+[  88% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_pipeline_result.gdc[39m[0m
+
+[  88% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_request.gdc[39m[0m
+
+[  89% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_trace.gdc[39m[0m
+
+[  89% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_trace_comparison.gdc[39m[0m
+
+[  89% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_execution_context.gdc[39m[0m
+
+[  90% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_formula_plan.gdc[39m[0m
+
+[  90% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_formula_registry.gdc[39m[0m
+
+[  90% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_formula_result.gdc[39m[0m
+
+[  91% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_state.gdc[39m[0m
+
+[  91% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_tag_store.gdc[39m[0m
+
+[  91% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_target_query_definition.gdc[39m[0m
+
+[  92% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_target_resolver_registry.gdc[39m[0m
+
+[  92% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_target_result.gdc[39m[0m
+
+[  92% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_trigger_definition.gdc[39m[0m
+
+[  93% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_trigger_handler.gdc[39m[0m
+
+[  93% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_trigger_registry.gdc[39m[0m
+
+[  93% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/area/area_module.gdc[39m[0m
+
+[  94% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/area/area_query_action_resolver.gdc[39m[0m
+
+[  94% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/buff/buff_action_resolver.gdc[39m[0m
+
+[  94% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/buff/buff_module.gdc[39m[0m
+
+[  95% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_action_resolver.gdc[39m[0m
+
+[  95% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_commit_handler.gdc[39m[0m
+
+[  95% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_component.gdc[39m[0m
+
+[  96% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_module.gdc[39m[0m
+
+[  96% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_outcome.gdc[39m[0m
+
+[  96% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_spec.gdc[39m[0m
+
+[  97% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/hit_module.gdc[39m[0m
+
+[  97% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/hit_result.gdc[39m[0m
+
+[  97% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/movement/movement_action_resolver.gdc[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/movement/movement_module.gdc[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_action_resolver.gdc[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_definition.gdc[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_instance.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/summon/summon_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/summon/summon_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/gameplay_module_catalog.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/presentation/core_cue_router.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/action_executor.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/action_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/hook_pipeline.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/battle_panels.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/choice_card.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/contribution_row.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/hero_item.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/home.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/level_button.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/monster_portrait.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/monster_row.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/result_card.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/result_item.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/result_panel.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/roster_card.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/defense/skill_tooltip.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://scenes/main.tscn.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/app/app_bootstrap.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/data/data_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_ai.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_attack_geometry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_ballistics.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_cast_graph.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_catalog.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_choices.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_damage.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_displacement.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_fire_patterns.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_loot.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_mitigation.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_navigation.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_passives.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectiles.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectile_factory.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectile_geometry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_projectile_motion.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_session.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_skills.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_skill_actions.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_skill_effects.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_snapshot.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_space.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_spawn.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_statue.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_status.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_targets.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_traits.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_units.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/domain/defense_upgrades.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_actor_outline.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_atlas.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_atlas_sprite.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_audio.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_battle_panels.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_chest_visual.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_card.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_panel.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_refresh.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_choice_skill_button.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_contribution_row.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_field.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_home.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_home_boss.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_hud.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_monster_portrait.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_monster_row.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_panel_art.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_portrait.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_card.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_item.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_panel.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_result_progress.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_revive_visual.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_roster_card.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_skill_tooltip.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/defense/presentation/defense_view.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/commands/change_value_command.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/clamp_delta_hook.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/increment_action.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_context.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_feature.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_intent.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/domain/sample_state.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/features/sample_interaction/presentation/main_view.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/foundation/deterministic_rng.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/foundation/rng_set.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/foundation/save_codec.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/platform/save_store.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/resources/resource_catalog.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_action_node_configuration.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_action_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_cooldown_store.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_debug_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_execution_plan.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_execution_snapshot.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_extension_manifest.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_framework_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_grant_store.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_compiler.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_compile_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_connection_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_connection_policy.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_connection_resource.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_cycle_policy.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_node_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_node_resource.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_resource.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_subgraph_policy.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_variable_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_graph_variable_policy.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_node_configuration.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_node_descriptor.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_node_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_pin_descriptor.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_plan_catalog.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_plan_operation.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_data_ops.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_scope_ops.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_snapshot_codec.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_subgraph_ops.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_trace_ops.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_run_wait_ops.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_service.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_service_snapshot_codec.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_standard_node_catalog.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_subgraph_catalog.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_subgraph_reference.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/ability/ability_target_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_attribute_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_attribute_modifier.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_attribute_store.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_condition_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_condition_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_domain_event.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_effect_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_effect_instance.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_effect_store.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_entity_instance.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_context.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_handler_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_pipeline.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_pipeline_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_request.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_trace.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_event_trace_comparison.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_execution_context.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_formula_plan.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_formula_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_formula_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_state.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_tag_store.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_target_query_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_target_resolver_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_target_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_trigger_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_trigger_handler.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/core/core_trigger_registry.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/area/area_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/area/area_query_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/buff/buff_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/buff/buff_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_commit_handler.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_component.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_outcome.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/damage_spec.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/hit_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/damage/hit_result.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/movement/movement_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/movement/movement_module.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_action_resolver.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://src/runtime/modules/projectile/projectile_definition.gd.remap[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://.godot/global_script_class_cache.cfg[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://.godot/uid_cache.bin[39m[0m
+
+[  98% ] [90m[1msavepack[22m | Storing File: res://project.binary[39m[0m
+
+[92m[ DONE ][39m [1msavepack[22m
+
+[0m
+[OK] export release exe
+[OK] artifact manifest: build/windows/package-manifest.json

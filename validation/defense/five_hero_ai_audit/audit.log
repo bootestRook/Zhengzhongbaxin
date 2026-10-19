@@ -1,0 +1,26 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[CONTRACT] {"cooldown_returns":true,"entry_damage":128.7,"entry_still_entering":true,"formation_ms":4096,"front":false,"hero":1,"holds_when_home_out_of_range":true,"name":"火焰术士","range":500.0,"released_target":true,"returned":true,"speed":50.0}
+[DUELS DONE] 1
+[CONTRACT] {"cooldown_returns":true,"entry_damage":327.0,"entry_still_entering":true,"formation_ms":4096,"front":false,"hero":2,"holds_when_home_out_of_range":true,"name":"德鲁伊","range":500.0,"released_target":true,"returned":true,"speed":50.0}
+[DUELS DONE] 2
+[CONTRACT] {"entry_damage":360.0,"entry_still_entering":true,"formation_ms":6752,"front":true,"hero":4,"name":"勇者","range":0.0,"released_target":true,"returned":true,"speed":60.0}
+[DUELS DONE] 4
+[CONTRACT] {"cooldown_returns":true,"entry_damage":120.0,"entry_still_entering":true,"formation_ms":4096,"front":false,"hero":13,"holds_when_home_out_of_range":true,"name":"游侠","range":600.0,"released_target":true,"returned":true,"speed":50.0}
+[DUELS DONE] 13
+[CONTRACT] {"entry_damage":307.5,"entry_still_entering":true,"formation_ms":5056,"front":true,"hero":17,"name":"黯影","range":0.0,"released_target":true,"returned":true,"speed":80.0}
+[DUELS DONE] 17
+[BATTLE DONE] initial=[1] seed=6 time=109632
+[BATTLE DONE] initial=[1] seed=81 time=120000
+[BATTLE DONE] initial=[2] seed=6 time=120000
+[BATTLE DONE] initial=[2] seed=81 time=120000
+[BATTLE DONE] initial=[4] seed=6 time=120000
+[BATTLE DONE] initial=[4] seed=81 time=120000
+[BATTLE DONE] initial=[13] seed=6 time=120000
+[BATTLE DONE] initial=[13] seed=81 time=120000
+[BATTLE DONE] initial=[17] seed=6 time=120000
+[BATTLE DONE] initial=[17] seed=81 time=120000
+[BATTLE DONE] initial=[1, 2, 4, 13, 17] seed=1 time=120000
+[BATTLE DONE] initial=[1, 2, 4, 13, 17] seed=6 time=120000
+[BATTLE DONE] initial=[1, 2, 4, 13, 17] seed=81 time=120000
+[AUDIT COMPLETE] assertions=187 failures=["hero 1 damages moving monster 106 at X600", "hero 1 damages moving monster 112 at X1000", "hero 1 damages moving monster 107 at X600", "hero 1 damages moving monster 113 at X1000"]

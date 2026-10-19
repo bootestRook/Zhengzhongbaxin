@@ -1,0 +1,1891 @@
+{
+	"assertions": 146,
+	"failures": [],
+	"rows": [
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 1
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 70.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 1
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 2
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 140.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 5,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 6,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 7,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 8,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 8,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				},
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 9,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 4,
+			"seed": 2
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 3
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 70.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 3
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 4
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 70.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 4
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 5
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 70.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 5
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 6
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 70.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 6
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 7
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 140.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 5,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 6,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 7,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 8,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 8,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				},
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 9,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 4,
+			"seed": 7
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 8
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 140.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 5,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 6,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 7,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 8,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 8,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				},
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 9,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 4,
+			"seed": 8
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 0,
+			"combo_term": false,
+			"copies": 4.0,
+			"damage": 60.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 60.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 60.0,
+					"kind": "skill",
+					"sequence": 7,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 0,
+			"seed": 53
+		},
+		{
+			"casts": [
+				{
+					"sequence": 5,
+					"skill": 20002,
+					"source": 1,
+					"target": 0,
+					"time_ms": 736,
+					"type": "cast"
+				}
+			],
+			"chance": 50.0,
+			"combo_term": true,
+			"copies": 4.0,
+			"damage": 140.0,
+			"first_cast_arrows": [
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 1,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 2,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 3,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 4,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.06374020129442215,
+						-0.997966468334198
+					],
+					"id": 5,
+					"lane": 0,
+					"pos": [
+						781.0198364257813,
+						1020.8325805664063
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.058356426656246185,
+						-0.9982957243919373
+					],
+					"id": 6,
+					"lane": 1,
+					"pos": [
+						779.0662841796875,
+						1020.8273315429688
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						0.1848866045475006,
+						-0.9827597737312317
+					],
+					"id": 7,
+					"lane": 2,
+					"pos": [
+						782.9581909179688,
+						1021.0758666992188
+					],
+					"start": 736
+				},
+				{
+					"direction": [
+						-0.1795831024646759,
+						-0.9837427139282227
+					],
+					"id": 8,
+					"lane": 3,
+					"pos": [
+						777.1266479492188,
+						1021.0601806640625
+					],
+					"start": 736
+				}
+			],
+			"hits": [
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 8,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				},
+				{
+					"actual": 70.0,
+					"hp_after": 10000.0,
+					"hp_before": 10000.0,
+					"input": 70.0,
+					"kind": "skill",
+					"sequence": 9,
+					"shield_used": 0.0,
+					"skill": 0,
+					"source": 1,
+					"survival": "immortal",
+					"target": 2,
+					"time_ms": 976,
+					"type": "damage"
+				}
+			],
+			"overlapping_pairs": 4,
+			"seed": 53
+		}
+	],
+	"runtime_fingerprint": "852d03a10ea86425589bb8582b55be91eaf1be80336874f926eba968539abede",
+	"source_hashes": {
+		"01_英雄属性与局外成长.xlsx": "eda3816fab7b79f53065eeaf5796d76381fd8bee8590604a76bcf12524e8b8be",
+		"02_英雄技能.xlsx": "336e15bd974aa30972137c36e135a0914442bca2fdd60c519bede7f37e1fa223",
+		"03_英雄词条.xlsx": "855d8b926432591b096a197ca2ac1fd5a23226513b587fa2d637b3d5bb087393",
+		"04_Buff配置.xlsx": "e3e49a9509182e2b32f981356633e98a7bdab1ff24142dac883a7c66e4a034fe",
+		"05_怪物配置.xlsx": "cc734ae73c98257b1cb27a410dd3fe13c836a9cc7fb715fa65b6bdd6e6b560db",
+		"06_关卡配置.xlsx": "d52daeea0c46a8686add7d2de4c3106bde1896b87d8944f15c446d7d9bc5528d",
+		"07_刷怪配置.xlsx": "ba0817ee7badb58e982ee86ca513c5fd5c012bc585f032c147c96d693d81a0ab",
+		"art.json": "0bd7a5f92d1471e45fe4b12b718d60a819f82865944a188b9f25a252a7564572",
+		"combat.json": "a1f63f04f9ef2f35c0c4c9c42ba0d1bb5a18ca1437eeff69251470699e33f14d",
+		"defense_tables.json": "0261b0934c8d74eb1990058d53479d77f5d0a61c67342dfa9da960d63675e7eb",
+		"reference.json": "cae0c525b8cbf56c8dccf986bba1af1d598ba6fe8c8c0eba9096f2294d223ec0",
+		"rules.json": "de61ab602bca0658944e87b711eddd50504a156e55a26d87b2990a15d721661e"
+	}
+}

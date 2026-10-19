@@ -1,0 +1,42 @@
+[
+	{
+		"current": {
+			"action": "idle",
+			"at": 79072,
+			"charge": true,
+			"charge_skills": [
+				{
+					"end": 79272,
+					"skill": 162,
+					"start": 78672
+				}
+			],
+			"facing": 1.0,
+			"from": "(774.3227, 1170.415)",
+			"old_target": 16,
+			"pos": "(775.0323, 1162.446)",
+			"target": 16,
+			"target_from": "(774.0854, 1121.155)",
+			"target_pos": "(774.0908, 1121.475)"
+		},
+		"previous": {
+			"action": "idle",
+			"at": 79024,
+			"charge": true,
+			"charge_skills": [
+				{
+					"end": 79272,
+					"skill": 162,
+					"start": 78672
+				}
+			],
+			"facing": -1.0,
+			"from": "(772.1937, 1194.32)",
+			"old_target": 19,
+			"pos": "(772.9034, 1186.352)",
+			"target": 16,
+			"target_from": "(734.6559, 1316.369)",
+			"target_pos": "(774.0745, 1120.515)"
+		}
+	}
+]

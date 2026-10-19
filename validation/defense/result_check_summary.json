@@ -1,0 +1,25 @@
+{
+  "project_check": "passed",
+  "godot_assertions": 2611,
+  "python_tests": 34,
+  "atlas_comparisons": 69,
+  "atlas_maximum_mean_rgb_error": 0.007392296810699589,
+  "checked_runtime_sha256": "5f9dde1b7b0a5637decd6e2f8a81550b76e13f4403293dba425dd56602df06df",
+  "runtime_files": 573,
+  "viewports": [
+    [
+      960,
+      1920
+    ],
+    [
+      720,
+      1440
+    ],
+    [
+      540,
+      1080
+    ]
+  ],
+  "visual_verdict": "All four scoped result fixes resolved; final verdict ship scores M3/M4 only; no whole-game or frame-exact certification",
+  "reward_boundary": "Extra gem/hero-exp/equipment rewards are validation layout fixture only"
+}

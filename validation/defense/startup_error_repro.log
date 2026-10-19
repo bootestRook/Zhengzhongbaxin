@@ -1,0 +1,72 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] configure (res://src/features/defense/presentation/defense_view.gd:18)
+       [1] _ready (res://src/app/app_bootstrap.gd:18)
+SCRIPT ERROR: Attempt to call function 'configure' in base 'null instance' on a null instance.
+   at: DefenseView.configure (res://src/features/defense/presentation/defense_view.gd:18)
+   GDScript backtrace (most recent call first):
+       [0] configure (res://src/features/defense/presentation/defense_view.gd:18)
+       [1] _ready (res://src/app/app_bootstrap.gd:18)
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _ready (res://src/app/app_bootstrap.gd:21)
+SCRIPT ERROR: Attempt to call function 'render' in base 'null instance' on a null instance.
+   at: DefenseView.render (res://src/features/defense/presentation/defense_view.gd:81)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _ready (res://src/app/app_bootstrap.gd:21)
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+SCRIPT ERROR: Attempt to call function 'render' in base 'null instance' on a null instance.
+   at: DefenseView.render (res://src/features/defense/presentation/defense_view.gd:81)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+SCRIPT ERROR: Attempt to call function 'render' in base 'null instance' on a null instance.
+   at: DefenseView.render (res://src/features/defense/presentation/defense_view.gd:81)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+SCRIPT ERROR: Attempt to call function 'render' in base 'null instance' on a null instance.
+   at: DefenseView.render (res://src/features/defense/presentation/defense_view.gd:81)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+SCRIPT ERROR: Attempt to call function 'render' in base 'null instance' on a null instance.
+   at: DefenseView.render (res://src/features/defense/presentation/defense_view.gd:81)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+ERROR: Node not found: "BattlePanels" (relative to "/root/App/DefenseView").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)
+SCRIPT ERROR: Attempt to call function 'render' in base 'null instance' on a null instance.
+   at: DefenseView.render (res://src/features/defense/presentation/defense_view.gd:81)
+   GDScript backtrace (most recent call first):
+       [0] render (res://src/features/defense/presentation/defense_view.gd:81)
+       [1] _process (res://src/app/app_bootstrap.gd:50)

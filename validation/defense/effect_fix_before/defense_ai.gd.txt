@@ -1,0 +1,176 @@
+class_name DefenseAI
+extends RefCounted
+
+const U = preload("res://src/features/defense/domain/defense_units.gd")
+const Geometry = preload("res://src/features/defense/domain/defense_attack_geometry.gd")
+const Displacement = preload("res://src/features/defense/domain/defense_displacement.gd")
+var w
+
+func _init(world) -> void:
+	w = world
+
+func tick() -> void:
+	for u: Dictionary in w.units.values():
+		if u.dead:
+			continue
+		if forced_move(u):
+			continue
+		advance_attack(u)
+		if w.time_ms < maxi(u.action_until, int(u.get("busy_until", 0))):
+			continue
+		if w.skills.pending_action(u):
+			continue
+		if u.action in ["attack", "skill", "skill2"]:
+			set_action(u, "idle")
+		if w.time_ms >= u.ai_at:
+			u.ai_at = w.time_ms + (200 if u.kind in ["hero", "boss"] else 500)
+			if not (u.side == 2 and u.pos.y < w.combat.world.warning_y and u.target == 0):
+				if w.skills.ready_action(u):
+					continue
+			var chosen = choose_enemy(u)
+			u.target = chosen.get("id", 0)
+		var target: Dictionary = w.units.get(u.target, {})
+		if not target.is_empty() and (target.dead or w.targets.hidden_enemy(u, target)):
+			u.target = 0
+			target = {}
+		if not target.is_empty():
+			u.facing = -1.0 if target.pos.x > u.pos.x else 1.0
+			if Geometry.intersects(u, target):
+				attack(u, target)
+			else:
+				move(u, Geometry.approach(u, target), false)
+		elif u.side == 2:
+			if u.pos.y >= w.combat.world.wall_y - reach(u):
+				attack(u, {})
+			else:
+				move(u, Vector2(u.pos.x, w.combat.world.wall_y), true, false)
+		else:
+			if u.back_lock:
+				set_action(u, "idle")
+			else:
+				move(u, u.home)
+				if Vector2i(floori(u.pos.x / 50), floori(u.pos.y / 50)) == Vector2i(floori(u.home.x / 50), floori(u.home.y / 50)):
+					u.back_lock = true
+					set_action(u, "idle")
+
+func choose_enemy(u: Dictionary) -> Dictionary:
+	if u.side == 1:
+		return w.targets.patrol(u)
+	var taunt: Dictionary = w.units.get(u.taunt, {})
+	if w.time_ms < u.taunt_until and not taunt.is_empty() and not taunt.dead and not w.targets.hidden_enemy(u, taunt):
+		return taunt
+	if u.kind == "boss":
+		return w.targets.nearest_blocker(u)
+	if u.pos.y < w.combat.world.warning_y:
+		return {}
+	return w.space.blocker(u)
+
+func attack(u: Dictionary, target: Dictionary) -> void:
+	if w.time_ms < u.attack_at or w.statuses.prevents(u, "attack"):
+		set_action(u, "idle")
+		return
+	if not target.is_empty() and w.skills.combat_action(u, target):
+		return
+	u.attacks += 1
+	set_action(u, "attack", true)
+	u.action_rate = animation_rate(u)
+	var frames: Array = u.motion.get("frames", {}).get("attack", [])
+	var elapsed = 0
+	u.attack_events.clear()
+	for index in range(frames.size()):
+		if u.motion.get("valid", []).has(index + 1):
+			u.attack_events.append({"at": w.time_ms + roundi(elapsed / u.action_rate), "target": target.get("id", 0), "wall": target.is_empty()})
+		elapsed += int(frames[index])
+	u.action_until = w.time_ms + maxi(16, roundi(elapsed / u.action_rate))
+	if w.rng.stream("defense.combat").next_int(100) < w.passives.value(u, 40):
+		var duration = u.action_until - w.time_ms
+		for event in u.attack_events.duplicate(true):
+			event.at += duration
+			u.attack_events.append(event)
+		u["double_at"] = u.action_until
+		u.action_until += duration
+	u.attack_at = u.action_until + period(u)
+	for event in u.attack_events:
+		if event.at <= w.time_ms:
+			emit_attack(u, event)
+			event.at = -1
+	if not u.motion.get("sound", []).is_empty():
+		w.events.append({"type": "sound", "name": u.motion.sound[0]})
+
+func advance_attack(u: Dictionary) -> void:
+	if u.get("double_at", 0) > 0 and w.time_ms >= u.double_at:
+		u.action_at = int(u.double_at)
+		u.double_at = 0
+	for event in u.attack_events:
+		if event.at >= 0 and w.time_ms >= event.at:
+			if not w.statuses.prevents(u, "attack"):
+				emit_attack(u, event)
+			event.at = -1
+	if u.action == "attack" and w.time_ms >= u.action_until:
+		w.skills.trigger(u, "attack_end", w.units.get(u.target, {}))
+		u.attack_events.clear()
+
+func forced_move(u: Dictionary) -> bool:
+	return Displacement.tick(w, u)
+
+func emit_attack(u: Dictionary, event: Dictionary) -> void:
+	if event.wall:
+		w.wall_hp = maxf(0, w.wall_hp - U.stat(u, 4))
+		w.cue("wall_hit", Vector2(u.pos.x, w.combat.world.wall_y), {"text": "-%d" % U.stat(u, 4)})
+		return
+	var target: Dictionary = w.units.get(event.target, {})
+	if target.is_empty() or target.dead or w.targets.hidden_enemy(u, target):
+		return
+	if u.front:
+		w.skills.trigger(u, "attack_begin", target)
+	var candidates: Array = []
+	for other: Dictionary in w.units.values():
+		if other.side != u.side and not other.dead and Geometry.intersects(u, other):
+			candidates.append(other)
+	candidates.erase(target)
+	candidates.sort_custom(func(a, b): return absf(u.pos.x - a.pos.x) < absf(u.pos.x - b.pos.x))
+	candidates.push_front(target)
+	var amount = (U.stat(u, 4) + w.passives.attack_bonus(u)) * maxf(0, 1 + U.stat(u, 25) / 100.0)
+	for recipient in candidates.slice(0, maxi(1, int(U.stat(u, 5)))):
+		if not u.front:
+			w.projectiles.basic(u, recipient, amount)
+		else:
+			w.damage.hit(u, recipient, amount, false)
+			w.skills.trigger(u, "attack", recipient)
+			w.skills.trigger(recipient, "physical_hurt", u)
+			w.cue("hit", recipient.pos, {"res": "battleEffect:hit", "duration": 300})
+
+func move(u: Dictionary, destination: Vector2, face_destination: bool = true, path: bool = true) -> void:
+	if w.statuses.prevents(u, "move"):
+		set_action(u, "idle")
+		return
+	if u.pos.distance_to(destination) < 3:
+		set_action(u, "idle")
+		return
+	var speed_value = maxf(0, U.stat(u, 17))
+	if u.side == 2 and u.pos.y < w.combat.world.warning_y:
+		speed_value *= 1 + u.entry_speed_bonus / 100.0
+		u.entry_speed_bonus *= 1 - 16.0 / 7000
+	else:
+		u.entry_speed_bonus = 0.0
+	var waypoint: Vector2 = w.navigation.toward(u, destination) if path else destination
+	w.space.move(u, waypoint, speed_value * 0.016)
+	if face_destination:
+		u.facing = -1.0 if destination.x > u.pos.x else 1.0
+	set_action(u, "walk")
+
+func set_action(u: Dictionary, action: String, restart: bool = false) -> void:
+	if u.action != action or restart:
+		u.action = action
+		u.action_at = w.time_ms
+		u.action_rate = 1.0
+
+static func reach(u: Dictionary) -> float:
+	return maxf(0, U.stat(u, 26)) + u.radius
+
+static func animation_rate(u: Dictionary) -> float:
+	var speed = maxf(25, U.stat(u, 6))
+	return 1 + floorf((speed - 300) / 40 if speed > 300 else speed / 20) / 100.0
+
+static func period(u: Dictionary) -> int:
+	return maxi(1, floori(500000.0 / (100 + maxf(25, U.stat(u, 6)))))

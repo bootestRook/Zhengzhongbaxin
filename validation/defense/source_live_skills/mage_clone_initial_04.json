@@ -1,0 +1,99 @@
+{
+  "capture": "ADB Android screenrecord MP4; no process injection or game-file changes",
+  "start_utc": "2026-10-14T06:05:16.292398+00:00",
+  "end_utc": "2026-10-14T06:05:46.793830+00:00",
+  "tap": [
+    720,
+    650
+  ],
+  "sha256": "f4b57f77545a51c0b3255daa1b37afd1813dc854bd86b2ec6e55029e9802962f",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.42c029",
+        "width": 720,
+        "height": 1280,
+        "coded_width": 720,
+        "coded_height": 1280,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 41,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "9939375/168842",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2701472,
+        "duration": "30.016356",
+        "bit_rate": "6895354",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1767",
+        "extradata_size": 36,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-10-14T06:05:46.000000Z",
+          "language": "eng",
+          "handler_name": "VideoHandle"
+        }
+      }
+    ],
+    "format": {
+      "filename": "F:\\T8demo\\T8-demo-16\\validation\\defense\\source_live_skills\\mage_clone_initial_04.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.016356",
+      "size": "25892377",
+      "bit_rate": "6900871",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "mp42",
+        "minor_version": "0",
+        "compatible_brands": "isommp42",
+        "creation_time": "2026-10-14T06:05:46.000000Z",
+        "com.android.version": "9"
+      }
+    }
+  }
+}

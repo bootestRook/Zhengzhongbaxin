@@ -1,0 +1,11 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[CHOICE SKILL CAPTURE] choice_skill_hero_0 origin=choice
+[CHOICE SKILL CAPTURE] choice_skill_hero_1 origin=choice
+[CHOICE SKILL CAPTURE] choice_skill_hero_2 origin=choice
+[CHOICE SKILL CAPTURE] choice_skill_upgrade origin=choice
+[CHOICE SKILL CAPTURE] choice_skill_statue origin=choice
+[CHOICE SKILL CAPTURE] choice_skill_chest origin=choice
+[CHOICE SKILL CAPTURE] choice_skill_reference_fixture origin=choice
+[CHOICE SKILL CAPTURE] complete; skill clicks preserve real selection history

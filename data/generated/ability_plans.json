@@ -1,0 +1,101 @@
+{
+	"plans": {
+		"defense.cast": {
+			"entry_node_id": "entry",
+			"entry_points": {
+				"ability.cast": [
+					"entry"
+				]
+			},
+			"graph_id": "defense.cast",
+			"operation_order": [
+				"entry",
+				"action",
+				"end"
+			],
+			"operations": [
+				{
+					"action_id": "",
+					"default_output_pin": "then",
+					"kind": "entry",
+					"node_id": "entry",
+					"parameters": {
+						"event_type": "ability.cast"
+					}
+				},
+				{
+					"action_id": "defense.cast",
+					"default_output_pin": "then",
+					"kind": "action",
+					"node_id": "action",
+					"parameters": {
+						"action_id": "defense.cast"
+					}
+				},
+				{
+					"action_id": "",
+					"default_output_pin": "",
+					"kind": "end",
+					"node_id": "end",
+					"parameters": {}
+				}
+			],
+			"routes": {
+				"action::then": "end",
+				"entry::then": "action"
+			},
+			"subgraph_refs": {},
+			"value_routes": {},
+			"variables": {}
+		},
+		"example.on_cast": {
+			"entry_node_id": "entry",
+			"entry_points": {
+				"ability.cast": [
+					"entry"
+				]
+			},
+			"graph_id": "example.on_cast",
+			"operation_order": [
+				"entry",
+				"action",
+				"end"
+			],
+			"operations": [
+				{
+					"action_id": "",
+					"default_output_pin": "then",
+					"kind": "entry",
+					"node_id": "entry",
+					"parameters": {
+						"event_type": "ability.cast"
+					}
+				},
+				{
+					"action_id": "editor.placeholder",
+					"default_output_pin": "then",
+					"kind": "action",
+					"node_id": "action",
+					"parameters": {
+						"action_id": "editor.placeholder"
+					}
+				},
+				{
+					"action_id": "",
+					"default_output_pin": "",
+					"kind": "end",
+					"node_id": "end",
+					"parameters": {}
+				}
+			],
+			"routes": {
+				"action::then": "end",
+				"entry::then": "action"
+			},
+			"subgraph_refs": {},
+			"value_routes": {},
+			"variables": {}
+		}
+	},
+	"schema_version": 1
+}

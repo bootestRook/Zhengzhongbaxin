@@ -1,0 +1,83 @@
+{
+  "format": "defense-battle-lab",
+  "version": 1,
+  "title": "怪物：刺鼠受伤后技能",
+  "config": {
+    "version": 1,
+    "seed": 53,
+    "level": 1,
+    "wave": 1,
+    "legal_terms": true,
+    "settings": {
+      "spawn": false,
+      "progression": false,
+      "respawn": false
+    },
+    "units": [
+      {
+        "key": 1,
+        "kind": "hero",
+        "template": 4,
+        "pos": [
+          800,
+          1000
+        ],
+        "terms": {},
+        "attributes": {
+          "4": 100,
+          "7": 0
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": true,
+          "skill": false
+        }
+      },
+      {
+        "key": 2,
+        "kind": "enemy",
+        "template": 104,
+        "pos": [
+          840,
+          960
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 100
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": true
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "action": "advance",
+      "payload": {
+        "ticks": 500
+      }
+    }
+  ],
+  "checks": [
+    {
+      "kind": "event",
+      "event": "cast",
+      "op": "gte",
+      "value": 1,
+      "skill": 1056
+    },
+    {
+      "key": 2,
+      "field": "dead",
+      "op": "eq",
+      "value": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "baseline_sha256": "6420bd52a49b19223e5bf1bb0b77f0723f7caf0c3cb6e0bd76b0237d0b16d9ee",
+  "tables": {
+    "heroes": {
+      "existing_records": 17,
+      "changed": [],
+      "unexpected": []
+    },
+    "options": {
+      "existing_records": 2103,
+      "changed": [
+        "1"
+      ],
+      "unexpected": []
+    },
+    "skills": {
+      "existing_records": 1457,
+      "changed": [
+        "1435",
+        "17",
+        "20002",
+        "661"
+      ],
+      "unexpected": []
+    },
+    "statuses": {
+      "existing_records": 281,
+      "changed": [],
+      "unexpected": []
+    },
+    "targets": {
+      "existing_records": 132,
+      "changed": [],
+      "unexpected": []
+    }
+  },
+  "approved_parallel_changes": {
+    "skills": {
+      "17": {
+        "cast_range": 1200
+      },
+      "1435": {
+        "visual_tint": "#ffe45b"
+      },
+      "20002": {
+        "visual_tint": "#72d8ff"
+      },
+      "661": {
+        "movie_effect": [
+          "blood",
+          "0.3",
+          "0.4"
+        ],
+        "visual_tint": "#8bd47a"
+      }
+    },
+    "options": {
+      "1": {
+        "description": "1200范围内有敌人时短暂蓄力，释放1个火球造成火系伤害和范围爆炸，冷却6秒。"
+      }
+    }
+  },
+  "all_unchanged": false,
+  "only_approved_parallel_changes": true
+}

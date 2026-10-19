@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="AbilityGraphResource" load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://src/runtime/ability/ability_graph_resource.gd" id="1_graph"]
+[ext_resource type="Script" path="res://src/runtime/ability/ability_graph_node_resource.gd" id="2_node"]
+[ext_resource type="Script" path="res://src/runtime/ability/ability_graph_connection_resource.gd" id="3_connection"]
+
+[sub_resource type="Resource" id="Resource_entry"]
+script = ExtResource("2_node")
+node_id = "entry"
+type_id = "combat.ability.event.on_cast"
+parameters = {}
+
+[sub_resource type="Resource" id="Resource_action"]
+script = ExtResource("2_node")
+node_id = "action"
+type_id = "combat.ability.action.execute"
+parameters = {"action_id": "editor.placeholder"}
+
+[sub_resource type="Resource" id="Resource_end"]
+script = ExtResource("2_node")
+node_id = "end"
+type_id = "combat.ability.logic.end"
+parameters = {}
+
+[sub_resource type="Resource" id="Resource_entry_action"]
+script = ExtResource("3_connection")
+from_node_id = "entry"
+from_pin_id = "then"
+to_node_id = "action"
+to_pin_id = "in"
+kind = "control"
+
+[sub_resource type="Resource" id="Resource_action_end"]
+script = ExtResource("3_connection")
+from_node_id = "action"
+from_pin_id = "then"
+to_node_id = "end"
+to_pin_id = "in"
+kind = "control"
+
+[resource]
+script = ExtResource("1_graph")
+graph_id = "example.on_cast"
+schema_version = 2
+nodes = Array[ExtResource("2_node")]([SubResource("Resource_entry"), SubResource("Resource_action"), SubResource("Resource_end")])
+connections = Array[ExtResource("3_connection")]([SubResource("Resource_entry_action"), SubResource("Resource_action_end")])
+node_layout = {"entry": Vector2(40, 80), "action": Vector2(280, 80), "end": Vector2(520, 80)}
+editor_scroll_offset = Vector2(0, 0)
+editor_zoom = 1.0

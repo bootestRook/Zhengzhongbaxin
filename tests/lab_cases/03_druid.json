@@ -1,0 +1,95 @@
+{
+  "format": "defense-battle-lab",
+  "version": 1,
+  "title": "德鲁伊：友军护甲与治疗",
+  "config": {
+    "version": 1,
+    "seed": 53,
+    "level": 1,
+    "wave": 1,
+    "legal_terms": true,
+    "settings": {
+      "spawn": false,
+      "progression": false,
+      "respawn": false
+    },
+    "units": [
+      {
+        "key": 1,
+        "kind": "hero",
+        "template": 2,
+        "pos": [
+          750,
+          1100
+        ],
+        "terms": {},
+        "attributes": {
+          "4": 100,
+          "7": 0
+        },
+        "hp_ratio": 1,
+        "survival": "normal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": true
+        }
+      },
+      {
+        "key": 2,
+        "kind": "hero",
+        "template": 4,
+        "pos": [
+          850,
+          1100
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 1000,
+          "2": 0
+        },
+        "hp_ratio": 0.2,
+        "survival": "normal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": false
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "action": "advance",
+      "payload": {
+        "ticks": 150
+      }
+    }
+  ],
+  "checks": [
+    {
+      "kind": "event",
+      "event": "heal",
+      "op": "gte",
+      "value": 1
+    },
+    {
+      "kind": "event",
+      "event": "status_added",
+      "op": "gte",
+      "value": 1
+    },
+    {
+      "key": 2,
+      "field": "hp",
+      "op": "near",
+      "value": 320
+    },
+    {
+      "key": 2,
+      "field": "shield",
+      "op": "near",
+      "value": 50
+    }
+  ]
+}

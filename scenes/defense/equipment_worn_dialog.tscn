@@ -1,0 +1,274 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_worn_dialog.gd" id="script"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_icon.gd" id="icon"]
+[ext_resource type="PackedScene" path="res://scenes/defense/equipment_socket_row.tscn" id="row"]
+
+[sub_resource type="StyleBoxFlat" id="Paper"]
+bg_color = Color(0.995,0.967,0.89,1)
+border_color = Color(0.60,0.67,0.80,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Tab"]
+bg_color = Color(0.81,0.77,0.65,1)
+border_color = Color(0.81,0.77,0.65,1)
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Hover"]
+bg_color = Color(1,0.83,0.32,1)
+border_color = Color(1,0.83,0.32,1)
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Selected"]
+bg_color = Color(1,0.72,0.14,1)
+border_color = Color(1,0.72,0.14,1)
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_color = Color(1,0.83,0.24,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxEmpty" id="Empty"]
+
+[sub_resource type="Gradient" id="Gradient"]
+colors = PackedColorArray(0.43,0.35,0.85,1, 0.20,0.48,0.85,1)
+[sub_resource type="GradientTexture2D" id="HeaderTexture"]
+gradient = SubResource("Gradient")
+fill_to = Vector2(1,0.8)
+
+[node name="WornDialog" type="Control"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+visible = false
+z_index = 10
+mouse_filter = 2
+script = ExtResource("script")
+[node name="Shade" type="ColorRect" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+color = Color(0,0,0,0.65)
+mouse_filter = 2
+[node name="Outside" type="Button" parent="."]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 960.0
+offset_bottom = 1920.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 34
+theme_override_colors/font_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_focus_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = ""
+theme_override_styles/normal = SubResource("Empty")
+theme_override_styles/hover = SubResource("Empty")
+theme_override_styles/pressed = SubResource("Empty")
+theme_override_styles/focus = SubResource("Focus")
+focus_mode = 0
+[node name="Card" type="Panel" parent="."]
+offset_left = 150.0
+offset_top = 350.0
+offset_right = 810.0
+offset_bottom = 1470.0
+theme_override_styles/panel = SubResource("Paper")
+mouse_filter = 0
+[node name="Header" type="TextureRect" parent="Card"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 657.0
+offset_bottom = 224.0
+texture = SubResource("HeaderTexture")
+mouse_filter = 2
+expand_mode = 1
+[node name="Title" type="Label" parent="Card"]
+offset_left = 28.0
+offset_top = 16.0
+offset_right = 448.0
+offset_bottom = 72.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 40
+text = ""
+vertical_alignment = 1
+
+[node name="EquippedBadge" type="ColorRect" parent="Card"]
+offset_left = 482.0
+offset_top = 24.0
+offset_right = 632.0
+offset_bottom = 68.0
+mouse_filter = 2
+color = Color(0.31,0.49,0.10,1)
+[node name="Text" type="Label" parent="Card/EquippedBadge"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 150.0
+offset_bottom = 44.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 28
+text = "已装备"
+vertical_alignment = 1
+horizontal_alignment = 1
+[node name="Icon" type="TextureRect" parent="Card"]
+offset_left = 28.0
+offset_top = 80.0
+offset_right = 156.0
+offset_bottom = 208.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("icon")
+[node name="Part" type="Label" parent="Card"]
+offset_left = 190.0
+offset_top = 88.0
+offset_right = 620.0
+offset_bottom = 136.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 30
+text = ""
+vertical_alignment = 1
+
+[node name="Gems" type="Button" parent="Card"]
+offset_left = 24.0
+offset_top = 246.0
+offset_right = 329.0
+offset_bottom = 318.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 34
+theme_override_colors/font_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_focus_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "宝石属性"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Selected")
+theme_override_styles/hover_pressed = SubResource("Selected")
+theme_override_styles/focus = SubResource("Focus")
+toggle_mode = true
+[node name="Equipment" type="Button" parent="Card"]
+offset_left = 331.0
+offset_top = 246.0
+offset_right = 636.0
+offset_bottom = 318.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 34
+theme_override_colors/font_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_focus_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "装备属性"
+theme_override_styles/normal = SubResource("Tab")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Selected")
+theme_override_styles/hover_pressed = SubResource("Selected")
+theme_override_styles/focus = SubResource("Focus")
+toggle_mode = true
+[node name="GemRows" type="Control" parent="Card"]
+offset_left = 24.0
+offset_top = 344.0
+offset_right = 636.0
+offset_bottom = 1010.0
+mouse_filter = 2
+[node name="Slot0" parent="Card/GemRows" instance=ExtResource("row")]
+offset_top = 0.0
+offset_bottom = 122.0
+
+[node name="Slot1" parent="Card/GemRows" instance=ExtResource("row")]
+offset_top = 136.0
+offset_bottom = 258.0
+
+[node name="Slot2" parent="Card/GemRows" instance=ExtResource("row")]
+offset_top = 272.0
+offset_bottom = 394.0
+
+[node name="Slot3" parent="Card/GemRows" instance=ExtResource("row")]
+offset_top = 408.0
+offset_bottom = 530.0
+
+[node name="Slot4" parent="Card/GemRows" instance=ExtResource("row")]
+offset_top = 544.0
+offset_bottom = 666.0
+
+[node name="EquipmentInfo" type="Label" parent="Card"]
+offset_left = 36.0
+offset_top = 354.0
+offset_right = 624.0
+offset_bottom = 914.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31,0.27,0.22,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 32
+text = ""
+vertical_alignment = 0
+visible = false
+autowrap_mode = 3
+[node name="Footer" type="Label" parent="Card"]
+offset_left = 28.0
+offset_top = 1035.0
+offset_right = 632.0
+offset_bottom = 1091.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31,0.27,0.22,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 27
+text = ""
+vertical_alignment = 1
+horizontal_alignment = 1

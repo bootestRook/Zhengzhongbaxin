@@ -1,0 +1,20 @@
+{
+  "godot_assertions": 7727,
+  "python_tests": 63,
+  "druid_domain_assertions": 80,
+  "druid_ui_assertions": 46,
+  "merged_ui_assertions": 75,
+  "screenshots": 18,
+  "source_fingerprint": "7e096ad11682069d4fb2aca85ef419d0cf765df9e51217c261fba90efa47a6be",
+  "runtime_files": 599,
+  "project_check_exit": 0,
+  "error_markers": false,
+  "full_run": {
+    "won": true,
+    "wave": 20,
+    "bosses": 3,
+    "kills": 269,
+    "time": 233136,
+    "wall": 3900.0
+  }
+}

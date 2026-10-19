@@ -1,0 +1,13 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[FIRE CENTER CASE] radius=150.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=move
+[FIRE CENTER CASE] radius=150.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=death
+[FIRE CENTER CASE] radius=270.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=move
+[FIRE CENTER CASE] radius=270.0 target=(777.7214, 1208.563) old_contact=(767.0, 1308.36) after=death
+[PYRO CENTERS] hits=[3, 4, 5] target_snapshots={ 3: (779.4383, 1188.637), 4: (806.0503, 879.7811), 5: (832.6622, 570.9255) }
+[FIRE CENTERS] target snapshots, delayed effects and real circular damage checked
+[FIRE CENTER TESTS] assertions=272 failures=[]
+[FIRE CAPTURE] ordinary impacts=[{ "target": 2, "time_ms": 240, "position": [800.419982910156, 1019.76000976563], "projectile_contact": [798.545715332031, 1123.02331542969] }]
+[FIRE CAPTURE] pyro impacts=[{ "target": 2, "time_ms": 256, "position": [800.419982910156, 1019.76000976563], "projectile_contact": [798.7236328125, 1107.97521972656] }, { "target": 3, "time_ms": 576, "position": [800.419982910156, 719.760009765625], "projectile_contact": [802.128173828125, 819.995178222656] }, { "target": 4, "time_ms": 912, "position": [800.419982910156, 419.760009765625], "projectile_contact": [805.656311035156, 521.558776855469] }]
+[FIRE CAPTURE] assertions=1404 failures=[]

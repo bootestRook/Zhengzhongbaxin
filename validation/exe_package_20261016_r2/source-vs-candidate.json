@@ -1,0 +1,191 @@
+{
+  "count": 37,
+  "identical": 37,
+  "frames": [
+    {
+      "name": "battle.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "choice_attributes.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "fifth_attributes.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "five_heroes.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "gallery.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "home_1024x768.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "home_1280x720.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "home_1920x1080.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "home_480x960.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "home_720x1440.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "home_960x1920.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "initial_choice.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "levels.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "pause.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "refresh_0.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "refresh_1.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_boss_9_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_boss_9_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_1_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_1_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_2_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_2_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_3_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_3_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_4_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_4_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_5_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_5_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_6_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_6_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_7_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_7_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_8_result.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "reward_elite_8_spin.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "skill_range.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "name": "skill_tooltip.png",
+      "identical": true,
+      "mean_channel_difference": 0.0
+    }
+  ]
+}

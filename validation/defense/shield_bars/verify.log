@@ -1,0 +1,18 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[PIXELS] before width=720 shield=0.0 gray=[0, 0]
+[PIXELS] gained width=720 shield=65.0 gray=[24, 42]
+[PIXELS] full_health width=720 shield=65.0 gray=[18, 36]
+[PIXELS] absorbed width=720 shield=33.0 gray=[12, 24]
+[PIXELS] broken width=720 shield=0.0 gray=[0, 0]
+[PIXELS] expired width=720 shield=0.0 gray=[0, 0]
+[PIXELS] dead width=720 shield=0.0 gray=[0, 0]
+[PIXELS] before width=540 shield=0.0 gray=[0, 0]
+[PIXELS] gained width=540 shield=65.0 gray=[8, 30]
+[PIXELS] full_health width=540 shield=65.0 gray=[8, 20]
+[PIXELS] absorbed width=540 shield=33.0 gray=[4, 15]
+[PIXELS] broken width=540 shield=0.0 gray=[0, 0]
+[PIXELS] expired width=540 shield=0.0 gray=[0, 0]
+[PIXELS] dead width=540 shield=0.0 gray=[0, 0]
+[SHIELD BARS] assertions=64 failures=0

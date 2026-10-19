@@ -1,0 +1,23 @@
+{
+	"assertions": 1586,
+	"cases": [],
+	"duration_ms": 61427,
+	"failures": [],
+	"runtime_fingerprint": "2c17cdfde600fc50913fbd269f140a5d56da012acfabd39c9bfbd5afd325bc5d",
+	"source_hashes": {
+		"01_英雄属性与局外成长.xlsx": "4c6ec9c08059c6864f5d7b803849e45524163836ae0275839448330c99aed8b7",
+		"02_英雄技能.xlsx": "aee0a9b7564d194dcc466f642beaea38ba6ffd78d8320af4645e8ff4d4b6cffb",
+		"03_英雄词条.xlsx": "453c0c1af4b74070bbf6568cfe08a6267eae6b6a2fb282601dc2d8c6d1d71259",
+		"04_Buff配置.xlsx": "7cd020d23edbf8ce24a033a3d0e5231460e7b72bc2c17edb421ba81341951c2c",
+		"05_怪物配置.xlsx": "d9b8c174c3c68e231c1accce956f98686913ab08a86ba39a9a31ace5726bf25d",
+		"06_关卡配置.xlsx": "629e8167b92d68102d196a2dafc321fd3ffeff5a649565e2c15eeb5463c15aac",
+		"07_刷怪配置.xlsx": "be27ffa6aa90340f3cba92d3d2ffdc85e47a1c8ab2d464b462ee7b23277b8693",
+		"08_怪物组配置.xlsx": "141b45a447e096e15ef3ed2c2d36ba924fff9a04f53deccd3fe160028270d400",
+		"art.json": "0bd7a5f92d1471e45fe4b12b718d60a819f82865944a188b9f25a252a7564572",
+		"combat.json": "a1f63f04f9ef2f35c0c4c9c42ba0d1bb5a18ca1437eeff69251470699e33f14d",
+		"defense_tables.json": "27d757bf963bb444e37fa903bfb58d938aec0c615e21ce23bc1c54e87486b607",
+		"reference.json": "cae0c525b8cbf56c8dccf986bba1af1d598ba6fe8c8c0eba9096f2294d223ec0",
+		"rules.json": "de61ab602bca0658944e87b711eddd50504a156e55a26d87b2990a15d721661e"
+	},
+	"suite": "heroes"
+}

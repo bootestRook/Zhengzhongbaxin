@@ -1,0 +1,51 @@
+['Texture2D.get_image() -> Image [const]']
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+
+
+[ICE COMBO] seed=1 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=1 combo=true first=4 extra=0 repeat=[] damage=70.0
+
+[ICE COMBO] seed=2 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=2 combo=true first=4 extra=4 repeat=[{ "type": "skill_combo", "source": 1, "target": 2, "skill": 20002, "delay_ms": 300, "sequence": 9, "time_ms": 1040 }] damage=140.0
+
+[ICE COMBO] seed=3 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=3 combo=true first=4 extra=0 repeat=[] damage=70.0
+
+[ICE COMBO] seed=4 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=4 combo=true first=4 extra=0 repeat=[] damage=70.0
+
+[ICE COMBO] seed=5 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=5 combo=true first=4 extra=0 repeat=[] damage=70.0
+
+[ICE COMBO] seed=6 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=6 combo=true first=4 extra=0 repeat=[] damage=70.0
+
+[ICE COMBO] seed=7 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=7 combo=true first=4 extra=4 repeat=[{ "type": "skill_combo", "source": 1, "target": 2, "skill": 20002, "delay_ms": 300, "sequence": 9, "time_ms": 1040 }] damage=140.0
+
+[ICE COMBO] seed=8 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=8 combo=true first=4 extra=4 repeat=[{ "type": "skill_combo", "source": 1, "target": 2, "skill": 20002, "delay_ms": 300, "sequence": 9, "time_ms": 1040 }] damage=140.0
+
+[ICE COMBO] seed=53 combo=false first=4 extra=0 repeat=[] damage=60.0
+
+[ICE COMBO] seed=53 combo=true first=4 extra=4 repeat=[{ "type": "skill_combo", "source": 1, "target": 2, "skill": 20002, "delay_ms": 300, "sequence": 9, "time_ms": 1040 }] damage=140.0
+
+[ICE COMBO] assertions=209 failures=1
+
+ERROR: TEST FAILURE: canceled or invalid owner/target cannot emit delayed arrows: kill_target
+
+   at: push_error (core/variant/variant_utility.cpp:1023)
+
+   GDScript backtrace (most recent call first):
+
+       [0] run (res://validation/battle_lab/ice_combo/probe.gd:73)
+[FAIL] ice combo through shared lab: exit=1, marker_failure=True

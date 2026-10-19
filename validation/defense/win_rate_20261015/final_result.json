@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-15",
+  "engine": "4.7.1.stable.mono.official.a13da4feb",
+  "level": 2,
+  "enemy_hp_multiplier": 0.51,
+  "target_win_rate_percent": [
+    40,
+    50
+  ],
+  "policy": "recruit_quality",
+  "independent_batch": "validation51",
+  "seed_range_inclusive": [
+    420101,
+    420300
+  ],
+  "runs": 200,
+  "wins": 82,
+  "win_rate_percent": 41.0,
+  "wilson_95_percent": [
+    34.42,
+    47.92
+  ],
+  "all_runs_finished": true,
+  "all_winners_completed_20_waves_and_3_bosses": true,
+  "diagnostics": {},
+  "gameplay_sha256": "cb40cd8115a3ec88a32e5ac2b7015928dd753ae1c6811267ec5d6627c234842d",
+  "release_inputs_sha256": "ef64261d5ed2332727c30c2f8f23ea060f1719a7fd6ed170ceebdd6b55048e90",
+  "catalog_sha256": "ad03455985dfe819da036b4300d98ddc73276794c94d08f97af3ffc09b232235",
+  "simulation_script_sha256": "047132d16a4c39602d7914ccce9174d4310a4cd7389e6f859006a37d8a8e2bf1",
+  "python_tests": 46,
+  "godot_assertions": 6350,
+  "project_check_passed": true,
+  "delivery": "source_project"
+}

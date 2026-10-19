@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+[OPENING] [{"description":"攻击强度-50，同时攻击3个目标","id":13,"kind":"hero","owner":0,"res":"hero13:ranger","subtitle":"多重箭","title":"游侠"},{"description":"攻击追加防御力50%的额外伤害，每攻击6次后治疗1名友军，根据防御力提供额外治疗，相同目标在5秒内只能被鼓舞1次","id":5,"kind":"hero","owner":0,"res":"hero5:Mage6","subtitle":"鼓舞","title":"指挥官"},{"description":"攻击4次后对附近2名怪物造成大量伤害，根据自身防御力造成额外伤害","id":4,"kind":"hero","owner":0,"res":"hero4:Mage","subtitle":"圣剑裁决","title":"勇者"}]
+[ROSTER CHECK] assertions=123 failures=["hero candidates draw sequentially without replacement: expected=[1, 7, 2] actual=[13, 5, 4]"]

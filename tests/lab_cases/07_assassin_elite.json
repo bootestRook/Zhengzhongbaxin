@@ -1,0 +1,94 @@
+{
+  "format": "defense-battle-lab",
+  "version": 1,
+  "title": "刺客：精英最终三倍伤害",
+  "config": {
+    "version": 1,
+    "seed": 53,
+    "level": 1,
+    "wave": 1,
+    "legal_terms": true,
+    "settings": {
+      "spawn": false,
+      "progression": false,
+      "respawn": false
+    },
+    "units": [
+      {
+        "key": 1,
+        "kind": "hero",
+        "template": 17,
+        "pos": [
+          800,
+          1000
+        ],
+        "terms": {
+          "200501": 1,
+          "200502": 1,
+          "200506": 1,
+          "200508": 1
+        },
+        "attributes": {
+          "4": 100,
+          "7": 0
+        },
+        "hp_ratio": 1,
+        "survival": "normal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": true
+        }
+      },
+      {
+        "key": 2,
+        "kind": "elite",
+        "template": 101,
+        "pos": [
+          800,
+          800
+        ],
+        "terms": {},
+        "attributes": {
+          "1": 100000,
+          "10": 0
+        },
+        "hp_ratio": 1,
+        "survival": "immortal",
+        "actions": {
+          "move": false,
+          "attack": false,
+          "skill": false
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "action": "advance",
+      "payload": {
+        "ticks": 100
+      }
+    }
+  ],
+  "checks": [
+    {
+      "key": 1,
+      "field": "stats.damage",
+      "op": "near",
+      "value": 2280
+    },
+    {
+      "key": 1,
+      "field": "kills",
+      "op": "eq",
+      "value": 0
+    },
+    {
+      "key": 2,
+      "field": "dead",
+      "op": "eq",
+      "value": false
+    }
+  ]
+}

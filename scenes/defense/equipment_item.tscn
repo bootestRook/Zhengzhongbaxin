@@ -1,0 +1,286 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_item.gd" id="item"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_icon.gd" id="icon"]
+
+[sub_resource type="Gradient" id="RainbowColors"]
+offsets = PackedFloat32Array(0, 0.25, 0.5, 0.75, 1)
+colors = PackedColorArray(0.27, 0.64, 1, 1, 0.28, 1, 0.81, 1, 1, 0.92, 0.33, 1, 1, 0.34, 0.48, 1, 0.79, 0.35, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="RainbowSocket"]
+gradient = SubResource("RainbowColors")
+width = 16
+height = 16
+fill_from = Vector2(0, 0)
+fill_to = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="Cell"]
+bg_color = Color(0.76,0.77,0.74,1)
+border_color = Color(0.12,0.12,0.10,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Over"]
+bg_color = Color(0.94,0.87,0.65,1)
+border_color = Color(1,0.77,0.16,1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Down"]
+bg_color = Color(0.62,0.59,0.48,1)
+border_color = Color(1,0.77,0.16,1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_color = Color(1,0.77,0.16,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="BadgeFrame"]
+bg_color = Color(0.10,0.11,0.10,1)
+border_color = Color(0.91,0.89,0.80,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[node name="Item" type="Button"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 128.0
+offset_bottom = 128.0
+custom_minimum_size = Vector2(128,128)
+mouse_default_cursor_shape = 2
+script = ExtResource("item")
+theme_override_styles/normal = SubResource("Cell")
+theme_override_styles/hover = SubResource("Over")
+theme_override_styles/pressed = SubResource("Down")
+theme_override_styles/focus = SubResource("Focus")
+
+
+[node name="Icon" type="TextureRect" parent="."]
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("icon")
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -8.0
+
+[node name="BadgeFrame" type="Panel" parent="."]
+offset_left = 5.0
+offset_top = 84.0
+offset_right = 45.0
+offset_bottom = 124.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("BadgeFrame")
+
+[node name="Badge" type="TextureRect" parent="."]
+offset_left = 9.0
+offset_top = 88.0
+offset_right = 41.0
+offset_bottom = 120.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("icon")
+
+
+[node name="Count" type="Label" parent="."]
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_font_sizes/font_size = 28
+text = ""
+vertical_alignment = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+anchor_left = 1.0
+anchor_top = 1.0
+offset_left = -78.0
+offset_top = -37.0
+offset_right = -4.0
+offset_bottom = -2.0
+horizontal_alignment = 2
+theme_override_constants/outline_size = 5
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+
+[node name="Part" type="Label" parent="."]
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.15,0.14,0.12,1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 27
+text = ""
+vertical_alignment = 1
+anchor_right = 1.0
+offset_bottom = 33.0
+horizontal_alignment = 1
+
+[node name="Sockets" type="Control" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -25.0
+mouse_filter = 2
+
+[node name="S0" type="ColorRect" parent="Sockets"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 15.0
+offset_bottom = 15.0
+rotation = 0.785398
+pivot_offset = Vector2(7.5,7.5)
+mouse_filter = 2
+color = Color(0.12,0.13,0.12,1)
+
+[node name="Fill" type="ColorRect" parent="Sockets/S0"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 12.0
+offset_bottom = 12.0
+mouse_filter = 2
+color = Color(0.76,0.77,0.74,1)
+
+[node name="Rainbow" type="TextureRect" parent="Sockets/S0/Fill"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = SubResource("RainbowSocket")
+expand_mode = 1
+
+[node name="S1" type="ColorRect" parent="Sockets"]
+offset_left = 30.0
+offset_top = 0.0
+offset_right = 45.0
+offset_bottom = 15.0
+rotation = 0.785398
+pivot_offset = Vector2(7.5,7.5)
+mouse_filter = 2
+color = Color(0.12,0.13,0.12,1)
+
+[node name="Fill" type="ColorRect" parent="Sockets/S1"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 12.0
+offset_bottom = 12.0
+mouse_filter = 2
+color = Color(0.76,0.77,0.74,1)
+
+[node name="Rainbow" type="TextureRect" parent="Sockets/S1/Fill"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = SubResource("RainbowSocket")
+expand_mode = 1
+
+[node name="S2" type="ColorRect" parent="Sockets"]
+offset_left = 60.0
+offset_top = 0.0
+offset_right = 75.0
+offset_bottom = 15.0
+rotation = 0.785398
+pivot_offset = Vector2(7.5,7.5)
+mouse_filter = 2
+color = Color(0.12,0.13,0.12,1)
+
+[node name="Fill" type="ColorRect" parent="Sockets/S2"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 12.0
+offset_bottom = 12.0
+mouse_filter = 2
+color = Color(0.76,0.77,0.74,1)
+
+[node name="Rainbow" type="TextureRect" parent="Sockets/S2/Fill"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = SubResource("RainbowSocket")
+expand_mode = 1
+
+[node name="S3" type="ColorRect" parent="Sockets"]
+offset_left = 90.0
+offset_top = 0.0
+offset_right = 105.0
+offset_bottom = 15.0
+rotation = 0.785398
+pivot_offset = Vector2(7.5,7.5)
+mouse_filter = 2
+color = Color(0.12,0.13,0.12,1)
+
+[node name="Fill" type="ColorRect" parent="Sockets/S3"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 12.0
+offset_bottom = 12.0
+mouse_filter = 2
+color = Color(0.76,0.77,0.74,1)
+
+[node name="Rainbow" type="TextureRect" parent="Sockets/S3/Fill"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = SubResource("RainbowSocket")
+expand_mode = 1
+
+[node name="S4" type="ColorRect" parent="Sockets"]
+offset_left = 120.0
+offset_top = 0.0
+offset_right = 135.0
+offset_bottom = 15.0
+rotation = 0.785398
+pivot_offset = Vector2(7.5,7.5)
+mouse_filter = 2
+color = Color(0.12,0.13,0.12,1)
+
+[node name="Fill" type="ColorRect" parent="Sockets/S4"]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 12.0
+offset_bottom = 12.0
+mouse_filter = 2
+color = Color(0.76,0.77,0.74,1)
+
+[node name="Rainbow" type="TextureRect" parent="Sockets/S4/Fill"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = SubResource("RainbowSocket")
+expand_mode = 1

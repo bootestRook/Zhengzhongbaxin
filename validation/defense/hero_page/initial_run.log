@@ -1,0 +1,39 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[SUITE] test_defense_home_ui: 213 assertions
+[SUITE] test_defense_run_seed_ui: 20 assertions
+[SUITE] test_defense_hero_roster_ui: 47 assertions
+[SUITE] test_defense_druid_ui: 45 assertions
+[SUITE] test_defense_assassin_ui: 36 assertions
+ERROR: TEST FAILURE: last card remains reachable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_page/run.gd:16)
+       [1] run (res://tests/test_defense_assassin_ui.gd:82)
+ERROR: TEST FAILURE: battle tab returns to stage home: expected=battle actual=heroes
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_page/run.gd:16)
+       [1] run (res://tests/test_defense_assassin_ui.gd:82)
+ERROR: TEST FAILURE: hidden actor stops processing: expected=5791.59400000001 actual=5899.92333333335
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_page/run.gd:16)
+       [1] run (res://tests/test_defense_assassin_ui.gd:82)
+ERROR: TEST FAILURE: last card remains reachable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_page/run.gd:16)
+       [1] run (res://tests/test_defense_assassin_ui.gd:82)
+ERROR: TEST FAILURE: battle tab returns to stage home: expected=battle actual=heroes
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_page/run.gd:16)
+       [1] run (res://tests/test_defense_assassin_ui.gd:82)
+ERROR: TEST FAILURE: hidden actor stops processing: expected=648.734 actual=750.0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://validation/defense/hero_page/run.gd:16)
+       [1] run (res://tests/test_defense_assassin_ui.gd:82)
+[FAIL] hero page L2

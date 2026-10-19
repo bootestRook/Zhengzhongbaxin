@@ -1,0 +1,5 @@
+id,category,platform,limit_value,unit,severity
+all.ui_asset_bytes,asset_bytes,all,262144,bytes,error
+all.ui_texture_height,texture_height,all,2048,pixels,error
+all.ui_texture_width,texture_width,all,2048,pixels,error
+desktop.frame_time,frame_ms,desktop,16.67,milliseconds,warn

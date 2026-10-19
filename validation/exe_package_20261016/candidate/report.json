@@ -1,0 +1,433 @@
+{
+	"assets_loaded": 106,
+	"battle": {
+		"encounters": [
+			8,
+			14,
+			20
+		],
+		"heroes": 5,
+		"phase": "result",
+		"seed": 6,
+		"time_ms": 233680,
+		"wave": 20,
+		"won": true
+	},
+	"captures": [
+		{
+			"height": 960,
+			"name": "home_480x960",
+			"width": 480
+		},
+		{
+			"height": 1440,
+			"name": "home_720x1440",
+			"width": 720
+		},
+		{
+			"height": 1920,
+			"name": "home_960x1920",
+			"width": 960
+		},
+		{
+			"height": 720,
+			"name": "home_1280x720",
+			"width": 360
+		},
+		{
+			"height": 1080,
+			"name": "home_1920x1080",
+			"width": 540
+		},
+		{
+			"height": 768,
+			"name": "home_1024x768",
+			"width": 384
+		},
+		{
+			"height": 960,
+			"name": "levels",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "gallery",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "initial_choice",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "choice_attributes",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "refresh_1",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "refresh_0",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "battle",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "skill_tooltip",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "skill_range",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "pause",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "five_heroes",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "fifth_attributes",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_1_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_1_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_2_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_2_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_3_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_3_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_4_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_4_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_5_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_5_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_6_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_6_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_7_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_7_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_8_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_elite_8_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_boss_9_spin",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "reward_boss_9_result",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "result",
+			"width": 480
+		}
+	],
+	"dpi": 192,
+	"errors": [],
+	"font_characters": 944,
+	"fullscreen_size": [
+		3840,
+		2160
+	],
+	"missing_glyphs": [],
+	"raw_files_verified": 5,
+	"refresh_sequence": [
+		2,
+		1,
+		0,
+		2
+	],
+	"rewards": [
+		{
+			"items": [
+				200504,
+				206,
+				200306
+			],
+			"requested": 3,
+			"source": "elite",
+			"wave": 12
+		},
+		{
+			"items": [
+				200311,
+				200501
+			],
+			"requested": 2,
+			"source": "elite",
+			"wave": 14
+		},
+		{
+			"items": [
+				200102,
+				200507,
+				200307
+			],
+			"requested": 3,
+			"source": "elite",
+			"wave": 15
+		},
+		{
+			"items": [
+				200405
+			],
+			"requested": 1,
+			"source": "elite",
+			"wave": 18
+		},
+		{
+			"items": [
+				200101,
+				209
+			],
+			"requested": 2,
+			"source": "elite",
+			"wave": 19
+		},
+		{
+			"items": [
+				200407
+			],
+			"requested": 1,
+			"source": "elite",
+			"wave": 19
+		},
+		{
+			"items": [
+				200310
+			],
+			"requested": 1,
+			"source": "elite",
+			"wave": 20
+		},
+		{
+			"items": [
+				200106
+			],
+			"requested": 1,
+			"source": "elite",
+			"wave": 20
+		},
+		{
+			"items": [
+				200403
+			],
+			"requested": 1,
+			"source": "boss",
+			"wave": 20
+		}
+	],
+	"roster": [
+		{
+			"id": 1,
+			"initial_skill": "火球术",
+			"name": "火焰术士"
+		},
+		{
+			"id": 2,
+			"initial_skill": "荆棘护甲",
+			"name": "德鲁伊"
+		},
+		{
+			"id": 4,
+			"initial_skill": "圣盾",
+			"name": "勇者"
+		},
+		{
+			"id": 13,
+			"initial_skill": "多重射击",
+			"name": "寒冰射手"
+		},
+		{
+			"id": 17,
+			"initial_skill": "刺杀",
+			"name": "闪电刺客"
+		}
+	],
+	"rules": {
+		"chest_reward_weights": [
+			50,
+			30,
+			15,
+			5
+		],
+		"encounter_waves": [
+			8,
+			14,
+			20
+		],
+		"formation_five": {
+			"back": [
+				[
+					1160,
+					1150
+				],
+				[
+					440,
+					1150
+				],
+				[
+					620,
+					1150
+				],
+				[
+					980,
+					1150
+				],
+				[
+					800,
+					1150
+				]
+			],
+			"front": [
+				[
+					1160,
+					1000
+				],
+				[
+					440,
+					1000
+				],
+				[
+					620,
+					950
+				],
+				[
+					980,
+					950
+				],
+				[
+					800,
+					950
+				]
+			]
+		},
+		"hero_limit": 5,
+		"hero_spawn": [
+			771,
+			1390
+		],
+		"max_level": 20,
+		"recruit_chance": 2500,
+		"revive_seconds": {
+			"1": 20,
+			"10": 20,
+			"2": 10,
+			"3": 10,
+			"4": 20,
+			"5": 10
+		},
+		"schema_version": 5,
+		"unlocked_heroes": [
+			1,
+			2,
+			4,
+			13,
+			17
+		],
+		"wave_count": 20
+	},
+	"scheduled_encounters": [
+		{
+			"kind": "elite",
+			"wave": 8
+		},
+		{
+			"kind": "elite",
+			"wave": 14
+		},
+		{
+			"kind": "boss",
+			"wave": 20
+		}
+	],
+	"skill_range": {
+		"hero": 1,
+		"radius": 1200.0
+	},
+	"unlocked_heroes": [
+		1,
+		2,
+		4,
+		13,
+		17
+	]
+}

@@ -1,0 +1,5 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[MOTION] gain=[0.96898944377899, 0.96688453356425] settled=[0.74803923070431, 0.74901962280273] hit=[0.88558247510125, 0.88627451658249] recovered=[0.74855826181524, 0.74901962280273]
+[SHIELD BARS] assertions=33 failures=0

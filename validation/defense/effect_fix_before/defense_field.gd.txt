@@ -1,0 +1,95 @@
+class_name DefenseField
+extends Control
+
+var atlas: DefenseAtlas
+var snapshot: Dictionary = {}
+var menu_time: int = 0
+var damage_numbers: bool = true
+
+func _process(delta: float) -> void:
+	menu_time += roundi(delta * 1000)
+	queue_redraw()
+
+func world(pos: Vector2) -> Vector2:
+	return pos + Vector2(-320, -97)
+
+func _draw() -> void:
+	if atlas == null or snapshot.is_empty():
+		return
+	var s = snapshot
+	if s.phase == "home":
+		return
+	atlas.stretch(self, "map:bg3", Rect2(0, -446, 960, 2368))
+	atlas.stretch(self, "map:in_game_mask", Rect2(0, -10, 960, 1940))
+	atlas.stretch(self, "map:downBg", Rect2(0, 1534, 960, 475))
+	atlas.draw(self, "statue:statue1_4", Vector2(451, 1400), Vector2(1.6, 1.6), 0, Vector2(0.5, 1))
+	for p in s.missiles:
+		if p.layer < 0:
+			draw_missile(p, s.time)
+	for actor in s.actors:
+		draw_actor(actor, s.time)
+	for p in s.missiles:
+		if p.layer >= 0:
+			draw_missile(p, s.time)
+	for box in s.boxes:
+		atlas.draw(self, "map:box1", world(box.pos), Vector2.ONE, menu_time)
+		draw_text(world(box.pos) + Vector2(-70, 30), "点击领取", 26, Color(1, 0.9, 0.4), 140)
+	for effect in s.visuals:
+		var pos = world(effect.pos)
+		var age: int = s.time - effect.start
+		if effect.kind in ["number", "wall_hit"]:
+			if not damage_numbers:
+				continue
+			var color = Color("ffe356") if effect.get("color", "white") == "yellow" else Color.WHITE
+			if effect.get("color", "") == "green":
+				color = Color("74f590")
+			draw_text(pos + Vector2(-60, -65 - age * 0.07), effect.text, 36 if effect.get("critical", false) else 27, color, 120)
+		elif effect.kind == "boss":
+			draw_text(Vector2(100, 420), effect.text, 52, Color("ffe356"), 760)
+		else:
+			atlas.draw(self, effect.get("res", "battleEffect:hit"), pos, Vector2.ONE * float(effect.get("scale", 0.7)), age, Vector2(0.5, 0.5))
+
+func draw_missile(p: Dictionary, now: int) -> void:
+	if now < p.start:
+		return
+	var pos = world(p.pos)
+	var scale_value = Vector2.ONE * p.scale
+	if p.kind in [4, 5, 7, 35]:
+		pos = world(p.from)
+		var key = atlas.frame(p.res, now - p.start)
+		var sprite: Dictionary = atlas.sprites.get(key, {})
+		if not sprite.is_empty():
+			scale_value.y = p.from.distance_to(p.to) / maxf(1, float(sprite.size[1]))
+	var pivot = Vector2(p.pivot.x, p.pivot.y)
+	var rotation: float = p.rotation if p.kind in [0, 1, 4, 5, 7, 9, 17, 21, 29, 30, 35, 37] else 0.0
+	atlas.draw(self, p.res, pos, scale_value, now - p.start, pivot, Color.WHITE, rotation)
+
+func draw_actor(actor: Dictionary, now: int) -> void:
+	var pos = world(actor.pos)
+	if actor.tombstone:
+		atlas.draw(self, "battle:gravestone", pos, Vector2(0.9, 0.9))
+		draw_text(pos + Vector2(-50, -65), "%d" % ceili(actor.revive / 1000.0), 34, Color.WHITE, 100)
+		return
+	var scale_value = 1.0
+	draw_set_transform(pos, 0, Vector2(1, 0.35))
+	var radius = 29 if actor.kind != "boss" else 50
+	draw_circle(Vector2.ZERO, radius, Color(0.04, 0.11, 0.04, 0.2))
+	if not actor.dead:
+		draw_circle(Vector2.ZERO, radius, Color("55c635") if actor.side == 1 else Color("e97555"), false, 4, true)
+	draw_set_transform(Vector2.ZERO)
+	var tint = Color(1, 1, 1, 0.25) if actor.hidden else (Color(1, 1, 1, 0.5) if actor.dead else Color.WHITE)
+	atlas.actor(self, actor.res, actor.action, pos, roundi((now - actor.action_at) * actor.action_rate), scale_value, actor.facing, tint, Vector2(actor.pivot[0], actor.pivot[1]), actor.frames)
+	if actor.dead:
+		return
+	var width = 72 if actor.side == 1 else (95 if actor.kind == "boss" else 56)
+	var bar = Rect2(pos + Vector2(-width / 2.0 + actor.hp_offset[0], actor.hp_offset[1] * scale_value), Vector2(width, 10))
+	if actor.side == 1 or actor.hp < actor.max_hp:
+		draw_rect(bar.grow(1.5), Color("42683a"))
+		draw_rect(bar, Color("693a31"))
+		draw_rect(Rect2(bar.position, Vector2(width * clampf(actor.hp / maxf(1, actor.max_hp), 0, 1), 10)), Color("4cd559") if actor.side == 1 else Color("ed6a4a"))
+	if actor.shield > 0:
+		draw_arc(pos + Vector2(0, -40), 52, 0, TAU, 24, Color(0.5, 0.9, 1, 0.6), 4, true)
+
+func draw_text(pos: Vector2, text: String, font_size: int, color: Color, width: float) -> void:
+	draw_string_outline(atlas.font, pos, text, HORIZONTAL_ALIGNMENT_CENTER, width, font_size, 5, Color("202319"))
+	draw_string(atlas.font, pos, text, HORIZONTAL_ALIGNMENT_CENTER, width, font_size, color)

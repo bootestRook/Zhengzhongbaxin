@@ -1,0 +1,124 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_equipment_icon.gd" id="icon"]
+
+[sub_resource type="StyleBoxFlat" id="Row"]
+bg_color = Color(0.88,0.85,0.76,1)
+border_color = Color(0.82,0.78,0.66,1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Remove"]
+bg_color = Color(0.67,0.78,0.20,1)
+border_color = Color(0.45,0.40,0.30,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Hover"]
+bg_color = Color(0.76,0.87,0.28,1)
+border_color = Color(0.45,0.40,0.30,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Pressed"]
+bg_color = Color(0.52,0.64,0.12,1)
+border_color = Color(0.45,0.40,0.30,1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_color = Color(1,0.83,0.24,1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_left = 3
+corner_radius_bottom_right = 3
+
+[node name="Row" type="Panel"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 612.0
+offset_bottom = 122.0
+theme_override_styles/panel = SubResource("Row")
+mouse_filter = 0
+[node name="Icon" type="TextureRect" parent="."]
+offset_left = 12.0
+offset_top = 11.0
+offset_right = 112.0
+offset_bottom = 111.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("icon")
+[node name="Title" type="Label" parent="."]
+offset_left = 126.0
+offset_top = 18.0
+offset_right = 452.0
+offset_bottom = 63.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31,0.27,0.22,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 30
+text = ""
+vertical_alignment = 1
+
+[node name="Description" type="Label" parent="."]
+offset_left = 126.0
+offset_top = 62.0
+offset_right = 452.0
+offset_bottom = 102.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.31,0.27,0.22,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 27
+text = ""
+vertical_alignment = 1
+
+[node name="Remove" type="Button" parent="."]
+offset_left = 478.0
+offset_top = 17.0
+offset_right = 596.0
+offset_bottom = 105.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 34
+theme_override_colors/font_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_hover_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_pressed_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_focus_color = Color(0.20,0.18,0.12,1)
+theme_override_colors/font_outline_color = Color(0,0,0,0)
+theme_override_constants/outline_size = 0
+text = "卸下"
+theme_override_styles/normal = SubResource("Remove")
+theme_override_styles/hover = SubResource("Hover")
+theme_override_styles/pressed = SubResource("Pressed")
+theme_override_styles/focus = SubResource("Focus")
+

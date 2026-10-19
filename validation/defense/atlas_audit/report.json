@@ -1,0 +1,553 @@
+{
+  "relocation": "all 15 pages reversed, actual pixels padded by 8px, all sprite regions relocated; page dimensions changed",
+  "tolerance": "mean RGB error <= 0.05 and <= 0.01% pixels exceeding 2 channel values",
+  "passed": true,
+  "comparisons": [
+    {
+      "capture": "battle_speed1_540",
+      "mean_channel_error": 0.004252972107910379,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed1_720",
+      "mean_channel_error": 0.004473379629629629,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed1_960",
+      "mean_channel_error": 0.003546549479166667,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed2_540",
+      "mean_channel_error": 0.004210676726108825,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed2_720",
+      "mean_channel_error": 0.00445923353909465,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed2_960",
+      "mean_channel_error": 0.0035362413194444443,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed3_540",
+      "mean_channel_error": 0.004151234567901235,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed3_720",
+      "mean_channel_error": 0.004380787037037037,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "battle_speed3_960",
+      "mean_channel_error": 0.0035344328703703705,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "boss_details_540",
+      "mean_channel_error": 0.0024879972565157752,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "boss_details_720",
+      "mean_channel_error": 0.0023405349794238684,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "boss_details_960",
+      "mean_channel_error": 0.002164532696759259,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_hero_540",
+      "mean_channel_error": 0.005460676726108825,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_hero_720",
+      "mean_channel_error": 0.005875450102880659,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_hero_960",
+      "mean_channel_error": 0.00542824074074074,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_statue_540",
+      "mean_channel_error": 0.004662208504801098,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_statue_720",
+      "mean_channel_error": 0.0057831790123456794,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_statue_960",
+      "mean_channel_error": 0.004302662037037037,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_upgrade_540",
+      "mean_channel_error": 0.006183127572016461,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_upgrade_720",
+      "mean_channel_error": 0.0075321502057613164,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "choice_skill_upgrade_960",
+      "mean_channel_error": 0.006047453703703703,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "contribution_empty_540",
+      "mean_channel_error": 0.004907978966620942,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "contribution_empty_720",
+      "mean_channel_error": 0.005346257716049383,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "contribution_empty_960",
+      "mean_channel_error": 0.005128038194444445,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "contribution_live_540",
+      "mean_channel_error": 0.005334362139917695,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "contribution_live_720",
+      "mean_channel_error": 0.005463605967078189,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "contribution_live_960",
+      "mean_channel_error": 0.003948206018518518,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "gallery_540",
+      "mean_channel_error": 0.0009750800182898948,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "gallery_720",
+      "mean_channel_error": 0.0011930941358024691,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "gallery_960",
+      "mean_channel_error": 0.0010868778935185185,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "gems_540",
+      "mean_channel_error": 0.00255944215820759,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "gems_720",
+      "mean_channel_error": 0.002635673868312757,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "gems_960",
+      "mean_channel_error": 0.0026448567708333335,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "hero_attributes_540",
+      "mean_channel_error": 0.005380658436213992,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "hero_attributes_720",
+      "mean_channel_error": 0.005726594650205761,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "hero_attributes_960",
+      "mean_channel_error": 0.005883427372685185,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "hero_attributes_expanded_540",
+      "mean_channel_error": 0.004176383173296753,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "hero_attributes_expanded_720",
+      "mean_channel_error": 0.004944701646090535,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "hero_attributes_expanded_960",
+      "mean_channel_error": 0.00465747974537037,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "hero_choice_540",
+      "mean_channel_error": 0.00550811614083219,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "hero_choice_720",
+      "mean_channel_error": 0.005963220164609054,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "hero_choice_960",
+      "mean_channel_error": 0.005847258391203704,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "home_540",
+      "mean_channel_error": 0.004830818472793781,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "home_720",
+      "mean_channel_error": 0.004721579218106996,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "home_960",
+      "mean_channel_error": 0.004811197916666667,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "home_info_540",
+      "mean_channel_error": 0.0008270461819844536,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "home_info_720",
+      "mean_channel_error": 0.0007699974279835391,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "home_info_960",
+      "mean_channel_error": 0.0007718460648148148,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "home_level3_540",
+      "mean_channel_error": 0.004877686328303613,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "home_level3_720",
+      "mean_channel_error": 0.004470807613168724,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "home_level3_960",
+      "mean_channel_error": 0.004671585648148148,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "levels_540",
+      "mean_channel_error": 0.00034865112025605854,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "levels_720",
+      "mean_channel_error": 0.0004237397119341564,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "levels_960",
+      "mean_channel_error": 0.0003508391203703704,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "monsters_540",
+      "mean_channel_error": 0.0033596250571559213,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "monsters_720",
+      "mean_channel_error": 0.00386059670781893,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "monsters_960",
+      "mean_channel_error": 0.0035899522569444444,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "owned_hero_540",
+      "mean_channel_error": 0.003915752171925011,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "owned_hero_720",
+      "mean_channel_error": 0.004212962962962963,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "owned_hero_960",
+      "mean_channel_error": 0.003420500578703704,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "pause_540",
+      "mean_channel_error": 0.002950960219478738,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "pause_720",
+      "mean_channel_error": 0.002371720679012346,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "pause_960",
+      "mean_channel_error": 0.0026338252314814813,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "result_540",
+      "mean_channel_error": 0.002735482395976223,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "result_720",
+      "mean_channel_error": 0.003106674382716049,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "result_960",
+      "mean_channel_error": 0.0016731770833333334,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "skill_tooltip_540",
+      "mean_channel_error": 0.0041986739826246,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "skill_tooltip_720",
+      "mean_channel_error": 0.003872170781893004,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "skill_tooltip_960",
+      "mean_channel_error": 0.0030629701967592594,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "statue_choice_540",
+      "mean_channel_error": 0.0048948331047096475,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "statue_choice_720",
+      "mean_channel_error": 0.005577417695473251,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "statue_choice_960",
+      "mean_channel_error": 0.005011935763888889,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "upgrade_attributes_540",
+      "mean_channel_error": 0.006478623685413809,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "upgrade_attributes_720",
+      "mean_channel_error": 0.007153420781893004,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "upgrade_attributes_960",
+      "mean_channel_error": 0.0069672309027777775,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    },
+    {
+      "capture": "upgrade_choice_540",
+      "mean_channel_error": 0.006479195244627344,
+      "pixels_over_2": 0,
+      "pixel_count": 583200,
+      "passed": true
+    },
+    {
+      "capture": "upgrade_choice_720",
+      "mean_channel_error": 0.007392296810699589,
+      "pixels_over_2": 0,
+      "pixel_count": 1036800,
+      "passed": true
+    },
+    {
+      "capture": "upgrade_choice_960",
+      "mean_channel_error": 0.006906828703703704,
+      "pixels_over_2": 0,
+      "pixel_count": 1843200,
+      "passed": true
+    }
+  ]
+}

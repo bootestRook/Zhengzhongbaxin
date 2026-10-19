@@ -1,0 +1,3 @@
+id,feature_id,cue_type,display_name_key,resource_id,channel,duration_ms
+sample.limit_reached,sample_interaction,ui,cue.sample.limit_reached,,feedback,400
+sample.value_changed,sample_interaction,ui,cue.sample.value_changed,ui.sample_badge,feedback,250

@@ -1,0 +1,35 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_result_item.gd" id="item"]
+
+[node name="ResultItem" type="Control"]
+offset_right = 100.0
+offset_bottom = 100.0
+script = ExtResource("item")
+
+[node name="Count" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1,1,1,1)
+theme_override_colors/font_outline_color = Color(0,0,0,1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 29
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="Experience" type="Label" parent="."]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 42.0
+offset_bottom = 25.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.48,1,0.55,1)
+theme_override_colors/font_outline_color = Color(0,0.3,0,1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 15
+text = "经验"

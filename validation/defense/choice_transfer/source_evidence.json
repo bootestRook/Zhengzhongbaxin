@@ -1,0 +1,19 @@
+{
+  "source": "Running original game in LDPlayer, observed UI click on Prince blood-frenzy upgrade",
+  "capture": "ADB Android screenrecord; Windows UI input by computer-use sky",
+  "file": "source_prince_verified.mp4",
+  "sha256": "8fd2648fe3e19f973ddfdec7af036da3679b4cf43f42501876dec52366bae428",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 720,
+        "height": 1440,
+        "avg_frame_rate": "520000/8917",
+        "duration": "8.025300"
+      }
+    ]
+  },
+  "scope": "Icon flight and arrival feedback; no frame-perfect claim for complete card dissolution"
+}

@@ -1,0 +1,2 @@
+id,feature_id,source_definition_id,relation_type,target_definition_id,order,weight
+sample.target_unlocks_reward,sample_interaction,sample.interaction_target,unlocks,sample.interaction_reward,1,1.0

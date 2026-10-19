@@ -1,0 +1,4 @@
+[FAIL] defense catalog: [01_英雄属性与局外成长.xlsx/:0:文件] 缺少配置文件; actual=None
+
+Export failed. Existing runtime data was not overwritten.
+If a dependency is missing: python -m pip install -r tools/requirements-tables.txt

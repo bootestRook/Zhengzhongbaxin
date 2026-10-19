@@ -1,0 +1,30 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+[ATLAS AUDIT] home phase=home
+[ATLAS AUDIT] levels phase=home
+[ATLAS AUDIT] gallery phase=home
+[ATLAS AUDIT] home_info phase=home
+[ATLAS AUDIT] home_level3 phase=home
+[ATLAS AUDIT] hero_choice phase=choice
+[ATLAS AUDIT] choice_skill_hero phase=choice
+[ATLAS AUDIT] hero_attributes phase=choice
+[ATLAS AUDIT] hero_attributes_expanded phase=choice
+[ATLAS AUDIT] gems phase=choice
+[ATLAS AUDIT] contribution_empty phase=choice
+[ATLAS AUDIT] pause phase=choice
+[ATLAS AUDIT] boss_details phase=choice
+[ATLAS AUDIT] battle_speed1 phase=playing
+[ATLAS AUDIT] battle_speed2 phase=playing
+[ATLAS AUDIT] battle_speed3 phase=playing
+[ATLAS AUDIT] monsters phase=playing
+[ATLAS AUDIT] skill_tooltip phase=playing
+[ATLAS AUDIT] owned_hero phase=playing
+[ATLAS AUDIT] contribution_live phase=playing
+[ATLAS AUDIT] upgrade_choice phase=choice
+[ATLAS AUDIT] choice_skill_upgrade phase=choice
+[ATLAS AUDIT] upgrade_attributes phase=choice
+[ATLAS AUDIT] statue_choice phase=choice
+[ATLAS AUDIT] choice_skill_statue phase=choice
+[ATLAS AUDIT] result phase=result
+[ATLAS AUDIT] complete

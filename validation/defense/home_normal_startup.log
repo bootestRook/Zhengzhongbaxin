@@ -1,0 +1,10 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5080
+
+NORMAL STARTUP CAPTURE: 0 size=(720, 1440)
+[OK] defense catalog: 18 hero entries, 17 available, 50 levels, 1500 waves
+[OK] defense_pipeline.py check
+[OK] data check: definitions=2, feature_catalog=2, localization=14, platform_overrides=2, presentation_cues=2, quality_budgets=4, relations=1, resource_bindings=106, resource_policies=7, system_settings=5, tuning=3
+[OK] content_pipeline.py check
+[OK] assets check: assets=106, bytes=85775658
+[OK] asset_pipeline.py check

@@ -1,0 +1,5 @@
+Command: python -X utf8 tools/project.py data
+[FAIL] defense catalog: src/features/defense/presentation/defense_term_hero_button.gd: missing required sprite gameIcon:heroHead%d_new
+[FAIL] defense_pipeline.py build: exit=1, marker_failure=False
+
+The referenced hero script was not modified by this task. Resource bindings were generated with content_pipeline.py build and validated with content_pipeline.py check. Asset manifest was built and checked by asset_pipeline.py after Godot import.

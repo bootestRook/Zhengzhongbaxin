@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01_英雄属性与局外成长.xlsx",
+    "sheets": 4,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "02_英雄技能.xlsx",
+    "sheets": 7,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "03_英雄词条.xlsx",
+    "sheets": 3,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "04_Buff配置.xlsx",
+    "sheets": 3,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "05_怪物配置.xlsx",
+    "sheets": 5,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "06_关卡配置.xlsx",
+    "sheets": 2,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "07_刷怪配置.xlsx",
+    "sheets": 2,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  {
+    "file": "08_怪物组配置.xlsx",
+    "sheets": 2,
+    "formula_count": 0,
+    "pane": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  }
+]

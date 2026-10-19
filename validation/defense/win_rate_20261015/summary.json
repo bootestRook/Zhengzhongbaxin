@@ -1,0 +1,294 @@
+{
+  "batches": [
+    "discovery",
+    "candidate85",
+    "candidate65",
+    "candidate50",
+    "candidate55",
+    "validation55",
+    "validation53",
+    "validation51"
+  ],
+  "total_runs": 540,
+  "summary": [
+    {
+      "level": 1,
+      "policy": "recruit_quality",
+      "baseline_sha256": "0aed5759caf15a78f0f1cbdc67f18030ccf00c4d57ab7144f73dad0327a3f485",
+      "n": 20,
+      "wins": 20,
+      "win_rate_percent": 100.0,
+      "wilson_95_percent": [
+        83.89,
+        100.0
+      ],
+      "finished": true,
+      "median_loss_wave": null,
+      "median_duration_seconds": 254.816,
+      "five_heroes_runs": 20,
+      "by_opening_hero": {
+        "1": {
+          "n": 13,
+          "wins": 13
+        },
+        "2": {
+          "n": 2,
+          "wins": 2
+        },
+        "4": {
+          "n": 5,
+          "wins": 5
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "0aed5759caf15a78f0f1cbdc67f18030ccf00c4d57ab7144f73dad0327a3f485",
+      "n": 20,
+      "wins": 1,
+      "win_rate_percent": 5.0,
+      "wilson_95_percent": [
+        0.89,
+        23.61
+      ],
+      "finished": true,
+      "median_loss_wave": 19,
+      "median_duration_seconds": 227.552,
+      "five_heroes_runs": 20,
+      "by_opening_hero": {
+        "1": {
+          "n": 13,
+          "wins": 0
+        },
+        "2": {
+          "n": 2,
+          "wins": 0
+        },
+        "4": {
+          "n": 5,
+          "wins": 1
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "4d953dbe1dd37d1933aa3e4a753df7171b44046df537e49c50591234c64eef60",
+      "n": 120,
+      "wins": 48,
+      "win_rate_percent": 40.0,
+      "wilson_95_percent": [
+        31.68,
+        48.94
+      ],
+      "finished": true,
+      "median_loss_wave": 20.0,
+      "median_duration_seconds": 272.536,
+      "five_heroes_runs": 115,
+      "by_opening_hero": {
+        "1": {
+          "n": 72,
+          "wins": 33
+        },
+        "2": {
+          "n": 10,
+          "wins": 2
+        },
+        "4": {
+          "n": 38,
+          "wins": 13
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "5e04d1da8dd2d4d60f82501dd2c82f2eb1faa0ea6b0cdbe98c4edce60ef9b27c",
+      "n": 20,
+      "wins": 11,
+      "win_rate_percent": 55.0,
+      "wilson_95_percent": [
+        34.21,
+        74.18
+      ],
+      "finished": true,
+      "median_loss_wave": 20,
+      "median_duration_seconds": 288.696,
+      "five_heroes_runs": 20,
+      "by_opening_hero": {
+        "1": {
+          "n": 13,
+          "wins": 7
+        },
+        "2": {
+          "n": 2,
+          "wins": 1
+        },
+        "4": {
+          "n": 5,
+          "wins": 3
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "71e163a4ebd70e7eb2108ec9064817add4173c1f53b774bfccc222771fbef44a",
+      "n": 20,
+      "wins": 3,
+      "win_rate_percent": 15.0,
+      "wilson_95_percent": [
+        5.24,
+        36.04
+      ],
+      "finished": true,
+      "median_loss_wave": 20,
+      "median_duration_seconds": 261.384,
+      "five_heroes_runs": 20,
+      "by_opening_hero": {
+        "1": {
+          "n": 13,
+          "wins": 2
+        },
+        "2": {
+          "n": 2,
+          "wins": 0
+        },
+        "4": {
+          "n": 5,
+          "wins": 1
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "9706fd654bf05e24b5983c68521ae9905e826b8a3e6c63653fd6571f3841fe89",
+      "n": 20,
+      "wins": 1,
+      "win_rate_percent": 5.0,
+      "wilson_95_percent": [
+        0.89,
+        23.61
+      ],
+      "finished": true,
+      "median_loss_wave": 19,
+      "median_duration_seconds": 229.12,
+      "five_heroes_runs": 20,
+      "by_opening_hero": {
+        "1": {
+          "n": 13,
+          "wins": 1
+        },
+        "2": {
+          "n": 2,
+          "wins": 0
+        },
+        "4": {
+          "n": 5,
+          "wins": 0
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "9a8224577c6e68cbd53f2b7f7a2809ebcc4e1c5eadb43e276178b2b6f53575b6",
+      "n": 100,
+      "wins": 39,
+      "win_rate_percent": 39.0,
+      "wilson_95_percent": [
+        30.02,
+        48.8
+      ],
+      "finished": true,
+      "median_loss_wave": 20,
+      "median_duration_seconds": 276.008,
+      "five_heroes_runs": 97,
+      "by_opening_hero": {
+        "1": {
+          "n": 63,
+          "wins": 27
+        },
+        "2": {
+          "n": 8,
+          "wins": 3
+        },
+        "4": {
+          "n": 29,
+          "wins": 9
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 2,
+      "policy": "recruit_quality",
+      "baseline_sha256": "cb40cd8115a3ec88a32e5ac2b7015928dd753ae1c6811267ec5d6627c234842d",
+      "n": 200,
+      "wins": 82,
+      "win_rate_percent": 41.0,
+      "wilson_95_percent": [
+        34.42,
+        47.92
+      ],
+      "finished": true,
+      "median_loss_wave": 20.0,
+      "median_duration_seconds": 273.584,
+      "five_heroes_runs": 196,
+      "by_opening_hero": {
+        "1": {
+          "n": 117,
+          "wins": 46
+        },
+        "2": {
+          "n": 21,
+          "wins": 11
+        },
+        "4": {
+          "n": 62,
+          "wins": 25
+        }
+      },
+      "diagnostics": {}
+    },
+    {
+      "level": 3,
+      "policy": "recruit_quality",
+      "baseline_sha256": "0aed5759caf15a78f0f1cbdc67f18030ccf00c4d57ab7144f73dad0327a3f485",
+      "n": 20,
+      "wins": 0,
+      "win_rate_percent": 0.0,
+      "wilson_95_percent": [
+        0.0,
+        16.11
+      ],
+      "finished": true,
+      "median_loss_wave": 12.0,
+      "median_duration_seconds": 114.584,
+      "five_heroes_runs": 9,
+      "by_opening_hero": {
+        "1": {
+          "n": 13,
+          "wins": 0
+        },
+        "2": {
+          "n": 2,
+          "wins": 0
+        },
+        "4": {
+          "n": 5,
+          "wins": 0
+        }
+      },
+      "diagnostics": {}
+    }
+  ]
+}

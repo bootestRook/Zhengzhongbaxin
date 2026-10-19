@@ -1,0 +1,91 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home_heroes.gd" id="page"]
+[ext_resource type="Script" path="res://src/features/defense/presentation/defense_home_hero_actor.gd" id="actor"]
+
+[sub_resource type="StyleBoxFlat" id="Toast"]
+bg_color = Color(0.055, 0.067, 0.043, 0.96)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.91, 0.9, 0.8, 1)
+
+[node name="HeroPage" type="Control"]
+offset_right = 960.0
+offset_bottom = 1555.0
+mouse_filter = 2
+script = ExtResource("page")
+
+[node name="Actor" type="Control" parent="."]
+offset_left = 30.0
+offset_top = 0.0
+offset_right = 930.0
+offset_bottom = 630.0
+mouse_filter = 2
+script = ExtResource("actor")
+
+[node name="HeroName" type="Label" parent="."]
+offset_left = 30.0
+offset_top = 635.0
+offset_right = 930.0
+offset_bottom = 705.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.976, 0.906, 1)
+theme_override_colors/font_outline_color = Color(0.08, 0.09, 0.06, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 60
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GridInk" type="ColorRect" parent="."]
+offset_top = 720.0
+offset_right = 960.0
+offset_bottom = 1555.0
+mouse_filter = 2
+color = Color(0.063, 0.071, 0.055, 1)
+
+[node name="GridPaper" type="ColorRect" parent="."]
+offset_top = 730.0
+offset_right = 960.0
+offset_bottom = 1555.0
+mouse_filter = 2
+color = Color(0.216, 0.227, 0.196, 1)
+
+[node name="Scroll" type="ScrollContainer" parent="."]
+offset_left = 24.0
+offset_top = 756.0
+offset_right = 950.0
+offset_bottom = 1484.0
+horizontal_scroll_mode = 0
+scroll_deadzone = 15
+
+[node name="Grid" type="GridContainer" parent="Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 18
+theme_override_constants/v_separation = 20
+columns = 4
+
+[node name="Notice" type="Panel" parent="."]
+visible = false
+offset_left = 300.0
+offset_top = 620.0
+offset_right = 660.0
+offset_bottom = 720.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("Toast")
+
+[node name="Text" type="Label" parent="Notice"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.976, 0.906, 1)
+theme_override_font_sizes/font_size = 40
+text = "还未解锁"
+horizontal_alignment = 1
+vertical_alignment = 1

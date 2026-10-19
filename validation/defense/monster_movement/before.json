@@ -1,0 +1,1637 @@
+{
+	"march": [
+		{
+			"start_x": 350,
+			"target": 0,
+			"time_ms": 8176,
+			"x_at_warning": 774.13232421875,
+			"y": 550.257202148438
+		},
+		{
+			"start_x": 575,
+			"target": 0,
+			"time_ms": 6976,
+			"x_at_warning": 774.996704101563,
+			"y": 551.070861816406
+		},
+		{
+			"start_x": 800,
+			"target": 0,
+			"time_ms": 5760,
+			"x_at_warning": 824.999389648438,
+			"y": 550.634643554688
+		},
+		{
+			"start_x": 1025,
+			"target": 0,
+			"time_ms": 6976,
+			"x_at_warning": 825.003295898438,
+			"y": 551.070861816406
+		},
+		{
+			"start_x": 1250,
+			"target": 0,
+			"time_ms": 8016,
+			"x_at_warning": 827.636413574219,
+			"y": 550.49951171875
+		}
+	],
+	"matches": [
+		{
+			"deaths": 1,
+			"diagnostics": {},
+			"elapsed_ms": 8017,
+			"encounters": 3,
+			"finished": true,
+			"kills": 264,
+			"level": 1,
+			"samples": [
+				{
+					"count": 6,
+					"middle_fraction": 0.5,
+					"time_ms": 16016,
+					"width": 479.960205078125
+				},
+				{
+					"count": 5,
+					"middle_fraction": 1.0,
+					"time_ms": 20016,
+					"width": 105.268981933594
+				},
+				{
+					"count": 5,
+					"middle_fraction": 0.8,
+					"time_ms": 28016,
+					"width": 311.321350097656
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 36016,
+					"width": 493.261657714844
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.5,
+					"time_ms": 40016,
+					"width": 268.570678710938
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.857142857142857,
+					"time_ms": 44016,
+					"width": 226.605102539063
+				},
+				{
+					"count": 13,
+					"middle_fraction": 0.538461538461538,
+					"time_ms": 48016,
+					"width": 665.721801757813
+				},
+				{
+					"count": 11,
+					"middle_fraction": 0.363636363636364,
+					"time_ms": 52016,
+					"width": 428.236267089844
+				},
+				{
+					"count": 16,
+					"middle_fraction": 0.6875,
+					"time_ms": 56016,
+					"width": 642.910400390625
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 60016,
+					"width": 557.466918945313
+				},
+				{
+					"count": 19,
+					"middle_fraction": 0.789473684210526,
+					"time_ms": 64016,
+					"width": 517.515777587891
+				},
+				{
+					"count": 19,
+					"middle_fraction": 0.894736842105263,
+					"time_ms": 68016,
+					"width": 331.872924804688
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.607142857142857,
+					"time_ms": 72016,
+					"width": 727.588256835938
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.583333333333333,
+					"time_ms": 76016,
+					"width": 749.340667724609
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.727272727272727,
+					"time_ms": 80016,
+					"width": 601.234375
+				},
+				{
+					"count": 37,
+					"middle_fraction": 0.783783783783784,
+					"time_ms": 84016,
+					"width": 729.732727050781
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.848484848484849,
+					"time_ms": 88016,
+					"width": 516.074951171875
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.909090909090909,
+					"time_ms": 92016,
+					"width": 391.953491210938
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.75,
+					"time_ms": 96016,
+					"width": 620.818908691406
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.84,
+					"time_ms": 100016,
+					"width": 478.320495605469
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.642857142857143,
+					"time_ms": 104016,
+					"width": 796.202117919922
+				},
+				{
+					"count": 27,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 108016,
+					"width": 632.740539550781
+				},
+				{
+					"count": 34,
+					"middle_fraction": 0.735294117647059,
+					"time_ms": 112016,
+					"width": 683.352416992188
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.612903225806452,
+					"time_ms": 116016,
+					"width": 684.25537109375
+				},
+				{
+					"count": 37,
+					"middle_fraction": 0.594594594594595,
+					"time_ms": 120016,
+					"width": 680.560241699219
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.6875,
+					"time_ms": 124016,
+					"width": 659.760559082031
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.7,
+					"time_ms": 128016,
+					"width": 457.046936035156
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.333333333333333,
+					"time_ms": 132016,
+					"width": 670.813903808594
+				},
+				{
+					"count": 13,
+					"middle_fraction": 0.384615384615385,
+					"time_ms": 136016,
+					"width": 380.840759277344
+				},
+				{
+					"count": 19,
+					"middle_fraction": 0.421052631578947,
+					"time_ms": 140016,
+					"width": 853.481201171875
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.428571428571429,
+					"time_ms": 144016,
+					"width": 700.052795410156
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.111111111111111,
+					"time_ms": 148016,
+					"width": 448.190795898438
+				},
+				{
+					"count": 24,
+					"middle_fraction": 0.416666666666667,
+					"time_ms": 152016,
+					"width": 714.015747070313
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.5,
+					"time_ms": 156016,
+					"width": 562.048278808594
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.5,
+					"time_ms": 164016,
+					"width": 536.202026367188
+				},
+				{
+					"count": 13,
+					"middle_fraction": 0.538461538461538,
+					"time_ms": 176016,
+					"width": 604.601440429688
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.285714285714286,
+					"time_ms": 180016,
+					"width": 634.566467285156
+				}
+			],
+			"seed": 6,
+			"time_ms": 183408,
+			"wall": 3900.0,
+			"wave": 20,
+			"won": true
+		},
+		{
+			"deaths": 0,
+			"diagnostics": {},
+			"elapsed_ms": 6484,
+			"encounters": 3,
+			"finished": true,
+			"kills": 268,
+			"level": 1,
+			"samples": [
+				{
+					"count": 6,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 12016,
+					"width": 271.05908203125
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.833333333333333,
+					"time_ms": 16016,
+					"width": 223.151184082031
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.6,
+					"time_ms": 20016,
+					"width": 642.420684814453
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.875,
+					"time_ms": 24016,
+					"width": 318.970703125
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.6,
+					"time_ms": 28016,
+					"width": 642.881439208984
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.5,
+					"time_ms": 32016,
+					"width": 363.037963867188
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.785714285714286,
+					"time_ms": 36016,
+					"width": 621.089630126953
+				},
+				{
+					"count": 18,
+					"middle_fraction": 0.722222222222222,
+					"time_ms": 40016,
+					"width": 550.646667480469
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.681818181818182,
+					"time_ms": 44016,
+					"width": 598.698913574219
+				},
+				{
+					"count": 24,
+					"middle_fraction": 0.791666666666667,
+					"time_ms": 48016,
+					"width": 483.635009765625
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.772727272727273,
+					"time_ms": 52016,
+					"width": 583.104370117188
+				},
+				{
+					"count": 26,
+					"middle_fraction": 0.846153846153846,
+					"time_ms": 56016,
+					"width": 725.395416259766
+				},
+				{
+					"count": 21,
+					"middle_fraction": 0.619047619047619,
+					"time_ms": 60016,
+					"width": 807.142028808594
+				},
+				{
+					"count": 15,
+					"middle_fraction": 0.466666666666667,
+					"time_ms": 64016,
+					"width": 634.814758300781
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 68016,
+					"width": 553.071105957031
+				},
+				{
+					"count": 18,
+					"middle_fraction": 0.444444444444444,
+					"time_ms": 72016,
+					"width": 660.786743164063
+				},
+				{
+					"count": 20,
+					"middle_fraction": 0.4,
+					"time_ms": 76016,
+					"width": 687.637145996094
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.607142857142857,
+					"time_ms": 80016,
+					"width": 735.39501953125
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.4375,
+					"time_ms": 84016,
+					"width": 760.676086425781
+				},
+				{
+					"count": 30,
+					"middle_fraction": 0.533333333333333,
+					"time_ms": 88016,
+					"width": 622.551025390625
+				},
+				{
+					"count": 49,
+					"middle_fraction": 0.673469387755102,
+					"time_ms": 92016,
+					"width": 748.214019775391
+				},
+				{
+					"count": 23,
+					"middle_fraction": 0.521739130434783,
+					"time_ms": 96016,
+					"width": 585.521392822266
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.375,
+					"time_ms": 104016,
+					"width": 744.318664550781
+				},
+				{
+					"count": 19,
+					"middle_fraction": 0.157894736842105,
+					"time_ms": 108016,
+					"width": 733.787689208984
+				},
+				{
+					"count": 27,
+					"middle_fraction": 0.407407407407407,
+					"time_ms": 112016,
+					"width": 759.323150634766
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.48,
+					"time_ms": 116016,
+					"width": 737.678985595703
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.25,
+					"time_ms": 120016,
+					"width": 733.767578125
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.5,
+					"time_ms": 124016,
+					"width": 602.427917480469
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.5,
+					"time_ms": 128016,
+					"width": 783.447692871094
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.0,
+					"time_ms": 132016,
+					"width": 786.883758544922
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.3,
+					"time_ms": 136016,
+					"width": 678.051116943359
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.333333333333333,
+					"time_ms": 140016,
+					"width": 600.396667480469
+				},
+				{
+					"count": 13,
+					"middle_fraction": 0.461538461538462,
+					"time_ms": 148016,
+					"width": 715.6806640625
+				}
+			],
+			"seed": 17,
+			"time_ms": 155312,
+			"wall": 3900.0,
+			"wave": 20,
+			"won": true
+		},
+		{
+			"deaths": 1,
+			"diagnostics": {},
+			"elapsed_ms": 7327,
+			"encounters": 3,
+			"finished": true,
+			"kills": 266,
+			"level": 1,
+			"samples": [
+				{
+					"count": 5,
+					"middle_fraction": 1.0,
+					"time_ms": 12016,
+					"width": 174.352783203125
+				},
+				{
+					"count": 5,
+					"middle_fraction": 0.8,
+					"time_ms": 20016,
+					"width": 302.320983886719
+				},
+				{
+					"count": 5,
+					"middle_fraction": 0.8,
+					"time_ms": 24016,
+					"width": 489.164672851563
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 28016,
+					"width": 279.476989746094
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.888888888888889,
+					"time_ms": 32016,
+					"width": 206.518981933594
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.888888888888889,
+					"time_ms": 36016,
+					"width": 415.021667480469
+				},
+				{
+					"count": 12,
+					"middle_fraction": 0.916666666666667,
+					"time_ms": 40016,
+					"width": 323.966613769531
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.875,
+					"time_ms": 44016,
+					"width": 396.680847167969
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.571428571428571,
+					"time_ms": 48016,
+					"width": 691.709686279297
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.642857142857143,
+					"time_ms": 52016,
+					"width": 561.311401367188
+				},
+				{
+					"count": 16,
+					"middle_fraction": 0.875,
+					"time_ms": 56016,
+					"width": 415.518493652344
+				},
+				{
+					"count": 20,
+					"middle_fraction": 0.95,
+					"time_ms": 60016,
+					"width": 294.618103027344
+				},
+				{
+					"count": 17,
+					"middle_fraction": 0.823529411764706,
+					"time_ms": 64016,
+					"width": 474.45703125
+				},
+				{
+					"count": 15,
+					"middle_fraction": 0.8,
+					"time_ms": 68016,
+					"width": 442.594116210938
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.68,
+					"time_ms": 72016,
+					"width": 694.931060791016
+				},
+				{
+					"count": 30,
+					"middle_fraction": 0.533333333333333,
+					"time_ms": 76016,
+					"width": 767.810974121094
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.678571428571429,
+					"time_ms": 80016,
+					"width": 626.945129394531
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.727272727272727,
+					"time_ms": 84016,
+					"width": 539.438812255859
+				},
+				{
+					"count": 26,
+					"middle_fraction": 0.692307692307692,
+					"time_ms": 88016,
+					"width": 753.06298828125
+				},
+				{
+					"count": 23,
+					"middle_fraction": 0.652173913043478,
+					"time_ms": 92016,
+					"width": 709.201263427734
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.612903225806452,
+					"time_ms": 96016,
+					"width": 669.521789550781
+				},
+				{
+					"count": 35,
+					"middle_fraction": 0.657142857142857,
+					"time_ms": 100016,
+					"width": 787.525695800781
+				},
+				{
+					"count": 27,
+					"middle_fraction": 0.814814814814815,
+					"time_ms": 104016,
+					"width": 602.097900390625
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.67741935483871,
+					"time_ms": 108016,
+					"width": 637.2412109375
+				},
+				{
+					"count": 26,
+					"middle_fraction": 0.769230769230769,
+					"time_ms": 112016,
+					"width": 536.745971679688
+				},
+				{
+					"count": 29,
+					"middle_fraction": 0.793103448275862,
+					"time_ms": 116016,
+					"width": 460.002563476563
+				},
+				{
+					"count": 21,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 120016,
+					"width": 652.333679199219
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.7,
+					"time_ms": 124016,
+					"width": 452.475036621094
+				},
+				{
+					"count": 16,
+					"middle_fraction": 0.625,
+					"time_ms": 128016,
+					"width": 540.432861328125
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.7,
+					"time_ms": 132016,
+					"width": 540.679260253906
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.7,
+					"time_ms": 136016,
+					"width": 351.371398925781
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.583333333333333,
+					"time_ms": 140016,
+					"width": 812.94970703125
+				},
+				{
+					"count": 15,
+					"middle_fraction": 0.0666666666666667,
+					"time_ms": 144016,
+					"width": 704.936706542969
+				},
+				{
+					"count": 11,
+					"middle_fraction": 0.0909090909090909,
+					"time_ms": 148016,
+					"width": 732.87255859375
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.3,
+					"time_ms": 152016,
+					"width": 653.184112548828
+				},
+				{
+					"count": 23,
+					"middle_fraction": 0.434782608695652,
+					"time_ms": 156016,
+					"width": 810.544189453125
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.0,
+					"time_ms": 160016,
+					"width": 762.812103271484
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.333333333333333,
+					"time_ms": 164016,
+					"width": 812.588348388672
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.25,
+					"time_ms": 168016,
+					"width": 643.047698974609
+				},
+				{
+					"count": 16,
+					"middle_fraction": 0.375,
+					"time_ms": 172016,
+					"width": 631.542236328125
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.5,
+					"time_ms": 176016,
+					"width": 542.139953613281
+				}
+			],
+			"seed": 53,
+			"time_ms": 178592,
+			"wall": 3900.0,
+			"wave": 20,
+			"won": true
+		},
+		{
+			"deaths": 5,
+			"diagnostics": {},
+			"elapsed_ms": 12134,
+			"encounters": 3,
+			"finished": true,
+			"kills": 269,
+			"level": 2,
+			"samples": [
+				{
+					"count": 5,
+					"middle_fraction": 0.2,
+					"time_ms": 12016,
+					"width": 605.622375488281
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.25,
+					"time_ms": 16016,
+					"width": 584.470031738281
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 20016,
+					"width": 324.428466796875
+				},
+				{
+					"count": 6,
+					"middle_fraction": 1.0,
+					"time_ms": 24016,
+					"width": 180.409851074219
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.777777777777778,
+					"time_ms": 28016,
+					"width": 405.3251953125
+				},
+				{
+					"count": 9,
+					"middle_fraction": 0.777777777777778,
+					"time_ms": 32016,
+					"width": 370.7060546875
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.875,
+					"time_ms": 36016,
+					"width": 387.226501464844
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.8,
+					"time_ms": 40016,
+					"width": 416.415405273438
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.8,
+					"time_ms": 44016,
+					"width": 342.090637207031
+				},
+				{
+					"count": 16,
+					"middle_fraction": 0.625,
+					"time_ms": 48016,
+					"width": 714.177856445313
+				},
+				{
+					"count": 15,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 52016,
+					"width": 598.97705078125
+				},
+				{
+					"count": 19,
+					"middle_fraction": 0.526315789473684,
+					"time_ms": 56016,
+					"width": 681.49072265625
+				},
+				{
+					"count": 20,
+					"middle_fraction": 0.55,
+					"time_ms": 60016,
+					"width": 703.173553466797
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.68,
+					"time_ms": 64016,
+					"width": 640.628692626953
+				},
+				{
+					"count": 24,
+					"middle_fraction": 0.75,
+					"time_ms": 68016,
+					"width": 529.122711181641
+				},
+				{
+					"count": 34,
+					"middle_fraction": 0.588235294117647,
+					"time_ms": 72016,
+					"width": 762.559692382813
+				},
+				{
+					"count": 42,
+					"middle_fraction": 0.5,
+					"time_ms": 76016,
+					"width": 758.486236572266
+				},
+				{
+					"count": 39,
+					"middle_fraction": 0.615384615384615,
+					"time_ms": 80016,
+					"width": 631.23046875
+				},
+				{
+					"count": 39,
+					"middle_fraction": 0.717948717948718,
+					"time_ms": 84016,
+					"width": 520.2275390625
+				},
+				{
+					"count": 41,
+					"middle_fraction": 0.707317073170732,
+					"time_ms": 88016,
+					"width": 723.125610351563
+				},
+				{
+					"count": 40,
+					"middle_fraction": 0.75,
+					"time_ms": 92016,
+					"width": 701.247833251953
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.818181818181818,
+					"time_ms": 96016,
+					"width": 599.836547851563
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.71875,
+					"time_ms": 100016,
+					"width": 538.416931152344
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.694444444444444,
+					"time_ms": 104016,
+					"width": 610.019256591797
+				},
+				{
+					"count": 41,
+					"middle_fraction": 0.804878048780488,
+					"time_ms": 108016,
+					"width": 813.2919921875
+				},
+				{
+					"count": 40,
+					"middle_fraction": 0.75,
+					"time_ms": 112016,
+					"width": 683.902221679688
+				},
+				{
+					"count": 38,
+					"middle_fraction": 0.789473684210526,
+					"time_ms": 116016,
+					"width": 550.228942871094
+				},
+				{
+					"count": 42,
+					"middle_fraction": 0.857142857142857,
+					"time_ms": 120016,
+					"width": 495.742553710938
+				},
+				{
+					"count": 46,
+					"middle_fraction": 0.804347826086957,
+					"time_ms": 124016,
+					"width": 800.022827148438
+				},
+				{
+					"count": 41,
+					"middle_fraction": 0.878048780487805,
+					"time_ms": 128016,
+					"width": 630.949523925781
+				},
+				{
+					"count": 40,
+					"middle_fraction": 0.825,
+					"time_ms": 132016,
+					"width": 653.525085449219
+				},
+				{
+					"count": 45,
+					"middle_fraction": 0.711111111111111,
+					"time_ms": 136016,
+					"width": 754.162872314453
+				},
+				{
+					"count": 43,
+					"middle_fraction": 0.744186046511628,
+					"time_ms": 140016,
+					"width": 617.359252929688
+				},
+				{
+					"count": 30,
+					"middle_fraction": 0.866666666666667,
+					"time_ms": 144016,
+					"width": 505.632080078125
+				},
+				{
+					"count": 27,
+					"middle_fraction": 0.703703703703704,
+					"time_ms": 148016,
+					"width": 623.552490234375
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.67741935483871,
+					"time_ms": 152016,
+					"width": 714.354827880859
+				},
+				{
+					"count": 27,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 156016,
+					"width": 614.13232421875
+				},
+				{
+					"count": 29,
+					"middle_fraction": 0.689655172413793,
+					"time_ms": 160016,
+					"width": 857.879943847656
+				},
+				{
+					"count": 42,
+					"middle_fraction": 0.69047619047619,
+					"time_ms": 164016,
+					"width": 715.814086914063
+				},
+				{
+					"count": 40,
+					"middle_fraction": 0.575,
+					"time_ms": 168016,
+					"width": 726.560485839844
+				},
+				{
+					"count": 42,
+					"middle_fraction": 0.5,
+					"time_ms": 172016,
+					"width": 804.507598876953
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.636363636363636,
+					"time_ms": 176016,
+					"width": 689.814666748047
+				},
+				{
+					"count": 11,
+					"middle_fraction": 0.454545454545455,
+					"time_ms": 180016,
+					"width": 367.558013916016
+				},
+				{
+					"count": 5,
+					"middle_fraction": 0.2,
+					"time_ms": 184016,
+					"width": 733.464050292969
+				},
+				{
+					"count": 12,
+					"middle_fraction": 0.416666666666667,
+					"time_ms": 188016,
+					"width": 654.793090820313
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.6,
+					"time_ms": 200016,
+					"width": 653.368591308594
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.545454545454545,
+					"time_ms": 204016,
+					"width": 685.248168945313
+				},
+				{
+					"count": 5,
+					"middle_fraction": 0.4,
+					"time_ms": 208016,
+					"width": 516.595123291016
+				}
+			],
+			"seed": 6,
+			"time_ms": 218544,
+			"wall": 3900.0,
+			"wave": 20,
+			"won": true
+		},
+		{
+			"deaths": 3,
+			"diagnostics": {},
+			"elapsed_ms": 9682,
+			"encounters": 3,
+			"finished": true,
+			"kills": 263,
+			"level": 2,
+			"samples": [
+				{
+					"count": 8,
+					"middle_fraction": 0.75,
+					"time_ms": 12016,
+					"width": 426.466247558594
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.6,
+					"time_ms": 16016,
+					"width": 419.682495117188
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.571428571428571,
+					"time_ms": 20016,
+					"width": 754.364135742188
+				},
+				{
+					"count": 15,
+					"middle_fraction": 0.8,
+					"time_ms": 24016,
+					"width": 599.136596679688
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.571428571428571,
+					"time_ms": 28016,
+					"width": 702.567718505859
+				},
+				{
+					"count": 15,
+					"middle_fraction": 0.466666666666667,
+					"time_ms": 32016,
+					"width": 575.021667480469
+				},
+				{
+					"count": 20,
+					"middle_fraction": 0.5,
+					"time_ms": 36016,
+					"width": 685.668884277344
+				},
+				{
+					"count": 26,
+					"middle_fraction": 0.653846153846154,
+					"time_ms": 40016,
+					"width": 656.367309570313
+				},
+				{
+					"count": 30,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 44016,
+					"width": 645.218414306641
+				},
+				{
+					"count": 34,
+					"middle_fraction": 0.676470588235294,
+					"time_ms": 48016,
+					"width": 581.747924804688
+				},
+				{
+					"count": 35,
+					"middle_fraction": 0.685714285714286,
+					"time_ms": 52016,
+					"width": 551.959411621094
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.67741935483871,
+					"time_ms": 56016,
+					"width": 706.124847412109
+				},
+				{
+					"count": 29,
+					"middle_fraction": 0.793103448275862,
+					"time_ms": 60016,
+					"width": 537.699096679688
+				},
+				{
+					"count": 19,
+					"middle_fraction": 0.684210526315789,
+					"time_ms": 64016,
+					"width": 594.569000244141
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.64,
+					"time_ms": 68016,
+					"width": 708.736572265625
+				},
+				{
+					"count": 17,
+					"middle_fraction": 0.529411764705882,
+					"time_ms": 72016,
+					"width": 601.619873046875
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.56,
+					"time_ms": 76016,
+					"width": 713.824340820313
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.6875,
+					"time_ms": 80016,
+					"width": 728.338256835938
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.65625,
+					"time_ms": 84016,
+					"width": 727.585388183594
+				},
+				{
+					"count": 38,
+					"middle_fraction": 0.5,
+					"time_ms": 88016,
+					"width": 713.337951660156
+				},
+				{
+					"count": 37,
+					"middle_fraction": 0.648648648648649,
+					"time_ms": 92016,
+					"width": 594.088012695313
+				},
+				{
+					"count": 41,
+					"middle_fraction": 0.48780487804878,
+					"time_ms": 96016,
+					"width": 719.526519775391
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.428571428571429,
+					"time_ms": 100016,
+					"width": 870.965087890625
+				},
+				{
+					"count": 40,
+					"middle_fraction": 0.575,
+					"time_ms": 104016,
+					"width": 777.517700195313
+				},
+				{
+					"count": 35,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 108016,
+					"width": 720.55859375
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.72,
+					"time_ms": 112016,
+					"width": 681.901733398438
+				},
+				{
+					"count": 37,
+					"middle_fraction": 0.567567567567568,
+					"time_ms": 116016,
+					"width": 660.225463867188
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.5,
+					"time_ms": 120016,
+					"width": 675.568237304688
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.681818181818182,
+					"time_ms": 124016,
+					"width": 564.235534667969
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.638888888888889,
+					"time_ms": 128016,
+					"width": 786.776092529297
+				},
+				{
+					"count": 47,
+					"middle_fraction": 0.638297872340426,
+					"time_ms": 132016,
+					"width": 761.784515380859
+				},
+				{
+					"count": 50,
+					"middle_fraction": 0.62,
+					"time_ms": 136016,
+					"width": 692.378845214844
+				},
+				{
+					"count": 30,
+					"middle_fraction": 0.6,
+					"time_ms": 140016,
+					"width": 575.379272460938
+				},
+				{
+					"count": 12,
+					"middle_fraction": 0.416666666666667,
+					"time_ms": 144016,
+					"width": 430.917602539063
+				},
+				{
+					"count": 17,
+					"middle_fraction": 0.470588235294118,
+					"time_ms": 148016,
+					"width": 787.59130859375
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.1,
+					"time_ms": 152016,
+					"width": 774.023071289063
+				},
+				{
+					"count": 8,
+					"middle_fraction": 0.375,
+					"time_ms": 160016,
+					"width": 636.073181152344
+				},
+				{
+					"count": 13,
+					"middle_fraction": 0.384615384615385,
+					"time_ms": 164016,
+					"width": 680.014343261719
+				},
+				{
+					"count": 23,
+					"middle_fraction": 0.521739130434783,
+					"time_ms": 168016,
+					"width": 679.496765136719
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.428571428571429,
+					"time_ms": 172016,
+					"width": 235.90234375
+				}
+			],
+			"seed": 17,
+			"time_ms": 173376,
+			"wall": 3900.0,
+			"wave": 20,
+			"won": true
+		},
+		{
+			"deaths": 4,
+			"diagnostics": {},
+			"elapsed_ms": 12593,
+			"encounters": 3,
+			"finished": true,
+			"kills": 269,
+			"level": 2,
+			"samples": [
+				{
+					"count": 5,
+					"middle_fraction": 1.0,
+					"time_ms": 8016,
+					"width": 189.525451660156
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.833333333333333,
+					"time_ms": 12016,
+					"width": 321.555358886719
+				},
+				{
+					"count": 6,
+					"middle_fraction": 0.833333333333333,
+					"time_ms": 16016,
+					"width": 526.518737792969
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 20016,
+					"width": 464.965759277344
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 24016,
+					"width": 625.365051269531
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.714285714285714,
+					"time_ms": 28016,
+					"width": 479.924255371094
+				},
+				{
+					"count": 10,
+					"middle_fraction": 0.7,
+					"time_ms": 32016,
+					"width": 389.883117675781
+				},
+				{
+					"count": 11,
+					"middle_fraction": 0.727272727272727,
+					"time_ms": 36016,
+					"width": 507.937866210938
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.857142857142857,
+					"time_ms": 40016,
+					"width": 380.506896972656
+				},
+				{
+					"count": 13,
+					"middle_fraction": 0.846153846153846,
+					"time_ms": 44016,
+					"width": 493.878479003906
+				},
+				{
+					"count": 16,
+					"middle_fraction": 0.625,
+					"time_ms": 48016,
+					"width": 781.43505859375
+				},
+				{
+					"count": 20,
+					"middle_fraction": 0.6,
+					"time_ms": 52016,
+					"width": 674.992218017578
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.727272727272727,
+					"time_ms": 56016,
+					"width": 602.920715332031
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.818181818181818,
+					"time_ms": 60016,
+					"width": 514.240783691406
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.72,
+					"time_ms": 64016,
+					"width": 559.073364257813
+				},
+				{
+					"count": 26,
+					"middle_fraction": 0.884615384615385,
+					"time_ms": 68016,
+					"width": 525.850952148438
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.696969696969697,
+					"time_ms": 72016,
+					"width": 655.930725097656
+				},
+				{
+					"count": 37,
+					"middle_fraction": 0.594594594594595,
+					"time_ms": 76016,
+					"width": 716.465942382813
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 80016,
+					"width": 595.738159179688
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.848484848484849,
+					"time_ms": 84016,
+					"width": 481.68701171875
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.964285714285714,
+					"time_ms": 88016,
+					"width": 380.632202148438
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.774193548387097,
+					"time_ms": 92016,
+					"width": 682.211791992188
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.678571428571429,
+					"time_ms": 96016,
+					"width": 696.19189453125
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.6,
+					"time_ms": 100016,
+					"width": 695.577301025391
+				},
+				{
+					"count": 38,
+					"middle_fraction": 0.605263157894737,
+					"time_ms": 104016,
+					"width": 651.761291503906
+				},
+				{
+					"count": 42,
+					"middle_fraction": 0.523809523809524,
+					"time_ms": 108016,
+					"width": 783.625610351563
+				},
+				{
+					"count": 38,
+					"middle_fraction": 0.631578947368421,
+					"time_ms": 112016,
+					"width": 691.399017333984
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.666666666666667,
+					"time_ms": 116016,
+					"width": 612.430053710938
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.59375,
+					"time_ms": 120016,
+					"width": 547.168579101563
+				},
+				{
+					"count": 29,
+					"middle_fraction": 0.689655172413793,
+					"time_ms": 124016,
+					"width": 544.75
+				},
+				{
+					"count": 23,
+					"middle_fraction": 0.608695652173913,
+					"time_ms": 128016,
+					"width": 609.26123046875
+				},
+				{
+					"count": 22,
+					"middle_fraction": 0.727272727272727,
+					"time_ms": 132016,
+					"width": 510.640441894531
+				},
+				{
+					"count": 25,
+					"middle_fraction": 0.64,
+					"time_ms": 136016,
+					"width": 655.516571044922
+				},
+				{
+					"count": 32,
+					"middle_fraction": 0.71875,
+					"time_ms": 140016,
+					"width": 631.214447021484
+				},
+				{
+					"count": 39,
+					"middle_fraction": 0.717948717948718,
+					"time_ms": 144016,
+					"width": 561.068420410156
+				},
+				{
+					"count": 51,
+					"middle_fraction": 0.725490196078431,
+					"time_ms": 148016,
+					"width": 714.587890625
+				},
+				{
+					"count": 54,
+					"middle_fraction": 0.611111111111111,
+					"time_ms": 152016,
+					"width": 749.905181884766
+				},
+				{
+					"count": 44,
+					"middle_fraction": 0.704545454545455,
+					"time_ms": 156016,
+					"width": 562.141174316406
+				},
+				{
+					"count": 45,
+					"middle_fraction": 0.733333333333333,
+					"time_ms": 160016,
+					"width": 645.296569824219
+				},
+				{
+					"count": 43,
+					"middle_fraction": 0.744186046511628,
+					"time_ms": 164016,
+					"width": 800.335540771484
+				},
+				{
+					"count": 33,
+					"middle_fraction": 0.757575757575758,
+					"time_ms": 168016,
+					"width": 659.727661132813
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.678571428571429,
+					"time_ms": 172016,
+					"width": 588.223876953125
+				},
+				{
+					"count": 35,
+					"middle_fraction": 0.6,
+					"time_ms": 176016,
+					"width": 743.648864746094
+				},
+				{
+					"count": 40,
+					"middle_fraction": 0.625,
+					"time_ms": 180016,
+					"width": 707.366119384766
+				},
+				{
+					"count": 36,
+					"middle_fraction": 0.694444444444444,
+					"time_ms": 184016,
+					"width": 834.396240234375
+				},
+				{
+					"count": 28,
+					"middle_fraction": 0.535714285714286,
+					"time_ms": 188016,
+					"width": 800.645660400391
+				},
+				{
+					"count": 31,
+					"middle_fraction": 0.516129032258065,
+					"time_ms": 192016,
+					"width": 712.006164550781
+				},
+				{
+					"count": 14,
+					"middle_fraction": 0.214285714285714,
+					"time_ms": 196016,
+					"width": 659.083618164063
+				},
+				{
+					"count": 7,
+					"middle_fraction": 0.571428571428571,
+					"time_ms": 200016,
+					"width": 351.212280273438
+				}
+			],
+			"seed": 53,
+			"time_ms": 217600,
+			"wall": 3900.0,
+			"wave": 20,
+			"won": true
+		}
+	],
+	"profiles": [
+		{
+			"count": 100,
+			"p95_ms": 5.269,
+			"step_snapshot_mean_ms": 4.502126
+		},
+		{
+			"count": 300,
+			"p95_ms": 18.275,
+			"step_snapshot_mean_ms": 16.000028
+		}
+	]
+}

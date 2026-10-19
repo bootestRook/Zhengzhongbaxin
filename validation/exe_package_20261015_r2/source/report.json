@@ -1,0 +1,250 @@
+{
+	"assets_loaded": 106,
+	"battle": {
+		"bosses_dead": 3,
+		"heroes": 5,
+		"phase": "result",
+		"seed": 6,
+		"time_ms": 281424,
+		"wave": 20,
+		"won": true
+	},
+	"captures": [
+		{
+			"height": 960,
+			"name": "home_480x960",
+			"width": 480
+		},
+		{
+			"height": 1440,
+			"name": "home_720x1440",
+			"width": 720
+		},
+		{
+			"height": 1920,
+			"name": "home_960x1920",
+			"width": 960
+		},
+		{
+			"height": 720,
+			"name": "home_1280x720",
+			"width": 360
+		},
+		{
+			"height": 1080,
+			"name": "home_1920x1080",
+			"width": 540
+		},
+		{
+			"height": 768,
+			"name": "home_1024x768",
+			"width": 384
+		},
+		{
+			"height": 960,
+			"name": "levels",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "gallery",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "initial_choice",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "choice_tooltip",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "choice_second_tooltip",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "choice_attributes",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "refresh_1",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "refresh_0",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "battle",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "pause",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "five_heroes",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "fifth_attributes",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "roster_second_tooltip",
+			"width": 480
+		},
+		{
+			"height": 960,
+			"name": "result",
+			"width": 480
+		}
+	],
+	"dpi": 192,
+	"errors": [],
+	"font_characters": 919,
+	"fullscreen_size": [
+		3840,
+		2160
+	],
+	"missing_glyphs": [],
+	"raw_files_verified": 5,
+	"refresh_sequence": [
+		2,
+		1,
+		0,
+		2
+	],
+	"rules": {
+		"boss_waves": [
+			8,
+			14,
+			20
+		],
+		"formation_five": {
+			"back": [
+				[
+					1160,
+					1150
+				],
+				[
+					440,
+					1150
+				],
+				[
+					620,
+					1150
+				],
+				[
+					980,
+					1150
+				],
+				[
+					800,
+					1150
+				]
+			],
+			"front": [
+				[
+					1160,
+					1000
+				],
+				[
+					440,
+					1000
+				],
+				[
+					620,
+					950
+				],
+				[
+					980,
+					950
+				],
+				[
+					800,
+					950
+				]
+			]
+		},
+		"hero_limit": 5,
+		"hero_spawn": [
+			771,
+			1390
+		],
+		"max_level": 20,
+		"recruit_chance": 2500,
+		"revive_seconds": {
+			"1": 20,
+			"10": 20,
+			"2": 10,
+			"3": 10,
+			"4": 20,
+			"5": 10
+		},
+		"schema_version": 3,
+		"unlocked_heroes": [
+			1,
+			2,
+			4,
+			13,
+			17
+		],
+		"wave_count": 20
+	},
+	"two_skills": [
+		{
+			"hero": "火焰术士",
+			"skills": [
+				"火球术",
+				"炎枪"
+			]
+		},
+		{
+			"hero": "德鲁伊",
+			"skills": [
+				"治疗药剂",
+				"荆棘"
+			]
+		},
+		{
+			"hero": "勇者",
+			"skills": [
+				"圣盾",
+				"践踏"
+			]
+		},
+		{
+			"hero": "游侠",
+			"skills": [
+				"多重箭",
+				"集中"
+			]
+		},
+		{
+			"hero": "黯影",
+			"skills": [
+				"毒刃",
+				"刺杀"
+			]
+		}
+	],
+	"unlocked_heroes": [
+		1,
+		2,
+		4,
+		13,
+		17
+	]
+}

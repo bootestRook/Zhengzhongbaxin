@@ -1,0 +1,2573 @@
+[
+	{
+		"casts": [
+			{
+				"action": "skill",
+				"next": 15016,
+				"time": 16
+			}
+		],
+		"diagnostics": {},
+		"empty": false,
+		"hero": 2,
+		"initial_upgrades": [
+			81
+		],
+		"launches": [
+			{
+				"hero": "(720.0, 1100.0)",
+				"origin": "(846.82, 936.4)",
+				"res": "bullet:blood",
+				"skill": 661,
+				"targets": [
+					2
+				],
+				"time": 448
+			},
+			{
+				"hero": "(720.0, 1100.0)",
+				"origin": "(850.0, 960.0)",
+				"res": "hero2:lash",
+				"skill": 662,
+				"targets": [
+					3
+				],
+				"time": 576
+			}
+		],
+		"name": "德鲁伊",
+		"samples": [
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 15000,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 16
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14952,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 64
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14888,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 128
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14824,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 192
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14808,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 208
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14760,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 256
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14696,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 320
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14632,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 384
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 425.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14568,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					}
+				],
+				"skill_next": 15016,
+				"time": 448
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 425.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14504,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					}
+				],
+				"skill_next": 15016,
+				"time": 512
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14440,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 576
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14376,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 640
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14312,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 704
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14248,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 768
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14184,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 832
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14168,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 848
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14120,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 896
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14056,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					},
+					{
+						"pos": "(802.4823, 952.3893)",
+						"res": "battleEffect:bullet_water",
+						"sid": 0,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 960
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14008,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1008
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13992,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1024
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13928,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1088
+			},
+			{
+				"action": "idle",
+				"action_at": 1120,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13864,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1152
+			}
+		],
+		"screenshots": [
+			{
+				"file": "2_combat_00016.png",
+				"reasons": [
+					"status",
+					"key"
+				],
+				"time": 16
+			},
+			{
+				"file": "2_combat_00208.png",
+				"reasons": [
+					"key"
+				],
+				"time": 208
+			},
+			{
+				"file": "2_combat_00448.png",
+				"reasons": [
+					"first_661",
+					"status",
+					"key"
+				],
+				"time": 448
+			},
+			{
+				"file": "2_combat_00512.png",
+				"reasons": [
+					"key"
+				],
+				"time": 512
+			},
+			{
+				"file": "2_combat_00576.png",
+				"reasons": [
+					"first_662"
+				],
+				"time": 576
+			},
+			{
+				"file": "2_combat_00640.png",
+				"reasons": [
+					"key"
+				],
+				"time": 640
+			},
+			{
+				"file": "2_combat_00768.png",
+				"reasons": [
+					"key"
+				],
+				"time": 768
+			},
+			{
+				"file": "2_combat_00848.png",
+				"reasons": [
+					"key"
+				],
+				"time": 848
+			},
+			{
+				"file": "2_combat_01008.png",
+				"reasons": [
+					"key"
+				],
+				"time": 1008
+			}
+		],
+		"width": 540
+	},
+	{
+		"casts": [
+			{
+				"action": "skill",
+				"next": 15016,
+				"time": 16
+			}
+		],
+		"diagnostics": {},
+		"empty": false,
+		"hero": 2,
+		"initial_upgrades": [
+			81
+		],
+		"launches": [
+			{
+				"hero": "(720.0, 1100.0)",
+				"origin": "(846.82, 936.4)",
+				"res": "bullet:blood",
+				"skill": 661,
+				"targets": [
+					2
+				],
+				"time": 448
+			},
+			{
+				"hero": "(720.0, 1100.0)",
+				"origin": "(850.0, 960.0)",
+				"res": "hero2:lash",
+				"skill": 662,
+				"targets": [
+					3
+				],
+				"time": 576
+			}
+		],
+		"name": "德鲁伊",
+		"samples": [
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 15000,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 16
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14952,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 64
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14888,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 128
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14824,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 192
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14808,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 208
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14760,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 256
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14696,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 320
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14632,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 384
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 425.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14568,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					}
+				],
+				"skill_next": 15016,
+				"time": 448
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 425.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14504,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					}
+				],
+				"skill_next": 15016,
+				"time": 512
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14440,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 576
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14376,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 640
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14312,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 704
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14248,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 768
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14184,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 832
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14168,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 848
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14120,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 896
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14056,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					},
+					{
+						"pos": "(802.4823, 952.3893)",
+						"res": "battleEffect:bullet_water",
+						"sid": 0,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 960
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14008,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1008
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13992,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1024
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13928,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1088
+			},
+			{
+				"action": "idle",
+				"action_at": 1120,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13864,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1152
+			}
+		],
+		"screenshots": [
+			{
+				"file": "2_combat_00016.png",
+				"reasons": [
+					"status",
+					"key"
+				],
+				"time": 16
+			},
+			{
+				"file": "2_combat_00208.png",
+				"reasons": [
+					"key"
+				],
+				"time": 208
+			},
+			{
+				"file": "2_combat_00448.png",
+				"reasons": [
+					"first_661",
+					"status",
+					"key"
+				],
+				"time": 448
+			},
+			{
+				"file": "2_combat_00512.png",
+				"reasons": [
+					"key"
+				],
+				"time": 512
+			},
+			{
+				"file": "2_combat_00576.png",
+				"reasons": [
+					"first_662"
+				],
+				"time": 576
+			},
+			{
+				"file": "2_combat_00640.png",
+				"reasons": [
+					"key"
+				],
+				"time": 640
+			},
+			{
+				"file": "2_combat_00768.png",
+				"reasons": [
+					"key"
+				],
+				"time": 768
+			},
+			{
+				"file": "2_combat_00848.png",
+				"reasons": [
+					"key"
+				],
+				"time": 848
+			},
+			{
+				"file": "2_combat_01008.png",
+				"reasons": [
+					"key"
+				],
+				"time": 1008
+			}
+		],
+		"width": 720
+	},
+	{
+		"casts": [
+			{
+				"action": "skill",
+				"next": 15016,
+				"time": 16
+			}
+		],
+		"diagnostics": {},
+		"empty": false,
+		"hero": 2,
+		"initial_upgrades": [
+			81
+		],
+		"launches": [
+			{
+				"hero": "(720.0, 1100.0)",
+				"origin": "(846.82, 936.4)",
+				"res": "bullet:blood",
+				"skill": 661,
+				"targets": [
+					2
+				],
+				"time": 448
+			},
+			{
+				"hero": "(720.0, 1100.0)",
+				"origin": "(850.0, 960.0)",
+				"res": "hero2:lash",
+				"skill": 662,
+				"targets": [
+					3
+				],
+				"time": 576
+			}
+		],
+		"name": "德鲁伊",
+		"samples": [
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 15000,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 16
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14952,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 64
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14888,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 128
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14824,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 192
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14808,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 208
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14760,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 256
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14696,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 320
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 400.0,
+				"ally_status": [],
+				"cooldown": {
+					"cooldown": 14632,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 0.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 384
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 425.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14568,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					}
+				],
+				"skill_next": 15016,
+				"time": 448
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 425.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14504,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					100000.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					}
+				],
+				"skill_next": 15016,
+				"time": 512
+			},
+			{
+				"action": "skill",
+				"action_at": 16,
+				"action_until": 587,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14440,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 576
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14376,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 640
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14312,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 704
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14248,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 768
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14184,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(846.82, 936.4)",
+						"res": "bullet:blood",
+						"sid": 661,
+						"tint": "#8bd47a"
+					},
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 832
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14168,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 848
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14120,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 896
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 424.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14056,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 0.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99930.0
+				],
+				"missiles": [
+					{
+						"pos": "(850.0, 960.0)",
+						"res": "hero2:lash",
+						"sid": 662,
+						"tint": "#ffffff"
+					},
+					{
+						"pos": "(802.4823, 952.3893)",
+						"res": "battleEffect:bullet_water",
+						"sid": 0,
+						"tint": "#ffffff"
+					}
+				],
+				"skill_next": 15016,
+				"time": 960
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 14008,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1008
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13992,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1024
+			},
+			{
+				"action": "attack",
+				"action_at": 592,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13928,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1088
+			},
+			{
+				"action": "idle",
+				"action_at": 1120,
+				"action_until": 1116,
+				"ally_hp": 434.0,
+				"ally_status": [
+					{
+						"expires": 10448,
+						"id": 67
+					}
+				],
+				"cooldown": {
+					"cooldown": 13864,
+					"description": "每15秒为友方英雄施加荆棘护甲并恢复少量生命值，使攻击其的怪物受到自然系反击伤害，持续10秒。",
+					"level": 1,
+					"option": 81,
+					"res": "gameIcon:skill_55",
+					"title": "荆棘",
+					"total": 15000
+				},
+				"damage": 50.0,
+				"heal": 25.0,
+				"hero_pos": "(720.0, 1100.0)",
+				"hero_status": [],
+				"hp": [
+					99880.0
+				],
+				"missiles": [],
+				"skill_next": 15016,
+				"time": 1152
+			}
+		],
+		"screenshots": [
+			{
+				"file": "2_combat_00016.png",
+				"reasons": [
+					"status",
+					"key"
+				],
+				"time": 16
+			},
+			{
+				"file": "2_combat_00208.png",
+				"reasons": [
+					"key"
+				],
+				"time": 208
+			},
+			{
+				"file": "2_combat_00448.png",
+				"reasons": [
+					"first_661",
+					"status",
+					"key"
+				],
+				"time": 448
+			},
+			{
+				"file": "2_combat_00512.png",
+				"reasons": [
+					"key"
+				],
+				"time": 512
+			},
+			{
+				"file": "2_combat_00576.png",
+				"reasons": [
+					"first_662"
+				],
+				"time": 576
+			},
+			{
+				"file": "2_combat_00640.png",
+				"reasons": [
+					"key"
+				],
+				"time": 640
+			},
+			{
+				"file": "2_combat_00768.png",
+				"reasons": [
+					"key"
+				],
+				"time": 768
+			},
+			{
+				"file": "2_combat_00848.png",
+				"reasons": [
+					"key"
+				],
+				"time": 848
+			},
+			{
+				"file": "2_combat_01008.png",
+				"reasons": [
+					"key"
+				],
+				"time": 1008
+			}
+		],
+		"width": 960
+	}
+]

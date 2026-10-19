@@ -1,0 +1,6 @@
+id,category,value_type,value,unit,runtime_mutable,description_key
+app.default_locale,core,string,en,locale,true,setting.app.default_locale
+app.target_fps,platform,int,60,count,false,setting.app.target_fps
+debug.trace_limit,debug,int,200,count,true,setting.debug.trace_limit
+presentation.ui_scale,presentation,float,1.0,ratio,true,setting.presentation.ui_scale
+save.autosave,save,bool,true,none,true,setting.save.autosave

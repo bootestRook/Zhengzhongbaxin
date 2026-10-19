@@ -1,0 +1,5 @@
+Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
+
+{"fallback":false,"lost_line":false,"old_target":8,"pos":"(989.397, 808.207)","target":0,"time":38960}
+{"action":"walk","blocked_by":1,"cooldown":271,"delta":"(-0.30835, -0.560852)","facing":1.0,"goal":"(992.9789, 686.632)","intersects":false,"pos":"(994.2983, 810.1033)","previous":"walk","target":12,"target_action":"walk","target_facing":-1.0,"target_pos":"(924.9589, 673.872)","target_target":1,"template":106,"time":39120}
+{"action":"attack","blocked_by":1,"cooldown":1903,"delta":"(0.0, 0.0)","facing":1.0,"goal":"(992.9914, 702.9524)","intersects":true,"pos":"(984.9147, 779.9226)","previous":"walk","target":12,"target_action":"walk","target_facing":-1.0,"target_pos":"(924.9714, 690.1924)","target_target":1,"template":106,"time":39936}
